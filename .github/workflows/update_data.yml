@@ -40,22 +40,21 @@ jobs:
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          # Quick check: anything to commit at all?
+          # Backup pipeline output before touching git
+          cp -r public/data /tmp/pipeline-data
+
+          # Hard-sync to remote so push is always fast-forward (no race condition)
+          git fetch origin main
+          git reset --hard origin/main
+
+          # Restore our generated files
+          cp /tmp/pipeline-data/latest_signals.json public/data/latest_signals.json
+          cp -r /tmp/pipeline-data/history/. public/data/history/
+
           git add public/data/
           if git diff --staged --quiet; then
             echo "No data changes — nothing to commit."
             exit 0
           fi
-          git reset HEAD public/data/
-
-          # Retry loop handles race where remote advances between pull and push
-          for attempt in 1 2 3; do
-            git pull --rebase origin main
-            git add public/data/
-            git commit -m "data: refresh signals $(date -u +'%Y-%m-%dT%H:%MZ')"
-            git push && exit 0
-            echo "Push rejected (attempt ${attempt}/3), resyncing..."
-            git reset HEAD~1 --soft
-          done
-          echo "Failed to push after 3 attempts"
-          exit 1
+          git commit -m "data: refresh signals $(date -u +'%Y-%m-%dT%H:%MZ')"
+          git push
