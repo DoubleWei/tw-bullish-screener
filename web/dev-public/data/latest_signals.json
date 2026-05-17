@@ -1,0 +1,181 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-05-13T09:00:00+08:00",
+  "next_update_at": "2026-05-13T15:00:00+08:00",
+  "window": {
+    "from": "2026-05-12T09:00:00+08:00",
+    "to": "2026-05-13T09:00:00+08:00",
+    "hours": 24
+  },
+  "market_sentiment": {
+    "overall_score": 0.52,
+    "label": "偏多",
+    "bullish_industries": 3,
+    "bearish_industries": 1,
+    "neutral_industries": 2
+  },
+  "industries": [
+    {
+      "industry_code": "SEMI",
+      "industry_name_zh": "半導體",
+      "sentiment_score": 0.78,
+      "signal": "BULLISH",
+      "news_count": 5,
+      "summary_zh": "AI 伺服器需求帶動先進製程訂單上修，CoWoS 產能吃緊至 2027",
+      "key_drivers": ["AI", "CoWoS", "先進製程"]
+    },
+    {
+      "industry_code": "AI_SERVER",
+      "industry_name_zh": "AI 伺服器",
+      "sentiment_score": 0.65,
+      "signal": "BULLISH",
+      "news_count": 4,
+      "summary_zh": "輝達 Blackwell 訂單強勁，台系 ODM 能見度拉至 Q4",
+      "key_drivers": ["Blackwell", "NVIDIA"]
+    },
+    {
+      "industry_code": "PCB",
+      "industry_name_zh": "PCB / 載板",
+      "sentiment_score": 0.42,
+      "signal": "BULLISH",
+      "news_count": 2,
+      "summary_zh": "ABF 載板需求回升，欣興法說釋出樂觀展望",
+      "key_drivers": ["ABF", "載板"]
+    },
+    {
+      "industry_code": "SHIPPING",
+      "industry_name_zh": "航運",
+      "sentiment_score": -0.45,
+      "signal": "BEARISH",
+      "news_count": 3,
+      "summary_zh": "美中貿易談判陷僵局，貨運量預期下修",
+      "key_drivers": ["貿易戰", "BDI"]
+    },
+    {
+      "industry_code": "FINANCE",
+      "industry_name_zh": "金融",
+      "sentiment_score": 0.1,
+      "signal": "NEUTRAL",
+      "news_count": 2,
+      "summary_zh": "利率政策持平，金融股短期缺乏催化劑",
+      "key_drivers": []
+    },
+    {
+      "industry_code": "EV",
+      "industry_name_zh": "電動車 / 車用",
+      "sentiment_score": 0.05,
+      "signal": "NEUTRAL",
+      "news_count": 1,
+      "summary_zh": "全球 EV 滲透率成長趨緩，台廠觀望",
+      "key_drivers": []
+    }
+  ],
+  "news": [
+    {
+      "id": "abc001",
+      "title": "台積電 CoWoS 產能 2027 年前完全被預訂，AI 需求爆發",
+      "url": "https://example.com/1",
+      "source": "Google News",
+      "published_at": "2026-05-13T08:00:00+08:00",
+      "snippet": "台積電法說會釋出重大訊息，CoWoS 先進封裝產能已被各大 AI 晶片客戶預訂至 2027 年底，法人看好全年 EPS 上修空間。",
+      "sentiment_score": 0.92,
+      "sentiment_label": "BULLISH",
+      "affected_industries": ["SEMI", "AI_SERVER"],
+      "impact_reason_zh": "CoWoS 產能滿載代表台積電高毛利業務能見度極高，連帶 AI 伺服器供應鏈受惠"
+    },
+    {
+      "id": "abc002",
+      "title": "輝達 Blackwell 平台需求遠超預期，台廠訂單能見度拉長",
+      "url": "https://example.com/2",
+      "source": "Google News",
+      "published_at": "2026-05-13T07:30:00+08:00",
+      "snippet": "市場研究機構指出，輝達 Blackwell GPU 平台需求遠超市場預期，鴻海、廣達等台系 ODM 廠訂單能見度已延伸至 2026 Q4。",
+      "sentiment_score": 0.85,
+      "sentiment_label": "BULLISH",
+      "affected_industries": ["AI_SERVER"],
+      "impact_reason_zh": "Blackwell 訂單能見度拉長，台系 AI 伺服器組裝廠業績確定性大幅提升"
+    },
+    {
+      "id": "abc003",
+      "title": "欣興法說樂觀，ABF 載板 2H26 開始回溫",
+      "url": "https://example.com/3",
+      "source": "Google News",
+      "published_at": "2026-05-13T06:00:00+08:00",
+      "snippet": "欣興電子法說會表示，ABF 載板市場已觸底，隨 AI 晶片訂單增加，下半年產能利用率預計回升至 80%。",
+      "sentiment_score": 0.55,
+      "sentiment_label": "BULLISH",
+      "affected_industries": ["PCB"],
+      "impact_reason_zh": "ABF 載板觸底回升訊號明確，欣興法說確認下半年訂單能見度"
+    },
+    {
+      "id": "abc004",
+      "title": "美中貿易談判破裂，太平洋航線運費大跌",
+      "url": "https://example.com/4",
+      "source": "Google News",
+      "published_at": "2026-05-12T20:00:00+08:00",
+      "snippet": "美中貿易談判最新輪次未能達成共識，市場預期貨量下滑，長榮、陽明股價重挫。",
+      "sentiment_score": -0.78,
+      "sentiment_label": "BEARISH",
+      "affected_industries": ["SHIPPING"],
+      "impact_reason_zh": "談判破裂直接壓縮貨量預期，航運股短期利空明確"
+    }
+  ],
+  "recommendations": [
+    {
+      "rank": 1,
+      "ticker": "2330",
+      "name_zh": "台積電",
+      "industry_code": "SEMI",
+      "industry_name_zh": "半導體",
+      "bullish_score": 0.91,
+      "signal_strength": "STRONG",
+      "trigger_news_ids": ["abc001"],
+      "reason_zh": "CoWoS 產能滿載至 2027，AI 需求帶動先進製程訂單能見度極高",
+      "related_industries": ["SEMI"]
+    },
+    {
+      "rank": 2,
+      "ticker": "2317",
+      "name_zh": "鴻海",
+      "industry_code": "AI_SERVER",
+      "industry_name_zh": "AI 伺服器",
+      "bullish_score": 0.76,
+      "signal_strength": "STRONG",
+      "trigger_news_ids": ["abc002"],
+      "reason_zh": "輝達 Blackwell 主要組裝廠，訂單能見度拉至 Q4",
+      "related_industries": ["AI_SERVER"]
+    },
+    {
+      "rank": 3,
+      "ticker": "2454",
+      "name_zh": "聯發科",
+      "industry_code": "SEMI",
+      "industry_name_zh": "半導體",
+      "bullish_score": 0.71,
+      "signal_strength": "MODERATE",
+      "trigger_news_ids": ["abc001"],
+      "reason_zh": "AI 晶片需求擴散，端側 AI 布局受惠",
+      "related_industries": ["SEMI"]
+    },
+    {
+      "rank": 4,
+      "ticker": "3037",
+      "name_zh": "欣興",
+      "industry_code": "PCB",
+      "industry_name_zh": "PCB / 載板",
+      "bullish_score": 0.52,
+      "signal_strength": "MODERATE",
+      "trigger_news_ids": ["abc003"],
+      "reason_zh": "ABF 載板市場觸底，法說確認 2H26 回溫",
+      "related_industries": ["PCB"]
+    }
+  ],
+  "meta": {
+    "pipeline_version": "0.1.0",
+    "ai_engine": "gemini-3-pro-latest",
+    "total_news_fetched": 87,
+    "total_news_analyzed": 42,
+    "rss_sources_count": 4,
+    "elapsed_seconds": 38.4
+  }
+}
