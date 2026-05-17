@@ -32,6 +32,15 @@ export interface News {
   impact_reason_zh: string
 }
 
+export interface ChipsData {
+  trust_consec_buy: number
+  foreign_consec_buy: number
+  trust_buy_3d: number
+  foreign_buy_3d: number
+  chips_score: number
+  signals: string[]
+}
+
 export interface TechnicalData {
   price: number
   ma5: number
@@ -48,6 +57,7 @@ export interface Recommendation {
   rank: number
   ticker: string
   name_zh: string
+  price?: number
   industry_code: string
   industry_name_zh?: string
   news_score?: number
@@ -57,6 +67,7 @@ export interface Recommendation {
   reason_zh: string
   related_industries: string[]
   technical?: TechnicalData
+  chips?: ChipsData
 }
 
 export interface SignalsPayload {
@@ -75,6 +86,8 @@ export interface SignalsPayload {
     total_news_analyzed: number
     rss_sources_count: number
     tickers_with_technicals?: number
+    total_stocks_scanned?: number
+    chips_candidates?: number
     elapsed_seconds: number
   }
 }

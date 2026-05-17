@@ -25,10 +25,13 @@ export function Header({ data }: { data: SignalsPayload }) {
             </h1>
           </div>
 
-          <div className="flex flex-wrap items-end gap-6 text-xs">
+          <div className="flex flex-wrap items-end gap-4 sm:gap-6 text-xs">
             <Stat label="整體情緒" value={fmtScore(ms.overall_score)} valueClass={`font-mono ${labelClass}`} />
             <Stat label="利多 / 全部" value={`${ms.bullish_industries} / ${totalInds}`} valueClass="font-mono text-emerald-300" />
-            <Stat label="分析新聞" value={`${meta.total_news_analyzed}`} valueClass="font-mono text-slate-100" />
+            {meta.chips_candidates != null && (
+              <Stat label="籌碼候選" value={`${meta.chips_candidates}`} valueClass="font-mono text-emerald-400" className="hidden sm:block" />
+            )}
+            <Stat label="分析新聞" value={`${meta.total_news_analyzed}`} valueClass="font-mono text-slate-100" className="hidden sm:block" />
             <div className="flex items-center gap-1.5 text-slate-500" title={formatTime(generated_at)}>
               <RefreshCw className="h-3 w-3" />
               <span>{relativeTime(generated_at)}更新</span>
@@ -40,9 +43,9 @@ export function Header({ data }: { data: SignalsPayload }) {
   )
 }
 
-function Stat({ label, value, valueClass }: { label: string; value: string; valueClass: string }) {
+function Stat({ label, value, valueClass, className = '' }: { label: string; value: string; valueClass: string; className?: string }) {
   return (
-    <div>
+    <div className={className}>
       <div className="text-[10px] uppercase tracking-wider text-slate-500">{label}</div>
       <div className={`mt-0.5 text-base font-semibold ${valueClass}`}>{value}</div>
     </div>

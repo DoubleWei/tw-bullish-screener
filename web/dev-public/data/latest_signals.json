@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.1",
+  "schema_version": "2.0",
   "generated_at": "2026-05-17T15:00:00+08:00",
   "next_update_at": "2026-05-17T21:00:00+08:00",
   "window": {
@@ -125,14 +125,23 @@
       "rank": 1,
       "ticker": "2330",
       "name_zh": "台積電",
+      "price": 1022.0,
       "industry_code": "SEMI",
       "industry_name_zh": "半導體",
-      "news_score": 0.91,
-      "bullish_score": 0.83,
+      "news_score": 0.82,
+      "bullish_score": 0.79,
       "signal_strength": "STRONG",
       "trigger_news_ids": ["abc001"],
       "reason_zh": "CoWoS 產能滿載至 2027，AI 需求帶動先進製程訂單能見度極高",
       "related_industries": ["SEMI"],
+      "chips": {
+        "trust_consec_buy": 7,
+        "foreign_consec_buy": 5,
+        "trust_buy_3d": 3200,
+        "foreign_buy_3d": 8500,
+        "chips_score": 0.82,
+        "signals": ["投信連買7日", "外資連買5日", "外資投信共振", "投信3日+3,200張"]
+      },
       "technical": {
         "price": 1022.0,
         "ma5": 1008.4,
@@ -147,16 +156,58 @@
     },
     {
       "rank": 2,
+      "ticker": "3034",
+      "name_zh": "聯詠",
+      "price": 388.5,
+      "industry_code": "SEMI",
+      "industry_name_zh": "半導體",
+      "news_score": 0.55,
+      "bullish_score": 0.72,
+      "signal_strength": "STRONG",
+      "trigger_news_ids": ["abc001"],
+      "reason_zh": "顯示驅動 IC 進入旺季，外資連續增持",
+      "related_industries": ["SEMI"],
+      "chips": {
+        "trust_consec_buy": 5,
+        "foreign_consec_buy": 8,
+        "trust_buy_3d": 820,
+        "foreign_buy_3d": 2100,
+        "chips_score": 0.78,
+        "signals": ["投信連買5日", "外資連買8日", "外資投信共振"]
+      },
+      "technical": {
+        "price": 388.5,
+        "ma5": 382.0,
+        "ma20": 368.4,
+        "ma60": 351.2,
+        "rsi": 65.1,
+        "macd_hist": 4.32,
+        "vol_ratio": 1.55,
+        "tech_score": 0.65,
+        "signals": ["多頭排列", "站穩季線", "RSI 65", "MACD ↑"]
+      }
+    },
+    {
+      "rank": 3,
       "ticker": "2317",
       "name_zh": "鴻海",
+      "price": 221.5,
       "industry_code": "AI_SERVER",
       "industry_name_zh": "AI 伺服器",
-      "news_score": 0.76,
-      "bullish_score": 0.66,
+      "news_score": 0.62,
+      "bullish_score": 0.65,
       "signal_strength": "MODERATE",
       "trigger_news_ids": ["abc002"],
       "reason_zh": "輝達 Blackwell 主要組裝廠，訂單能見度拉至 Q4",
       "related_industries": ["AI_SERVER"],
+      "chips": {
+        "trust_consec_buy": 3,
+        "foreign_consec_buy": 6,
+        "trust_buy_3d": 650,
+        "foreign_buy_3d": 5200,
+        "chips_score": 0.62,
+        "signals": ["外資連買6日", "投信連買3日", "外資投信共振"]
+      },
       "technical": {
         "price": 221.5,
         "ma5": 218.6,
@@ -170,41 +221,48 @@
       }
     },
     {
-      "rank": 3,
-      "ticker": "2454",
-      "name_zh": "聯發科",
-      "industry_code": "SEMI",
-      "industry_name_zh": "半導體",
-      "news_score": 0.71,
-      "bullish_score": 0.59,
+      "rank": 4,
+      "ticker": "6547",
+      "name_zh": "高端疫苗",
+      "price": 52.3,
+      "industry_code": "GENERAL",
+      "industry_name_zh": "綜合",
+      "news_score": 0.26,
+      "bullish_score": 0.51,
       "signal_strength": "MODERATE",
-      "trigger_news_ids": ["abc001"],
-      "reason_zh": "AI 晶片需求擴散，端側 AI 布局受惠",
-      "related_industries": ["SEMI"],
-      "technical": {
-        "price": 1352.0,
-        "ma5": 1345.2,
-        "ma20": 1318.7,
-        "ma60": 1380.5,
-        "rsi": 53.4,
-        "macd_hist": 3.12,
-        "vol_ratio": 1.15,
-        "tech_score": 0.40,
-        "signals": ["站穩月線", "RSI 53", "MACD ↑"]
+      "trigger_news_ids": [],
+      "reason_zh": "",
+      "related_industries": ["GENERAL"],
+      "chips": {
+        "trust_consec_buy": 6,
+        "foreign_consec_buy": 2,
+        "trust_buy_3d": 1200,
+        "foreign_buy_3d": 320,
+        "chips_score": 0.58,
+        "signals": ["投信連買6日", "融資退場", "投信3日+1,200張"]
       }
     },
     {
-      "rank": 4,
+      "rank": 5,
       "ticker": "3037",
       "name_zh": "欣興",
+      "price": 196.5,
       "industry_code": "PCB",
       "industry_name_zh": "PCB / 載板",
-      "news_score": 0.52,
-      "bullish_score": 0.43,
-      "signal_strength": "WEAK",
+      "news_score": 0.44,
+      "bullish_score": 0.45,
+      "signal_strength": "MODERATE",
       "trigger_news_ids": ["abc003"],
       "reason_zh": "ABF 載板市場觸底，法說確認 2H26 回溫",
       "related_industries": ["PCB"],
+      "chips": {
+        "trust_consec_buy": 3,
+        "foreign_consec_buy": 1,
+        "trust_buy_3d": 580,
+        "foreign_buy_3d": 210,
+        "chips_score": 0.35,
+        "signals": ["投信連買3日", "投信3日+580張"]
+      },
       "technical": {
         "price": 196.5,
         "ma5": 193.2,
@@ -219,12 +277,14 @@
     }
   ],
   "meta": {
-    "pipeline_version": "0.2.0",
+    "pipeline_version": "1.0.0",
     "ai_engine": "gemini-2.5-flash",
     "total_news_fetched": 87,
     "total_news_analyzed": 42,
-    "rss_sources_count": 4,
-    "tickers_with_technicals": 14,
-    "elapsed_seconds": 52.1
+    "rss_sources_count": 7,
+    "tickers_with_technicals": 45,
+    "total_stocks_scanned": 1732,
+    "chips_candidates": 58,
+    "elapsed_seconds": 187.4
   }
 }

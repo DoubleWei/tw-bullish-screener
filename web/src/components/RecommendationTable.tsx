@@ -1,5 +1,5 @@
 import { TrendingUp, Star } from 'lucide-react'
-import type { Recommendation, SignalStrength, TechnicalData } from '../types/signals'
+import type { Recommendation, SignalStrength, TechnicalData, ChipsData } from '../types/signals'
 import { SectionTitle, EmptyState } from './MarketHeatmap'
 
 const STRENGTH_STYLES: Record<SignalStrength, string> = {
@@ -17,6 +17,21 @@ function rsiColor(rsi: number): string {
   if (rsi >= 50) return 'text-emerald-300 bg-emerald-500/10 ring-emerald-500/20'
   if (rsi >= 30) return 'text-slate-400 bg-slate-700/40 ring-slate-600/20'
   return 'text-rose-300 bg-rose-500/10 ring-rose-500/20'
+}
+
+function ChipsBadges({ chips }: { chips: ChipsData }) {
+  return (
+    <>
+      {chips.signals.map((sig) => (
+        <span
+          key={sig}
+          className="rounded bg-emerald-500/10 px-1.5 py-0.5 text-[10px] text-emerald-400 ring-1 ring-emerald-500/20"
+        >
+          {sig}
+        </span>
+      ))}
+    </>
+  )
 }
 
 function TechBadges({ tech }: { tech: TechnicalData }) {
@@ -49,11 +64,12 @@ function TechBadges({ tech }: { tech: TechnicalData }) {
 
 function RecommendationRow({ rec: r }: { rec: Recommendation }) {
   const tech = r.technical
+  const chips = r.chips
   const newsScore = r.news_score ?? r.bullish_score
 
   return (
     <div className="px-3 py-3 transition hover:bg-slate-900/40">
-      {/* Line 1: rank · ticker · name · industry · scores · strength */}
+      {/* Line 1: rank · ticker · price · name · industry · scores · strength */}
       <div className="flex items-center gap-2 min-w-0">
         <div className="w-5 flex-shrink-0 text-center">
           {r.rank <= 3
@@ -63,23 +79,34 @@ function RecommendationRow({ rec: r }: { rec: Recommendation }) {
 
         <div className="flex-1 flex items-baseline gap-1.5 min-w-0 overflow-hidden">
           <span className="font-mono text-sm font-semibold text-emerald-300 flex-shrink-0">{r.ticker}</span>
+          {r.price != null && (
+            <span className="font-mono text-xs text-slate-400 flex-shrink-0">{r.price.toFixed(r.price >= 100 ? 1 : 2)}</span>
+          )}
           <span className="text-sm text-slate-100 flex-shrink-0">{r.name_zh}</span>
           <span className="hidden sm:block text-xs text-slate-500 truncate">{r.industry_name_zh ?? r.industry_code}</span>
         </div>
 
         <div className="flex items-center gap-3 flex-shrink-0">
-          {tech && (
-            <div className="hidden md:flex items-center gap-3">
+          <div className="hidden md:flex items-center gap-3">
+            {chips && (
               <div className="text-right">
-                <div className="text-[9px] uppercase text-slate-500">AI</div>
+                <div className="text-[9px] uppercase text-slate-500">籌碼</div>
+                <div className="font-mono text-xs text-emerald-400">{chips.chips_score.toFixed(2)}</div>
+              </div>
+            )}
+            {!chips && (
+              <div className="text-right">
+                <div className="text-[9px] uppercase text-slate-500">新聞</div>
                 <div className="font-mono text-xs text-slate-400">{newsScore.toFixed(2)}</div>
               </div>
+            )}
+            {tech && (
               <div className="text-right">
                 <div className="text-[9px] uppercase text-slate-500">技術</div>
                 <div className="font-mono text-xs text-sky-400">{tech.tech_score.toFixed(2)}</div>
               </div>
-            </div>
-          )}
+            )}
+          </div>
           <div className="text-right">
             <div className="text-[9px] uppercase text-slate-500">綜合</div>
             <div className="font-mono text-sm font-bold text-emerald-300">{r.bullish_score.toFixed(2)}</div>
@@ -90,15 +117,16 @@ function RecommendationRow({ rec: r }: { rec: Recommendation }) {
         </div>
       </div>
 
-      {/* Line 2: technical badges + AI reason */}
+      {/* Line 2: chips badges (green) + tech badges (blue) + AI reason */}
       <div className="mt-1.5 ml-7 flex flex-wrap items-center gap-1.5 min-w-0">
+        {chips && <ChipsBadges chips={chips} />}
         {tech && <TechBadges tech={tech} />}
         {r.reason_zh && (
           <span
             className="text-[11px] text-slate-500 truncate max-w-[260px]"
             title={r.reason_zh}
           >
-            {tech && '· '}
+            {(chips || tech) && '· '}
             {r.reason_zh}
           </span>
         )}

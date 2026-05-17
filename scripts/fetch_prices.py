@@ -80,55 +80,71 @@ def _tech_score(
     return round(min(score, 1.0), 3), signals[:4]
 
 
+def _fetch_one(code: str) -> tuple[str, dict | None]:
+    """Download yfinance history for a single Taiwan stock and compute indicators."""
+    try:
+        import yfinance as yf
+    except ImportError:
+        return code, None
+
+    symbol = f"{code}.TW"
+    try:
+        hist = yf.Ticker(symbol).history(period=f"{LOOKBACK_DAYS}d", interval="1d")
+        if hist.empty or len(hist) < 65:
+            log.debug("%s: insufficient data (%d rows)", symbol, len(hist))
+            return code, None
+
+        close = hist["Close"].astype(float)
+        volume = hist["Volume"].astype(float)
+
+        price = float(close.iloc[-1])
+        ma5   = float(close.rolling(5).mean().iloc[-1])
+        ma20  = float(close.rolling(20).mean().iloc[-1])
+        ma60  = float(close.rolling(60).mean().iloc[-1])
+        rsi   = _rsi(close)
+        mhist = _macd_hist(close)
+
+        prior5 = float(volume.iloc[-6:-1].mean())
+        vol_ratio = float(volume.iloc[-1]) / prior5 if prior5 > 0 else 1.0
+
+        tscore, tsignals = _tech_score(price, ma5, ma20, ma60, rsi, mhist, vol_ratio)
+
+        return code, {
+            "price":      round(price, 2),
+            "ma5":        round(ma5, 2),
+            "ma20":       round(ma20, 2),
+            "ma60":       round(ma60, 2),
+            "rsi":        round(rsi, 1),
+            "macd_hist":  round(mhist, 4),
+            "vol_ratio":  round(vol_ratio, 2),
+            "tech_score": tscore,
+            "signals":    tsignals,
+        }
+    except Exception as exc:
+        log.warning("Failed to fetch %s: %s", symbol, exc)
+        return code, None
+
+
 def fetch_technicals(tickers: list[str]) -> dict[str, dict[str, Any]]:
     """Return {ticker_code: technical_dict} for tickers with sufficient data."""
     try:
-        import yfinance as yf  # lazy import — pipeline degrades gracefully if unavailable
+        import yfinance as yf  # noqa: F401 — check availability before spawning threads
     except ImportError:
         log.warning("yfinance not installed — skipping technical enrichment")
         return {}
 
+    from concurrent.futures import ThreadPoolExecutor, as_completed
+
     results: dict[str, dict] = {}
+    workers = min(10, max(1, len(tickers)))
 
-    for code in tickers:
-        symbol = f"{code}.TW"
-        try:
-            hist = yf.Ticker(symbol).history(period=f"{LOOKBACK_DAYS}d", interval="1d")
-            if hist.empty or len(hist) < 65:
-                log.debug("%s: insufficient data (%d rows)", symbol, len(hist))
-                continue
-
-            close = hist["Close"].astype(float)
-            volume = hist["Volume"].astype(float)
-
-            price = float(close.iloc[-1])
-            ma5   = float(close.rolling(5).mean().iloc[-1])
-            ma20  = float(close.rolling(20).mean().iloc[-1])
-            ma60  = float(close.rolling(60).mean().iloc[-1])
-            rsi   = _rsi(close)
-            mhist = _macd_hist(close)
-
-            # vol_ratio: today vs prior-5-day average
-            prior5 = float(volume.iloc[-6:-1].mean())
-            vol_ratio = float(volume.iloc[-1]) / prior5 if prior5 > 0 else 1.0
-
-            tscore, tsignals = _tech_score(price, ma5, ma20, ma60, rsi, mhist, vol_ratio)
-
-            results[code] = {
-                "price":      round(price, 2),
-                "ma5":        round(ma5, 2),
-                "ma20":       round(ma20, 2),
-                "ma60":       round(ma60, 2),
-                "rsi":        round(rsi, 1),
-                "macd_hist":  round(mhist, 4),
-                "vol_ratio":  round(vol_ratio, 2),
-                "tech_score": tscore,
-                "signals":    tsignals,
-            }
-            log.debug("%s tech_score=%.2f signals=%s", code, tscore, tsignals)
-
-        except Exception as exc:
-            log.warning("Failed to fetch %s: %s", symbol, exc)
+    with ThreadPoolExecutor(max_workers=workers) as pool:
+        futures = {pool.submit(_fetch_one, code): code for code in tickers}
+        for fut in as_completed(futures):
+            code, data = fut.result()
+            if data:
+                results[code] = data
+                log.debug("%s tech_score=%.2f signals=%s", code, data["tech_score"], data["signals"])
 
     log.info("Technicals computed for %d/%d tickers", len(results), len(tickers))
     return results
