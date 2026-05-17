@@ -5,8 +5,13 @@ import { SectionTitle, EmptyState } from './MarketHeatmap'
 import { relativeTime } from '../lib/format'
 
 export function NewsWall({ news }: { news: News[] }) {
-  const sorted = [...news]
-    .filter((n) => n.affected_industries.length > 0 || n.sentiment_label !== 'NEUTRAL')
+  // Prefer analyzed (non-neutral) news; fall back to recent unanalyzed items so the wall is never empty
+  const analyzed = news.filter((n) => n.affected_industries.length > 0 || n.sentiment_label !== 'NEUTRAL')
+  const pool = analyzed.length >= 5 ? analyzed : [...news].sort((a, b) =>
+    new Date(b.published_at).getTime() - new Date(a.published_at).getTime()
+  )
+  const sorted = pool
+    .slice()
     .sort((a, b) => Math.abs(b.sentiment_score) - Math.abs(a.sentiment_score))
     .slice(0, 20)
 

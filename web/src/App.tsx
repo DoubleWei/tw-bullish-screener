@@ -29,11 +29,11 @@ export default function App() {
       <Header data={data} />
       <main className="mx-auto max-w-7xl space-y-8 px-6 py-8">
         <MarketHeatmap industries={data.industries} />
-        <div className="grid gap-8 lg:grid-cols-5">
-          <div className="lg:col-span-3">
+        <div className="grid gap-8 xl:grid-cols-5">
+          <div className="xl:col-span-3">
             <RecommendationTable recommendations={data.recommendations} />
           </div>
-          <div className="lg:col-span-2">
+          <div className="xl:col-span-2">
             <NewsWall news={data.news} />
           </div>
         </div>

@@ -311,7 +311,7 @@ export function RecommendationTable({ recommendations }: { recommendations: Reco
       {processed.length === 0 ? (
         <EmptyState>目前篩選條件下無符合股票</EmptyState>
       ) : (
-        <div className="overflow-hidden rounded-lg border border-slate-800 divide-y divide-slate-800">
+        <div className="overflow-y-auto rounded-lg border border-slate-800 divide-y divide-slate-800 max-h-[70vh]">
           {processed.map((r, i) => (
             <RecommendationRow key={r.ticker} rec={r} rank={i + 1} />
           ))}

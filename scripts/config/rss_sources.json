@@ -74,19 +74,29 @@
     "name": "鉅亨網 - 台股",
     "url": "https://news.cnyes.com/rss/cat/tw_stock",
     "category": "general",
-    "enabled": true
+    "enabled": false,
+    "note": "鉅亨網直連 RSS 不穩定，改用 Google News 代理"
   },
   {
     "id": "cnyes_intl_stock",
     "name": "鉅亨網 - 國際股市",
     "url": "https://news.cnyes.com/rss/cat/intl_stock",
     "category": "general",
-    "enabled": true
+    "enabled": false,
+    "note": "鉅亨網直連 RSS 不穩定"
   },
   {
     "id": "moneydj_news",
     "name": "MoneyDJ 理財網",
     "url": "https://www.moneydj.com/MDDC/Consumer/news.rss",
+    "category": "general",
+    "enabled": false,
+    "note": "MoneyDJ RSS 不穩定，改用 Google News 代理"
+  },
+  {
+    "id": "google_news_cnyes_moneydj",
+    "name": "Google News - 鉅亨 / MoneyDJ 財經",
+    "url": "https://news.google.com/rss/search?q=%E9%89%85%E4%BA%A8%E7%B6%B2+OR+MoneyDJ+%E5%8F%B0%E8%82%A1+%E7%B1%8C%E7%A2%BC%E9%9D%A2&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
     "category": "general",
     "enabled": true
   },
