@@ -1,36 +1,36 @@
 {
   "schema_version": "1.1",
-  "generated_at": "2026-05-17T17:34:10.306963+08:00",
-  "next_update_at": "2026-05-17T23:34:10.306963+08:00",
+  "generated_at": "2026-05-17T17:37:08.949694+08:00",
+  "next_update_at": "2026-05-17T23:37:08.949694+08:00",
   "window": {
-    "from": "2026-05-16T17:34:10.306963+08:00",
-    "to": "2026-05-17T17:34:10.306963+08:00",
+    "from": "2026-05-16T17:37:08.949694+08:00",
+    "to": "2026-05-17T17:37:08.949694+08:00",
     "hours": 24
   },
   "market_sentiment": {
-    "overall_score": 0.45,
+    "overall_score": 0.55,
     "label": "偏多",
-    "bullish_industries": 1,
+    "bullish_industries": 2,
     "bearish_industries": 0,
-    "neutral_industries": 1
+    "neutral_industries": 0
   },
   "industries": [
     {
-      "industry_code": "SEMI",
-      "industry_name_zh": "半導體",
-      "sentiment_score": 0.2,
-      "signal": "NEUTRAL",
-      "news_count": 3,
-      "summary_zh": "台達電與台積電作為AI及半導體權值股，共同主導台股漲幅，顯示兩產業結構性利多。",
+      "industry_code": "AI_SERVER",
+      "industry_name_zh": "AI 伺服器",
+      "sentiment_score": 0.55,
+      "signal": "BULLISH",
+      "news_count": 2,
+      "summary_zh": "台達電與台積電作為AI權值股主導台股漲幅，顯示AI及半導體產業前景看好。",
       "key_drivers": []
     },
     {
-      "industry_code": "AI_SERVER",
-      "industry_name_zh": "AI 伺服器",
-      "sentiment_score": 0.7,
+      "industry_code": "SEMI",
+      "industry_name_zh": "半導體",
+      "sentiment_score": 0.55,
       "signal": "BULLISH",
-      "news_count": 1,
-      "summary_zh": "台達電與台積電作為AI及半導體權值股，共同主導台股漲幅，顯示兩產業結構性利多。",
+      "news_count": 2,
+      "summary_zh": "台達電與台積電作為AI權值股主導台股漲幅，顯示AI及半導體產業前景看好。",
       "key_drivers": []
     }
   ],
@@ -45,7 +45,19 @@
       "sentiment_score": 0,
       "sentiment_label": "NEUTRAL",
       "affected_industries": [],
-      "impact_reason_zh": "新聞內容為市場評論，未明確指出對特定產業的結構性影響。"
+      "impact_reason_zh": "新聞內容為市場整體風險提示，未具體指出影響特定產業的結構性因素。"
+    },
+    {
+      "id": "25c55af8c64327a8",
+      "title": "台指期夜盤狂瀉487點周一台股慘了？法人揭操作關鍵- 證券 - 工商時報",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBaa1ExUXJGQ19TZG5zN0o1MzVRcTlmM1ZPSTMxTTJqeUgxNHNOWVVvcFhCdUpWSl95VkhyYnNaRTBxM0x2d3FkajJ6V3ZyY3BEcUZId0VYRTAwQ0s3MVJz?oc=5",
+      "source": "Google News - 台股",
+      "published_at": "2026-05-17T17:14:00+08:00",
+      "snippet": "台指期夜盤狂瀉487點周一台股慘了？法人揭操作關鍵- 證券 工商時報",
+      "sentiment_score": 0,
+      "sentiment_label": "NEUTRAL",
+      "affected_industries": [],
+      "impact_reason_zh": "新聞內容為台指期夜盤波動及法人操作建議，不涉及特定產業的結構性變化。"
     },
     {
       "id": "34dd3a87a7b78ad8",
@@ -57,21 +69,7 @@
       "sentiment_score": 0,
       "sentiment_label": "NEUTRAL",
       "affected_industries": [],
-      "impact_reason_zh": "新聞內容為技術線型與選股策略，未對特定產業產生結構性影響。"
-    },
-    {
-      "id": "08181a6ccc0a0235",
-      "title": "費半、台積電ADR慘遭血洗4％！輝達財報前夕多頭先撤「台股明天開盤跌定了？」這種盤勢只剩1類抗跌股能買- 上市櫃 - 旺得富理財網",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE94RWQ2RHYzeFQwejk4MzRiTWJ2S0pZVUUyMFJkcmlfWDlDNUVnMmVPenlIQTZqUkVzQXBWYUtYV0VZc1FTZFJrS1prWE9kdlF5RUVHRzU0MVdDQXJmWkREdkxtWlhDS1o4OVE?oc=5",
-      "source": "Google News - 台股",
-      "published_at": "2026-05-17T11:17:11+08:00",
-      "snippet": "費半、台積電ADR慘遭血洗4％！輝達財報前夕多頭先撤「台股明天開盤跌定了？」這種盤勢只剩1類抗跌股能買- 上市櫃 旺得富理財網",
-      "sentiment_score": -0.6,
-      "sentiment_label": "BEARISH",
-      "affected_industries": [
-        "SEMI"
-      ],
-      "impact_reason_zh": "費半與台積電ADR大跌，反映半導體產業短期承壓，市場對輝達財報前夕多頭撤退。"
+      "impact_reason_zh": "新聞內容為台股技術線型分析與選股建議，不涉及特定產業的結構性利多或利空。"
     },
     {
       "id": "e3c1331d4f41fac7",
@@ -83,7 +81,7 @@
       "sentiment_score": 0,
       "sentiment_label": "NEUTRAL",
       "affected_industries": [],
-      "impact_reason_zh": "新聞內容為市場對輝達財報的觀望，未明確指出對特定產業的結構性影響。"
+      "impact_reason_zh": "新聞內容為台股短線修正壓力與市場觀望輝達財報，未提供特定產業的結構性判斷。"
     },
     {
       "id": "034732ecf5d5508b",
@@ -95,7 +93,21 @@
       "sentiment_score": 0,
       "sentiment_label": "NEUTRAL",
       "affected_industries": [],
-      "impact_reason_zh": "新聞內容為ETF績效比較，未對台股特定產業產生結構性影響。"
+      "impact_reason_zh": "新聞內容為主動式ETF績效比較，不涉及台股特定產業的結構性利多或利空。"
+    },
+    {
+      "id": "667aa7adc8828000",
+      "title": "台股震盪千點！專家看好AI基本面 選股教戰 - PChome Online 股市",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNRkhEY2lqeGxycnh4Yk5zaE0zOXV6amNjODBUYzZZUHRMVWNQaENtUVBlWlhyTk5ENUJyY3Jmc05leTJzVGY3YlZfNFZwZEk5TzY3QWhQbnJGbWNWTHZaQWxuYjZKNUl2SHRnM3VIT3g5b24zZUVxaEdJcno1ZkVnaA?oc=5",
+      "source": "Google News - 台股",
+      "published_at": "2026-05-17T09:25:43+08:00",
+      "snippet": "台股震盪千點！專家看好AI基本面 選股教戰 PChome Online 股市",
+      "sentiment_score": 0.5,
+      "sentiment_label": "BULLISH",
+      "affected_industries": [
+        "AI_SERVER"
+      ],
+      "impact_reason_zh": "專家看好AI產業基本面，顯示AI伺服器相關需求與前景樂觀。"
     },
     {
       "id": "b37eec737627dfda",
@@ -104,13 +116,13 @@
       "source": "Google News - 台股",
       "published_at": "2026-05-16T21:49:08+08:00",
       "snippet": "【即時新聞】台達電列名AI權值股，與台積電共同主導台股今年漲幅 CMoney投資網誌",
-      "sentiment_score": 0.7,
+      "sentiment_score": 0.6,
       "sentiment_label": "BULLISH",
       "affected_industries": [
         "AI_SERVER",
         "SEMI"
       ],
-      "impact_reason_zh": "台達電與台積電作為AI及半導體權值股，共同主導台股漲幅，顯示兩產業結構性利多。"
+      "impact_reason_zh": "台達電與台積電作為AI權值股主導台股漲幅，顯示AI及半導體產業前景看好。"
     },
     {
       "id": "55dc8c52dfa2c7d9",
@@ -122,19 +134,7 @@
       "sentiment_score": 0,
       "sentiment_label": "NEUTRAL",
       "affected_industries": [],
-      "impact_reason_zh": "新聞內容為市場對台股大盤的過熱討論，未對特定產業產生結構性影響。"
-    },
-    {
-      "id": "6f39c3f465edd6fa",
-      "title": "韓股崩盤拖累台股？名師曝賺爆密技 - 鏡週刊Mirror Media",
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBPdFhiTlBhQlVNazBkSTAwenFobVhFeWo5V1VlOUFnYXlraFRzZEdQU0NvbHdQcDBDSDJYcXVVaEZSakQwaXVBeENLbUdubWZIdTZ1UXJiNnVUOU9X0gFiQVVfeXFMUFlMcG1yUWlvempleHZTaWl5Vlo1emx6aVBKTTUxZXlPTi1UV3h0OHhYMllOc0dmeTNET1lKeWVOQzRLbkpWbEZ4SDBOYVJtZlAtcUUxS251ZWNQelNickFfU1E?oc=5",
-      "source": "Google News - 台股",
-      "published_at": "2026-05-17T03:05:00+08:00",
-      "snippet": "韓股崩盤拖累台股？名師曝賺爆密技 鏡週刊Mirror Media",
-      "sentiment_score": 0,
-      "sentiment_label": "NEUTRAL",
-      "affected_industries": [],
-      "impact_reason_zh": "新聞內容為市場連動性討論與投資密技，未對特定產業產生結構性影響。"
+      "impact_reason_zh": "新聞內容為市場對台股過熱及泡沫化的討論，不涉及特定產業的結構性影響。"
     },
     {
       "id": "2d6a5b97eee23e04",
@@ -146,19 +146,7 @@
       "sentiment_score": 0,
       "sentiment_label": "NEUTRAL",
       "affected_industries": [],
-      "impact_reason_zh": "新聞內容為個人投資心法，未對特定產業產生結構性影響。"
-    },
-    {
-      "id": "19fbbbf97e70cac5",
-      "title": "All in台股提早達標！他想買房卻掙扎「捨不得賣股」 網：這題沒標準答案 - Yahoo股市",
-      "url": "https://news.google.com/rss/articles/CBMimwNBVV95cUxPLW5qa3M0QURRUXJTRUN0WjQ5RGttWFVqbjhmTFJJbFhnczNNS1lQNVY2VmFNc3JXTXBTRm9XZWFNbUtpVlo0Wk5TbjlsMk5IZjlzV2tqWVZiTGhZYXBwUGQxV2xYVk1HQURieEl0UldDaGNCSV85X21pOFFRcHV1QUZoLXY1aDI0WHBJUHRiTnpEakh4MnM2X1JoWWxUNmgxTzVNbEJmZXdOOElrbWluTkl6cHAzN1NIVER4a1dlSV83dGhuUmV5T0FkUHBJNjBJWXBDUzI2bXMxeUt4RjJjMHlzazA5QWIxS2ZsSjA1NU9nRXUzX28yNjVUWEJmSUxZV2RvN1JrLXdTcW1nenpyYnFvaDFmY3ZmWEdYQm9jU3NCOHlhYXkxT05ZcUVaVFJZb214V3Y4ZFpMdUlDV291U3RwUjY0VFd3cWZZRTMxTzJfODJfYWNXY1ZuQ3g1bkVCTHE4alpBQ29BTVloRVN0U2wyUWJpeFlUX1MwRzA1U2tPdlpCTU9jNUZfU3U0NkFXTjNmX2tjQkVBeDA?oc=5",
-      "source": "Google News - 台股",
-      "published_at": "2026-05-17T11:17:45+08:00",
-      "snippet": "All in台股提早達標！他想買房卻掙扎「捨不得賣股」 網：這題沒標準答案 Yahoo股市",
-      "sentiment_score": 0,
-      "sentiment_label": "NEUTRAL",
-      "affected_industries": [],
-      "impact_reason_zh": "新聞內容為個人投資決策與心理，未對特定產業產生結構性影響。"
+      "impact_reason_zh": "新聞內容為小資族投資心法分享，不涉及特定產業的結構性利多或利空。"
     },
     {
       "id": "5f4ed6f4fead5181",
@@ -170,7 +158,19 @@
       "sentiment_score": 0,
       "sentiment_label": "NEUTRAL",
       "affected_industries": [],
-      "impact_reason_zh": "新聞內容為市場震盪與基本面概括性評論，未對特定產業產生結構性影響。"
+      "impact_reason_zh": "新聞內容為台股震盪與法人對基本面無虞的看法，未具體指出特定產業的影響。"
+    },
+    {
+      "id": "19fbbbf97e70cac5",
+      "title": "All in台股提早達標！他想買房卻掙扎「捨不得賣股」 網：這題沒標準答案 - Yahoo股市",
+      "url": "https://news.google.com/rss/articles/CBMimwNBVV95cUxPLW5qa3M0QURRUXJTRUN0WjQ5RGttWFVqbjhmTFJJbFhnczNNS1lQNVY2VmFNc3JXTXBTRm9XZWFNbUtpVlo0Wk5TbjlsMk5IZjlzV2tqWVZiTGhZYXBwUGQxV2xYVk1HQURieEl0UldDaGNCSV85X21pOFFRcHV1QUZoLXY1aDI0WHBJUHRiTnpEakh4MnM2X1JoWWxUNmgxTzVNbEJmZXdOOElrbWluTkl6cHAzN1NIVER4a1dlSV83dGhuUmV5T0FkUHBJNjBJWXBDUzI2bXMxeUt4RjJjMHlzazA5QWIxS2ZsSjA1NU9nRXUzX28yNjVUWEJmSUxZV2RvN1JrLXdTcW1nenpyYnFvaDFmY3ZmWEdYQm9jU3NCOHlhYXkxT05ZcUVaVFJZb214V3Y4ZFpMdUlDV291U3RwUjY0VFd3cWZZRTMxTzJfODJfYWNXY1ZuQ3g1bkVCTHE4alpBQ29BTVloRVN0U2wyUWJpeFlUX1MwRzA1U2tPdlpCTU9jNUZfU3U0NkFXTjNmX2tjQkVBeDA?oc=5",
+      "source": "Google News - 台股",
+      "published_at": "2026-05-17T11:17:45+08:00",
+      "snippet": "All in台股提早達標！他想買房卻掙扎「捨不得賣股」 網：這題沒標準答案 Yahoo股市",
+      "sentiment_score": 0,
+      "sentiment_label": "NEUTRAL",
+      "affected_industries": [],
+      "impact_reason_zh": "新聞內容為個人投資與資產配置的討論，不涉及特定產業的結構性利多或利空。"
     },
     {
       "id": "834bdfb502d8f883",
@@ -182,7 +182,7 @@
       "sentiment_score": 0,
       "sentiment_label": "NEUTRAL",
       "affected_industries": [],
-      "impact_reason_zh": "新聞內容為期貨市場波動與大盤分析，未明確指出對特定產業的結構性影響。"
+      "impact_reason_zh": "新聞內容為台指期波動與台股保衛戰，未具體指出受影響的特定產業及其原因。"
     },
     {
       "id": "ea6937fda81170dd",
@@ -196,7 +196,7 @@
       "affected_industries": [
         "SEMI"
       ],
-      "impact_reason_zh": "MSCI調升台積電權重，預期將吸引更多資金流入，對半導體產業形成利多。"
+      "impact_reason_zh": "MSCI調整使台積電權重上升，預期將吸引更多資金流入半導體產業。"
     },
     {
       "id": "d76de81e2747c4e7",
@@ -208,7 +208,7 @@
       "sentiment_score": 0,
       "sentiment_label": "NEUTRAL",
       "affected_industries": [],
-      "impact_reason_zh": "新聞內容為個人投資經驗分享，未對特定產業產生結構性影響。"
+      "impact_reason_zh": "新聞內容為小資族投資經驗分享，不涉及特定產業的結構性利多或利空。"
     },
     {
       "id": "b7e27a87c33fd089",
@@ -220,7 +220,7 @@
       "sentiment_score": 0,
       "sentiment_label": "NEUTRAL",
       "affected_industries": [],
-      "impact_reason_zh": "新聞內容為國際政治事件對大盤的影響，未對特定產業產生結構性影響。"
+      "impact_reason_zh": "新聞內容為市場對川習會結果的反應及台股點位保衛戰，不涉及特定產業影響。"
     },
     {
       "id": "a5a068e0d916f404",
@@ -511,18 +511,6 @@
       "impact_reason_zh": ""
     },
     {
-      "id": "090da54d0fffbc15",
-      "title": "高股息商品投資邏輯大變化 領息思維轉向重視總報酬優化 - 經濟日報",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBEeDVZR1pTMDdKZXRpZzlHcnJiSjI5LUtaajVObHhkZ3drcXFwdU5nY1dNRHd4bm94ZmN6OTFoNUpmSzhBaExwaXVfcGtnYWZIMG9nLW0zdFc3Z9IBX0FVX3lxTFBBZ0tJM2Y1UmUyY3lQYUVva0s2N2pwZDhtRHJJamx0TWFZZW1qSVJ1YUg4ckdVOEVreHFPQUdyS1BKRHhSc3RqQjF5VGcxV2E5Ym54ZnJNY24wS0lEWW5v?oc=5",
-      "source": "Google News - 台股",
-      "published_at": "2026-05-17T10:34:42+08:00",
-      "snippet": "高股息商品投資邏輯大變化 領息思維轉向重視總報酬優化 經濟日報",
-      "sentiment_score": 0.0,
-      "sentiment_label": "NEUTRAL",
-      "affected_industries": [],
-      "impact_reason_zh": ""
-    },
-    {
       "id": "3623a875c2649f0c",
       "title": "00405A可以買？配息、價格、成分股、上市時間…37歲「鐵帽子王」來頭不小！前10大持股為何沒想買台積電 - 今周刊",
       "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPVFJ1a3ZZQzVkaWZITnN3LWRPR0JLa25rSk5LenhBVXQ1RFM3ZDI1NWtxbi0ycWtOS3NjNVVIQ3hjM09QclZTZ01hNVJUWDAwRTFJTmdldmFCQ1BkcEdnUS1QYnBJU2w3WkIzY3FBcmE5YzJxVE5pX09zT1NuOWtqag?oc=5",
@@ -613,13 +601,14 @@
       "name_zh": "鴻海",
       "industry_code": "AI_SERVER",
       "industry_name_zh": "AI 伺服器",
-      "news_score": 0.735,
-      "bullish_score": 0.761,
-      "signal_strength": "STRONG",
+      "news_score": 0.605,
+      "bullish_score": 0.683,
+      "signal_strength": "MODERATE",
       "trigger_news_ids": [
+        "667aa7adc8828000",
         "b37eec737627dfda"
       ],
-      "reason_zh": "台達電與台積電作為AI及半導體權值股，共同主導台股漲幅，顯示兩產業結構性利多。",
+      "reason_zh": "台達電與台積電作為AI權值股主導台股漲幅，顯示AI及半導體產業前景看好。",
       "related_industries": [
         "AI_SERVER"
       ],
@@ -642,17 +631,86 @@
       "rank": 1
     },
     {
+      "ticker": "2330",
+      "name_zh": "台積電",
+      "industry_code": "SEMI",
+      "industry_name_zh": "半導體",
+      "news_score": 0.605,
+      "bullish_score": 0.623,
+      "signal_strength": "MODERATE",
+      "trigger_news_ids": [
+        "b37eec737627dfda",
+        "ea6937fda81170dd"
+      ],
+      "reason_zh": "台達電與台積電作為AI權值股主導台股漲幅，顯示AI及半導體產業前景看好。",
+      "related_industries": [
+        "SEMI"
+      ],
+      "technical": {
+        "price": 2265.0,
+        "ma5": 2249.0,
+        "ma20": 2191.75,
+        "ma60": 1991.88,
+        "rsi": 56.5,
+        "macd_hist": -6.4067,
+        "vol_ratio": 0.85,
+        "tech_score": 0.65,
+        "signals": [
+          "站穩月線",
+          "站穩季線",
+          "多頭排列",
+          "RSI 56"
+        ]
+      },
+      "rank": 2
+    },
+    {
+      "ticker": "2454",
+      "name_zh": "聯發科",
+      "industry_code": "SEMI",
+      "industry_name_zh": "半導體",
+      "news_score": 0.545,
+      "bullish_score": 0.607,
+      "signal_strength": "MODERATE",
+      "trigger_news_ids": [
+        "b37eec737627dfda",
+        "ea6937fda81170dd"
+      ],
+      "reason_zh": "台達電與台積電作為AI權值股主導台股漲幅，顯示AI及半導體產業前景看好。",
+      "related_industries": [
+        "SEMI"
+      ],
+      "technical": {
+        "price": 3260.0,
+        "ma5": 3548.0,
+        "ma20": 2867.0,
+        "ma60": 2089.58,
+        "rsi": 69.1,
+        "macd_hist": 22.3475,
+        "vol_ratio": 0.81,
+        "tech_score": 0.7,
+        "signals": [
+          "站穩月線",
+          "站穩季線",
+          "多頭排列",
+          "RSI 69"
+        ]
+      },
+      "rank": 3
+    },
+    {
       "ticker": "6669",
       "name_zh": "緯穎",
       "industry_code": "AI_SERVER",
       "industry_name_zh": "AI 伺服器",
-      "news_score": 0.588,
-      "bullish_score": 0.633,
+      "news_score": 0.484,
+      "bullish_score": 0.57,
       "signal_strength": "MODERATE",
       "trigger_news_ids": [
+        "667aa7adc8828000",
         "b37eec737627dfda"
       ],
-      "reason_zh": "台達電與台積電作為AI及半導體權值股，共同主導台股漲幅，顯示兩產業結構性利多。",
+      "reason_zh": "台達電與台積電作為AI權值股主導台股漲幅，顯示AI及半導體產業前景看好。",
       "related_industries": [
         "AI_SERVER"
       ],
@@ -672,20 +730,21 @@
           "RSI 59"
         ]
       },
-      "rank": 2
+      "rank": 4
     },
     {
       "ticker": "2382",
       "name_zh": "廣達",
       "industry_code": "AI_SERVER",
       "industry_name_zh": "AI 伺服器",
-      "news_score": 0.662,
-      "bullish_score": 0.617,
+      "news_score": 0.545,
+      "bullish_score": 0.547,
       "signal_strength": "MODERATE",
       "trigger_news_ids": [
+        "667aa7adc8828000",
         "b37eec737627dfda"
       ],
-      "reason_zh": "台達電與台積電作為AI及半導體權值股，共同主導台股漲幅，顯示兩產業結構性利多。",
+      "reason_zh": "台達電與台積電作為AI權值股主導台股漲幅，顯示AI及半導體產業前景看好。",
       "related_industries": [
         "AI_SERVER"
       ],
@@ -704,20 +763,89 @@
           "爆量 4.1×"
         ]
       },
-      "rank": 3
+      "rank": 5
+    },
+    {
+      "ticker": "2303",
+      "name_zh": "聯電",
+      "industry_code": "SEMI",
+      "industry_name_zh": "半導體",
+      "news_score": 0.424,
+      "bullish_score": 0.514,
+      "signal_strength": "MODERATE",
+      "trigger_news_ids": [
+        "b37eec737627dfda",
+        "ea6937fda81170dd"
+      ],
+      "reason_zh": "台達電與台積電作為AI權值股主導台股漲幅，顯示AI及半導體產業前景看好。",
+      "related_industries": [
+        "SEMI"
+      ],
+      "technical": {
+        "price": 110.0,
+        "ma5": 103.18,
+        "ma20": 85.59,
+        "ma60": 68.99,
+        "rsi": 78.2,
+        "macd_hist": 2.4232,
+        "vol_ratio": 1.4,
+        "tech_score": 0.65,
+        "signals": [
+          "站穩月線",
+          "站穩季線",
+          "多頭排列",
+          "MACD ↑"
+        ]
+      },
+      "rank": 6
+    },
+    {
+      "ticker": "3711",
+      "name_zh": "日月光投控",
+      "industry_code": "SEMI",
+      "industry_name_zh": "半導體",
+      "news_score": 0.424,
+      "bullish_score": 0.474,
+      "signal_strength": "WEAK",
+      "trigger_news_ids": [
+        "b37eec737627dfda",
+        "ea6937fda81170dd"
+      ],
+      "reason_zh": "台達電與台積電作為AI權值股主導台股漲幅，顯示AI及半導體產業前景看好。",
+      "related_industries": [
+        "SEMI"
+      ],
+      "technical": {
+        "price": 547.0,
+        "ma5": 547.0,
+        "ma20": 505.93,
+        "ma60": 408.38,
+        "rsi": 65.8,
+        "macd_hist": -0.1593,
+        "vol_ratio": 0.85,
+        "tech_score": 0.55,
+        "signals": [
+          "站穩月線",
+          "站穩季線",
+          "多頭排列",
+          "RSI 66"
+        ]
+      },
+      "rank": 7
     },
     {
       "ticker": "3231",
       "name_zh": "緯創",
       "industry_code": "AI_SERVER",
       "industry_name_zh": "AI 伺服器",
-      "news_score": 0.662,
-      "bullish_score": 0.477,
+      "news_score": 0.545,
+      "bullish_score": 0.407,
       "signal_strength": "WEAK",
       "trigger_news_ids": [
+        "667aa7adc8828000",
         "b37eec737627dfda"
       ],
-      "reason_zh": "台達電與台積電作為AI及半導體權值股，共同主導台股漲幅，顯示兩產業結構性利多。",
+      "reason_zh": "台達電與台積電作為AI權值股主導台股漲幅，顯示AI及半導體產業前景看好。",
       "related_industries": [
         "AI_SERVER"
       ],
@@ -734,16 +862,16 @@
           "站穩季線"
         ]
       },
-      "rank": 4
+      "rank": 8
     }
   ],
   "meta": {
     "pipeline_version": "0.2.0",
     "ai_engine": "gemini-2.5-flash",
-    "total_news_fetched": 47,
+    "total_news_fetched": 46,
     "total_news_analyzed": 15,
     "rss_sources_count": 4,
     "tickers_with_technicals": 17,
-    "elapsed_seconds": 30.8
+    "elapsed_seconds": 27.1
   }
 }
