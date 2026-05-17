@@ -1,29 +1,20 @@
 {
   "schema_version": "2.0",
-  "generated_at": "2026-05-17T22:05:53.611997+08:00",
-  "next_update_at": "2026-05-18T04:05:53.611997+08:00",
+  "generated_at": "2026-05-17T22:24:24.699154+08:00",
+  "next_update_at": "2026-05-18T04:24:24.699154+08:00",
   "window": {
-    "from": "2026-05-16T22:05:53.611997+08:00",
-    "to": "2026-05-17T22:05:53.611997+08:00",
+    "from": "2026-05-16T22:24:24.699154+08:00",
+    "to": "2026-05-17T22:24:24.699154+08:00",
     "hours": 24
   },
   "market_sentiment": {
-    "overall_score": 0.211,
+    "overall_score": 0.617,
     "label": "偏多",
     "bullish_industries": 2,
-    "bearish_industries": 1,
+    "bearish_industries": 0,
     "neutral_industries": 0
   },
   "industries": [
-    {
-      "industry_code": "SEMI",
-      "industry_name_zh": "半導體",
-      "sentiment_score": -0.6,
-      "signal": "BEARISH",
-      "news_count": 3,
-      "summary_zh": "美股費半指數大跌4%，對半導體產業構成短期利空壓力。",
-      "key_drivers": []
-    },
     {
       "industry_code": "AI_SERVER",
       "industry_name_zh": "AI 伺服器",
@@ -39,7 +30,7 @@
       "sentiment_score": 0.6,
       "signal": "BULLISH",
       "news_count": 1,
-      "summary_zh": "第一季台股獲利主要由AI相關產業貢獻，金融股亦因投資收益表現良好。",
+      "summary_zh": "AI產業為Q1獲利主要驅動力，顯示其結構性成長；金融股亦受惠投資收益。",
       "key_drivers": []
     }
   ],
@@ -51,10 +42,10 @@
       "source": "Google News - 台股",
       "published_at": "2026-05-17T21:15:00+08:00",
       "snippet": "輝達拉貨太猛！台股「散熱一哥」EPS上看95元 最新目標價曝光 Yahoo股市",
-      "sentiment_score": 0,
+      "sentiment_score": 0.0,
       "sentiment_label": "NEUTRAL",
       "affected_industries": [],
-      "impact_reason_zh": "報導聚焦於個別公司股價與獲利預期，非產業結構性利多。"
+      "impact_reason_zh": "報導聚焦單一公司獲利與目標價，非產業結構性利多，對指定產業無直接影響。"
     },
     {
       "id": "3c0966a3f6a0d6f5",
@@ -63,7 +54,7 @@
       "source": "Google News - 台股",
       "published_at": "2026-05-17T21:20:00+08:00",
       "snippet": "三星罷工害亞洲崩盤？謝晨彥揭背後趨勢：台股衝向6萬 Yahoo新聞",
-      "sentiment_score": 0,
+      "sentiment_score": 0.0,
       "sentiment_label": "NEUTRAL",
       "affected_industries": [],
       "impact_reason_zh": "新聞內容為市場分析師對大盤的預測與評論，非特定產業的結構性利多或利空。"
@@ -75,24 +66,10 @@
       "source": "Google News - 台股",
       "published_at": "2026-05-17T10:37:31+08:00",
       "snippet": "主動式ETF績效大爆發 海外跑贏台股 自由財經",
-      "sentiment_score": 0,
+      "sentiment_score": 0.0,
       "sentiment_label": "NEUTRAL",
       "affected_industries": [],
-      "impact_reason_zh": "報導內容為ETF績效比較，非特定產業的結構性利多或利空。"
-    },
-    {
-      "id": "7c7a4b07ab069569",
-      "title": "美股大跳水！費半崩4%、台指期夜盤跌法人：台股關注輝達財報| 股市要聞| 股市 - UDN",
-      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE50U1lJUFVyUVNRQTFfaVE5eS1sSllKbGdtUzlRem14R2dGYmp6TjJoRDd4cEhPZkgtY0hXc1lhQXVIdGlURWg5bGFaUHJIOFB0?oc=5",
-      "source": "Google News - 台股",
-      "published_at": "2026-05-17T17:46:30+08:00",
-      "snippet": "美股大跳水！費半崩4%、台指期夜盤跌法人：台股關注輝達財報| 股市要聞| 股市 UDN",
-      "sentiment_score": -0.6,
-      "sentiment_label": "BEARISH",
-      "affected_industries": [
-        "SEMI"
-      ],
-      "impact_reason_zh": "美股費半指數大跌4%，對半導體產業構成短期利空壓力。"
+      "impact_reason_zh": "報導內容為ETF績效比較，非特定台股產業的結構性利多或利空。"
     },
     {
       "id": "c9f2c859a2949400",
@@ -101,10 +78,22 @@
       "source": "Google News - 台股",
       "published_at": "2026-05-17T09:57:14+08:00",
       "snippet": "00403A破發2大元凶曝光！買貴了先別慌？「專家警告：3個月內別做這件事」這群人可跳過建倉直接撿便宜- 上市櫃 旺得富理財網",
-      "sentiment_score": 0,
+      "sentiment_score": 0.0,
       "sentiment_label": "NEUTRAL",
       "affected_industries": [],
-      "impact_reason_zh": "報導內容為特定ETF的分析與投資建議，非特定產業的結構性利多或利空。"
+      "impact_reason_zh": "報導內容為特定ETF的投資建議與市場表現，非特定台股產業的結構性利多或利空。"
+    },
+    {
+      "id": "7c7a4b07ab069569",
+      "title": "美股大跳水！費半崩4%、台指期夜盤跌法人：台股關注輝達財報| 股市要聞| 股市 - UDN",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE50U1lJUFVyUVNRQTFfaVE5eS1sSllKbGdtUzlRem14R2dGYmp6TjJoRDd4cEhPZkgtY0hXc1lhQXVIdGlURWg5bGFaUHJIOFB0?oc=5",
+      "source": "Google News - 台股",
+      "published_at": "2026-05-17T17:46:30+08:00",
+      "snippet": "美股大跳水！費半崩4%、台指期夜盤跌法人：台股關注輝達財報| 股市要聞| 股市 UDN",
+      "sentiment_score": 0.0,
+      "sentiment_label": "NEUTRAL",
+      "affected_industries": [],
+      "impact_reason_zh": "報導內容為市場短期波動與法人觀點，非特定產業的結構性利多或利空。"
     },
     {
       "id": "e3c1331d4f41fac7",
@@ -113,22 +102,22 @@
       "source": "Google News - 台股",
       "published_at": "2026-05-17T11:40:03+08:00",
       "snippet": "〈台股風向球〉短線修正壓力升溫 520輝達財報決定行情續航力 news.cnyes.com",
-      "sentiment_score": 0,
+      "sentiment_score": 0.0,
       "sentiment_label": "NEUTRAL",
       "affected_industries": [],
-      "impact_reason_zh": "報導內容為大盤走勢預測，並提及輝達財報為市場關注焦點，非特定產業的結構性利多或利空。"
+      "impact_reason_zh": "報導內容為市場短期修正壓力與對輝達財報的觀望，非特定產業的結構性利多或利空。"
     },
     {
-      "id": "0a119a77d0e9853f",
-      "title": "周一開盤恐血洗？台股劇震1400點 外資狂砍百萬張 - Yahoo新聞",
-      "url": "https://news.google.com/rss/articles/CBMitAJBVV95cUxPWkRCUU9pRXFLcU55WHR6VW9WVDhxbFhVa0s2U01NNkg3R2hOMHk1Wnhmem5acFdqbW1pQ2VqMDl4QkNaSTZNdXNwQkRwQnBuXzdzaHdFUERjeDJPdmpPOHJLeUk2dWpDU2JNTmxFdG1ma21FMDd0T1NrVFFvaDdubFlqaHc3VkZsRGpWQ2NtZHZXQVRhOExFWWRCeV9mZUt4Q3hVdDVqYjhRT29YV1dBS2JZdGtBVUhGM0dxTnhQQnctVlZIaEFCcHBZNzB5R0ZLcXFoR09ITkZpSTljTGhyc2k3UGhSY1M5YVlYaDdTMWNFR0FKcHdqLXdwZGRMdGV2OTRscE5oaFUzaXBfTFdZb3RvMEV1VlZfcmtZdTQ3RHlMUlR3TUdxRnEyQk1TcDlLaHRiZA?oc=5",
+      "id": "25c55af8c64327a8",
+      "title": "台指期夜盤狂瀉487點周一台股慘了？法人揭操作關鍵- 證券 - 工商時報",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBaa1ExUXJGQ19TZG5zN0o1MzVRcTlmM1ZPSTMxTTJqeUgxNHNOWVVvcFhCdUpWSl95VkhyYnNaRTBxM0x2d3FkajJ6V3ZyY3BEcUZId0VYRTAwQ0s3MVJz?oc=5",
       "source": "Google News - 台股",
-      "published_at": "2026-05-17T20:46:41+08:00",
-      "snippet": "周一開盤恐血洗？台股劇震1400點 外資狂砍百萬張 Yahoo新聞 台股「大怒神」上下震盪近1400點 群益投顧董座蔡明彥一句「老人遛狗」點破原因 Yahoo股市 台指期夜盤狂瀉487點周一台股慘了？法人揭操作關鍵- 證券 工商時報",
-      "sentiment_score": 0,
+      "published_at": "2026-05-17T17:14:00+08:00",
+      "snippet": "台指期夜盤狂瀉487點周一台股慘了？法人揭操作關鍵- 證券 工商時報 台股震盪千點！專家看好AI基本面 選股教戰 PChome Online 股市 台韓股市同步急殺！專家示警「台股走空」2大訊號：多頭結束為時尚早 | 周幸容 | 新聞 風傳媒",
+      "sentiment_score": 0.0,
       "sentiment_label": "NEUTRAL",
       "affected_industries": [],
-      "impact_reason_zh": "報導內容為大盤波動與外資動向，非特定產業的結構性利多或利空。"
+      "impact_reason_zh": "報導內容為市場短期波動與法人操作建議，非特定產業的結構性利多或利空。"
     },
     {
       "id": "08181a6ccc0a0235",
@@ -137,36 +126,10 @@
       "source": "Google News - 台股",
       "published_at": "2026-05-17T11:17:11+08:00",
       "snippet": "費半、台積電ADR慘遭血洗4％！輝達財報前夕多頭先撤「台股明天開盤跌定了？」這種盤勢只剩1類抗跌股能買- 上市櫃 旺得富理財網",
-      "sentiment_score": -0.6,
-      "sentiment_label": "BEARISH",
-      "affected_industries": [
-        "SEMI"
-      ],
-      "impact_reason_zh": "美股費半指數與台積電ADR大跌4%，對半導體產業構成短期利空壓力。"
-    },
-    {
-      "id": "19fbbbf97e70cac5",
-      "title": "All in台股提早達標！他想買房卻掙扎「捨不得賣股」 網：這題沒標準答案 - Yahoo股市",
-      "url": "https://news.google.com/rss/articles/CBMimwNBVV95cUxPLW5qa3M0QURRUXJTRUN0WjQ5RGttWFVqbjhmTFJJbFhnczNNS1lQNVY2VmFNc3JXTXBTRm9XZWFNbUtpVlo0Wk5TbjlsMk5IZjlzV2tqWVZiTGhZYXBwUGQxV2xYVk1HQURieEl0UldDaGNCSV85X21pOFFRcHV1QUZoLXY1aDI0WHBJUHRiTnpEakh4MnM2X1JoWWxUNmgxTzVNbEJmZXdOOElrbWluTkl6cHAzN1NIVER4a1dlSV83dGhuUmV5T0FkUHBJNjBJWXBDUzI2bXMxeUt4RjJjMHlzazA5QWIxS2ZsSjA1NU9nRXUzX28yNjVUWEJmSUxZV2RvN1JrLXdTcW1nenpyYnFvaDFmY3ZmWEdYQm9jU3NCOHlhYXkxT05ZcUVaVFJZb214V3Y4ZFpMdUlDV291U3RwUjY0VFd3cWZZRTMxTzJfODJfYWNXY1ZuQ3g1bkVCTHE4alpBQ29BTVloRVN0U2wyUWJpeFlUX1MwRzA1U2tPdlpCTU9jNUZfU3U0NkFXTjNmX2tjQkVBeDA?oc=5",
-      "source": "Google News - 台股",
-      "published_at": "2026-05-17T11:17:45+08:00",
-      "snippet": "All in台股提早達標！他想買房卻掙扎「捨不得賣股」 網：這題沒標準答案 Yahoo股市",
-      "sentiment_score": 0,
+      "sentiment_score": 0.0,
       "sentiment_label": "NEUTRAL",
       "affected_industries": [],
-      "impact_reason_zh": "報導內容為個人投資經驗分享，非特定產業的結構性利多或利空。"
-    },
-    {
-      "id": "8b02198b929474bc",
-      "title": "記憶體股暴衝要追嗎？ 資深分析師曝「1重點」：每天都要做 - Yahoo股市",
-      "url": "https://news.google.com/rss/articles/CBMi6AJBVV95cUxQWWFlelBER0hkbTRDNzBiLWwzZWd4UWdwdE5ZSmJrMmdtdjZubG44MWMwbHNMMndhUU9hR3JGaW9FbVdlT2Q0VjNNYTdWS2d6QmNXaDEyeEd4dWRmeWNSTkdrYjJTeVhBU1hhZHVBRm1ILWtuNHc2dThUc2huYnhadG5WelppMW1abUNOVUNLN000VnhPT2s2MWlXRjFRUGRLNHlMRjlnNTNxTTVwSlBxazhFTG1uMy04d1cyYnpFUko4TDZELVFxYW1XNnhRZks3eXQwRG5EUmdvMnBBeHV6bUxsREtzLXIzX29ibTl5VjlZaEFNaW1faE9PcWRRcjhmNXNPMDV4ZW01eENMaWZwWFJTQUhISUNjSl9wNjF1dkZOWlh1RmNBSkt2SDNSUzliTXc3c1BHdU5Hc1ozYWpweG1fNU9aa2poY2xlalNxbmVmM2dLdWNwVl9VTEJqbVhBM2M2dWdGeEc?oc=5",
-      "source": "Google News - 台股",
-      "published_at": "2026-05-17T14:45:00+08:00",
-      "snippet": "記憶體股暴衝要追嗎？ 資深分析師曝「1重點」：每天都要做 Yahoo股市",
-      "sentiment_score": 0,
-      "sentiment_label": "NEUTRAL",
-      "affected_industries": [],
-      "impact_reason_zh": "報導內容為分析師對記憶體股的投資建議，非產業結構性利多或利空。"
+      "impact_reason_zh": "報導內容為市場短期波動與法人觀點，非特定產業的結構性利多或利空。"
     },
     {
       "id": "5f4ed6f4fead5181",
@@ -175,10 +138,46 @@
       "source": "Google News - 台股",
       "published_at": "2026-05-17T14:28:10+08:00",
       "snippet": "台股震盪…法人：有修正壓力 但基本面無虞 UDN",
-      "sentiment_score": 0,
+      "sentiment_score": 0.0,
       "sentiment_label": "NEUTRAL",
       "affected_industries": [],
-      "impact_reason_zh": "報導內容為法人對大盤走勢的看法，非特定產業的結構性利多或利空。"
+      "impact_reason_zh": "報導內容為市場短期震盪與法人觀點，非特定產業的結構性利多或利空。"
+    },
+    {
+      "id": "0a119a77d0e9853f",
+      "title": "周一開盤恐血洗？台股劇震1400點 外資狂砍百萬張 - Yahoo新聞",
+      "url": "https://news.google.com/rss/articles/CBMitAJBVV95cUxPWkRCUU9pRXFLcU55WHR6VW9WVDhxbFhVa0s2U01NNkg3R2hOMHk1Wnhmem5acFdqbW1pQ2VqMDl4QkNaSTZNdXNwQkRwQnBuXzdzaHdFUERjeDJPdmpPOHJLeUk2dWpDU2JNTmxFdG1ma21FMDd0T1NrVFFvaDdubFlqaHc3VkZsRGpWQ2NtZHZXQVRhOExFWWRCeV9mZUt4Q3hVdDVqYjhRT29YV1dBS2JZdGtBVUhGM0dxTnhQQnctVlZIaEFCcHBZNzB5R0ZLcXFoR09ITkZpSTljTGhyc2k3UGhSY1M5YVlYaDdTMWNFR0FKcHdqLXdwZGRMdGV2OTRscE5oaFUzaXBfTFdZb3RvMEV1VlZfcmtZdTQ3RHlMUlR3TUdxRnEyQk1TcDlLaHRiZA?oc=5",
+      "source": "Google News - 台股",
+      "published_at": "2026-05-17T20:46:41+08:00",
+      "snippet": "周一開盤恐血洗？台股劇震1400點 外資狂砍百萬張 Yahoo新聞",
+      "sentiment_score": 0.0,
+      "sentiment_label": "NEUTRAL",
+      "affected_industries": [],
+      "impact_reason_zh": "報導內容為市場短期波動與外資動向，非特定產業的結構性利多或利空。"
+    },
+    {
+      "id": "19fbbbf97e70cac5",
+      "title": "All in台股提早達標！他想買房卻掙扎「捨不得賣股」 網：這題沒標準答案 - Yahoo股市",
+      "url": "https://news.google.com/rss/articles/CBMimwNBVV95cUxPLW5qa3M0QURRUXJTRUN0WjQ5RGttWFVqbjhmTFJJbFhnczNNS1lQNVY2VmFNc3JXTXBTRm9XZWFNbUtpVlo0Wk5TbjlsMk5IZjlzV2tqWVZiTGhZYXBwUGQxV2xYVk1HQURieEl0UldDaGNCSV85X21pOFFRcHV1QUZoLXY1aDI0WHBJUHRiTnpEakh4MnM2X1JoWWxUNmgxTzVNbEJmZXdOOElrbWluTkl6cHAzN1NIVER4a1dlSV83dGhuUmV5T0FkUHBJNjBJWXBDUzI2bXMxeUt4RjJjMHlzazA5QWIxS2ZsSjA1NU9nRXUzX28yNjVUWEJmSUxZV2RvN1JrLXdTcW1nenpyYnFvaDFmY3ZmWEdYQm9jU3NCOHlhYXkxT05ZcUVaVFJZb214V3Y4ZFpMdUlDV291U3RwUjY0VFd3cWZZRTMxTzJfODJfYWNXY1ZuQ3g1bkVCTHE4alpBQ29BTVloRVN0U2wyUWJpeFlUX1MwRzA1U2tPdlpCTU9jNUZfU3U0NkFXTjNmX2tjQkVBeDA?oc=5",
+      "source": "Google News - 台股",
+      "published_at": "2026-05-17T11:17:45+08:00",
+      "snippet": "All in台股提早達標！他想買房卻掙扎「捨不得賣股」 網：這題沒標準答案 Yahoo股市",
+      "sentiment_score": 0.0,
+      "sentiment_label": "NEUTRAL",
+      "affected_industries": [],
+      "impact_reason_zh": "報導內容為個人投資經驗分享，非特定台股產業的結構性利多或利空。"
+    },
+    {
+      "id": "8b02198b929474bc",
+      "title": "記憶體股暴衝要追嗎？ 資深分析師曝「1重點」：每天都要做 - Yahoo股市",
+      "url": "https://news.google.com/rss/articles/CBMi6AJBVV95cUxQWWFlelBER0hkbTRDNzBiLWwzZWd4UWdwdE5ZSmJrMmdtdjZubG44MWMwbHNMMndhUU9hR3JGaW9FbVdlT2Q0VjNNYTdWS2d6QmNXaDEyeEd4dWRmeWNSTkdrYjJTeVhBU1hhZHVBRm1ILWtuNHc2dThUc2huYnhadG5WelppMW1abUNOVUNLN000VnhPT2s2MWlXRjFRUGRLNHlMRjlnNTNxTTVwSlBxazhFTG1uMy04d1cyYnpFUko4TDZELVFxYW1XNnhRZks3eXQwRG5EUmdvMnBBeHV6bUxsREtzLXIzX29ibTl5VjlZaEFNaW1faE9PcWRRcjhmNXNPMDV4ZW01eENMaWZwWFJTQUhISUNjSl9wNjF1dkZOWlh1RmNBSkt2SDNSUzliTXc3c1BHdU5Hc1ozYWpweG1fNU9aa2poY2xlalNxbmVmM2dLdWNwVl9VTEJqbVhBM2M2dWdGeEc?oc=5",
+      "source": "Google News - 台股",
+      "published_at": "2026-05-17T14:45:00+08:00",
+      "snippet": "記憶體股暴衝要追嗎？ 資深分析師曝「1重點」：每天都要做 Yahoo股市",
+      "sentiment_score": 0.0,
+      "sentiment_label": "NEUTRAL",
+      "affected_industries": [],
+      "impact_reason_zh": "報導內容為特定族群的短期市場表現與投資建議，非產業結構性利多。"
     },
     {
       "id": "0c5b23393bab8625",
@@ -187,10 +186,10 @@
       "source": "Google News - 台股",
       "published_at": "2026-05-17T07:39:00+08:00",
       "snippet": "台股520行情如何選股？「五大信賴產業」名單全曝光- 證券 工商時報",
-      "sentiment_score": 0,
+      "sentiment_score": 0.0,
       "sentiment_label": "NEUTRAL",
       "affected_industries": [],
-      "impact_reason_zh": "報導內容為市場選股策略與推薦產業，非特定產業的結構性利多或利空。"
+      "impact_reason_zh": "報導內容為市場行情選股策略，未明確指出對指定產業的結構性影響。"
     },
     {
       "id": "d76de81e2747c4e7",
@@ -199,10 +198,10 @@
       "source": "Google News - 台股",
       "published_at": "2026-05-17T14:45:00+08:00",
       "snippet": "零股也能當股東！作家分享小資族投資經驗：幾千元就當台灣巴菲特 Yahoo股市",
-      "sentiment_score": 0,
+      "sentiment_score": 0.0,
       "sentiment_label": "NEUTRAL",
       "affected_industries": [],
-      "impact_reason_zh": "報導內容為小資族投資經驗分享，非特定產業的結構性利多或利空。"
+      "impact_reason_zh": "報導內容為個人投資經驗分享，非特定台股產業的結構性利多或利空。"
     },
     {
       "id": "b7e27a87c33fd089",
@@ -211,10 +210,10 @@
       "source": "Google News - 台股",
       "published_at": "2026-05-17T10:00:00+08:00",
       "snippet": "本周台股／川習會結束沒驚喜 台股迎來4萬點保衛戰？ 聯合報數位版",
-      "sentiment_score": 0,
+      "sentiment_score": 0.0,
       "sentiment_label": "NEUTRAL",
       "affected_industries": [],
-      "impact_reason_zh": "報導內容為大盤走勢預測，並提及國際事件影響，非特定產業的結構性利多或利空。"
+      "impact_reason_zh": "報導內容為國際事件對大盤的影響與市場展望，非特定產業的結構性利多或利空。"
     },
     {
       "id": "03f530dcb48e19d6",
@@ -223,10 +222,10 @@
       "source": "Google News - 台股",
       "published_at": "2026-05-17T19:45:00+08:00",
       "snippet": "馬斯克SpaceX上市倒數！外媒曝最快6月12日登納斯達克 台廠概念股噴出 Yahoo股市",
-      "sentiment_score": 0,
+      "sentiment_score": 0.0,
       "sentiment_label": "NEUTRAL",
       "affected_industries": [],
-      "impact_reason_zh": "報導內容為特定公司上市消息與概念股反應，非特定產業的結構性利多或利空。"
+      "impact_reason_zh": "報導內容為特定公司上市消息與概念股短期表現，未明確指出對指定產業的結構性利多。"
     },
     {
       "id": "a5a068e0d916f404",
@@ -235,10 +234,10 @@
       "source": "Google News - 台股",
       "published_at": "2026-05-17T11:25:53+08:00",
       "snippet": "韓股閃崩拖累台股殺盤 法人看多頭格局未變、勿追高殺低 自由時報",
-      "sentiment_score": 0,
+      "sentiment_score": 0.0,
       "sentiment_label": "NEUTRAL",
       "affected_industries": [],
-      "impact_reason_zh": "報導內容為國際股市波動對台股的影響，非特定產業的結構性利多或利空。"
+      "impact_reason_zh": "報導內容為市場短期波動與法人觀點，非特定產業的結構性利多或利空。"
     },
     {
       "id": "0f336ad5c576fdcf",
@@ -247,10 +246,10 @@
       "source": "Google News - 台股",
       "published_at": "2026-05-17T10:37:31+08:00",
       "snippet": "追價意願不足 獲利了結賣壓增 台股周線翻黑 法人：震盪放大早有跡象 經濟日報",
-      "sentiment_score": 0,
+      "sentiment_score": 0.0,
       "sentiment_label": "NEUTRAL",
       "affected_industries": [],
-      "impact_reason_zh": "報導內容為大盤走勢分析，非特定產業的結構性利多或利空。"
+      "impact_reason_zh": "報導內容為市場短期波動與法人觀點，非特定產業的結構性利多或利空。"
     },
     {
       "id": "7b903efb433ba241",
@@ -259,10 +258,10 @@
       "source": "Google News - 台股",
       "published_at": "2026-05-17T15:47:02+08:00",
       "snippet": "台股還能大發「神」威!? 再創多頭新高點嗎!? - 股市BruceLee | 投資網誌 玩股網",
-      "sentiment_score": 0,
+      "sentiment_score": 0.0,
       "sentiment_label": "NEUTRAL",
       "affected_industries": [],
-      "impact_reason_zh": "報導內容為個人對大盤走勢的評論與預測，非特定產業的結構性利多或利空。"
+      "impact_reason_zh": "報導內容為個人投資網誌對大盤的評論，非特定產業的結構性利多或利空。"
     },
     {
       "id": "3c2d7a9544e2703e",
@@ -271,10 +270,10 @@
       "source": "Google News - 台股",
       "published_at": "2026-05-17T10:17:14+08:00",
       "snippet": "川習會後變天！台股周線翻黑、慘跌431點「牛市死了嗎？」小摩二度調價驚吐真相- 上市櫃 旺得富理財網",
-      "sentiment_score": 0,
+      "sentiment_score": 0.0,
       "sentiment_label": "NEUTRAL",
       "affected_industries": [],
-      "impact_reason_zh": "報導內容為國際事件對大盤的影響與市場走勢分析，非特定產業的結構性利多或利空。"
+      "impact_reason_zh": "報導內容為國際事件對大盤的影響與市場展望，非特定產業的結構性利多或利空。"
     },
     {
       "id": "14d648db860f2855",
@@ -289,7 +288,7 @@
         "AI_SERVER",
         "FINANCE"
       ],
-      "impact_reason_zh": "第一季台股獲利主要由AI相關產業貢獻，金融股亦因投資收益表現良好。"
+      "impact_reason_zh": "AI產業為Q1獲利主要驅動力，顯示其結構性成長；金融股亦受惠投資收益。"
     },
     {
       "id": "9efe493cfc888712",
@@ -298,10 +297,10 @@
       "source": "Google News - 台股",
       "published_at": "2026-05-17T15:35:35+08:00",
       "snippet": "【宏觀週報】台股型態面轉弱 宜謹慎-阮慕驊 CMoney投資網誌",
-      "sentiment_score": 0,
+      "sentiment_score": 0.0,
       "sentiment_label": "NEUTRAL",
       "affected_industries": [],
-      "impact_reason_zh": "報導內容為市場分析師對大盤型態的評論，非特定產業的結構性利多或利空。"
+      "impact_reason_zh": "報導內容為市場型態面分析與投資建議，非特定產業的結構性利多或利空。"
     },
     {
       "id": "03f04e11fd575dd2",
@@ -310,10 +309,10 @@
       "source": "Google News - 台股",
       "published_at": "2026-05-17T10:31:00+08:00",
       "snippet": "本周台股最大關鍵520輝達財報- 要聞 工商時報",
-      "sentiment_score": 0,
+      "sentiment_score": 0.0,
       "sentiment_label": "NEUTRAL",
       "affected_industries": [],
-      "impact_reason_zh": "報導內容為市場關注焦點，並未提供特定產業的結構性利多或利空。"
+      "impact_reason_zh": "報導內容為市場對輝達財報的觀望，非特定產業的結構性利多或利空。"
     },
     {
       "id": "68a59834b5da22c3",
@@ -322,24 +321,10 @@
       "source": "Google News - 台股",
       "published_at": "2026-05-17T10:43:32+08:00",
       "snippet": "費半下跌4%.台積電ADR挫3% 周一台股恐承壓| 金融 非凡新聞台",
-      "sentiment_score": -0.6,
-      "sentiment_label": "BEARISH",
-      "affected_industries": [
-        "SEMI"
-      ],
-      "impact_reason_zh": "美股費半指數下跌4%且台積電ADR挫3%，對半導體產業構成短期利空壓力。"
-    },
-    {
-      "id": "cd58a599af3ae82b",
-      "title": "三星罷工害亞洲崩盤？謝晨彥揭背後趨勢：台股衝向6萬 - 東森新聞",
-      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1Uc3huaDZmZ1h2QklNUXZtZFVWRWRLTDNEYVRmVmg1ak0tU05fUmFqT2ZDbHdSRjZ0YUZ0UlJ0YzRRUXp3Y051MDJpb1lYNllObHk4b0R3UQ?oc=5",
-      "source": "Google News - 台股",
-      "published_at": "2026-05-17T21:20:00+08:00",
-      "snippet": "三星罷工害亞洲崩盤？謝晨彥揭背後趨勢：台股衝向6萬 東森新聞",
-      "sentiment_score": 0,
+      "sentiment_score": 0.0,
       "sentiment_label": "NEUTRAL",
       "affected_industries": [],
-      "impact_reason_zh": "新聞內容為市場分析師對大盤的預測與評論，非特定產業的結構性利多或利空。"
+      "impact_reason_zh": "報導內容為市場短期波動與法人觀點，非特定產業的結構性利多或利空。"
     },
     {
       "id": "bad2115911dd444c",
@@ -348,10 +333,22 @@
       "source": "Google News - 台股",
       "published_at": "2026-05-17T16:25:22+08:00",
       "snippet": "台股三大巨獸比一比：安聯台灣科技基金、安聯台灣大壩基金、統一奔騰基金該怎麼選？ CMoney投資網誌",
-      "sentiment_score": 0,
+      "sentiment_score": 0.0,
       "sentiment_label": "NEUTRAL",
       "affected_industries": [],
-      "impact_reason_zh": "報導內容為基金產品比較與選擇，非特定產業的結構性利多或利空。"
+      "impact_reason_zh": "報導內容為基金產品比較與投資建議，非特定台股產業的結構性利多或利空。"
+    },
+    {
+      "id": "cd58a599af3ae82b",
+      "title": "三星罷工害亞洲崩盤？謝晨彥揭背後趨勢：台股衝向6萬 - 東森新聞",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1Uc3huaDZmZ1h2QklNUXZtZFVWRWRLTDNEYVRmVmg1ak0tU05fUmFqT2ZDbHdSRjZ0YUZ0UlJ0YzRRUXp3Y051MDJpb1lYNllObHk4b0R3UQ?oc=5",
+      "source": "Google News - 台股",
+      "published_at": "2026-05-17T21:20:00+08:00",
+      "snippet": "三星罷工害亞洲崩盤？謝晨彥揭背後趨勢：台股衝向6萬 東森新聞",
+      "sentiment_score": 0.0,
+      "sentiment_label": "NEUTRAL",
+      "affected_industries": [],
+      "impact_reason_zh": "新聞內容為市場分析師對大盤的預測與評論，非特定產業的結構性利多或利空。"
     },
     {
       "id": "cb6fb5f9964c5d8d",
@@ -360,10 +357,10 @@
       "source": "Google News - 台股",
       "published_at": "2026-05-17T15:35:00+08:00",
       "snippet": "台股狂飆藏危機？謝金河示警「小心這類股」 東森新聞",
-      "sentiment_score": 0,
+      "sentiment_score": 0.0,
       "sentiment_label": "NEUTRAL",
       "affected_industries": [],
-      "impact_reason_zh": "報導內容為市場分析師對大盤風險的警示，非特定產業的結構性利多或利空。"
+      "impact_reason_zh": "報導內容為市場風險警示與大盤評論，非特定產業的結構性利多或利空。"
     },
     {
       "id": "964c21a41fd8fe44",
@@ -372,10 +369,10 @@
       "source": "Google News - 台股",
       "published_at": "2026-05-17T20:02:00+08:00",
       "snippet": "5飆股5天漲破40%！尚茂連亮15燈「注意1風險」 這檔「營收年增破百」外資連4寵 Yahoo股市",
-      "sentiment_score": 0,
+      "sentiment_score": 0.0,
       "sentiment_label": "NEUTRAL",
       "affected_industries": [],
-      "impact_reason_zh": "報導聚焦於個別公司股價表現與營收成長，非產業結構性利多。"
+      "impact_reason_zh": "報導聚焦個別公司短期股價表現與營收成長，非產業結構性利多。"
     },
     {
       "id": "54b8cb347099969b",
@@ -384,10 +381,10 @@
       "source": "Google News - 台股",
       "published_at": "2026-05-17T15:35:35+08:00",
       "snippet": "【宏觀週報】台股型態面轉弱 宜謹慎 CMoney",
-      "sentiment_score": 0,
+      "sentiment_score": 0.0,
       "sentiment_label": "NEUTRAL",
       "affected_industries": [],
-      "impact_reason_zh": "報導內容為市場分析師對大盤型態的評論，非特定產業的結構性利多或利空。"
+      "impact_reason_zh": "報導內容為市場型態面分析與投資建議，非特定產業的結構性利多或利空。"
     },
     {
       "id": "b4b7d097b50dce72",
@@ -396,7 +393,7 @@
       "source": "Google News - 台股",
       "published_at": "2026-05-17T03:10:00+08:00",
       "snippet": "亞洲崩盤？韓股閃崩引爆台股急殺 謝晨彥曝三星罷工背後驚天陰謀 Yahoo新聞",
-      "sentiment_score": 0,
+      "sentiment_score": 0.0,
       "sentiment_label": "NEUTRAL",
       "affected_industries": [],
       "impact_reason_zh": "新聞內容為市場分析師對大盤的預測與評論，非特定產業的結構性利多或利空。"
@@ -408,10 +405,10 @@
       "source": "Google News - 台股",
       "published_at": "2026-05-17T13:44:02+08:00",
       "snippet": "台股創高後變天　專家：緊盯這條線買股「這樣選」 | 財經 | CTWANT CTWANT",
-      "sentiment_score": 0,
+      "sentiment_score": 0.0,
       "sentiment_label": "NEUTRAL",
       "affected_industries": [],
-      "impact_reason_zh": "報導內容為市場走勢分析與選股建議，非特定產業的結構性利多或利空。"
+      "impact_reason_zh": "報導內容為市場變化與選股建議，非特定產業的結構性利多或利空。"
     },
     {
       "id": "be6d16ac9f0a049e",
@@ -420,10 +417,10 @@
       "source": "Google News - 台股",
       "published_at": "2026-05-17T03:00:00+08:00",
       "snippet": "台股站穩4萬點！5檔主動式ETF狂賺近五成經理人換股名單大公開- 日報 工商時報",
-      "sentiment_score": 0,
+      "sentiment_score": 0.0,
       "sentiment_label": "NEUTRAL",
       "affected_industries": [],
-      "impact_reason_zh": "報導內容為ETF績效與持股資訊，非特定產業的結構性利多或利空。"
+      "impact_reason_zh": "報導內容為ETF績效與持股分析，非特定台股產業的結構性利多或利空。"
     },
     {
       "id": "3623a875c2649f0c",
@@ -432,10 +429,10 @@
       "source": "Google News - 台股",
       "published_at": "2026-05-17T14:00:00+08:00",
       "snippet": "00405A可以買？配息、價格、成分股、上市時間…37歲「鐵帽子王」來頭不小！前10大持股為何沒想買台積電 今周刊",
-      "sentiment_score": 0,
+      "sentiment_score": 0.0,
       "sentiment_label": "NEUTRAL",
       "affected_industries": [],
-      "impact_reason_zh": "報導內容為特定ETF的分析與介紹，非特定產業的結構性利多或利空。"
+      "impact_reason_zh": "報導內容為特定ETF的投資分析，非特定台股產業的結構性利多或利空。"
     },
     {
       "id": "77ae87e111d83937",
@@ -444,10 +441,10 @@
       "source": "Google News - 台股",
       "published_at": "2026-05-17T03:00:00+08:00",
       "snippet": "打敗大盤！15檔台股ETF績效衝破四成主被動強勢爭霸名單曝光- 日報 工商時報",
-      "sentiment_score": 0,
+      "sentiment_score": 0.0,
       "sentiment_label": "NEUTRAL",
       "affected_industries": [],
-      "impact_reason_zh": "報導內容為ETF績效表現，非特定產業的結構性利多或利空。"
+      "impact_reason_zh": "報導內容為ETF績效比較，非特定台股產業的結構性利多或利空。"
     },
     {
       "id": "3115ccf8998b117b",
@@ -475,7 +472,7 @@
       "affected_industries": [
         "AI_SERVER"
       ],
-      "impact_reason_zh": "台廠積極爭奪中小型CSP與ASIC伺服器商機，顯示AI伺服器市場需求成長。"
+      "impact_reason_zh": "報導指出台廠積極爭奪CSP與ASIC伺服器商機，顯示AI伺服器產業需求旺盛且具成長潛力。"
     },
     {
       "id": "a7366a6389087d47",
@@ -484,73 +481,59 @@
       "source": "Google News - 外資評等 / 目標價",
       "published_at": "2026-05-17T19:46:27+08:00",
       "snippet": "聯電(2303)可以買嗎？股價52→118元翻倍、外資2天買超3.3萬張！原來有獲利雙引擎加持，最新目標價曝光 今周刊",
-      "sentiment_score": 0,
+      "sentiment_score": 0.0,
       "sentiment_label": "NEUTRAL",
       "affected_industries": [],
-      "impact_reason_zh": "報導聚焦於個別公司股價與獲利預期，非產業結構性利多。"
-    },
-    {
-      "id": "0ddbbe75810191e3",
-      "title": "經濟部家電補助申請倒數 政策助市場銷售額破1465億 - 經濟日報",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE92WDM5b2VHaVA0M1pYM2pGWUpxMk1TZFZ3eWVLX3c0VGxfamc5R1ZmLS1kdmdrZ0M0SVhJbFNNRF9pQXFORGlLUTBmUXQ5NG45b0UyWF9URG1kZDhaTmlHQlRxMi1sWjFlVzBzMXIwaGxsQWFa0gFfQVVfeXFMTkkzNXZsd1A3WXRmMWtWWGtkcVNhNXFubDdxSXFBRGM4MG93YmotZV9rOWRNd3pmaEVxczBySVhWVFRvV1ljekxkTFlmY2FrY3czYnk4elVsMHNPSlFsT3M?oc=5",
-      "source": "Google News - 經濟部 / 工業局 / 投審會",
-      "published_at": "2026-05-17T19:22:42+08:00",
-      "snippet": "經濟部家電補助申請倒數 政策助市場銷售額破1465億 經濟日報",
-      "sentiment_score": 0,
-      "sentiment_label": "NEUTRAL",
-      "affected_industries": [],
-      "impact_reason_zh": "報導內容為家電市場受政府補助影響，非列出產業的結構性利多或利空。"
+      "impact_reason_zh": "報導聚焦單一公司股價表現與獲利分析，非產業結構性利多。"
     }
   ],
   "recommendations": [
     {
-      "ticker": "2317",
-      "name_zh": "鴻海",
-      "price": 248.5,
-      "industry_code": "AI_SERVER",
-      "industry_name_zh": "AI 伺服器",
-      "news_score": 0.728,
-      "bullish_score": 0.586,
-      "signal_strength": "MODERATE",
-      "trigger_news_ids": [
-        "14d648db860f2855",
-        "3115ccf8998b117b",
-        "9b32b799f1672ed8"
-      ],
-      "reason_zh": "報導指出AI伺服器業務貢獻公司近八成營收並預期三位數成長，顯示AI伺服器產業需求強勁。",
+      "ticker": "2344",
+      "name_zh": "華邦電",
+      "price": 129.5,
+      "industry_code": "GENERAL",
+      "industry_name_zh": "綜合",
+      "news_score": 0.617,
+      "bullish_score": 0.682,
+      "signal_strength": "STRONG",
+      "trigger_news_ids": [],
+      "reason_zh": "",
       "related_industries": [
-        "AI_SERVER"
+        "GENERAL"
       ],
       "chips": {
-        "trust_consec_buy": 1,
-        "foreign_consec_buy": 1,
-        "trust_buy_3d": -287,
-        "foreign_buy_3d": 47043,
-        "chips_score": 0.32,
+        "trust_consec_buy": 9,
+        "foreign_consec_buy": 5,
+        "trust_buy_3d": 50870,
+        "foreign_buy_3d": 44285,
+        "chips_score": 0.83,
         "signals": [
-          "外資投信共振"
+          "投信連買9日",
+          "外資連買5日",
+          "外資投信共振",
+          "投信3日+50,870張"
         ]
       },
       "technical": {
-        "price": 248.5,
-        "ma5": 249.2,
-        "ma10": 246.85,
-        "ma20": 232.93,
-        "ma60": 218.58,
-        "rsi": 69.9,
-        "macd_hist": 1.1516,
-        "vol_ratio": 1.76,
-        "tech_score": 0.8,
+        "price": 129.5,
+        "ma5": 124.9,
+        "ma10": 114.82,
+        "ma20": 102.57,
+        "ma60": 103.75,
+        "rsi": 77.3,
+        "macd_hist": 4.1372,
+        "vol_ratio": 1.45,
+        "tech_score": 0.55,
         "signals": [
           "站穩月線",
           "站穩季線",
-          "多頭排列",
-          "量增 1.8×"
+          "MACD ↑"
         ],
-        "bias_pct": 6.69,
-        "gain_10d": 13.21,
-        "price_position_120d": 92.4,
-        "ma_convergence_pct": 14.01,
+        "bias_pct": 26.26,
+        "gain_10d": 44.21,
+        "price_position_120d": 94.5,
+        "ma_convergence_pct": 21.78,
         "ma5_cross_ma20": false,
         "macd_just_positive": false
       },
@@ -562,29 +545,24 @@
       "price": 110.0,
       "industry_code": "SEMI",
       "industry_name_zh": "半導體",
-      "news_score": 0.211,
-      "bullish_score": 0.558,
+      "news_score": 0.617,
+      "bullish_score": 0.656,
       "signal_strength": "MODERATE",
-      "trigger_news_ids": [
-        "7c7a4b07ab069569",
-        "08181a6ccc0a0235",
-        "68a59834b5da22c3"
-      ],
-      "reason_zh": "美股費半指數大跌4%，對半導體產業構成短期利空壓力。",
+      "trigger_news_ids": [],
+      "reason_zh": "",
       "related_industries": [
         "SEMI"
       ],
       "chips": {
-        "trust_consec_buy": 7,
-        "foreign_consec_buy": 3,
-        "trust_buy_3d": 46591,
-        "foreign_buy_3d": 57815,
-        "chips_score": 0.75,
+        "trust_consec_buy": 8,
+        "foreign_consec_buy": 2,
+        "trust_buy_3d": 62810,
+        "foreign_buy_3d": -12196,
+        "chips_score": 0.69,
         "signals": [
-          "投信連買7日",
-          "外資連買3日",
+          "投信連買8日",
           "外資投信共振",
-          "投信3日+46,591張"
+          "投信3日+62,810張"
         ]
       },
       "technical": {
@@ -618,8 +596,8 @@
       "price": 888.0,
       "industry_code": "GENERAL",
       "industry_name_zh": "綜合",
-      "news_score": 0.211,
-      "bullish_score": 0.529,
+      "news_score": 0.617,
+      "bullish_score": 0.651,
       "signal_strength": "MODERATE",
       "trigger_news_ids": [],
       "reason_zh": "",
@@ -629,8 +607,8 @@
       "chips": {
         "trust_consec_buy": 10,
         "foreign_consec_buy": 1,
-        "trust_buy_3d": 519,
-        "foreign_buy_3d": -181,
+        "trust_buy_3d": 588,
+        "foreign_buy_3d": -896,
         "chips_score": 0.64,
         "signals": [
           "投信連買10日",
@@ -663,115 +641,13 @@
       "rank": 3
     },
     {
-      "ticker": "2344",
-      "name_zh": "華邦電",
-      "price": 129.5,
+      "ticker": "6831",
+      "name_zh": "邁科",
+      "price": 725.0,
       "industry_code": "GENERAL",
       "industry_name_zh": "綜合",
-      "news_score": 0.211,
-      "bullish_score": 0.528,
-      "signal_strength": "MODERATE",
-      "trigger_news_ids": [],
-      "reason_zh": "",
-      "related_industries": [
-        "GENERAL"
-      ],
-      "chips": {
-        "trust_consec_buy": 8,
-        "foreign_consec_buy": 3,
-        "trust_buy_3d": 43671,
-        "foreign_buy_3d": 57551,
-        "chips_score": 0.75,
-        "signals": [
-          "投信連買8日",
-          "外資連買3日",
-          "外資投信共振",
-          "投信3日+43,671張"
-        ]
-      },
-      "technical": {
-        "price": 129.5,
-        "ma5": 124.9,
-        "ma10": 114.82,
-        "ma20": 102.57,
-        "ma60": 103.75,
-        "rsi": 77.3,
-        "macd_hist": 4.1372,
-        "vol_ratio": 1.45,
-        "tech_score": 0.55,
-        "signals": [
-          "站穩月線",
-          "站穩季線",
-          "MACD ↑"
-        ],
-        "bias_pct": 26.26,
-        "gain_10d": 44.21,
-        "price_position_120d": 94.5,
-        "ma_convergence_pct": 21.78,
-        "ma5_cross_ma20": false,
-        "macd_just_positive": false
-      },
-      "rank": 4
-    },
-    {
-      "ticker": "2727",
-      "name_zh": "王品",
-      "price": 236.5,
-      "industry_code": "GENERAL",
-      "industry_name_zh": "綜合",
-      "news_score": 0.211,
-      "bullish_score": 0.526,
-      "signal_strength": "MODERATE",
-      "trigger_news_ids": [],
-      "reason_zh": "",
-      "related_industries": [
-        "GENERAL"
-      ],
-      "chips": {
-        "trust_consec_buy": 3,
-        "foreign_consec_buy": 7,
-        "trust_buy_3d": 112,
-        "foreign_buy_3d": 315,
-        "chips_score": 0.67,
-        "signals": [
-          "投信連買3日",
-          "外資連買7日",
-          "外資投信共振"
-        ]
-      },
-      "technical": {
-        "price": 236.5,
-        "ma5": 236.0,
-        "ma10": 233.45,
-        "ma20": 229.8,
-        "ma60": 226.53,
-        "rsi": 77.1,
-        "macd_hist": 0.8519,
-        "vol_ratio": 0.87,
-        "tech_score": 0.65,
-        "signals": [
-          "站穩月線",
-          "站穩季線",
-          "多頭排列",
-          "MACD ↑"
-        ],
-        "bias_pct": 2.92,
-        "gain_10d": 4.42,
-        "price_position_120d": 98.1,
-        "ma_convergence_pct": 4.18,
-        "ma5_cross_ma20": false,
-        "macd_just_positive": false
-      },
-      "rank": 5
-    },
-    {
-      "ticker": "2049",
-      "name_zh": "上銀",
-      "price": 392.5,
-      "industry_code": "GENERAL",
-      "industry_name_zh": "綜合",
-      "news_score": 0.211,
-      "bullish_score": 0.518,
+      "news_score": 0.617,
+      "bullish_score": 0.64,
       "signal_strength": "MODERATE",
       "trigger_news_ids": [],
       "reason_zh": "",
@@ -781,8 +657,8 @@
       "chips": {
         "trust_consec_buy": 3,
         "foreign_consec_buy": 5,
-        "trust_buy_3d": 1194,
-        "foreign_buy_3d": 4948,
+        "trust_buy_3d": 594,
+        "foreign_buy_3d": 1047,
         "chips_score": 0.65,
         "signals": [
           "投信連買3日",
@@ -791,14 +667,14 @@
         ]
       },
       "technical": {
-        "price": 392.5,
-        "ma5": 370.0,
-        "ma10": 344.25,
-        "ma20": 322.65,
-        "ma60": 266.13,
-        "rsi": 92.7,
-        "macd_hist": 5.9237,
-        "vol_ratio": 1.12,
+        "price": 725.0,
+        "ma5": 671.0,
+        "ma10": 600.8,
+        "ma20": 547.38,
+        "ma60": 409.63,
+        "rsi": 84.8,
+        "macd_hist": 18.6283,
+        "vol_ratio": 0.29,
         "tech_score": 0.65,
         "signals": [
           "站穩月線",
@@ -806,14 +682,14 @@
           "多頭排列",
           "MACD ↑"
         ],
-        "bias_pct": 21.65,
-        "gain_10d": 25.6,
-        "price_position_120d": 100.0,
-        "ma_convergence_pct": 39.03,
+        "bias_pct": 32.45,
+        "gain_10d": 52.79,
+        "price_position_120d": 50.0,
+        "ma_convergence_pct": 63.8,
         "ma5_cross_ma20": false,
         "macd_just_positive": false
       },
-      "rank": 6
+      "rank": 4
     },
     {
       "ticker": "3406",
@@ -821,8 +697,8 @@
       "price": 588.0,
       "industry_code": "GENERAL",
       "industry_name_zh": "綜合",
-      "news_score": 0.211,
-      "bullish_score": 0.515,
+      "news_score": 0.617,
+      "bullish_score": 0.637,
       "signal_strength": "MODERATE",
       "trigger_news_ids": [],
       "reason_zh": "",
@@ -832,8 +708,8 @@
       "chips": {
         "trust_consec_buy": 1,
         "foreign_consec_buy": 3,
-        "trust_buy_3d": -53,
-        "foreign_buy_3d": 1522,
+        "trust_buy_3d": -69,
+        "foreign_buy_3d": 1567,
         "chips_score": 0.38,
         "signals": [
           "外資連買3日",
@@ -863,66 +739,16 @@
         "ma5_cross_ma20": false,
         "macd_just_positive": false
       },
-      "rank": 7
+      "rank": 5
     },
     {
-      "ticker": "2327",
-      "name_zh": "國巨*",
-      "price": 455.5,
-      "industry_code": "PASSIVE",
-      "industry_name_zh": "被動元件",
-      "news_score": 0.211,
-      "bullish_score": 0.486,
-      "signal_strength": "MODERATE",
-      "trigger_news_ids": [],
-      "reason_zh": "",
-      "related_industries": [
-        "PASSIVE"
-      ],
-      "chips": {
-        "trust_consec_buy": 1,
-        "foreign_consec_buy": 1,
-        "trust_buy_3d": 12673,
-        "foreign_buy_3d": -7484,
-        "chips_score": 0.42,
-        "signals": [
-          "外資投信共振",
-          "投信3日+12,673張"
-        ]
-      },
-      "technical": {
-        "price": 455.5,
-        "ma5": 429.7,
-        "ma10": 393.8,
-        "ma20": 353.75,
-        "ma60": 298.71,
-        "rsi": 87.5,
-        "macd_hist": 11.6278,
-        "vol_ratio": 2.08,
-        "tech_score": 0.85,
-        "signals": [
-          "站穩月線",
-          "站穩季線",
-          "多頭排列",
-          "爆量 2.1×"
-        ],
-        "bias_pct": 28.76,
-        "gain_10d": 43.69,
-        "price_position_120d": 97.3,
-        "ma_convergence_pct": 43.85,
-        "ma5_cross_ma20": false,
-        "macd_just_positive": false
-      },
-      "rank": 8
-    },
-    {
-      "ticker": "6789",
-      "name_zh": "采鈺",
-      "price": 587.0,
+      "ticker": "2049",
+      "name_zh": "上銀",
+      "price": 392.5,
       "industry_code": "GENERAL",
       "industry_name_zh": "綜合",
-      "news_score": 0.211,
-      "bullish_score": 0.464,
+      "news_score": 0.617,
+      "bullish_score": 0.636,
       "signal_strength": "MODERATE",
       "trigger_news_ids": [],
       "reason_zh": "",
@@ -930,49 +756,49 @@
         "GENERAL"
       ],
       "chips": {
-        "trust_consec_buy": 8,
-        "foreign_consec_buy": 1,
-        "trust_buy_3d": 19,
-        "foreign_buy_3d": 535,
-        "chips_score": 0.59,
+        "trust_consec_buy": 5,
+        "foreign_consec_buy": 2,
+        "trust_buy_3d": 1184,
+        "foreign_buy_3d": 214,
+        "chips_score": 0.64,
         "signals": [
-          "投信連買8日",
+          "投信連買5日",
           "外資投信共振"
         ]
       },
       "technical": {
-        "price": 587.0,
-        "ma5": 587.4,
-        "ma10": 589.6,
-        "ma20": 556.17,
-        "ma60": 409.18,
-        "rsi": 54.9,
-        "macd_hist": -6.0391,
-        "vol_ratio": 1.39,
-        "tech_score": 0.55,
+        "price": 392.5,
+        "ma5": 370.0,
+        "ma10": 344.25,
+        "ma20": 322.65,
+        "ma60": 266.13,
+        "rsi": 92.7,
+        "macd_hist": 5.9237,
+        "vol_ratio": 1.12,
+        "tech_score": 0.65,
         "signals": [
           "站穩月線",
           "站穩季線",
           "多頭排列",
-          "RSI 55"
+          "MACD ↑"
         ],
-        "bias_pct": 5.54,
-        "gain_10d": 1.91,
-        "price_position_120d": 93.8,
-        "ma_convergence_pct": 44.09,
+        "bias_pct": 21.65,
+        "gain_10d": 25.6,
+        "price_position_120d": 100.0,
+        "ma_convergence_pct": 39.03,
         "ma5_cross_ma20": false,
         "macd_just_positive": false
       },
-      "rank": 9
+      "rank": 6
     },
     {
-      "ticker": "6415",
-      "name_zh": "矽力*-KY",
-      "price": 468.0,
+      "ticker": "1605",
+      "name_zh": "華新",
+      "price": 34.9,
       "industry_code": "GENERAL",
       "industry_name_zh": "綜合",
-      "news_score": 0.211,
-      "bullish_score": 0.463,
+      "news_score": 0.617,
+      "bullish_score": 0.613,
       "signal_strength": "MODERATE",
       "trigger_news_ids": [],
       "reason_zh": "",
@@ -980,39 +806,42 @@
         "GENERAL"
       ],
       "chips": {
-        "trust_consec_buy": 6,
-        "foreign_consec_buy": 0,
-        "trust_buy_3d": 808,
-        "foreign_buy_3d": -128,
-        "chips_score": 0.4,
+        "trust_consec_buy": 4,
+        "foreign_consec_buy": 3,
+        "trust_buy_3d": 3429,
+        "foreign_buy_3d": 11362,
+        "chips_score": 0.62,
         "signals": [
-          "投信連買6日"
+          "投信連買4日",
+          "外資連買3日",
+          "外資投信共振",
+          "投信3日+3,429張"
         ]
       },
       "technical": {
-        "price": 468.0,
-        "ma5": 476.6,
-        "ma10": 452.8,
-        "ma20": 426.35,
-        "ma60": 324.53,
-        "rsi": 57.0,
-        "macd_hist": 2.3637,
-        "vol_ratio": 1.64,
-        "tech_score": 0.8,
+        "price": 34.9,
+        "ma5": 35.04,
+        "ma10": 34.15,
+        "ma20": 32.68,
+        "ma60": 32.69,
+        "rsi": 68.8,
+        "macd_hist": 0.4208,
+        "vol_ratio": 0.69,
+        "tech_score": 0.6,
         "signals": [
           "站穩月線",
           "站穩季線",
-          "多頭排列",
-          "量增 1.6×"
+          "RSI 69",
+          "MACD ↑"
         ],
-        "bias_pct": 9.77,
-        "gain_10d": 9.6,
-        "price_position_120d": 89.2,
-        "ma_convergence_pct": 46.86,
+        "bias_pct": 6.8,
+        "gain_10d": 15.75,
+        "price_position_120d": 41.1,
+        "ma_convergence_pct": 7.23,
         "ma5_cross_ma20": false,
         "macd_just_positive": false
       },
-      "rank": 10
+      "rank": 7
     },
     {
       "ticker": "2542",
@@ -1020,8 +849,8 @@
       "price": 43.75,
       "industry_code": "GENERAL",
       "industry_name_zh": "綜合",
-      "news_score": 0.211,
-      "bullish_score": 0.462,
+      "news_score": 0.617,
+      "bullish_score": 0.608,
       "signal_strength": "MODERATE",
       "trigger_news_ids": [],
       "reason_zh": "",
@@ -1029,13 +858,14 @@
         "GENERAL"
       ],
       "chips": {
-        "trust_consec_buy": 2,
-        "foreign_consec_buy": 6,
-        "trust_buy_3d": 589,
-        "foreign_buy_3d": 14772,
-        "chips_score": 0.51,
+        "trust_consec_buy": 4,
+        "foreign_consec_buy": 3,
+        "trust_buy_3d": 603,
+        "foreign_buy_3d": 12771,
+        "chips_score": 0.57,
         "signals": [
-          "外資連買6日",
+          "投信連買4日",
+          "外資連買3日",
           "外資投信共振"
         ]
       },
@@ -1062,7 +892,57 @@
         "ma5_cross_ma20": false,
         "macd_just_positive": false
       },
-      "rank": 11
+      "rank": 8
+    },
+    {
+      "ticker": "2327",
+      "name_zh": "國巨*",
+      "price": 455.5,
+      "industry_code": "PASSIVE",
+      "industry_name_zh": "被動元件",
+      "news_score": 0.617,
+      "bullish_score": 0.608,
+      "signal_strength": "MODERATE",
+      "trigger_news_ids": [],
+      "reason_zh": "",
+      "related_industries": [
+        "PASSIVE"
+      ],
+      "chips": {
+        "trust_consec_buy": 1,
+        "foreign_consec_buy": 1,
+        "trust_buy_3d": 11926,
+        "foreign_buy_3d": -3397,
+        "chips_score": 0.42,
+        "signals": [
+          "外資投信共振",
+          "投信3日+11,926張"
+        ]
+      },
+      "technical": {
+        "price": 455.5,
+        "ma5": 429.7,
+        "ma10": 393.8,
+        "ma20": 353.75,
+        "ma60": 298.71,
+        "rsi": 87.5,
+        "macd_hist": 11.6278,
+        "vol_ratio": 2.08,
+        "tech_score": 0.85,
+        "signals": [
+          "站穩月線",
+          "站穩季線",
+          "多頭排列",
+          "爆量 2.1×"
+        ],
+        "bias_pct": 28.76,
+        "gain_10d": 43.69,
+        "price_position_120d": 97.3,
+        "ma_convergence_pct": 43.85,
+        "ma5_cross_ma20": false,
+        "macd_just_positive": false
+      },
+      "rank": 9
     },
     {
       "ticker": "3034",
@@ -1070,8 +950,8 @@
       "price": 466.5,
       "industry_code": "GENERAL",
       "industry_name_zh": "綜合",
-      "news_score": 0.211,
-      "bullish_score": 0.457,
+      "news_score": 0.617,
+      "bullish_score": 0.607,
       "signal_strength": "MODERATE",
       "trigger_news_ids": [],
       "reason_zh": "",
@@ -1080,12 +960,12 @@
       ],
       "chips": {
         "trust_consec_buy": 1,
-        "foreign_consec_buy": 6,
-        "trust_buy_3d": 96,
-        "foreign_buy_3d": 6654,
-        "chips_score": 0.46,
+        "foreign_consec_buy": 10,
+        "trust_buy_3d": 213,
+        "foreign_buy_3d": 4328,
+        "chips_score": 0.53,
         "signals": [
-          "外資連買6日",
+          "外資連買10日",
           "外資投信共振"
         ]
       },
@@ -1112,16 +992,16 @@
         "ma5_cross_ma20": false,
         "macd_just_positive": false
       },
-      "rank": 12
+      "rank": 10
     },
     {
-      "ticker": "5269",
-      "name_zh": "祥碩",
-      "price": 1455.0,
+      "ticker": "2412",
+      "name_zh": "中華電",
+      "price": 138.0,
       "industry_code": "GENERAL",
       "industry_name_zh": "綜合",
-      "news_score": 0.211,
-      "bullish_score": 0.443,
+      "news_score": 0.617,
+      "bullish_score": 0.597,
       "signal_strength": "MODERATE",
       "trigger_news_ids": [],
       "reason_zh": "",
@@ -1129,13 +1009,264 @@
         "GENERAL"
       ],
       "chips": {
-        "trust_consec_buy": 6,
+        "trust_consec_buy": 1,
+        "foreign_consec_buy": 3,
+        "trust_buy_3d": 1669,
+        "foreign_buy_3d": 11140,
+        "chips_score": 0.43,
+        "signals": [
+          "外資連買3日",
+          "外資投信共振"
+        ]
+      },
+      "technical": {
+        "price": 138.0,
+        "ma5": 136.8,
+        "ma10": 136.35,
+        "ma20": 136.47,
+        "ma60": 135.52,
+        "rsi": 64.7,
+        "macd_hist": 0.1346,
+        "vol_ratio": 0.77,
+        "tech_score": 0.8,
+        "signals": [
+          "站穩月線",
+          "站穩季線",
+          "多頭排列",
+          "RSI 65"
+        ],
+        "bias_pct": 1.12,
+        "gain_10d": 1.47,
+        "price_position_120d": 100.0,
+        "ma_convergence_pct": 0.95,
+        "ma5_cross_ma20": false,
+        "macd_just_positive": false
+      },
+      "rank": 11
+    },
+    {
+      "ticker": "2727",
+      "name_zh": "王品",
+      "price": 236.5,
+      "industry_code": "GENERAL",
+      "industry_name_zh": "綜合",
+      "news_score": 0.617,
+      "bullish_score": 0.592,
+      "signal_strength": "MODERATE",
+      "trigger_news_ids": [],
+      "reason_zh": "",
+      "related_industries": [
+        "GENERAL"
+      ],
+      "chips": {
+        "trust_consec_buy": 2,
+        "foreign_consec_buy": 8,
+        "trust_buy_3d": 81,
+        "foreign_buy_3d": 389,
+        "chips_score": 0.53,
+        "signals": [
+          "外資連買8日",
+          "外資投信共振"
+        ]
+      },
+      "technical": {
+        "price": 236.5,
+        "ma5": 236.0,
+        "ma10": 233.45,
+        "ma20": 229.8,
+        "ma60": 226.53,
+        "rsi": 77.1,
+        "macd_hist": 0.8519,
+        "vol_ratio": 0.87,
+        "tech_score": 0.65,
+        "signals": [
+          "站穩月線",
+          "站穩季線",
+          "多頭排列",
+          "MACD ↑"
+        ],
+        "bias_pct": 2.92,
+        "gain_10d": 4.42,
+        "price_position_120d": 98.1,
+        "ma_convergence_pct": 4.18,
+        "ma5_cross_ma20": false,
+        "macd_just_positive": false
+      },
+      "rank": 12
+    },
+    {
+      "ticker": "2317",
+      "name_zh": "鴻海",
+      "price": 248.5,
+      "industry_code": "AI_SERVER",
+      "industry_name_zh": "AI 伺服器",
+      "news_score": 0.728,
+      "bullish_score": 0.586,
+      "signal_strength": "MODERATE",
+      "trigger_news_ids": [
+        "14d648db860f2855",
+        "3115ccf8998b117b",
+        "9b32b799f1672ed8"
+      ],
+      "reason_zh": "報導指出AI伺服器業務貢獻公司近八成營收並預期三位數成長，顯示AI伺服器產業需求強勁。",
+      "related_industries": [
+        "AI_SERVER"
+      ],
+      "chips": {
+        "trust_consec_buy": 1,
+        "foreign_consec_buy": 1,
+        "trust_buy_3d": -4464,
+        "foreign_buy_3d": 59204,
+        "chips_score": 0.32,
+        "signals": [
+          "外資投信共振"
+        ]
+      },
+      "technical": {
+        "price": 248.5,
+        "ma5": 249.2,
+        "ma10": 246.85,
+        "ma20": 232.93,
+        "ma60": 218.58,
+        "rsi": 69.9,
+        "macd_hist": 1.1516,
+        "vol_ratio": 1.76,
+        "tech_score": 0.8,
+        "signals": [
+          "站穩月線",
+          "站穩季線",
+          "多頭排列",
+          "量增 1.8×"
+        ],
+        "bias_pct": 6.69,
+        "gain_10d": 13.21,
+        "price_position_120d": 92.4,
+        "ma_convergence_pct": 14.01,
+        "ma5_cross_ma20": false,
+        "macd_just_positive": false
+      },
+      "rank": 13
+    },
+    {
+      "ticker": "6415",
+      "name_zh": "矽力*-KY",
+      "price": 468.0,
+      "industry_code": "GENERAL",
+      "industry_name_zh": "綜合",
+      "news_score": 0.617,
+      "bullish_score": 0.585,
+      "signal_strength": "MODERATE",
+      "trigger_news_ids": [],
+      "reason_zh": "",
+      "related_industries": [
+        "GENERAL"
+      ],
+      "chips": {
+        "trust_consec_buy": 8,
         "foreign_consec_buy": 0,
-        "trust_buy_3d": 112,
-        "foreign_buy_3d": -398,
+        "trust_buy_3d": 516,
+        "foreign_buy_3d": 317,
+        "chips_score": 0.4,
+        "signals": [
+          "投信連買8日"
+        ]
+      },
+      "technical": {
+        "price": 468.0,
+        "ma5": 476.6,
+        "ma10": 452.8,
+        "ma20": 426.35,
+        "ma60": 324.53,
+        "rsi": 57.0,
+        "macd_hist": 2.3637,
+        "vol_ratio": 1.64,
+        "tech_score": 0.8,
+        "signals": [
+          "站穩月線",
+          "站穩季線",
+          "多頭排列",
+          "量增 1.6×"
+        ],
+        "bias_pct": 9.77,
+        "gain_10d": 9.6,
+        "price_position_120d": 89.2,
+        "ma_convergence_pct": 46.86,
+        "ma5_cross_ma20": false,
+        "macd_just_positive": false
+      },
+      "rank": 14
+    },
+    {
+      "ticker": "4571",
+      "name_zh": "鈞興-KY",
+      "price": 211.0,
+      "industry_code": "GENERAL",
+      "industry_name_zh": "綜合",
+      "news_score": 0.617,
+      "bullish_score": 0.585,
+      "signal_strength": "MODERATE",
+      "trigger_news_ids": [],
+      "reason_zh": "",
+      "related_industries": [
+        "GENERAL"
+      ],
+      "chips": {
+        "trust_consec_buy": 0,
+        "foreign_consec_buy": 9,
+        "trust_buy_3d": 0,
+        "foreign_buy_3d": 922,
+        "chips_score": 0.25,
+        "signals": [
+          "外資連買9日"
+        ]
+      },
+      "technical": {
+        "price": 211.0,
+        "ma5": 199.6,
+        "ma10": 197.0,
+        "ma20": 182.45,
+        "ma60": 170.34,
+        "rsi": 69.5,
+        "macd_hist": 2.315,
+        "vol_ratio": 3.13,
+        "tech_score": 1.0,
+        "signals": [
+          "站穩月線",
+          "站穩季線",
+          "多頭排列",
+          "爆量 3.1×"
+        ],
+        "bias_pct": 15.65,
+        "gain_10d": 18.21,
+        "price_position_120d": 100.0,
+        "ma_convergence_pct": 17.18,
+        "ma5_cross_ma20": false,
+        "macd_just_positive": false
+      },
+      "rank": 15
+    },
+    {
+      "ticker": "5269",
+      "name_zh": "祥碩",
+      "price": 1455.0,
+      "industry_code": "GENERAL",
+      "industry_name_zh": "綜合",
+      "news_score": 0.617,
+      "bullish_score": 0.565,
+      "signal_strength": "MODERATE",
+      "trigger_news_ids": [],
+      "reason_zh": "",
+      "related_industries": [
+        "GENERAL"
+      ],
+      "chips": {
+        "trust_consec_buy": 10,
+        "foreign_consec_buy": 0,
+        "trust_buy_3d": 8,
+        "foreign_buy_3d": -1904,
         "chips_score": 0.35,
         "signals": [
-          "投信連買6日"
+          "投信連買10日"
         ]
       },
       "technical": {
@@ -1161,7 +1292,106 @@
         "ma5_cross_ma20": false,
         "macd_just_positive": false
       },
-      "rank": 13
+      "rank": 16
+    },
+    {
+      "ticker": "8210",
+      "name_zh": "勤誠",
+      "price": 1410.0,
+      "industry_code": "GENERAL",
+      "industry_name_zh": "綜合",
+      "news_score": 0.617,
+      "bullish_score": 0.555,
+      "signal_strength": "MODERATE",
+      "trigger_news_ids": [],
+      "reason_zh": "",
+      "related_industries": [
+        "GENERAL"
+      ],
+      "chips": {
+        "trust_consec_buy": 9,
+        "foreign_consec_buy": 0,
+        "trust_buy_3d": 1179,
+        "foreign_buy_3d": -1250,
+        "chips_score": 0.4,
+        "signals": [
+          "投信連買9日"
+        ]
+      },
+      "technical": {
+        "price": 1410.0,
+        "ma5": 1499.0,
+        "ma10": 1394.0,
+        "ma20": 1247.0,
+        "ma60": 1020.47,
+        "rsi": 63.3,
+        "macd_hist": 18.8396,
+        "vol_ratio": 0.4,
+        "tech_score": 0.7,
+        "signals": [
+          "站穩月線",
+          "站穩季線",
+          "多頭排列",
+          "RSI 63"
+        ],
+        "bias_pct": 13.07,
+        "gain_10d": 24.78,
+        "price_position_120d": 80.0,
+        "ma_convergence_pct": 46.89,
+        "ma5_cross_ma20": false,
+        "macd_just_positive": false
+      },
+      "rank": 17
+    },
+    {
+      "ticker": "2481",
+      "name_zh": "強茂",
+      "price": 117.5,
+      "industry_code": "GENERAL",
+      "industry_name_zh": "綜合",
+      "news_score": 0.617,
+      "bullish_score": 0.553,
+      "signal_strength": "MODERATE",
+      "trigger_news_ids": [],
+      "reason_zh": "",
+      "related_industries": [
+        "GENERAL"
+      ],
+      "chips": {
+        "trust_consec_buy": 4,
+        "foreign_consec_buy": 0,
+        "trust_buy_3d": 3180,
+        "foreign_buy_3d": 3940,
+        "chips_score": 0.32,
+        "signals": [
+          "投信連買4日",
+          "投信3日+3,180張"
+        ]
+      },
+      "technical": {
+        "price": 117.5,
+        "ma5": 115.7,
+        "ma10": 108.47,
+        "ma20": 106.54,
+        "ma60": 97.2,
+        "rsi": 68.3,
+        "macd_hist": 1.4649,
+        "vol_ratio": 0.94,
+        "tech_score": 0.8,
+        "signals": [
+          "站穩月線",
+          "站穩季線",
+          "多頭排列",
+          "RSI 68"
+        ],
+        "bias_pct": 10.28,
+        "gain_10d": 16.34,
+        "price_position_120d": 92.3,
+        "ma_convergence_pct": 19.04,
+        "ma5_cross_ma20": false,
+        "macd_just_positive": false
+      },
+      "rank": 18
     },
     {
       "ticker": "6257",
@@ -1169,9 +1399,9 @@
       "price": 217.0,
       "industry_code": "GENERAL",
       "industry_name_zh": "綜合",
-      "news_score": 0.211,
-      "bullish_score": 0.436,
-      "signal_strength": "WEAK",
+      "news_score": 0.617,
+      "bullish_score": 0.538,
+      "signal_strength": "MODERATE",
       "trigger_news_ids": [],
       "reason_zh": "",
       "related_industries": [
@@ -1180,9 +1410,9 @@
       "chips": {
         "trust_consec_buy": 1,
         "foreign_consec_buy": 1,
-        "trust_buy_3d": 773,
-        "foreign_buy_3d": -1205,
-        "chips_score": 0.37,
+        "trust_buy_3d": 165,
+        "foreign_buy_3d": 1448,
+        "chips_score": 0.32,
         "signals": [
           "外資投信共振"
         ]
@@ -1210,253 +1440,6 @@
         "ma5_cross_ma20": false,
         "macd_just_positive": false
       },
-      "rank": 14
-    },
-    {
-      "ticker": "1605",
-      "name_zh": "華新",
-      "price": 34.9,
-      "industry_code": "GENERAL",
-      "industry_name_zh": "綜合",
-      "news_score": 0.211,
-      "bullish_score": 0.435,
-      "signal_strength": "WEAK",
-      "trigger_news_ids": [],
-      "reason_zh": "",
-      "related_industries": [
-        "GENERAL"
-      ],
-      "chips": {
-        "trust_consec_buy": 2,
-        "foreign_consec_buy": 3,
-        "trust_buy_3d": 2275,
-        "foreign_buy_3d": 7805,
-        "chips_score": 0.48,
-        "signals": [
-          "外資連買3日",
-          "外資投信共振",
-          "投信3日+2,275張"
-        ]
-      },
-      "technical": {
-        "price": 34.9,
-        "ma5": 35.04,
-        "ma10": 34.15,
-        "ma20": 32.68,
-        "ma60": 32.69,
-        "rsi": 68.8,
-        "macd_hist": 0.4208,
-        "vol_ratio": 0.69,
-        "tech_score": 0.6,
-        "signals": [
-          "站穩月線",
-          "站穩季線",
-          "RSI 69",
-          "MACD ↑"
-        ],
-        "bias_pct": 6.8,
-        "gain_10d": 15.75,
-        "price_position_120d": 41.1,
-        "ma_convergence_pct": 7.23,
-        "ma5_cross_ma20": false,
-        "macd_just_positive": false
-      },
-      "rank": 15
-    },
-    {
-      "ticker": "8210",
-      "name_zh": "勤誠",
-      "price": 1410.0,
-      "industry_code": "GENERAL",
-      "industry_name_zh": "綜合",
-      "news_score": 0.211,
-      "bullish_score": 0.433,
-      "signal_strength": "WEAK",
-      "trigger_news_ids": [],
-      "reason_zh": "",
-      "related_industries": [
-        "GENERAL"
-      ],
-      "chips": {
-        "trust_consec_buy": 8,
-        "foreign_consec_buy": 0,
-        "trust_buy_3d": 1270,
-        "foreign_buy_3d": -229,
-        "chips_score": 0.4,
-        "signals": [
-          "投信連買8日"
-        ]
-      },
-      "technical": {
-        "price": 1410.0,
-        "ma5": 1499.0,
-        "ma10": 1394.0,
-        "ma20": 1247.0,
-        "ma60": 1020.47,
-        "rsi": 63.3,
-        "macd_hist": 18.8396,
-        "vol_ratio": 0.4,
-        "tech_score": 0.7,
-        "signals": [
-          "站穩月線",
-          "站穩季線",
-          "多頭排列",
-          "RSI 63"
-        ],
-        "bias_pct": 13.07,
-        "gain_10d": 24.78,
-        "price_position_120d": 80.0,
-        "ma_convergence_pct": 46.89,
-        "ma5_cross_ma20": false,
-        "macd_just_positive": false
-      },
-      "rank": 16
-    },
-    {
-      "ticker": "2412",
-      "name_zh": "中華電",
-      "price": 138.0,
-      "industry_code": "GENERAL",
-      "industry_name_zh": "綜合",
-      "news_score": 0.211,
-      "bullish_score": 0.431,
-      "signal_strength": "WEAK",
-      "trigger_news_ids": [],
-      "reason_zh": "",
-      "related_industries": [
-        "GENERAL"
-      ],
-      "chips": {
-        "trust_consec_buy": 1,
-        "foreign_consec_buy": 2,
-        "trust_buy_3d": -50,
-        "foreign_buy_3d": 2689,
-        "chips_score": 0.32,
-        "signals": [
-          "外資投信共振"
-        ]
-      },
-      "technical": {
-        "price": 138.0,
-        "ma5": 136.8,
-        "ma10": 136.35,
-        "ma20": 136.47,
-        "ma60": 135.52,
-        "rsi": 64.7,
-        "macd_hist": 0.1346,
-        "vol_ratio": 0.77,
-        "tech_score": 0.8,
-        "signals": [
-          "站穩月線",
-          "站穩季線",
-          "多頭排列",
-          "RSI 65"
-        ],
-        "bias_pct": 1.12,
-        "gain_10d": 1.47,
-        "price_position_120d": 100.0,
-        "ma_convergence_pct": 0.95,
-        "ma5_cross_ma20": false,
-        "macd_just_positive": false
-      },
-      "rank": 17
-    },
-    {
-      "ticker": "2855",
-      "name_zh": "統一證",
-      "price": 40.8,
-      "industry_code": "GENERAL",
-      "industry_name_zh": "綜合",
-      "news_score": 0.211,
-      "bullish_score": 0.421,
-      "signal_strength": "WEAK",
-      "trigger_news_ids": [],
-      "reason_zh": "",
-      "related_industries": [
-        "GENERAL"
-      ],
-      "chips": {
-        "trust_consec_buy": 1,
-        "foreign_consec_buy": 1,
-        "trust_buy_3d": 503,
-        "foreign_buy_3d": 3218,
-        "chips_score": 0.37,
-        "signals": [
-          "外資投信共振"
-        ]
-      },
-      "technical": {
-        "price": 40.8,
-        "ma5": 41.62,
-        "ma10": 40.35,
-        "ma20": 37.36,
-        "ma60": 33.29,
-        "rsi": 69.8,
-        "macd_hist": 0.2594,
-        "vol_ratio": 0.65,
-        "tech_score": 0.7,
-        "signals": [
-          "站穩月線",
-          "站穩季線",
-          "多頭排列",
-          "RSI 70"
-        ],
-        "bias_pct": 9.22,
-        "gain_10d": 14.61,
-        "price_position_120d": 85.4,
-        "ma_convergence_pct": 25.03,
-        "ma5_cross_ma20": false,
-        "macd_just_positive": false
-      },
-      "rank": 18
-    },
-    {
-      "ticker": "8374",
-      "name_zh": "羅昇",
-      "price": 103.0,
-      "industry_code": "GENERAL",
-      "industry_name_zh": "綜合",
-      "news_score": 0.211,
-      "bullish_score": 0.418,
-      "signal_strength": "WEAK",
-      "trigger_news_ids": [],
-      "reason_zh": "",
-      "related_industries": [
-        "GENERAL"
-      ],
-      "chips": {
-        "trust_consec_buy": 0,
-        "foreign_consec_buy": 7,
-        "trust_buy_3d": 0,
-        "foreign_buy_3d": 733,
-        "chips_score": 0.25,
-        "signals": [
-          "外資連買7日"
-        ]
-      },
-      "technical": {
-        "price": 103.0,
-        "ma5": 93.6,
-        "ma10": 91.42,
-        "ma20": 85.96,
-        "ma60": 79.32,
-        "rsi": 87.5,
-        "macd_hist": 1.2795,
-        "vol_ratio": 5.6,
-        "tech_score": 0.85,
-        "signals": [
-          "站穩月線",
-          "站穩季線",
-          "多頭排列",
-          "爆量 5.6×"
-        ],
-        "bias_pct": 19.82,
-        "gain_10d": 22.18,
-        "price_position_120d": 100.0,
-        "ma_convergence_pct": 18.01,
-        "ma5_cross_ma20": false,
-        "macd_just_positive": false
-      },
       "rank": 19
     },
     {
@@ -1465,23 +1448,23 @@
       "price": 220.5,
       "industry_code": "GENERAL",
       "industry_name_zh": "綜合",
-      "news_score": 0.211,
-      "bullish_score": 0.416,
-      "signal_strength": "WEAK",
+      "news_score": 0.617,
+      "bullish_score": 0.538,
+      "signal_strength": "MODERATE",
       "trigger_news_ids": [],
       "reason_zh": "",
       "related_industries": [
         "GENERAL"
       ],
       "chips": {
-        "trust_consec_buy": 4,
+        "trust_consec_buy": 3,
         "foreign_consec_buy": 0,
-        "trust_buy_3d": 10085,
-        "foreign_buy_3d": -13576,
+        "trust_buy_3d": 6194,
+        "foreign_buy_3d": -7198,
         "chips_score": 0.32,
         "signals": [
-          "投信連買4日",
-          "投信3日+10,085張"
+          "投信連買3日",
+          "投信3日+6,194張"
         ]
       },
       "technical": {
@@ -1510,54 +1493,154 @@
       "rank": 20
     },
     {
-      "ticker": "6831",
-      "name_zh": "邁科",
-      "price": 725.0,
+      "ticker": "1560",
+      "name_zh": "中砂",
+      "price": 642.0,
       "industry_code": "GENERAL",
       "industry_name_zh": "綜合",
-      "news_score": 0.211,
-      "bullish_score": 0.41,
-      "signal_strength": "WEAK",
+      "news_score": 0.617,
+      "bullish_score": 0.534,
+      "signal_strength": "MODERATE",
       "trigger_news_ids": [],
       "reason_zh": "",
       "related_industries": [
         "GENERAL"
       ],
       "chips": {
-        "trust_consec_buy": 2,
-        "foreign_consec_buy": 3,
-        "trust_buy_3d": 330,
-        "foreign_buy_3d": 1276,
-        "chips_score": 0.38,
+        "trust_consec_buy": 4,
+        "foreign_consec_buy": 1,
+        "trust_buy_3d": 40,
+        "foreign_buy_3d": -2970,
+        "chips_score": 0.46,
         "signals": [
-          "外資連買3日",
+          "投信連買4日",
           "外資投信共振"
         ]
       },
       "technical": {
-        "price": 725.0,
-        "ma5": 671.0,
-        "ma10": 600.8,
-        "ma20": 547.38,
-        "ma60": 409.63,
-        "rsi": 84.8,
-        "macd_hist": 18.6283,
-        "vol_ratio": 0.29,
-        "tech_score": 0.65,
+        "price": 642.0,
+        "ma5": 644.4,
+        "ma10": 607.6,
+        "ma20": 569.45,
+        "ma60": 503.81,
+        "rsi": 72.2,
+        "macd_hist": 7.888,
+        "vol_ratio": 0.58,
+        "tech_score": 0.55,
         "signals": [
           "站穩月線",
           "站穩季線",
           "多頭排列",
           "MACD ↑"
         ],
-        "bias_pct": 32.45,
-        "gain_10d": 52.79,
-        "price_position_120d": 50.0,
-        "ma_convergence_pct": 63.8,
+        "bias_pct": 12.74,
+        "gain_10d": 18.89,
+        "price_position_120d": 93.0,
+        "ma_convergence_pct": 27.91,
         "ma5_cross_ma20": false,
         "macd_just_positive": false
       },
       "rank": 21
+    },
+    {
+      "ticker": "6789",
+      "name_zh": "采鈺",
+      "price": 587.0,
+      "industry_code": "GENERAL",
+      "industry_name_zh": "綜合",
+      "news_score": 0.617,
+      "bullish_score": 0.534,
+      "signal_strength": "MODERATE",
+      "trigger_news_ids": [],
+      "reason_zh": "",
+      "related_industries": [
+        "GENERAL"
+      ],
+      "chips": {
+        "trust_consec_buy": 3,
+        "foreign_consec_buy": 1,
+        "trust_buy_3d": 22,
+        "foreign_buy_3d": 250,
+        "chips_score": 0.46,
+        "signals": [
+          "投信連買3日",
+          "外資投信共振"
+        ]
+      },
+      "technical": {
+        "price": 587.0,
+        "ma5": 587.4,
+        "ma10": 589.6,
+        "ma20": 556.17,
+        "ma60": 409.18,
+        "rsi": 54.9,
+        "macd_hist": -6.0391,
+        "vol_ratio": 1.39,
+        "tech_score": 0.55,
+        "signals": [
+          "站穩月線",
+          "站穩季線",
+          "多頭排列",
+          "RSI 55"
+        ],
+        "bias_pct": 5.54,
+        "gain_10d": 1.91,
+        "price_position_120d": 93.8,
+        "ma_convergence_pct": 44.09,
+        "ma5_cross_ma20": false,
+        "macd_just_positive": false
+      },
+      "rank": 22
+    },
+    {
+      "ticker": "7750",
+      "name_zh": "新代",
+      "price": 2555.0,
+      "industry_code": "GENERAL",
+      "industry_name_zh": "綜合",
+      "news_score": 0.617,
+      "bullish_score": 0.534,
+      "signal_strength": "MODERATE",
+      "trigger_news_ids": [],
+      "reason_zh": "",
+      "related_industries": [
+        "GENERAL"
+      ],
+      "chips": {
+        "trust_consec_buy": 4,
+        "foreign_consec_buy": 1,
+        "trust_buy_3d": 7,
+        "foreign_buy_3d": 339,
+        "chips_score": 0.46,
+        "signals": [
+          "投信連買4日",
+          "外資投信共振"
+        ]
+      },
+      "technical": {
+        "price": 2555.0,
+        "ma5": 2786.0,
+        "ma10": 2699.5,
+        "ma20": 2431.0,
+        "ma60": 1695.13,
+        "rsi": 62.5,
+        "macd_hist": -13.0069,
+        "vol_ratio": 1.46,
+        "tech_score": 0.55,
+        "signals": [
+          "站穩月線",
+          "站穩季線",
+          "多頭排列",
+          "RSI 63"
+        ],
+        "bias_pct": 5.1,
+        "gain_10d": -0.78,
+        "price_position_120d": 78.3,
+        "ma_convergence_pct": 64.35,
+        "ma5_cross_ma20": false,
+        "macd_just_positive": false
+      },
+      "rank": 23
     },
     {
       "ticker": "3090",
@@ -1565,9 +1648,9 @@
       "price": 142.0,
       "industry_code": "GENERAL",
       "industry_name_zh": "綜合",
-      "news_score": 0.211,
-      "bullish_score": 0.406,
-      "signal_strength": "WEAK",
+      "news_score": 0.617,
+      "bullish_score": 0.528,
+      "signal_strength": "MODERATE",
       "trigger_news_ids": [],
       "reason_zh": "",
       "related_industries": [
@@ -1576,8 +1659,8 @@
       "chips": {
         "trust_consec_buy": 2,
         "foreign_consec_buy": 1,
-        "trust_buy_3d": 1905,
-        "foreign_buy_3d": 493,
+        "trust_buy_3d": 1880,
+        "foreign_buy_3d": -621,
         "chips_score": 0.37,
         "signals": [
           "外資投信共振"
@@ -1606,17 +1689,17 @@
         "ma5_cross_ma20": false,
         "macd_just_positive": false
       },
-      "rank": 22
+      "rank": 24
     },
     {
-      "ticker": "2356",
-      "name_zh": "英業達",
-      "price": 52.2,
+      "ticker": "2606",
+      "name_zh": "裕民",
+      "price": 62.8,
       "industry_code": "GENERAL",
       "industry_name_zh": "綜合",
-      "news_score": 0.211,
-      "bullish_score": 0.403,
-      "signal_strength": "WEAK",
+      "news_score": 0.617,
+      "bullish_score": 0.525,
+      "signal_strength": "MODERATE",
       "trigger_news_ids": [],
       "reason_zh": "",
       "related_industries": [
@@ -1625,60 +1708,11 @@
       "chips": {
         "trust_consec_buy": 0,
         "foreign_consec_buy": 10,
-        "trust_buy_3d": -274,
-        "foreign_buy_3d": 29283,
+        "trust_buy_3d": -18516,
+        "foreign_buy_3d": 17414,
         "chips_score": 0.25,
         "signals": [
           "外資連買10日"
-        ]
-      },
-      "technical": {
-        "price": 52.2,
-        "ma5": 51.42,
-        "ma10": 49.93,
-        "ma20": 48.32,
-        "ma60": 44.89,
-        "rsi": 64.3,
-        "macd_hist": 0.4505,
-        "vol_ratio": 0.81,
-        "tech_score": 0.8,
-        "signals": [
-          "站穩月線",
-          "站穩季線",
-          "多頭排列",
-          "RSI 64"
-        ],
-        "bias_pct": 8.04,
-        "gain_10d": 13.73,
-        "price_position_120d": 92.4,
-        "ma_convergence_pct": 14.55,
-        "ma5_cross_ma20": false,
-        "macd_just_positive": false
-      },
-      "rank": 23
-    },
-    {
-      "ticker": "2606",
-      "name_zh": "裕民",
-      "price": 62.8,
-      "industry_code": "GENERAL",
-      "industry_name_zh": "綜合",
-      "news_score": 0.211,
-      "bullish_score": 0.403,
-      "signal_strength": "WEAK",
-      "trigger_news_ids": [],
-      "reason_zh": "",
-      "related_industries": [
-        "GENERAL"
-      ],
-      "chips": {
-        "trust_consec_buy": 0,
-        "foreign_consec_buy": 9,
-        "trust_buy_3d": -16063,
-        "foreign_buy_3d": 15154,
-        "chips_score": 0.25,
-        "signals": [
-          "外資連買9日"
         ]
       },
       "technical": {
@@ -1704,7 +1738,7 @@
         "ma5_cross_ma20": false,
         "macd_just_positive": false
       },
-      "rank": 24
+      "rank": 25
     },
     {
       "ticker": "3045",
@@ -1712,9 +1746,9 @@
       "price": 114.5,
       "industry_code": "GENERAL",
       "industry_name_zh": "綜合",
-      "news_score": 0.211,
-      "bullish_score": 0.403,
-      "signal_strength": "WEAK",
+      "news_score": 0.617,
+      "bullish_score": 0.525,
+      "signal_strength": "MODERATE",
       "trigger_news_ids": [],
       "reason_zh": "",
       "related_industries": [
@@ -1722,12 +1756,12 @@
       ],
       "chips": {
         "trust_consec_buy": 0,
-        "foreign_consec_buy": 7,
-        "trust_buy_3d": 125,
-        "foreign_buy_3d": 17281,
+        "foreign_consec_buy": 8,
+        "trust_buy_3d": -158,
+        "foreign_buy_3d": 19869,
         "chips_score": 0.25,
         "signals": [
-          "外資連買7日"
+          "外資連買8日"
         ]
       },
       "technical": {
@@ -1753,7 +1787,105 @@
         "ma5_cross_ma20": true,
         "macd_just_positive": false
       },
-      "rank": 25
+      "rank": 26
+    },
+    {
+      "ticker": "6491",
+      "name_zh": "晶碩",
+      "price": 294.5,
+      "industry_code": "GENERAL",
+      "industry_name_zh": "綜合",
+      "news_score": 0.617,
+      "bullish_score": 0.525,
+      "signal_strength": "MODERATE",
+      "trigger_news_ids": [],
+      "reason_zh": "",
+      "related_industries": [
+        "GENERAL"
+      ],
+      "chips": {
+        "trust_consec_buy": 0,
+        "foreign_consec_buy": 8,
+        "trust_buy_3d": 0,
+        "foreign_buy_3d": 565,
+        "chips_score": 0.25,
+        "signals": [
+          "外資連買8日"
+        ]
+      },
+      "technical": {
+        "price": 294.5,
+        "ma5": 288.4,
+        "ma10": 284.8,
+        "ma20": 284.98,
+        "ma60": 284.98,
+        "rsi": 66.2,
+        "macd_hist": 1.0604,
+        "vol_ratio": 1.88,
+        "tech_score": 0.8,
+        "signals": [
+          "站穩月線",
+          "站穩季線",
+          "量增 1.9×",
+          "RSI 66"
+        ],
+        "bias_pct": 3.34,
+        "gain_10d": 5.37,
+        "price_position_120d": 30.8,
+        "ma_convergence_pct": 1.26,
+        "ma5_cross_ma20": false,
+        "macd_just_positive": false
+      },
+      "rank": 27
+    },
+    {
+      "ticker": "2855",
+      "name_zh": "統一證",
+      "price": 40.8,
+      "industry_code": "GENERAL",
+      "industry_name_zh": "綜合",
+      "news_score": 0.617,
+      "bullish_score": 0.523,
+      "signal_strength": "MODERATE",
+      "trigger_news_ids": [],
+      "reason_zh": "",
+      "related_industries": [
+        "GENERAL"
+      ],
+      "chips": {
+        "trust_consec_buy": 1,
+        "foreign_consec_buy": 1,
+        "trust_buy_3d": 477,
+        "foreign_buy_3d": -2058,
+        "chips_score": 0.32,
+        "signals": [
+          "外資投信共振"
+        ]
+      },
+      "technical": {
+        "price": 40.8,
+        "ma5": 41.62,
+        "ma10": 40.35,
+        "ma20": 37.36,
+        "ma60": 33.29,
+        "rsi": 69.8,
+        "macd_hist": 0.2594,
+        "vol_ratio": 0.65,
+        "tech_score": 0.7,
+        "signals": [
+          "站穩月線",
+          "站穩季線",
+          "多頭排列",
+          "RSI 70"
+        ],
+        "bias_pct": 9.22,
+        "gain_10d": 14.61,
+        "price_position_120d": 85.4,
+        "ma_convergence_pct": 25.03,
+        "ma5_cross_ma20": false,
+        "macd_just_positive": false
+      },
+      "rank": 28
     },
     {
       "ticker": "3004",
@@ -1761,9 +1893,9 @@
       "price": 121.0,
       "industry_code": "GENERAL",
       "industry_name_zh": "綜合",
-      "news_score": 0.211,
-      "bullish_score": 0.401,
-      "signal_strength": "WEAK",
+      "news_score": 0.617,
+      "bullish_score": 0.523,
+      "signal_strength": "MODERATE",
       "trigger_news_ids": [],
       "reason_zh": "",
       "related_industries": [
@@ -1773,7 +1905,7 @@
         "trust_consec_buy": 2,
         "foreign_consec_buy": 2,
         "trust_buy_3d": 45,
-        "foreign_buy_3d": 44,
+        "foreign_buy_3d": 119,
         "chips_score": 0.32,
         "signals": [
           "外資投信共振"
@@ -1802,7 +1934,7 @@
         "ma5_cross_ma20": false,
         "macd_just_positive": false
       },
-      "rank": 26
+      "rank": 29
     },
     {
       "ticker": "6715",
@@ -1810,9 +1942,9 @@
       "price": 479.0,
       "industry_code": "GENERAL",
       "industry_name_zh": "綜合",
-      "news_score": 0.211,
-      "bullish_score": 0.401,
-      "signal_strength": "WEAK",
+      "news_score": 0.617,
+      "bullish_score": 0.523,
+      "signal_strength": "MODERATE",
       "trigger_news_ids": [],
       "reason_zh": "",
       "related_industries": [
@@ -1822,7 +1954,7 @@
         "trust_consec_buy": 2,
         "foreign_consec_buy": 1,
         "trust_buy_3d": 354,
-        "foreign_buy_3d": 642,
+        "foreign_buy_3d": 160,
         "chips_score": 0.32,
         "signals": [
           "外資投信共振"
@@ -1851,152 +1983,6 @@
         "ma5_cross_ma20": false,
         "macd_just_positive": false
       },
-      "rank": 27
-    },
-    {
-      "ticker": "4746",
-      "name_zh": "台耀",
-      "price": 53.8,
-      "industry_code": "GENERAL",
-      "industry_name_zh": "綜合",
-      "news_score": 0.211,
-      "bullish_score": 0.394,
-      "signal_strength": "WEAK",
-      "trigger_news_ids": [],
-      "reason_zh": "",
-      "related_industries": [
-        "GENERAL"
-      ],
-      "chips": {
-        "trust_consec_buy": 10,
-        "foreign_consec_buy": 1,
-        "trust_buy_3d": 535,
-        "foreign_buy_3d": 40,
-        "chips_score": 0.64,
-        "signals": [
-          "投信連買10日",
-          "外資投信共振"
-        ]
-      },
-      "technical": {
-        "price": 53.8,
-        "ma5": 53.96,
-        "ma10": 54.52,
-        "ma20": 53.89,
-        "ma60": 54.28,
-        "rsi": 59.0,
-        "macd_hist": -0.0727,
-        "vol_ratio": 1.37,
-        "tech_score": 0.25,
-        "signals": [
-          "RSI 59"
-        ],
-        "bias_pct": -0.18,
-        "gain_10d": -0.55,
-        "price_position_120d": 21.4,
-        "ma_convergence_pct": 1.16,
-        "ma5_cross_ma20": false,
-        "macd_just_positive": false
-      },
-      "rank": 28
-    },
-    {
-      "ticker": "3028",
-      "name_zh": "增你強",
-      "price": 78.7,
-      "industry_code": "GENERAL",
-      "industry_name_zh": "綜合",
-      "news_score": 0.211,
-      "bullish_score": 0.386,
-      "signal_strength": "WEAK",
-      "trigger_news_ids": [],
-      "reason_zh": "",
-      "related_industries": [
-        "GENERAL"
-      ],
-      "chips": {
-        "trust_consec_buy": 2,
-        "foreign_consec_buy": 2,
-        "trust_buy_3d": 266,
-        "foreign_buy_3d": -1055,
-        "chips_score": 0.32,
-        "signals": [
-          "外資投信共振"
-        ]
-      },
-      "technical": {
-        "price": 78.7,
-        "ma5": 76.22,
-        "ma10": 75.24,
-        "ma20": 70.14,
-        "ma60": 58.83,
-        "rsi": 73.0,
-        "macd_hist": 0.2943,
-        "vol_ratio": 0.8,
-        "tech_score": 0.65,
-        "signals": [
-          "站穩月線",
-          "站穩季線",
-          "多頭排列",
-          "MACD ↑"
-        ],
-        "bias_pct": 12.2,
-        "gain_10d": 15.23,
-        "price_position_120d": 97.5,
-        "ma_convergence_pct": 29.57,
-        "ma5_cross_ma20": false,
-        "macd_just_positive": false
-      },
-      "rank": 29
-    },
-    {
-      "ticker": "6531",
-      "name_zh": "愛普*",
-      "price": 1080.0,
-      "industry_code": "GENERAL",
-      "industry_name_zh": "綜合",
-      "news_score": 0.211,
-      "bullish_score": 0.386,
-      "signal_strength": "WEAK",
-      "trigger_news_ids": [],
-      "reason_zh": "",
-      "related_industries": [
-        "GENERAL"
-      ],
-      "chips": {
-        "trust_consec_buy": 3,
-        "foreign_consec_buy": 0,
-        "trust_buy_3d": 3366,
-        "foreign_buy_3d": -3484,
-        "chips_score": 0.32,
-        "signals": [
-          "投信連買3日",
-          "投信3日+3,366張"
-        ]
-      },
-      "technical": {
-        "price": 1080.0,
-        "ma5": 1037.4,
-        "ma10": 981.1,
-        "ma20": 871.75,
-        "ma60": 610.17,
-        "rsi": 75.5,
-        "macd_hist": 12.8885,
-        "vol_ratio": 1.26,
-        "tech_score": 0.65,
-        "signals": [
-          "站穩月線",
-          "站穩季線",
-          "多頭排列",
-          "MACD ↑"
-        ],
-        "bias_pct": 23.89,
-        "gain_10d": 28.57,
-        "price_position_120d": 100.0,
-        "ma_convergence_pct": 70.02,
-        "ma5_cross_ma20": false,
-        "macd_just_positive": false
-      },
       "rank": 30
     },
     {
@@ -2005,26 +1991,23 @@
       "price": 547.0,
       "industry_code": "SEMI",
       "industry_name_zh": "半導體",
-      "news_score": 0.211,
-      "bullish_score": 0.376,
-      "signal_strength": "WEAK",
-      "trigger_news_ids": [
-        "7c7a4b07ab069569",
-        "08181a6ccc0a0235",
-        "68a59834b5da22c3"
-      ],
-      "reason_zh": "美股費半指數大跌4%，對半導體產業構成短期利空壓力。",
+      "news_score": 0.617,
+      "bullish_score": 0.518,
+      "signal_strength": "MODERATE",
+      "trigger_news_ids": [],
+      "reason_zh": "",
       "related_industries": [
         "SEMI"
       ],
       "chips": {
         "trust_consec_buy": 1,
         "foreign_consec_buy": 1,
-        "trust_buy_3d": 719,
-        "foreign_buy_3d": 1195,
-        "chips_score": 0.37,
+        "trust_buy_3d": 2723,
+        "foreign_buy_3d": -4124,
+        "chips_score": 0.42,
         "signals": [
-          "外資投信共振"
+          "外資投信共振",
+          "投信3日+2,723張"
         ]
       },
       "technical": {
@@ -2053,14 +2036,14 @@
       "rank": 31
     },
     {
-      "ticker": "2027",
-      "name_zh": "大成鋼",
-      "price": 39.85,
+      "ticker": "4904",
+      "name_zh": "遠傳",
+      "price": 98.3,
       "industry_code": "GENERAL",
       "industry_name_zh": "綜合",
-      "news_score": 0.211,
-      "bullish_score": 0.358,
-      "signal_strength": "WEAK",
+      "news_score": 0.617,
+      "bullish_score": 0.517,
+      "signal_strength": "MODERATE",
       "trigger_news_ids": [],
       "reason_zh": "",
       "related_industries": [
@@ -2068,136 +2051,38 @@
       ],
       "chips": {
         "trust_consec_buy": 0,
-        "foreign_consec_buy": 10,
-        "trust_buy_3d": -2940,
-        "foreign_buy_3d": 67675,
-        "chips_score": 0.25,
+        "foreign_consec_buy": 6,
+        "trust_buy_3d": 795,
+        "foreign_buy_3d": 4661,
+        "chips_score": 0.23,
         "signals": [
-          "外資連買10日"
+          "外資連買6日"
         ]
       },
       "technical": {
-        "price": 39.85,
-        "ma5": 39.48,
-        "ma10": 39.0,
-        "ma20": 38.07,
-        "ma60": 37.51,
-        "rsi": 70.1,
-        "macd_hist": 0.1798,
-        "vol_ratio": 1.29,
-        "tech_score": 0.65,
+        "price": 98.3,
+        "ma5": 97.0,
+        "ma10": 96.15,
+        "ma20": 96.08,
+        "ma60": 94.12,
+        "rsi": 56.9,
+        "macd_hist": 0.1893,
+        "vol_ratio": 0.84,
+        "tech_score": 0.8,
         "signals": [
           "站穩月線",
           "站穩季線",
           "多頭排列",
-          "MACD ↑"
+          "RSI 57"
         ],
-        "bias_pct": 4.66,
-        "gain_10d": 5.7,
-        "price_position_120d": 93.5,
-        "ma_convergence_pct": 5.26,
+        "bias_pct": 2.32,
+        "gain_10d": 4.02,
+        "price_position_120d": 100.0,
+        "ma_convergence_pct": 3.06,
         "ma5_cross_ma20": false,
         "macd_just_positive": false
       },
       "rank": 32
-    },
-    {
-      "ticker": "3006",
-      "name_zh": "晶豪科",
-      "price": 251.0,
-      "industry_code": "GENERAL",
-      "industry_name_zh": "綜合",
-      "news_score": 0.211,
-      "bullish_score": 0.358,
-      "signal_strength": "WEAK",
-      "trigger_news_ids": [],
-      "reason_zh": "",
-      "related_industries": [
-        "GENERAL"
-      ],
-      "chips": {
-        "trust_consec_buy": 0,
-        "foreign_consec_buy": 7,
-        "trust_buy_3d": -2,
-        "foreign_buy_3d": 13467,
-        "chips_score": 0.25,
-        "signals": [
-          "外資連買7日"
-        ]
-      },
-      "technical": {
-        "price": 251.0,
-        "ma5": 229.5,
-        "ma10": 210.1,
-        "ma20": 187.0,
-        "ma60": 171.3,
-        "rsi": 83.4,
-        "macd_hist": 7.1305,
-        "vol_ratio": 1.45,
-        "tech_score": 0.65,
-        "signals": [
-          "站穩月線",
-          "站穩季線",
-          "多頭排列",
-          "MACD ↑"
-        ],
-        "bias_pct": 34.22,
-        "gain_10d": 48.08,
-        "price_position_120d": 100.0,
-        "ma_convergence_pct": 33.98,
-        "ma5_cross_ma20": false,
-        "macd_just_positive": false
-      },
-      "rank": 33
-    },
-    {
-      "ticker": "1560",
-      "name_zh": "中砂",
-      "price": 642.0,
-      "industry_code": "GENERAL",
-      "industry_name_zh": "綜合",
-      "news_score": 0.211,
-      "bullish_score": 0.356,
-      "signal_strength": "WEAK",
-      "trigger_news_ids": [],
-      "reason_zh": "",
-      "related_industries": [
-        "GENERAL"
-      ],
-      "chips": {
-        "trust_consec_buy": 2,
-        "foreign_consec_buy": 1,
-        "trust_buy_3d": 34,
-        "foreign_buy_3d": 688,
-        "chips_score": 0.32,
-        "signals": [
-          "外資投信共振"
-        ]
-      },
-      "technical": {
-        "price": 642.0,
-        "ma5": 644.4,
-        "ma10": 607.6,
-        "ma20": 569.45,
-        "ma60": 503.81,
-        "rsi": 72.2,
-        "macd_hist": 7.888,
-        "vol_ratio": 0.58,
-        "tech_score": 0.55,
-        "signals": [
-          "站穩月線",
-          "站穩季線",
-          "多頭排列",
-          "MACD ↑"
-        ],
-        "bias_pct": 12.74,
-        "gain_10d": 18.89,
-        "price_position_120d": 93.0,
-        "ma_convergence_pct": 27.91,
-        "ma5_cross_ma20": false,
-        "macd_just_positive": false
-      },
-      "rank": 34
     },
     {
       "ticker": "2345",
@@ -2205,23 +2090,22 @@
       "price": 2505.0,
       "industry_code": "GENERAL",
       "industry_name_zh": "綜合",
-      "news_score": 0.211,
-      "bullish_score": 0.356,
-      "signal_strength": "WEAK",
+      "news_score": 0.617,
+      "bullish_score": 0.51,
+      "signal_strength": "MODERATE",
       "trigger_news_ids": [],
       "reason_zh": "",
       "related_industries": [
         "GENERAL"
       ],
       "chips": {
-        "trust_consec_buy": 3,
+        "trust_consec_buy": 5,
         "foreign_consec_buy": 0,
-        "trust_buy_3d": 2123,
-        "foreign_buy_3d": 3597,
-        "chips_score": 0.32,
+        "trust_buy_3d": 1601,
+        "foreign_buy_3d": 424,
+        "chips_score": 0.4,
         "signals": [
-          "投信連買3日",
-          "投信3日+2,123張"
+          "投信連買5日"
         ]
       },
       "technical": {
@@ -2247,17 +2131,116 @@
         "ma5_cross_ma20": false,
         "macd_just_positive": false
       },
+      "rank": 33
+    },
+    {
+      "ticker": "2330",
+      "name_zh": "台積電",
+      "price": 2265.0,
+      "industry_code": "SEMI",
+      "industry_name_zh": "半導體",
+      "news_score": 0.617,
+      "bullish_score": 0.508,
+      "signal_strength": "MODERATE",
+      "trigger_news_ids": [],
+      "reason_zh": "",
+      "related_industries": [
+        "SEMI"
+      ],
+      "chips": {
+        "trust_consec_buy": 4,
+        "foreign_consec_buy": 0,
+        "trust_buy_3d": 14714,
+        "foreign_buy_3d": -14770,
+        "chips_score": 0.32,
+        "signals": [
+          "投信連買4日",
+          "投信3日+14,714張"
+        ]
+      },
+      "technical": {
+        "price": 2265.0,
+        "ma5": 2249.0,
+        "ma10": 2262.0,
+        "ma20": 2191.75,
+        "ma60": 1991.88,
+        "rsi": 56.5,
+        "macd_hist": -6.4018,
+        "vol_ratio": 0.85,
+        "tech_score": 0.65,
+        "signals": [
+          "站穩月線",
+          "站穩季線",
+          "多頭排列",
+          "RSI 56"
+        ],
+        "bias_pct": 3.34,
+        "gain_10d": 6.09,
+        "price_position_120d": 95.2,
+        "ma_convergence_pct": 13.56,
+        "ma5_cross_ma20": false,
+        "macd_just_positive": false
+      },
+      "rank": 34
+    },
+    {
+      "ticker": "3028",
+      "name_zh": "增你強",
+      "price": 78.7,
+      "industry_code": "GENERAL",
+      "industry_name_zh": "綜合",
+      "news_score": 0.617,
+      "bullish_score": 0.508,
+      "signal_strength": "MODERATE",
+      "trigger_news_ids": [],
+      "reason_zh": "",
+      "related_industries": [
+        "GENERAL"
+      ],
+      "chips": {
+        "trust_consec_buy": 2,
+        "foreign_consec_buy": 2,
+        "trust_buy_3d": 266,
+        "foreign_buy_3d": 2854,
+        "chips_score": 0.32,
+        "signals": [
+          "外資投信共振"
+        ]
+      },
+      "technical": {
+        "price": 78.7,
+        "ma5": 76.22,
+        "ma10": 75.24,
+        "ma20": 70.14,
+        "ma60": 58.83,
+        "rsi": 73.0,
+        "macd_hist": 0.2943,
+        "vol_ratio": 0.8,
+        "tech_score": 0.65,
+        "signals": [
+          "站穩月線",
+          "站穩季線",
+          "多頭排列",
+          "MACD ↑"
+        ],
+        "bias_pct": 12.2,
+        "gain_10d": 15.23,
+        "price_position_120d": 97.5,
+        "ma_convergence_pct": 29.57,
+        "ma5_cross_ma20": false,
+        "macd_just_positive": false
+      },
       "rank": 35
     },
     {
-      "ticker": "2472",
-      "name_zh": "立隆電",
-      "price": 217.0,
+      "ticker": "6531",
+      "name_zh": "愛普*",
+      "price": 1080.0,
       "industry_code": "GENERAL",
       "industry_name_zh": "綜合",
-      "news_score": 0.211,
-      "bullish_score": 0.356,
-      "signal_strength": "WEAK",
+      "news_score": 0.617,
+      "bullish_score": 0.508,
+      "signal_strength": "MODERATE",
       "trigger_news_ids": [],
       "reason_zh": "",
       "related_industries": [
@@ -2266,87 +2249,234 @@
       "chips": {
         "trust_consec_buy": 3,
         "foreign_consec_buy": 0,
-        "trust_buy_3d": 2027,
-        "foreign_buy_3d": -3847,
+        "trust_buy_3d": 4590,
+        "foreign_buy_3d": -2433,
         "chips_score": 0.32,
         "signals": [
           "投信連買3日",
-          "投信3日+2,027張"
+          "投信3日+4,590張"
         ]
       },
       "technical": {
-        "price": 217.0,
-        "ma5": 226.0,
-        "ma10": 211.2,
-        "ma20": 194.7,
-        "ma60": 149.12,
-        "rsi": 73.5,
-        "macd_hist": 2.252,
-        "vol_ratio": 0.91,
-        "tech_score": 0.55,
+        "price": 1080.0,
+        "ma5": 1037.4,
+        "ma10": 981.1,
+        "ma20": 871.75,
+        "ma60": 610.17,
+        "rsi": 75.5,
+        "macd_hist": 12.8885,
+        "vol_ratio": 1.26,
+        "tech_score": 0.65,
         "signals": [
           "站穩月線",
           "站穩季線",
           "多頭排列",
           "MACD ↑"
         ],
-        "bias_pct": 11.45,
-        "gain_10d": 22.95,
-        "price_position_120d": 87.8,
-        "ma_convergence_pct": 51.55,
+        "bias_pct": 23.89,
+        "gain_10d": 28.57,
+        "price_position_120d": 100.0,
+        "ma_convergence_pct": 70.02,
         "ma5_cross_ma20": false,
         "macd_just_positive": false
       },
       "rank": 36
     },
     {
-      "ticker": "7750",
-      "name_zh": "新代",
-      "price": 2555.0,
+      "ticker": "1216",
+      "name_zh": "統一",
+      "price": 75.7,
       "industry_code": "GENERAL",
       "industry_name_zh": "綜合",
-      "news_score": 0.211,
-      "bullish_score": 0.356,
-      "signal_strength": "WEAK",
+      "news_score": 0.617,
+      "bullish_score": 0.495,
+      "signal_strength": "MODERATE",
       "trigger_news_ids": [],
       "reason_zh": "",
       "related_industries": [
         "GENERAL"
       ],
       "chips": {
-        "trust_consec_buy": 2,
-        "foreign_consec_buy": 1,
-        "trust_buy_3d": 5,
-        "foreign_buy_3d": 284,
-        "chips_score": 0.32,
+        "trust_consec_buy": 0,
+        "foreign_consec_buy": 7,
+        "trust_buy_3d": -1150,
+        "foreign_buy_3d": 26831,
+        "chips_score": 0.25,
         "signals": [
-          "外資投信共振"
+          "外資連買7日"
         ]
       },
       "technical": {
-        "price": 2555.0,
-        "ma5": 2786.0,
-        "ma10": 2699.5,
-        "ma20": 2431.0,
-        "ma60": 1695.13,
-        "rsi": 62.5,
-        "macd_hist": -13.0069,
-        "vol_ratio": 1.46,
-        "tech_score": 0.55,
+        "price": 75.7,
+        "ma5": 74.54,
+        "ma10": 72.27,
+        "ma20": 71.85,
+        "ma60": 71.89,
+        "rsi": 66.2,
+        "macd_hist": 0.6197,
+        "vol_ratio": 0.85,
+        "tech_score": 0.7,
         "signals": [
           "站穩月線",
           "站穩季線",
-          "多頭排列",
-          "RSI 63"
+          "RSI 66",
+          "MACD ↑"
         ],
-        "bias_pct": 5.1,
-        "gain_10d": -0.78,
-        "price_position_120d": 78.3,
-        "ma_convergence_pct": 64.35,
+        "bias_pct": 5.36,
+        "gain_10d": 9.24,
+        "price_position_120d": 59.3,
+        "ma_convergence_pct": 3.74,
         "ma5_cross_ma20": false,
         "macd_just_positive": false
       },
       "rank": 37
+    },
+    {
+      "ticker": "1563",
+      "name_zh": "巧新",
+      "price": 44.75,
+      "industry_code": "GENERAL",
+      "industry_name_zh": "綜合",
+      "news_score": 0.617,
+      "bullish_score": 0.48,
+      "signal_strength": "MODERATE",
+      "trigger_news_ids": [],
+      "reason_zh": "",
+      "related_industries": [
+        "GENERAL"
+      ],
+      "chips": {
+        "trust_consec_buy": 0,
+        "foreign_consec_buy": 8,
+        "trust_buy_3d": 0,
+        "foreign_buy_3d": 1185,
+        "chips_score": 0.25,
+        "signals": [
+          "外資連買8日"
+        ]
+      },
+      "technical": {
+        "price": 44.75,
+        "ma5": 44.43,
+        "ma10": 43.42,
+        "ma20": 42.62,
+        "ma60": 42.46,
+        "rsi": 74.3,
+        "macd_hist": 0.3625,
+        "vol_ratio": 0.84,
+        "tech_score": 0.65,
+        "signals": [
+          "站穩月線",
+          "站穩季線",
+          "多頭排列",
+          "MACD ↑"
+        ],
+        "bias_pct": 5.01,
+        "gain_10d": 7.96,
+        "price_position_120d": 52.8,
+        "ma_convergence_pct": 4.63,
+        "ma5_cross_ma20": false,
+        "macd_just_positive": false
+      },
+      "rank": 38
+    },
+    {
+      "ticker": "2428",
+      "name_zh": "興勤",
+      "price": 206.0,
+      "industry_code": "GENERAL",
+      "industry_name_zh": "綜合",
+      "news_score": 0.617,
+      "bullish_score": 0.48,
+      "signal_strength": "MODERATE",
+      "trigger_news_ids": [],
+      "reason_zh": "",
+      "related_industries": [
+        "GENERAL"
+      ],
+      "chips": {
+        "trust_consec_buy": 0,
+        "foreign_consec_buy": 7,
+        "trust_buy_3d": 0,
+        "foreign_buy_3d": 861,
+        "chips_score": 0.25,
+        "signals": [
+          "外資連買7日"
+        ]
+      },
+      "technical": {
+        "price": 206.0,
+        "ma5": 203.1,
+        "ma10": 194.7,
+        "ma20": 186.57,
+        "ma60": 173.44,
+        "rsi": 77.9,
+        "macd_hist": 2.4705,
+        "vol_ratio": 1.08,
+        "tech_score": 0.65,
+        "signals": [
+          "站穩月線",
+          "站穩季線",
+          "多頭排列",
+          "MACD ↑"
+        ],
+        "bias_pct": 10.41,
+        "gain_10d": 18.39,
+        "price_position_120d": 90.6,
+        "ma_convergence_pct": 17.1,
+        "ma5_cross_ma20": false,
+        "macd_just_positive": false
+      },
+      "rank": 39
+    },
+    {
+      "ticker": "3006",
+      "name_zh": "晶豪科",
+      "price": 251.0,
+      "industry_code": "GENERAL",
+      "industry_name_zh": "綜合",
+      "news_score": 0.617,
+      "bullish_score": 0.48,
+      "signal_strength": "MODERATE",
+      "trigger_news_ids": [],
+      "reason_zh": "",
+      "related_industries": [
+        "GENERAL"
+      ],
+      "chips": {
+        "trust_consec_buy": 0,
+        "foreign_consec_buy": 8,
+        "trust_buy_3d": 12,
+        "foreign_buy_3d": 12579,
+        "chips_score": 0.25,
+        "signals": [
+          "外資連買8日"
+        ]
+      },
+      "technical": {
+        "price": 251.0,
+        "ma5": 229.5,
+        "ma10": 210.1,
+        "ma20": 187.0,
+        "ma60": 171.3,
+        "rsi": 83.4,
+        "macd_hist": 7.1305,
+        "vol_ratio": 1.45,
+        "tech_score": 0.65,
+        "signals": [
+          "站穩月線",
+          "站穩季線",
+          "多頭排列",
+          "MACD ↑"
+        ],
+        "bias_pct": 34.22,
+        "gain_10d": 48.08,
+        "price_position_120d": 100.0,
+        "ma_convergence_pct": 33.98,
+        "ma5_cross_ma20": false,
+        "macd_just_positive": false
+      },
+      "rank": 40
     },
     {
       "ticker": "9939",
@@ -2354,9 +2484,9 @@
       "price": 125.0,
       "industry_code": "GENERAL",
       "industry_name_zh": "綜合",
-      "news_score": 0.211,
-      "bullish_score": 0.356,
-      "signal_strength": "WEAK",
+      "news_score": 0.617,
+      "bullish_score": 0.478,
+      "signal_strength": "MODERATE",
       "trigger_news_ids": [],
       "reason_zh": "",
       "related_industries": [
@@ -2365,8 +2495,8 @@
       "chips": {
         "trust_consec_buy": 2,
         "foreign_consec_buy": 1,
-        "trust_buy_3d": 450,
-        "foreign_buy_3d": 1945,
+        "trust_buy_3d": 399,
+        "foreign_buy_3d": 384,
         "chips_score": 0.32,
         "signals": [
           "外資投信共振"
@@ -2394,7 +2524,55 @@
         "ma5_cross_ma20": false,
         "macd_just_positive": false
       },
-      "rank": 38
+      "rank": 41
+    },
+    {
+      "ticker": "2379",
+      "name_zh": "瑞昱",
+      "price": 536.0,
+      "industry_code": "GENERAL",
+      "industry_name_zh": "綜合",
+      "news_score": 0.617,
+      "bullish_score": 0.474,
+      "signal_strength": "MODERATE",
+      "trigger_news_ids": [],
+      "reason_zh": "",
+      "related_industries": [
+        "GENERAL"
+      ],
+      "chips": {
+        "trust_consec_buy": 1,
+        "foreign_consec_buy": 6,
+        "trust_buy_3d": -52,
+        "foreign_buy_3d": 1651,
+        "chips_score": 0.46,
+        "signals": [
+          "外資連買6日",
+          "外資投信共振"
+        ]
+      },
+      "technical": {
+        "price": 536.0,
+        "ma5": 560.2,
+        "ma10": 553.7,
+        "ma20": 550.45,
+        "ma60": 506.27,
+        "rsi": 49.3,
+        "macd_hist": -1.9631,
+        "vol_ratio": 1.0,
+        "tech_score": 0.35,
+        "signals": [
+          "站穩季線",
+          "多頭排列"
+        ],
+        "bias_pct": -2.63,
+        "gain_10d": -0.19,
+        "price_position_120d": 61.9,
+        "ma_convergence_pct": 10.65,
+        "ma5_cross_ma20": false,
+        "macd_just_positive": false
+      },
+      "rank": 42
     },
     {
       "ticker": "2892",
@@ -2402,9 +2580,9 @@
       "price": 29.3,
       "industry_code": "GENERAL",
       "industry_name_zh": "綜合",
-      "news_score": 0.211,
-      "bullish_score": 0.343,
-      "signal_strength": "WEAK",
+      "news_score": 0.617,
+      "bullish_score": 0.465,
+      "signal_strength": "MODERATE",
       "trigger_news_ids": [],
       "reason_zh": "",
       "related_industries": [
@@ -2412,12 +2590,12 @@
       ],
       "chips": {
         "trust_consec_buy": 0,
-        "foreign_consec_buy": 7,
-        "trust_buy_3d": -768,
-        "foreign_buy_3d": 27136,
+        "foreign_consec_buy": 8,
+        "trust_buy_3d": -274,
+        "foreign_buy_3d": 27526,
         "chips_score": 0.25,
         "signals": [
-          "外資連買7日"
+          "外資連買8日"
         ]
       },
       "technical": {
@@ -2443,17 +2621,17 @@
         "ma5_cross_ma20": false,
         "macd_just_positive": false
       },
-      "rank": 39
+      "rank": 43
     },
     {
-      "ticker": "1809",
-      "name_zh": "中釉",
-      "price": 38.6,
+      "ticker": "1590",
+      "name_zh": "亞德客-KY",
+      "price": 1465.0,
       "industry_code": "GENERAL",
       "industry_name_zh": "綜合",
-      "news_score": 0.211,
-      "bullish_score": 0.328,
-      "signal_strength": "WEAK",
+      "news_score": 0.617,
+      "bullish_score": 0.45,
+      "signal_strength": "MODERATE",
       "trigger_news_ids": [],
       "reason_zh": "",
       "related_industries": [
@@ -2462,11 +2640,60 @@
       "chips": {
         "trust_consec_buy": 0,
         "foreign_consec_buy": 8,
-        "trust_buy_3d": 0,
-        "foreign_buy_3d": 992,
+        "trust_buy_3d": -453,
+        "foreign_buy_3d": 640,
         "chips_score": 0.25,
         "signals": [
           "外資連買8日"
+        ]
+      },
+      "technical": {
+        "price": 1465.0,
+        "ma5": 1499.0,
+        "ma10": 1483.5,
+        "ma20": 1422.75,
+        "ma60": 1193.33,
+        "rsi": 62.4,
+        "macd_hist": -8.4667,
+        "vol_ratio": 1.04,
+        "tech_score": 0.55,
+        "signals": [
+          "站穩月線",
+          "站穩季線",
+          "多頭排列",
+          "RSI 62"
+        ],
+        "bias_pct": 2.97,
+        "gain_10d": 0.69,
+        "price_position_120d": 87.4,
+        "ma_convergence_pct": 25.61,
+        "ma5_cross_ma20": false,
+        "macd_just_positive": false
+      },
+      "rank": 44
+    },
+    {
+      "ticker": "1809",
+      "name_zh": "中釉",
+      "price": 38.6,
+      "industry_code": "GENERAL",
+      "industry_name_zh": "綜合",
+      "news_score": 0.617,
+      "bullish_score": 0.45,
+      "signal_strength": "MODERATE",
+      "trigger_news_ids": [],
+      "reason_zh": "",
+      "related_industries": [
+        "GENERAL"
+      ],
+      "chips": {
+        "trust_consec_buy": 0,
+        "foreign_consec_buy": 9,
+        "trust_buy_3d": 0,
+        "foreign_buy_3d": 279,
+        "chips_score": 0.25,
+        "signals": [
+          "外資連買9日"
         ]
       },
       "technical": {
@@ -2492,17 +2719,17 @@
         "ma5_cross_ma20": false,
         "macd_just_positive": false
       },
-      "rank": 40
+      "rank": 45
     },
     {
-      "ticker": "2395",
-      "name_zh": "研華",
-      "price": 459.5,
+      "ticker": "2455",
+      "name_zh": "全新",
+      "price": 358.5,
       "industry_code": "GENERAL",
       "industry_name_zh": "綜合",
-      "news_score": 0.211,
-      "bullish_score": 0.328,
-      "signal_strength": "WEAK",
+      "news_score": 0.617,
+      "bullish_score": 0.45,
+      "signal_strength": "MODERATE",
       "trigger_news_ids": [],
       "reason_zh": "",
       "related_industries": [
@@ -2510,23 +2737,72 @@
       ],
       "chips": {
         "trust_consec_buy": 0,
-        "foreign_consec_buy": 10,
-        "trust_buy_3d": -12,
-        "foreign_buy_3d": 1383,
+        "foreign_consec_buy": 7,
+        "trust_buy_3d": -4,
+        "foreign_buy_3d": 2631,
         "chips_score": 0.25,
         "signals": [
-          "外資連買10日"
+          "外資連買7日"
         ]
       },
       "technical": {
-        "price": 459.5,
-        "ma5": 472.4,
-        "ma10": 448.35,
-        "ma20": 405.23,
-        "ma60": 357.54,
-        "rsi": 77.5,
-        "macd_hist": 6.5635,
-        "vol_ratio": 0.79,
+        "price": 358.5,
+        "ma5": 365.2,
+        "ma10": 359.45,
+        "ma20": 346.38,
+        "ma60": 273.57,
+        "rsi": 52.9,
+        "macd_hist": -1.7816,
+        "vol_ratio": 0.94,
+        "tech_score": 0.55,
+        "signals": [
+          "站穩月線",
+          "站穩季線",
+          "多頭排列",
+          "RSI 53"
+        ],
+        "bias_pct": 3.5,
+        "gain_10d": 3.17,
+        "price_position_120d": 89.0,
+        "ma_convergence_pct": 33.5,
+        "ma5_cross_ma20": false,
+        "macd_just_positive": false
+      },
+      "rank": 46
+    },
+    {
+      "ticker": "3026",
+      "name_zh": "禾伸堂",
+      "price": 327.0,
+      "industry_code": "GENERAL",
+      "industry_name_zh": "綜合",
+      "news_score": 0.617,
+      "bullish_score": 0.45,
+      "signal_strength": "MODERATE",
+      "trigger_news_ids": [],
+      "reason_zh": "",
+      "related_industries": [
+        "GENERAL"
+      ],
+      "chips": {
+        "trust_consec_buy": 0,
+        "foreign_consec_buy": 9,
+        "trust_buy_3d": -30,
+        "foreign_buy_3d": 1414,
+        "chips_score": 0.25,
+        "signals": [
+          "外資連買9日"
+        ]
+      },
+      "technical": {
+        "price": 327.0,
+        "ma5": 333.8,
+        "ma10": 304.65,
+        "ma20": 267.85,
+        "ma60": 179.1,
+        "rsi": 74.1,
+        "macd_hist": 5.8227,
+        "vol_ratio": 0.21,
         "tech_score": 0.55,
         "signals": [
           "站穩月線",
@@ -2534,14 +2810,14 @@
           "多頭排列",
           "MACD ↑"
         ],
-        "bias_pct": 13.39,
-        "gain_10d": 27.82,
-        "price_position_120d": 84.2,
-        "ma_convergence_pct": 32.12,
+        "bias_pct": 22.08,
+        "gain_10d": 53.88,
+        "price_position_120d": 88.2,
+        "ma_convergence_pct": 86.38,
         "ma5_cross_ma20": false,
         "macd_just_positive": false
       },
-      "rank": 41
+      "rank": 47
     },
     {
       "ticker": "2449",
@@ -2549,9 +2825,9 @@
       "price": 299.5,
       "industry_code": "GENERAL",
       "industry_name_zh": "綜合",
-      "news_score": 0.211,
-      "bullish_score": 0.326,
-      "signal_strength": "WEAK",
+      "news_score": 0.617,
+      "bullish_score": 0.448,
+      "signal_strength": "MODERATE",
       "trigger_news_ids": [],
       "reason_zh": "",
       "related_industries": [
@@ -2560,8 +2836,8 @@
       "chips": {
         "trust_consec_buy": 1,
         "foreign_consec_buy": 1,
-        "trust_buy_3d": -8930,
-        "foreign_buy_3d": -31560,
+        "trust_buy_3d": -1381,
+        "foreign_buy_3d": -18348,
         "chips_score": 0.32,
         "signals": [
           "外資投信共振"
@@ -2589,7 +2865,7 @@
         "ma5_cross_ma20": false,
         "macd_just_positive": false
       },
-      "rank": 42
+      "rank": 48
     },
     {
       "ticker": "4919",
@@ -2597,9 +2873,9 @@
       "price": 154.5,
       "industry_code": "GENERAL",
       "industry_name_zh": "綜合",
-      "news_score": 0.211,
-      "bullish_score": 0.326,
-      "signal_strength": "WEAK",
+      "news_score": 0.617,
+      "bullish_score": 0.448,
+      "signal_strength": "MODERATE",
       "trigger_news_ids": [],
       "reason_zh": "",
       "related_industries": [
@@ -2608,8 +2884,8 @@
       "chips": {
         "trust_consec_buy": 1,
         "foreign_consec_buy": 1,
-        "trust_buy_3d": 5,
-        "foreign_buy_3d": 3586,
+        "trust_buy_3d": 4,
+        "foreign_buy_3d": -1223,
         "chips_score": 0.32,
         "signals": [
           "外資投信共振"
@@ -2637,16 +2913,16 @@
         "ma5_cross_ma20": false,
         "macd_just_positive": false
       },
-      "rank": 43
+      "rank": 49
     },
     {
-      "ticker": "2379",
-      "name_zh": "瑞昱",
-      "price": 536.0,
+      "ticker": "1215",
+      "name_zh": "卜蜂",
+      "price": 140.0,
       "industry_code": "GENERAL",
       "industry_name_zh": "綜合",
-      "news_score": 0.211,
-      "bullish_score": 0.32,
+      "news_score": 0.617,
+      "bullish_score": 0.438,
       "signal_strength": "WEAK",
       "trigger_news_ids": [],
       "reason_zh": "",
@@ -2654,47 +2930,96 @@
         "GENERAL"
       ],
       "chips": {
-        "trust_consec_buy": 1,
-        "foreign_consec_buy": 4,
-        "trust_buy_3d": -189,
-        "foreign_buy_3d": 1884,
-        "chips_score": 0.38,
+        "trust_consec_buy": 3,
+        "foreign_consec_buy": 0,
+        "trust_buy_3d": 440,
+        "foreign_buy_3d": -1283,
+        "chips_score": 0.22,
         "signals": [
-          "外資連買4日",
-          "外資投信共振"
+          "投信連買3日"
         ]
       },
       "technical": {
-        "price": 536.0,
-        "ma5": 560.2,
-        "ma10": 553.7,
-        "ma20": 550.45,
-        "ma60": 506.27,
-        "rsi": 49.3,
-        "macd_hist": -1.9631,
-        "vol_ratio": 1.0,
-        "tech_score": 0.35,
+        "price": 140.0,
+        "ma5": 136.4,
+        "ma10": 137.45,
+        "ma20": 138.97,
+        "ma60": 145.4,
+        "rsi": 50.0,
+        "macd_hist": 0.2532,
+        "vol_ratio": 1.29,
+        "tech_score": 0.55,
         "signals": [
-          "站穩季線",
-          "多頭排列"
+          "站穩月線",
+          "RSI 50",
+          "MACD ↑"
         ],
-        "bias_pct": -2.63,
-        "gain_10d": -0.19,
-        "price_position_120d": 61.9,
-        "ma_convergence_pct": 10.65,
+        "bias_pct": 0.74,
+        "gain_10d": 1.08,
+        "price_position_120d": 26.6,
+        "ma_convergence_pct": 6.6,
+        "ma5_cross_ma20": false,
+        "macd_just_positive": true
+      },
+      "rank": 50
+    },
+    {
+      "ticker": "2467",
+      "name_zh": "志聖",
+      "price": 587.0,
+      "industry_code": "GENERAL",
+      "industry_name_zh": "綜合",
+      "news_score": 0.617,
+      "bullish_score": 0.438,
+      "signal_strength": "WEAK",
+      "trigger_news_ids": [],
+      "reason_zh": "",
+      "related_industries": [
+        "GENERAL"
+      ],
+      "chips": {
+        "trust_consec_buy": 3,
+        "foreign_consec_buy": 0,
+        "trust_buy_3d": 81,
+        "foreign_buy_3d": -487,
+        "chips_score": 0.22,
+        "signals": [
+          "投信連買3日"
+        ]
+      },
+      "technical": {
+        "price": 587.0,
+        "ma5": 612.4,
+        "ma10": 587.1,
+        "ma20": 571.38,
+        "ma60": 447.66,
+        "rsi": 56.1,
+        "macd_hist": -2.0907,
+        "vol_ratio": 0.84,
+        "tech_score": 0.55,
+        "signals": [
+          "站穩月線",
+          "站穩季線",
+          "多頭排列",
+          "RSI 56"
+        ],
+        "bias_pct": 2.73,
+        "gain_10d": -3.61,
+        "price_position_120d": 87.1,
+        "ma_convergence_pct": 36.8,
         "ma5_cross_ma20": false,
         "macd_just_positive": false
       },
-      "rank": 44
+      "rank": 51
     },
     {
-      "ticker": "3026",
-      "name_zh": "禾伸堂",
-      "price": 327.0,
+      "ticker": "2472",
+      "name_zh": "立隆電",
+      "price": 217.0,
       "industry_code": "GENERAL",
       "industry_name_zh": "綜合",
-      "news_score": 0.211,
-      "bullish_score": 0.32,
+      "news_score": 0.617,
+      "bullish_score": 0.438,
       "signal_strength": "WEAK",
       "trigger_news_ids": [],
       "reason_zh": "",
@@ -2702,24 +3027,24 @@
         "GENERAL"
       ],
       "chips": {
-        "trust_consec_buy": 0,
-        "foreign_consec_buy": 6,
-        "trust_buy_3d": 1599,
-        "foreign_buy_3d": 1877,
-        "chips_score": 0.23,
+        "trust_consec_buy": 3,
+        "foreign_consec_buy": 0,
+        "trust_buy_3d": 239,
+        "foreign_buy_3d": -1548,
+        "chips_score": 0.22,
         "signals": [
-          "外資連買6日"
+          "投信連買3日"
         ]
       },
       "technical": {
-        "price": 327.0,
-        "ma5": 333.8,
-        "ma10": 304.65,
-        "ma20": 267.85,
-        "ma60": 179.1,
-        "rsi": 74.1,
-        "macd_hist": 5.8227,
-        "vol_ratio": 0.21,
+        "price": 217.0,
+        "ma5": 226.0,
+        "ma10": 211.2,
+        "ma20": 194.7,
+        "ma60": 149.12,
+        "rsi": 73.5,
+        "macd_hist": 2.252,
+        "vol_ratio": 0.91,
         "tech_score": 0.55,
         "signals": [
           "站穩月線",
@@ -2727,60 +3052,14 @@
           "多頭排列",
           "MACD ↑"
         ],
-        "bias_pct": 22.08,
-        "gain_10d": 53.88,
-        "price_position_120d": 88.2,
-        "ma_convergence_pct": 86.38,
+        "bias_pct": 11.45,
+        "gain_10d": 22.95,
+        "price_position_120d": 87.8,
+        "ma_convergence_pct": 51.55,
         "ma5_cross_ma20": false,
         "macd_just_positive": false
       },
-      "rank": 45
-    },
-    {
-      "ticker": "6139",
-      "name_zh": "亞翔",
-      "price": 693.0,
-      "industry_code": "GENERAL",
-      "industry_name_zh": "綜合",
-      "news_score": 0.211,
-      "bullish_score": 0.293,
-      "signal_strength": "WEAK",
-      "trigger_news_ids": [],
-      "reason_zh": "",
-      "related_industries": [
-        "GENERAL"
-      ],
-      "chips": {
-        "trust_consec_buy": 8,
-        "foreign_consec_buy": 0,
-        "trust_buy_3d": 169,
-        "foreign_buy_3d": -1836,
-        "chips_score": 0.35,
-        "signals": [
-          "投信連買8日"
-        ]
-      },
-      "technical": {
-        "price": 693.0,
-        "ma5": 691.6,
-        "ma10": 699.4,
-        "ma20": 700.95,
-        "ma60": 608.9,
-        "rsi": 47.2,
-        "macd_hist": -4.5121,
-        "vol_ratio": 1.25,
-        "tech_score": 0.3,
-        "signals": [
-          "站穩季線"
-        ],
-        "bias_pct": -1.13,
-        "gain_10d": 3.43,
-        "price_position_120d": 83.0,
-        "ma_convergence_pct": 15.12,
-        "ma5_cross_ma20": false,
-        "macd_just_positive": false
-      },
-      "rank": 46
+      "rank": 52
     },
     {
       "ticker": "2489",
@@ -2788,8 +3067,8 @@
       "price": 40.35,
       "industry_code": "GENERAL",
       "industry_name_zh": "綜合",
-      "news_score": 0.211,
-      "bullish_score": 0.281,
+      "news_score": 0.617,
+      "bullish_score": 0.403,
       "signal_strength": "WEAK",
       "trigger_news_ids": [],
       "reason_zh": "",
@@ -2800,7 +3079,7 @@
         "trust_consec_buy": 1,
         "foreign_consec_buy": 1,
         "trust_buy_3d": 425,
-        "foreign_buy_3d": 1923,
+        "foreign_buy_3d": 1904,
         "chips_score": 0.32,
         "signals": [
           "外資投信共振"
@@ -2827,16 +3106,16 @@
         "ma5_cross_ma20": false,
         "macd_just_positive": false
       },
-      "rank": 47
+      "rank": 53
     },
     {
-      "ticker": "2401",
-      "name_zh": "凌陽",
-      "price": 24.65,
+      "ticker": "3533",
+      "name_zh": "嘉澤",
+      "price": 2330.0,
       "industry_code": "GENERAL",
       "industry_name_zh": "綜合",
-      "news_score": 0.211,
-      "bullish_score": 0.268,
+      "news_score": 0.617,
+      "bullish_score": 0.397,
       "signal_strength": "WEAK",
       "trigger_news_ids": [],
       "reason_zh": "",
@@ -2844,37 +3123,37 @@
         "GENERAL"
       ],
       "chips": {
-        "trust_consec_buy": 0,
-        "foreign_consec_buy": 7,
-        "trust_buy_3d": 13,
-        "foreign_buy_3d": 6499,
-        "chips_score": 0.25,
+        "trust_consec_buy": 1,
+        "foreign_consec_buy": 3,
+        "trust_buy_3d": -1234,
+        "foreign_buy_3d": 1258,
+        "chips_score": 0.38,
         "signals": [
-          "外資連買7日"
+          "外資連買3日",
+          "外資投信共振"
         ]
       },
       "technical": {
-        "price": 24.65,
-        "ma5": 25.21,
-        "ma10": 25.23,
-        "ma20": 24.76,
-        "ma60": 22.33,
-        "rsi": 44.3,
-        "macd_hist": -0.1107,
-        "vol_ratio": 0.58,
-        "tech_score": 0.35,
+        "price": 2330.0,
+        "ma5": 2604.0,
+        "ma10": 2640.5,
+        "ma20": 2621.5,
+        "ma60": 2147.42,
+        "rsi": 44.0,
+        "macd_hist": -55.6229,
+        "vol_ratio": 0.89,
+        "tech_score": 0.2,
         "signals": [
-          "站穩季線",
-          "多頭排列"
+          "站穩季線"
         ],
-        "bias_pct": -0.46,
-        "gain_10d": 2.28,
-        "price_position_120d": 80.6,
-        "ma_convergence_pct": 13.0,
+        "bias_pct": -11.12,
+        "gain_10d": -10.9,
+        "price_position_120d": 69.3,
+        "ma_convergence_pct": 22.96,
         "ma5_cross_ma20": false,
         "macd_just_positive": false
       },
-      "rank": 48
+      "rank": 54
     },
     {
       "ticker": "2476",
@@ -2882,8 +3161,8 @@
       "price": 115.0,
       "industry_code": "GENERAL",
       "industry_name_zh": "綜合",
-      "news_score": 0.211,
-      "bullish_score": 0.266,
+      "news_score": 0.617,
+      "bullish_score": 0.388,
       "signal_strength": "WEAK",
       "trigger_news_ids": [],
       "reason_zh": "",
@@ -2894,7 +3173,7 @@
         "trust_consec_buy": 1,
         "foreign_consec_buy": 1,
         "trust_buy_3d": 180,
-        "foreign_buy_3d": -1361,
+        "foreign_buy_3d": 413,
         "chips_score": 0.32,
         "signals": [
           "外資投信共振"
@@ -2921,16 +3200,16 @@
         "ma5_cross_ma20": false,
         "macd_just_positive": false
       },
-      "rank": 49
+      "rank": 55
     },
     {
-      "ticker": "2313",
-      "name_zh": "華通",
-      "price": 235.5,
+      "ticker": "4746",
+      "name_zh": "台耀",
+      "price": 53.8,
       "industry_code": "GENERAL",
       "industry_name_zh": "綜合",
-      "news_score": 0.211,
-      "bullish_score": 0.261,
+      "news_score": 0.617,
+      "bullish_score": 0.388,
       "signal_strength": "WEAK",
       "trigger_news_ids": [],
       "reason_zh": "",
@@ -2938,306 +3217,32 @@
         "GENERAL"
       ],
       "chips": {
-        "trust_consec_buy": 4,
-        "foreign_consec_buy": 0,
-        "trust_buy_3d": 542,
-        "foreign_buy_3d": -13082,
-        "chips_score": 0.27,
-        "signals": [
-          "投信連買4日"
-        ]
-      },
-      "technical": {
-        "price": 235.5,
-        "ma5": 244.0,
-        "ma10": 251.6,
-        "ma20": 245.8,
-        "ma60": 234.15,
-        "rsi": 55.9,
-        "macd_hist": -2.0825,
-        "vol_ratio": 0.55,
-        "tech_score": 0.3,
-        "signals": [
-          "站穩季線",
-          "RSI 56"
-        ],
-        "bias_pct": -4.19,
-        "gain_10d": -3.68,
-        "price_position_120d": 75.9,
-        "ma_convergence_pct": 7.45,
-        "ma5_cross_ma20": false,
-        "macd_just_positive": false
-      },
-      "rank": 50
-    },
-    {
-      "ticker": "2204",
-      "name_zh": "中華",
-      "price": 52.0,
-      "industry_code": "GENERAL",
-      "industry_name_zh": "綜合",
-      "news_score": 0.211,
-      "bullish_score": 0.253,
-      "signal_strength": "WEAK",
-      "trigger_news_ids": [],
-      "reason_zh": "",
-      "related_industries": [
-        "GENERAL"
-      ],
-      "chips": {
-        "trust_consec_buy": 10,
-        "foreign_consec_buy": 0,
-        "trust_buy_3d": 569,
-        "foreign_buy_3d": -2916,
-        "chips_score": 0.4,
-        "signals": [
-          "投信連買10日"
-        ]
-      },
-      "technical": {
-        "price": 52.0,
-        "ma5": 53.04,
-        "ma10": 53.68,
-        "ma20": 53.81,
-        "ma60": 55.38,
-        "rsi": 40.9,
-        "macd_hist": -0.1482,
-        "vol_ratio": 0.84,
-        "tech_score": 0.1,
-        "signals": [],
-        "bias_pct": -3.35,
-        "gain_10d": -3.88,
-        "price_position_120d": 0.0,
-        "ma_convergence_pct": 4.41,
-        "ma5_cross_ma20": false,
-        "macd_just_positive": false
-      },
-      "rank": 51
-    },
-    {
-      "ticker": "5534",
-      "name_zh": "長虹",
-      "price": 76.3,
-      "industry_code": "GENERAL",
-      "industry_name_zh": "綜合",
-      "news_score": 0.211,
-      "bullish_score": 0.253,
-      "signal_strength": "WEAK",
-      "trigger_news_ids": [],
-      "reason_zh": "",
-      "related_industries": [
-        "GENERAL"
-      ],
-      "chips": {
-        "trust_consec_buy": 10,
-        "foreign_consec_buy": 0,
-        "trust_buy_3d": 506,
-        "foreign_buy_3d": -1223,
-        "chips_score": 0.4,
-        "signals": [
-          "投信連買10日"
-        ]
-      },
-      "technical": {
-        "price": 76.3,
-        "ma5": 77.72,
-        "ma10": 77.87,
-        "ma20": 77.77,
-        "ma60": 77.67,
-        "rsi": 40.6,
-        "macd_hist": -0.1851,
-        "vol_ratio": 0.9,
-        "tech_score": 0.1,
-        "signals": [],
-        "bias_pct": -1.9,
-        "gain_10d": -1.93,
-        "price_position_120d": 19.5,
-        "ma_convergence_pct": 0.25,
-        "ma5_cross_ma20": false,
-        "macd_just_positive": false
-      },
-      "rank": 52
-    },
-    {
-      "ticker": "2887",
-      "name_zh": "台新新光金",
-      "price": 23.8,
-      "industry_code": "GENERAL",
-      "industry_name_zh": "綜合",
-      "news_score": 0.211,
-      "bullish_score": 0.253,
-      "signal_strength": "WEAK",
-      "trigger_news_ids": [],
-      "reason_zh": "",
-      "related_industries": [
-        "GENERAL"
-      ],
-      "chips": {
-        "trust_consec_buy": 0,
-        "foreign_consec_buy": 9,
-        "trust_buy_3d": -120530,
-        "foreign_buy_3d": 113851,
-        "chips_score": 0.25,
-        "signals": [
-          "外資連買9日"
-        ]
-      },
-      "technical": {
-        "price": 23.8,
-        "ma5": 23.3,
-        "ma10": 23.55,
-        "ma20": 23.78,
-        "ma60": 24.22,
-        "rsi": 48.1,
-        "macd_hist": -0.0461,
-        "vol_ratio": 1.02,
-        "tech_score": 0.3,
-        "signals": [
-          "站穩月線"
-        ],
-        "bias_pct": 0.08,
-        "gain_10d": 0.0,
-        "price_position_120d": 76.2,
-        "ma_convergence_pct": 3.93,
-        "ma5_cross_ma20": false,
-        "macd_just_positive": false
-      },
-      "rank": 53
-    },
-    {
-      "ticker": "3665",
-      "name_zh": "貿聯-KY",
-      "price": 2095.0,
-      "industry_code": "GENERAL",
-      "industry_name_zh": "綜合",
-      "news_score": 0.211,
-      "bullish_score": 0.253,
-      "signal_strength": "WEAK",
-      "trigger_news_ids": [],
-      "reason_zh": "",
-      "related_industries": [
-        "GENERAL"
-      ],
-      "chips": {
-        "trust_consec_buy": 0,
-        "foreign_consec_buy": 10,
-        "trust_buy_3d": -4136,
-        "foreign_buy_3d": 3624,
-        "chips_score": 0.25,
-        "signals": [
-          "外資連買10日"
-        ]
-      },
-      "technical": {
-        "price": 2095.0,
-        "ma5": 2505.0,
-        "ma10": 2661.5,
-        "ma20": 2637.5,
-        "ma60": 2038.58,
-        "rsi": 30.2,
-        "macd_hist": -100.8434,
-        "vol_ratio": 3.58,
-        "tech_score": 0.3,
-        "signals": [
-          "站穩季線",
-          "爆量 3.6×"
-        ],
-        "bias_pct": -20.57,
-        "gain_10d": -24.37,
-        "price_position_120d": 49.9,
-        "ma_convergence_pct": 30.56,
-        "ma5_cross_ma20": false,
-        "macd_just_positive": false
-      },
-      "rank": 54
-    },
-    {
-      "ticker": "3533",
-      "name_zh": "嘉澤",
-      "price": 2330.0,
-      "industry_code": "GENERAL",
-      "industry_name_zh": "綜合",
-      "news_score": 0.211,
-      "bullish_score": 0.251,
-      "signal_strength": "WEAK",
-      "trigger_news_ids": [],
-      "reason_zh": "",
-      "related_industries": [
-        "GENERAL"
-      ],
-      "chips": {
-        "trust_consec_buy": 1,
-        "foreign_consec_buy": 2,
-        "trust_buy_3d": -260,
-        "foreign_buy_3d": 202,
+        "trust_consec_buy": 2,
+        "foreign_consec_buy": 1,
+        "trust_buy_3d": 428,
+        "foreign_buy_3d": -738,
         "chips_score": 0.32,
         "signals": [
           "外資投信共振"
         ]
       },
       "technical": {
-        "price": 2330.0,
-        "ma5": 2604.0,
-        "ma10": 2640.5,
-        "ma20": 2621.5,
-        "ma60": 2147.42,
-        "rsi": 44.0,
-        "macd_hist": -55.6229,
-        "vol_ratio": 0.89,
-        "tech_score": 0.2,
+        "price": 53.8,
+        "ma5": 53.96,
+        "ma10": 54.52,
+        "ma20": 53.89,
+        "ma60": 54.28,
+        "rsi": 59.0,
+        "macd_hist": -0.0727,
+        "vol_ratio": 1.37,
+        "tech_score": 0.25,
         "signals": [
-          "站穩季線"
+          "RSI 59"
         ],
-        "bias_pct": -11.12,
-        "gain_10d": -10.9,
-        "price_position_120d": 69.3,
-        "ma_convergence_pct": 22.96,
-        "ma5_cross_ma20": false,
-        "macd_just_positive": false
-      },
-      "rank": 55
-    },
-    {
-      "ticker": "8996",
-      "name_zh": "高力",
-      "price": 1040.0,
-      "industry_code": "GENERAL",
-      "industry_name_zh": "綜合",
-      "news_score": 0.211,
-      "bullish_score": 0.231,
-      "signal_strength": "WEAK",
-      "trigger_news_ids": [],
-      "reason_zh": "",
-      "related_industries": [
-        "GENERAL"
-      ],
-      "chips": {
-        "trust_consec_buy": 3,
-        "foreign_consec_buy": 0,
-        "trust_buy_3d": 849,
-        "foreign_buy_3d": -847,
-        "chips_score": 0.27,
-        "signals": [
-          "投信連買3日"
-        ]
-      },
-      "technical": {
-        "price": 1040.0,
-        "ma5": 1048.0,
-        "ma10": 1093.0,
-        "ma20": 1136.5,
-        "ma60": 974.24,
-        "rsi": 43.7,
-        "macd_hist": -24.8604,
-        "vol_ratio": 0.74,
-        "tech_score": 0.2,
-        "signals": [
-          "站穩季線"
-        ],
-        "bias_pct": -8.49,
-        "gain_10d": -16.8,
-        "price_position_120d": 73.4,
-        "ma_convergence_pct": 16.66,
+        "bias_pct": -0.18,
+        "gain_10d": -0.55,
+        "price_position_120d": 21.4,
+        "ma_convergence_pct": 1.16,
         "ma5_cross_ma20": false,
         "macd_just_positive": false
       },
@@ -3249,8 +3254,8 @@
       "price": 2455.0,
       "industry_code": "GENERAL",
       "industry_name_zh": "綜合",
-      "news_score": 0.211,
-      "bullish_score": 0.201,
+      "news_score": 0.617,
+      "bullish_score": 0.375,
       "signal_strength": "WEAK",
       "trigger_news_ids": [],
       "reason_zh": "",
@@ -3258,13 +3263,13 @@
         "GENERAL"
       ],
       "chips": {
-        "trust_consec_buy": 4,
+        "trust_consec_buy": 6,
         "foreign_consec_buy": 0,
-        "trust_buy_3d": 1080,
-        "foreign_buy_3d": -2023,
-        "chips_score": 0.27,
+        "trust_buy_3d": 1822,
+        "foreign_buy_3d": -1721,
+        "chips_score": 0.4,
         "signals": [
-          "投信連買4日"
+          "投信連買6日"
         ]
       },
       "technical": {
@@ -3290,13 +3295,13 @@
       "rank": 57
     },
     {
-      "ticker": "3031",
-      "name_zh": "佰鴻",
-      "price": 28.95,
+      "ticker": "2887",
+      "name_zh": "台新新光金",
+      "price": 23.8,
       "industry_code": "GENERAL",
       "industry_name_zh": "綜合",
-      "news_score": 0.211,
-      "bullish_score": 0.193,
+      "news_score": 0.617,
+      "bullish_score": 0.375,
       "signal_strength": "WEAK",
       "trigger_news_ids": [],
       "reason_zh": "",
@@ -3305,12 +3310,58 @@
       ],
       "chips": {
         "trust_consec_buy": 0,
-        "foreign_consec_buy": 8,
-        "trust_buy_3d": 0,
-        "foreign_buy_3d": 1095,
+        "foreign_consec_buy": 10,
+        "trust_buy_3d": -127303,
+        "foreign_buy_3d": 162189,
         "chips_score": 0.25,
         "signals": [
-          "外資連買8日"
+          "外資連買10日"
+        ]
+      },
+      "technical": {
+        "price": 23.8,
+        "ma5": 23.3,
+        "ma10": 23.55,
+        "ma20": 23.78,
+        "ma60": 24.22,
+        "rsi": 48.1,
+        "macd_hist": -0.0461,
+        "vol_ratio": 1.02,
+        "tech_score": 0.3,
+        "signals": [
+          "站穩月線"
+        ],
+        "bias_pct": 0.08,
+        "gain_10d": 0.0,
+        "price_position_120d": 76.2,
+        "ma_convergence_pct": 3.93,
+        "ma5_cross_ma20": false,
+        "macd_just_positive": false
+      },
+      "rank": 58
+    },
+    {
+      "ticker": "3031",
+      "name_zh": "佰鴻",
+      "price": 28.95,
+      "industry_code": "GENERAL",
+      "industry_name_zh": "綜合",
+      "news_score": 0.617,
+      "bullish_score": 0.315,
+      "signal_strength": "WEAK",
+      "trigger_news_ids": [],
+      "reason_zh": "",
+      "related_industries": [
+        "GENERAL"
+      ],
+      "chips": {
+        "trust_consec_buy": 0,
+        "foreign_consec_buy": 9,
+        "trust_buy_3d": 0,
+        "foreign_buy_3d": 344,
+        "chips_score": 0.25,
+        "signals": [
+          "外資連買9日"
         ]
       },
       "technical": {
@@ -3333,7 +3384,7 @@
         "ma5_cross_ma20": false,
         "macd_just_positive": false
       },
-      "rank": 58
+      "rank": 59
     },
     {
       "ticker": "2072",
@@ -3341,8 +3392,8 @@
       "price": 180.0,
       "industry_code": "GENERAL",
       "industry_name_zh": "綜合",
-      "news_score": 0.211,
-      "bullish_score": 0.191,
+      "news_score": 0.617,
+      "bullish_score": 0.313,
       "signal_strength": "WEAK",
       "trigger_news_ids": [],
       "reason_zh": "",
@@ -3352,56 +3403,12 @@
       "chips": {
         "trust_consec_buy": 1,
         "foreign_consec_buy": 1,
-        "trust_buy_3d": 60,
-        "foreign_buy_3d": 678,
+        "trust_buy_3d": 50,
+        "foreign_buy_3d": 443,
         "chips_score": 0.32,
         "signals": [
           "外資投信共振"
         ]
-      },
-      "rank": 59
-    },
-    {
-      "ticker": "9907",
-      "name_zh": "統一實",
-      "price": 16.1,
-      "industry_code": "GENERAL",
-      "industry_name_zh": "綜合",
-      "news_score": 0.211,
-      "bullish_score": 0.171,
-      "signal_strength": "WEAK",
-      "trigger_news_ids": [],
-      "reason_zh": "",
-      "related_industries": [
-        "GENERAL"
-      ],
-      "chips": {
-        "trust_consec_buy": 3,
-        "foreign_consec_buy": 0,
-        "trust_buy_3d": 1362,
-        "foreign_buy_3d": -5639,
-        "chips_score": 0.27,
-        "signals": [
-          "投信連買3日"
-        ]
-      },
-      "technical": {
-        "price": 16.1,
-        "ma5": 16.56,
-        "ma10": 16.97,
-        "ma20": 17.39,
-        "ma60": 18.05,
-        "rsi": 11.6,
-        "macd_hist": -0.1334,
-        "vol_ratio": 1.45,
-        "tech_score": 0.0,
-        "signals": [],
-        "bias_pct": -7.42,
-        "gain_10d": -8.26,
-        "price_position_120d": 0.0,
-        "ma_convergence_pct": 9.02,
-        "ma5_cross_ma20": false,
-        "macd_just_positive": false
       },
       "rank": 60
     }
@@ -3413,21 +3420,22 @@
       "price": 53.8,
       "industry_code": "GENERAL",
       "industry_name_zh": "綜合",
-      "news_score": 0.211,
-      "bullish_score": 0.343,
-      "signal_strength": "MODERATE",
+      "news_score": 0.617,
+      "bullish_score": 0.549,
+      "signal_strength": "STRONG",
       "trigger_news_ids": [],
       "reason_zh": "",
       "related_industries": [
         "GENERAL"
       ],
       "chips": {
-        "trust_consec_buy": 10,
+        "trust_consec_buy": 2,
         "foreign_consec_buy": 1,
-        "trust_buy_3d": 535,
-        "foreign_buy_3d": 40,
-        "chips_score": 0.64,
+        "trust_buy_3d": 428,
+        "foreign_buy_3d": -738,
+        "chips_score": 0.32,
         "signals": [
+          "投信連買2日",
           "外資初登場"
         ]
       },
@@ -3454,44 +3462,45 @@
       "rank": 1
     },
     {
-      "ticker": "5534",
-      "name_zh": "長虹",
-      "price": 76.3,
+      "ticker": "6491",
+      "name_zh": "晶碩",
+      "price": 294.5,
       "industry_code": "GENERAL",
       "industry_name_zh": "綜合",
-      "news_score": 0.211,
-      "bullish_score": 0.238,
-      "signal_strength": "WEAK",
+      "news_score": 0.617,
+      "bullish_score": 0.395,
+      "signal_strength": "MODERATE",
       "trigger_news_ids": [],
       "reason_zh": "",
       "related_industries": [
         "GENERAL"
       ],
       "chips": {
-        "trust_consec_buy": 10,
-        "foreign_consec_buy": 0,
-        "trust_buy_3d": 506,
-        "foreign_buy_3d": -1223,
-        "chips_score": 0.4,
+        "trust_consec_buy": 0,
+        "foreign_consec_buy": 8,
+        "trust_buy_3d": 0,
+        "foreign_buy_3d": 565,
+        "chips_score": 0.25,
         "signals": []
       },
       "technical": {
-        "price": 76.3,
-        "ma5": 77.72,
-        "ma10": 77.87,
-        "ma20": 77.77,
-        "ma60": 77.67,
-        "rsi": 40.6,
-        "macd_hist": -0.1851,
-        "vol_ratio": 0.9,
-        "tech_score": 0.1,
+        "price": 294.5,
+        "ma5": 288.4,
+        "ma10": 284.8,
+        "ma20": 284.98,
+        "ma60": 284.98,
+        "rsi": 66.2,
+        "macd_hist": 1.0604,
+        "vol_ratio": 1.88,
+        "tech_score": 0.8,
         "signals": [
-          "均線糾結"
+          "均線糾結",
+          "量增突破1.9×"
         ],
-        "bias_pct": -1.9,
-        "gain_10d": -1.93,
-        "price_position_120d": 19.5,
-        "ma_convergence_pct": 0.25,
+        "bias_pct": 3.34,
+        "gain_10d": 5.37,
+        "price_position_120d": 30.8,
+        "ma_convergence_pct": 1.26,
         "ma5_cross_ma20": false,
         "macd_just_positive": false
       },
@@ -3503,9 +3512,9 @@
       "price": 536.0,
       "industry_code": "GENERAL",
       "industry_name_zh": "綜合",
-      "news_score": 0.211,
-      "bullish_score": 0.238,
-      "signal_strength": "WEAK",
+      "news_score": 0.617,
+      "bullish_score": 0.36,
+      "signal_strength": "MODERATE",
       "trigger_news_ids": [],
       "reason_zh": "",
       "related_industries": [
@@ -3513,10 +3522,10 @@
       ],
       "chips": {
         "trust_consec_buy": 1,
-        "foreign_consec_buy": 4,
-        "trust_buy_3d": -189,
-        "foreign_buy_3d": 1884,
-        "chips_score": 0.38,
+        "foreign_consec_buy": 6,
+        "trust_buy_3d": -52,
+        "foreign_buy_3d": 1651,
+        "chips_score": 0.46,
         "signals": [
           "投信初登場"
         ]
@@ -3542,46 +3551,46 @@
       "rank": 3
     },
     {
-      "ticker": "1605",
-      "name_zh": "華新",
-      "price": 34.9,
+      "ticker": "1215",
+      "name_zh": "卜蜂",
+      "price": 140.0,
       "industry_code": "GENERAL",
       "industry_name_zh": "綜合",
-      "news_score": 0.211,
-      "bullish_score": 0.147,
-      "signal_strength": "WEAK",
+      "news_score": 0.617,
+      "bullish_score": 0.325,
+      "signal_strength": "MODERATE",
       "trigger_news_ids": [],
       "reason_zh": "",
       "related_industries": [
         "GENERAL"
       ],
       "chips": {
-        "trust_consec_buy": 2,
-        "foreign_consec_buy": 3,
-        "trust_buy_3d": 2275,
-        "foreign_buy_3d": 7805,
-        "chips_score": 0.48,
-        "signals": [
-          "投信連買2日"
-        ]
+        "trust_consec_buy": 3,
+        "foreign_consec_buy": 0,
+        "trust_buy_3d": 440,
+        "foreign_buy_3d": -1283,
+        "chips_score": 0.22,
+        "signals": []
       },
       "technical": {
-        "price": 34.9,
-        "ma5": 35.04,
-        "ma10": 34.15,
-        "ma20": 32.68,
-        "ma60": 32.69,
-        "rsi": 68.8,
-        "macd_hist": 0.4208,
-        "vol_ratio": 0.69,
-        "tech_score": 0.6,
-        "signals": [],
-        "bias_pct": 6.8,
-        "gain_10d": 15.75,
-        "price_position_120d": 41.1,
-        "ma_convergence_pct": 7.23,
+        "price": 140.0,
+        "ma5": 136.4,
+        "ma10": 137.45,
+        "ma20": 138.97,
+        "ma60": 145.4,
+        "rsi": 50.0,
+        "macd_hist": 0.2532,
+        "vol_ratio": 1.29,
+        "tech_score": 0.55,
+        "signals": [
+          "MACD轉多"
+        ],
+        "bias_pct": 0.74,
+        "gain_10d": 1.08,
+        "price_position_120d": 26.6,
+        "ma_convergence_pct": 6.6,
         "ma5_cross_ma20": false,
-        "macd_just_positive": false
+        "macd_just_positive": true
       },
       "rank": 4
     },
@@ -3591,8 +3600,8 @@
       "price": 62.8,
       "industry_code": "GENERAL",
       "industry_name_zh": "綜合",
-      "news_score": 0.211,
-      "bullish_score": 0.147,
+      "news_score": 0.617,
+      "bullish_score": 0.269,
       "signal_strength": "WEAK",
       "trigger_news_ids": [],
       "reason_zh": "",
@@ -3601,9 +3610,9 @@
       ],
       "chips": {
         "trust_consec_buy": 0,
-        "foreign_consec_buy": 9,
-        "trust_buy_3d": -16063,
-        "foreign_buy_3d": 15154,
+        "foreign_consec_buy": 10,
+        "trust_buy_3d": -18516,
+        "foreign_buy_3d": 17414,
         "chips_score": 0.25,
         "signals": []
       },
@@ -3628,90 +3637,6 @@
         "macd_just_positive": false
       },
       "rank": 5
-    },
-    {
-      "ticker": "2204",
-      "name_zh": "中華",
-      "price": 52.0,
-      "industry_code": "GENERAL",
-      "industry_name_zh": "綜合",
-      "news_score": 0.211,
-      "bullish_score": 0.098,
-      "signal_strength": "WEAK",
-      "trigger_news_ids": [],
-      "reason_zh": "",
-      "related_industries": [
-        "GENERAL"
-      ],
-      "chips": {
-        "trust_consec_buy": 10,
-        "foreign_consec_buy": 0,
-        "trust_buy_3d": 569,
-        "foreign_buy_3d": -2916,
-        "chips_score": 0.4,
-        "signals": []
-      },
-      "technical": {
-        "price": 52.0,
-        "ma5": 53.04,
-        "ma10": 53.68,
-        "ma20": 53.81,
-        "ma60": 55.38,
-        "rsi": 40.9,
-        "macd_hist": -0.1482,
-        "vol_ratio": 0.84,
-        "tech_score": 0.1,
-        "signals": [],
-        "bias_pct": -3.35,
-        "gain_10d": -3.88,
-        "price_position_120d": 0.0,
-        "ma_convergence_pct": 4.41,
-        "ma5_cross_ma20": false,
-        "macd_just_positive": false
-      },
-      "rank": 6
-    },
-    {
-      "ticker": "9907",
-      "name_zh": "統一實",
-      "price": 16.1,
-      "industry_code": "GENERAL",
-      "industry_name_zh": "綜合",
-      "news_score": 0.211,
-      "bullish_score": 0.077,
-      "signal_strength": "WEAK",
-      "trigger_news_ids": [],
-      "reason_zh": "",
-      "related_industries": [
-        "GENERAL"
-      ],
-      "chips": {
-        "trust_consec_buy": 3,
-        "foreign_consec_buy": 0,
-        "trust_buy_3d": 1362,
-        "foreign_buy_3d": -5639,
-        "chips_score": 0.27,
-        "signals": []
-      },
-      "technical": {
-        "price": 16.1,
-        "ma5": 16.56,
-        "ma10": 16.97,
-        "ma20": 17.39,
-        "ma60": 18.05,
-        "rsi": 11.6,
-        "macd_hist": -0.1334,
-        "vol_ratio": 1.45,
-        "tech_score": 0.0,
-        "signals": [],
-        "bias_pct": -7.42,
-        "gain_10d": -8.26,
-        "price_position_120d": 0.0,
-        "ma_convergence_pct": 9.02,
-        "ma5_cross_ma20": false,
-        "macd_just_positive": false
-      },
-      "rank": 7
     }
   ],
   "meta": {
@@ -3721,7 +3646,7 @@
     "total_news_analyzed": 37,
     "rss_sources_count": 15,
     "tickers_with_technicals": 59,
-    "elapsed_seconds": 103.1,
+    "elapsed_seconds": 101.7,
     "total_stocks_scanned": 1237,
     "chips_candidates": 60
   }
