@@ -32,17 +32,31 @@ export interface News {
   impact_reason_zh: string
 }
 
+export interface TechnicalData {
+  price: number
+  ma5: number
+  ma20: number
+  ma60: number
+  rsi: number
+  macd_hist: number
+  vol_ratio: number
+  tech_score: number
+  signals: string[]
+}
+
 export interface Recommendation {
   rank: number
   ticker: string
   name_zh: string
   industry_code: string
   industry_name_zh?: string
+  news_score?: number
   bullish_score: number
   signal_strength: SignalStrength
   trigger_news_ids: string[]
   reason_zh: string
   related_industries: string[]
+  technical?: TechnicalData
 }
 
 export interface SignalsPayload {
@@ -60,6 +74,7 @@ export interface SignalsPayload {
     total_news_fetched: number
     total_news_analyzed: number
     rss_sources_count: number
+    tickers_with_technicals?: number
     elapsed_seconds: number
   }
 }

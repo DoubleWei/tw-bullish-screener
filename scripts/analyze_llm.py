@@ -10,7 +10,7 @@ from google.genai import types
 
 log = logging.getLogger(__name__)
 
-DEFAULT_MODEL = "gemini-3-pro-latest"
+DEFAULT_MODEL = "gemini-2.5-flash"
 BATCH_SIZE = 15
 
 ANALYSIS_SCHEMA = {

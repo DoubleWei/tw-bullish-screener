@@ -2,10 +2,14 @@
 from __future__ import annotations
 
 from collections import defaultdict
+from typing import Any
 
 BULLISH_THRESHOLD = 0.4
 STRONG_THRESHOLD = 0.75
 MODERATE_THRESHOLD = 0.5
+
+NEWS_WEIGHT = 0.6
+TECH_WEIGHT = 0.4
 
 
 def aggregate_industries(analyses: list[dict]) -> dict[str, dict]:
@@ -30,9 +34,14 @@ def aggregate_industries(analyses: list[dict]) -> dict[str, dict]:
     return out
 
 
-def build_recommendations(industries: dict[str, dict], industry_map: dict) -> list[dict]:
+def build_recommendations(
+    industries: dict[str, dict],
+    industry_map: dict,
+    tech_data: dict[str, dict[str, Any]] | None = None,
+) -> list[dict]:
     recs: list[dict] = []
     seen: set[str] = set()
+    tech_data = tech_data or {}
 
     for code, ind in industries.items():
         if ind["signal"] != "BULLISH":
@@ -47,20 +56,36 @@ def build_recommendations(industries: dict[str, dict], industry_map: dict) -> li
             seen.add(t["code"])
 
             news_boost = 1 + 0.05 * min(ind["news_count"], 5)
-            score = min(1.0, ind["sentiment_score"] * t["weight"] * news_boost)
-            strength = "STRONG" if score >= STRONG_THRESHOLD else ("MODERATE" if score >= MODERATE_THRESHOLD else "WEAK")
+            news_score = min(1.0, ind["sentiment_score"] * t["weight"] * news_boost)
 
-            recs.append({
-                "ticker": t["code"],
-                "name_zh": t["name_zh"],
-                "industry_code": code,
-                "industry_name_zh": meta["name_zh"],
-                "bullish_score": round(score, 3),
-                "signal_strength": strength,
-                "trigger_news_ids": ind["news_ids"][:5],
-                "reason_zh": ind["summary_zh"],
+            tech = tech_data.get(t["code"])
+            if tech:
+                composite = round(news_score * NEWS_WEIGHT + tech["tech_score"] * TECH_WEIGHT, 3)
+            else:
+                composite = round(news_score, 3)
+
+            strength = (
+                "STRONG" if composite >= STRONG_THRESHOLD else
+                "MODERATE" if composite >= MODERATE_THRESHOLD else
+                "WEAK"
+            )
+
+            rec: dict = {
+                "ticker":             t["code"],
+                "name_zh":            t["name_zh"],
+                "industry_code":      code,
+                "industry_name_zh":   meta["name_zh"],
+                "news_score":         round(news_score, 3),
+                "bullish_score":      composite,
+                "signal_strength":    strength,
+                "trigger_news_ids":   ind["news_ids"][:5],
+                "reason_zh":          ind["summary_zh"],
                 "related_industries": [code],
-            })
+            }
+            if tech:
+                rec["technical"] = tech
+
+            recs.append(rec)
 
     recs.sort(key=lambda r: r["bullish_score"], reverse=True)
     for i, r in enumerate(recs, 1):

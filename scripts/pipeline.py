@@ -10,6 +10,7 @@ from pathlib import Path
 
 from analyze_llm import analyze_news
 from fetch_news import fetch_all
+from fetch_prices import fetch_technicals
 from map_to_tickers import aggregate_industries, build_recommendations
 from writers import write_latest
 
@@ -69,7 +70,15 @@ def main() -> int:
         for code, ind in industries.items()
     ]
 
-    recommendations = build_recommendations(industries, industry_map)
+    # Fetch technical indicators for all watched tickers
+    all_tickers = [
+        t["code"]
+        for meta in industry_map["industries"].values()
+        for t in meta["tickers"]
+    ]
+    tech_data = fetch_technicals(all_tickers)
+
+    recommendations = build_recommendations(industries, industry_map, tech_data)
 
     bullish = sum(1 for i in industries.values() if i["signal"] == "BULLISH")
     bearish = sum(1 for i in industries.values() if i["signal"] == "BEARISH")
@@ -78,7 +87,7 @@ def main() -> int:
 
     sources = json.loads((CONFIG / "rss_sources.json").read_text(encoding="utf-8"))
     payload = {
-        "schema_version": "1.0",
+        "schema_version": "1.1",
         "generated_at": now.isoformat(),
         "next_update_at": (now + timedelta(hours=NEXT_RUN_HOURS)).isoformat(),
         "window": {
@@ -97,17 +106,21 @@ def main() -> int:
         "news": enriched_news,
         "recommendations": recommendations,
         "meta": {
-            "pipeline_version": "0.1.0",
-            "ai_engine": os.environ.get("GEMINI_MODEL", "gemini-3-pro-latest"),
+            "pipeline_version": "0.2.0",
+            "ai_engine": os.environ.get("GEMINI_MODEL", "gemini-2.5-flash"),
             "total_news_fetched": len(news),
             "total_news_analyzed": len(analyses),
             "rss_sources_count": sum(1 for s in sources if s.get("enabled", True)),
+            "tickers_with_technicals": len(tech_data),
             "elapsed_seconds": round(time.time() - started, 1),
         },
     }
 
     path = write_latest(payload, PUBLIC_DATA)
-    log.info("Wrote %s (news=%d, industries=%d, recs=%d)", path, len(enriched_news), len(industries_out), len(recommendations))
+    log.info(
+        "Wrote %s (news=%d, industries=%d, recs=%d, tech=%d)",
+        path, len(enriched_news), len(industries_out), len(recommendations), len(tech_data),
+    )
     return 0
 
 
