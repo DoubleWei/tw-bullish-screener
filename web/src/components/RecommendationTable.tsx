@@ -6,8 +6,8 @@ import { SectionTitle, EmptyState } from './MarketHeatmap'
 // ── Styles ──────────────────────────────────────────────────────────────────
 
 const STRENGTH_STYLES: Record<SignalStrength, string> = {
-  STRONG:   'bg-emerald-500/20 text-emerald-300 ring-emerald-500/40',
-  MODERATE: 'bg-emerald-500/10 text-emerald-400 ring-emerald-500/25',
+  STRONG:   'bg-rose-500/20 text-rose-300 ring-rose-500/40',
+  MODERATE: 'bg-rose-500/10 text-rose-400 ring-rose-500/25',
   WEAK:     'bg-slate-500/15 text-slate-400 ring-slate-500/25',
 }
 const STRENGTH_LABELS: Record<SignalStrength, string> = {
@@ -50,16 +50,16 @@ function getSortValue(r: Recommendation, key: SortKey): number {
 
 function rsiColor(rsi: number): string {
   if (rsi > 70) return 'text-amber-300 bg-amber-500/10 ring-amber-500/20'
-  if (rsi >= 50) return 'text-emerald-300 bg-emerald-500/10 ring-emerald-500/20'
+  if (rsi >= 50) return 'text-rose-300 bg-rose-500/10 ring-rose-500/20'
   if (rsi >= 30) return 'text-slate-400 bg-slate-700/40 ring-slate-600/20'
-  return 'text-rose-300 bg-rose-500/10 ring-rose-500/20'
+  return 'text-emerald-300 bg-emerald-500/10 ring-emerald-500/20'
 }
 
 function ChipsBadges({ chips }: { chips: ChipsData }) {
   return (
     <>
       {chips.signals.map((sig) => (
-        <span key={sig} className="rounded bg-emerald-500/10 px-1.5 py-0.5 text-[10px] text-emerald-400 ring-1 ring-emerald-500/20">
+        <span key={sig} className="rounded bg-rose-500/10 px-1.5 py-0.5 text-[10px] text-rose-400 ring-1 ring-rose-500/20">
           {sig}
         </span>
       ))}
@@ -185,14 +185,14 @@ function LaunchpadMetaBadges({ tech }: { tech: TechnicalData }) {
   if (tech.bias_pct != null) {
     const v = tech.bias_pct
     const cls = Math.abs(v) <= 3
-      ? 'text-emerald-400 bg-emerald-500/10 ring-emerald-500/20'
+      ? 'text-rose-400 bg-rose-500/10 ring-rose-500/20'
       : 'text-amber-300 bg-amber-500/10 ring-amber-500/20'
     badges.push({ label: `乖離 ${v > 0 ? '+' : ''}${v.toFixed(1)}%`, cls })
   }
   if (tech.price_position_120d != null) {
     const v = tech.price_position_120d
     const cls = v <= 40
-      ? 'text-emerald-400 bg-emerald-500/10 ring-emerald-500/20'
+      ? 'text-rose-400 bg-rose-500/10 ring-rose-500/20'
       : v <= 60
       ? 'text-slate-300 bg-slate-700/40 ring-slate-600/20'
       : 'text-amber-300 bg-amber-500/10 ring-amber-500/20'
@@ -200,7 +200,7 @@ function LaunchpadMetaBadges({ tech }: { tech: TechnicalData }) {
   }
   if (tech.gain_10d != null && Math.abs(tech.gain_10d) >= 1) {
     const v = tech.gain_10d
-    const cls = v > 0 ? 'text-emerald-400 bg-emerald-500/10 ring-emerald-500/20' : 'text-rose-300 bg-rose-500/10 ring-rose-500/20'
+    const cls = v > 0 ? 'text-rose-400 bg-rose-500/10 ring-rose-500/20' : 'text-emerald-300 bg-emerald-500/10 ring-emerald-500/20'
     badges.push({ label: `10日 ${v > 0 ? '+' : ''}${v.toFixed(1)}%`, cls })
   }
 
@@ -235,7 +235,7 @@ function RecommendationRow({
         </div>
 
         <div className="flex-1 flex items-baseline gap-1.5 min-w-0 overflow-hidden">
-          <span className="font-mono text-sm font-semibold text-emerald-300 flex-shrink-0">{r.ticker}</span>
+          <span className="font-mono text-sm font-semibold text-rose-300 flex-shrink-0">{r.ticker}</span>
           {r.price != null && (
             <span className="font-mono text-xs text-slate-400 flex-shrink-0">{r.price >= 100 ? r.price.toFixed(1) : r.price.toFixed(2)}</span>
           )}
@@ -248,7 +248,7 @@ function RecommendationRow({
             {chips && (
               <div className="text-right">
                 <div className="text-[9px] uppercase text-slate-500">籌碼</div>
-                <div className="font-mono text-xs text-emerald-400">{chips.chips_score.toFixed(2)}</div>
+                <div className="font-mono text-xs text-rose-400">{chips.chips_score.toFixed(2)}</div>
               </div>
             )}
             {!chips && (
@@ -266,7 +266,7 @@ function RecommendationRow({
           </div>
           <div className="text-right">
             <div className="text-[9px] uppercase text-slate-500">綜合</div>
-            <div className="font-mono text-sm font-bold text-emerald-300">{r.bullish_score.toFixed(2)}</div>
+            <div className="font-mono text-sm font-bold text-rose-300">{r.bullish_score.toFixed(2)}</div>
           </div>
           <span className={`inline-flex rounded-full px-2 py-0.5 text-xs ring-1 ${STRENGTH_STYLES[r.signal_strength]}`}>
             {STRENGTH_LABELS[r.signal_strength]}
@@ -419,7 +419,7 @@ export function RecommendationTable({
               <span className="text-slate-600 mx-1">·</span>
               <span className="text-sky-300/80">MACD轉正</span>
               <span className="text-slate-600 mx-1">·</span>
-              <span className="text-emerald-300/80">法人初次登場</span>
+              <span className="text-rose-300/80">法人初次登場</span>
             </div>
             <div>
               <span className="text-[10px] uppercase tracking-wide text-slate-500 mr-1.5">評分公式</span>
@@ -433,9 +433,9 @@ export function RecommendationTable({
           <div className="flex flex-wrap gap-x-6 gap-y-1.5">
             <div>
               <span className="text-[10px] uppercase tracking-wide text-slate-500 mr-1.5">關鍵訊號</span>
-              <span className="text-emerald-300/80">投信/外資連買</span>
+              <span className="text-rose-300/80">投信/外資連買</span>
               <span className="text-slate-600 mx-1">·</span>
-              <span className="text-emerald-300/80">共振買超</span>
+              <span className="text-rose-300/80">共振買超</span>
               <span className="text-slate-600 mx-1">·</span>
               <span className="text-sky-300/80">多頭排列</span>
               <span className="text-slate-600 mx-1">·</span>

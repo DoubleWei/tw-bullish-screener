@@ -4,8 +4,8 @@ import type { Recommendation, SignalStrength } from '../types/signals'
 import { SectionTitle, EmptyState } from './MarketHeatmap'
 
 const STRENGTH_STYLES: Record<SignalStrength, string> = {
-  STRONG:   'bg-emerald-500/20 text-emerald-300 ring-emerald-500/40',
-  MODERATE: 'bg-emerald-500/10 text-emerald-400 ring-emerald-500/25',
+  STRONG:   'bg-rose-500/20 text-rose-300 ring-rose-500/40',
+  MODERATE: 'bg-rose-500/10 text-rose-400 ring-rose-500/25',
   WEAK:     'bg-slate-500/15 text-slate-400 ring-slate-500/25',
 }
 const STRENGTH_LABELS: Record<SignalStrength, string> = {
@@ -39,9 +39,9 @@ function getSortValue(r: Recommendation, key: SortKey): number {
 
 function rsiColor(rsi: number): string {
   if (rsi > 70) return 'text-amber-300'
-  if (rsi >= 50) return 'text-emerald-300'
+  if (rsi >= 50) return 'text-rose-300'
   if (rsi >= 30) return 'text-slate-300'
-  return 'text-rose-300'
+  return 'text-emerald-300'
 }
 
 function ColHeader({
@@ -207,7 +207,7 @@ export function StockDataTable({ recommendations }: { recommendations: Recommend
                   <td className="px-3 py-2.5 font-mono text-slate-500">{i + 1}</td>
                   <td className="px-3 py-2.5">
                     <div className="flex items-baseline gap-1.5">
-                      <span className="font-mono font-semibold text-emerald-300 flex-shrink-0">{r.ticker}</span>
+                      <span className="font-mono font-semibold text-rose-300 flex-shrink-0">{r.ticker}</span>
                       <span className="text-slate-100">{r.name_zh}</span>
                     </div>
                     {r.reason_zh && (
@@ -224,10 +224,10 @@ export function StockDataTable({ recommendations }: { recommendations: Recommend
                       ? (r.price >= 100 ? r.price.toFixed(1) : r.price.toFixed(2))
                       : '—'}
                   </td>
-                  <td className="px-3 py-2.5 text-right font-mono font-bold text-emerald-300">
+                  <td className="px-3 py-2.5 text-right font-mono font-bold text-rose-300">
                     {r.bullish_score.toFixed(2)}
                   </td>
-                  <td className="px-3 py-2.5 text-right font-mono text-emerald-400">
+                  <td className="px-3 py-2.5 text-right font-mono text-rose-400">
                     {chips ? chips.chips_score.toFixed(2) : '—'}
                   </td>
                   <td className="px-3 py-2.5 text-right font-mono text-sky-400">
@@ -250,7 +250,7 @@ export function StockDataTable({ recommendations }: { recommendations: Recommend
                   <td className="px-3 py-2.5 hidden lg:table-cell">
                     <div className="flex flex-wrap gap-1">
                       {chips?.signals.map(sig => (
-                        <span key={sig} className="rounded bg-emerald-500/10 px-1.5 py-0.5 text-[10px] text-emerald-400 ring-1 ring-emerald-500/20">
+                        <span key={sig} className="rounded bg-rose-500/10 px-1.5 py-0.5 text-[10px] text-rose-400 ring-1 ring-rose-500/20">
                           {sig}
                         </span>
                       ))}

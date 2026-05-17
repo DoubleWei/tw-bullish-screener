@@ -9,9 +9,9 @@ type SortKey = 'sentiment_score' | 'published_at'
 type SortDir = 'desc' | 'asc'
 
 const SENTIMENT_STYLES: Record<SentimentLabel, string> = {
-  BULLISH: 'bg-emerald-500/20 text-emerald-300 ring-emerald-500/40',
+  BULLISH: 'bg-rose-500/20 text-rose-300 ring-rose-500/40',
   NEUTRAL: 'bg-slate-500/15 text-slate-400 ring-slate-500/25',
-  BEARISH: 'bg-rose-500/20 text-rose-300 ring-rose-500/40',
+  BEARISH: 'bg-emerald-500/20 text-emerald-300 ring-emerald-500/40',
 }
 const SENTIMENT_LABELS: Record<SentimentLabel, string> = {
   BULLISH: '利多', NEUTRAL: '中性', BEARISH: '利空',

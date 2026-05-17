@@ -25,16 +25,16 @@ function Tile({ industry }: { industry: Industry }) {
   const alpha = 0.12 + Math.min(Math.abs(s), 1) * 0.5
 
   const bg =
-    signal === 'BULLISH' ? `rgba(16, 185, 129, ${alpha})`
-    : signal === 'BEARISH' ? `rgba(244, 63, 94, ${alpha})`
+    signal === 'BULLISH' ? `rgba(244, 63, 94, ${alpha})`
+    : signal === 'BEARISH' ? `rgba(16, 185, 129, ${alpha})`
     : 'rgba(100, 116, 139, 0.12)'
   const ring =
-    signal === 'BULLISH' ? 'ring-emerald-500/40'
-    : signal === 'BEARISH' ? 'ring-rose-500/40'
+    signal === 'BULLISH' ? 'ring-rose-500/40'
+    : signal === 'BEARISH' ? 'ring-emerald-500/40'
     : 'ring-slate-700/60'
   const scoreColor =
-    signal === 'BULLISH' ? 'text-emerald-300'
-    : signal === 'BEARISH' ? 'text-rose-300'
+    signal === 'BULLISH' ? 'text-rose-300'
+    : signal === 'BEARISH' ? 'text-emerald-300'
     : 'text-slate-400'
 
   return (

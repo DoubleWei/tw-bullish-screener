@@ -2,9 +2,9 @@ import type { SentimentLabel } from '../types/signals'
 import { fmtScore } from '../lib/format'
 
 const STYLES: Record<SentimentLabel, string> = {
-  BULLISH: 'bg-emerald-500/15 text-emerald-400 ring-emerald-500/30',
+  BULLISH: 'bg-rose-500/15 text-rose-400 ring-rose-500/30',
   NEUTRAL: 'bg-slate-500/15 text-slate-400 ring-slate-500/30',
-  BEARISH: 'bg-rose-500/15 text-rose-400 ring-rose-500/30',
+  BEARISH: 'bg-emerald-500/15 text-emerald-400 ring-emerald-500/30',
 }
 
 const LABELS: Record<SentimentLabel, string> = {

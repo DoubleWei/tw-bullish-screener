@@ -78,8 +78,8 @@ function TriggerButton() {
 export function Header({ data }: { data: SignalsPayload }) {
   const { market_sentiment: ms, generated_at, meta } = data
   const labelClass =
-    ms.label === '偏多' ? 'text-emerald-400'
-    : ms.label === '偏空' ? 'text-rose-400'
+    ms.label === '偏多' ? 'text-rose-400'
+    : ms.label === '偏空' ? 'text-emerald-400'
     : 'text-slate-300'
   const totalInds = ms.bullish_industries + ms.neutral_industries + ms.bearish_industries
 
@@ -100,9 +100,9 @@ export function Header({ data }: { data: SignalsPayload }) {
 
           <div className="flex flex-wrap items-end gap-4 sm:gap-6 text-xs">
             <Stat label="整體情緒" value={fmtScore(ms.overall_score)} valueClass={`font-mono ${labelClass}`} />
-            <Stat label="利多 / 全部" value={`${ms.bullish_industries} / ${totalInds}`} valueClass="font-mono text-emerald-300" />
+            <Stat label="利多 / 全部" value={`${ms.bullish_industries} / ${totalInds}`} valueClass="font-mono text-rose-300" />
             {meta.chips_candidates != null && (
-              <Stat label="籌碼候選" value={`${meta.chips_candidates}`} valueClass="font-mono text-emerald-400" className="hidden sm:block" />
+              <Stat label="籌碼候選" value={`${meta.chips_candidates}`} valueClass="font-mono text-rose-400" className="hidden sm:block" />
             )}
             <Stat label="分析新聞" value={`${meta.total_news_analyzed}`} valueClass="font-mono text-slate-100" className="hidden sm:block" />
             <div className="flex items-center gap-1.5 text-slate-500" title={formatTime(generated_at)}>
