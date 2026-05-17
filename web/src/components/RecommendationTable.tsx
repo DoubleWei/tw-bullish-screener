@@ -372,15 +372,13 @@ export function RecommendationTable({
           {titleIcon}
           {isLaunchpad ? '即將起漲' : '作多推薦清單'}
         </h2>
-        {/* Strategy selector pills */}
+        {/* Strategy selector pills — always clickable */}
         <div className="flex gap-1 rounded-lg bg-slate-900/60 p-1 ring-1 ring-slate-800">
           {STRATEGIES.map(s => (
             <button
               key={s.id}
               onClick={() => handleStrategyChange(s.id)}
-              disabled={s.id === 'launchpad' && !hasLaunchpad}
-              title={s.desc}
-              className={`flex items-center gap-1.5 rounded-md px-2.5 py-1 text-xs font-medium transition-all disabled:opacity-40 disabled:cursor-not-allowed ${
+              className={`flex items-center gap-1.5 rounded-md px-2.5 py-1 text-xs font-medium transition-all ${
                 strategy === s.id
                   ? 'bg-slate-700 text-slate-100 shadow-sm'
                   : 'text-slate-500 hover:text-slate-300'
@@ -388,11 +386,11 @@ export function RecommendationTable({
             >
               {s.id === 'launchpad' ? <Rocket className="h-3 w-3" /> : <TrendingUp className="h-3 w-3" />}
               {s.label}
-              {s.id === 'launchpad' && recommendationsLaunchpad != null && (
+              {s.id === 'launchpad' && (
                 <span className={`rounded-full px-1.5 text-[10px] ${
                   strategy === 'launchpad' ? 'bg-slate-600 text-slate-300' : 'bg-slate-800 text-slate-500'
                 }`}>
-                  {recommendationsLaunchpad.length}
+                  {recommendationsLaunchpad?.length ?? 0}
                 </span>
               )}
             </button>
@@ -400,10 +398,56 @@ export function RecommendationTable({
         </div>
       </div>
 
-      {/* Strategy description */}
-      <p className="mb-3 text-[11px] text-slate-500">
-        {currentStrategy.desc}
-      </p>
+      {/* Strategy detail card */}
+      {isLaunchpad ? (
+        <div className="mb-3 rounded-lg border border-slate-800 bg-slate-900/40 px-4 py-3 text-xs space-y-2">
+          <p className="text-slate-300 font-medium">找尋「剛打底、尚未過熱」的起漲點，而非已漲多準備崩跌的末升段</p>
+          <div className="flex flex-wrap gap-x-6 gap-y-1.5">
+            <div>
+              <span className="text-[10px] uppercase tracking-wide text-slate-500 mr-1.5">安全閥</span>
+              <span className="text-rose-300/80">乖離月線 ≤8%</span>
+              <span className="text-slate-600 mx-1">·</span>
+              <span className="text-rose-300/80">10日漲幅 ≤20%</span>
+              <span className="text-slate-600 mx-1">·</span>
+              <span className="text-rose-300/80">半年位階 ≤65%</span>
+            </div>
+            <div>
+              <span className="text-[10px] uppercase tracking-wide text-slate-500 mr-1.5">關鍵訊號</span>
+              <span className="text-sky-300/80">均線糾結突破</span>
+              <span className="text-slate-600 mx-1">·</span>
+              <span className="text-sky-300/80">黃金交叉</span>
+              <span className="text-slate-600 mx-1">·</span>
+              <span className="text-sky-300/80">MACD轉正</span>
+              <span className="text-slate-600 mx-1">·</span>
+              <span className="text-emerald-300/80">法人初次登場</span>
+            </div>
+            <div>
+              <span className="text-[10px] uppercase tracking-wide text-slate-500 mr-1.5">評分公式</span>
+              <span className="text-slate-400 font-mono">起漲分×70% + 新聞×30%</span>
+            </div>
+          </div>
+        </div>
+      ) : (
+        <div className="mb-3 rounded-lg border border-slate-800 bg-slate-900/40 px-4 py-3 text-xs space-y-2">
+          <p className="text-slate-300 font-medium">法人持續布局、技術面處於強勢多頭格局的動能股</p>
+          <div className="flex flex-wrap gap-x-6 gap-y-1.5">
+            <div>
+              <span className="text-[10px] uppercase tracking-wide text-slate-500 mr-1.5">關鍵訊號</span>
+              <span className="text-emerald-300/80">投信/外資連買</span>
+              <span className="text-slate-600 mx-1">·</span>
+              <span className="text-emerald-300/80">共振買超</span>
+              <span className="text-slate-600 mx-1">·</span>
+              <span className="text-sky-300/80">多頭排列</span>
+              <span className="text-slate-600 mx-1">·</span>
+              <span className="text-sky-300/80">爆量突破</span>
+            </div>
+            <div>
+              <span className="text-[10px] uppercase tracking-wide text-slate-500 mr-1.5">評分公式</span>
+              <span className="text-slate-400 font-mono">籌碼×40% + 技術×30% + 新聞×30%</span>
+            </div>
+          </div>
+        </div>
+      )}
 
       {isEmpty ? (
         <EmptyState>
