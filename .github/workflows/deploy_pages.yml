@@ -1,10 +1,15 @@
 name: Deploy to Pages
 
 on:
+  # 當 data pipeline 成功完成時自動觸發（bot push 不會觸發 push event，改用此方式）
+  workflow_run:
+    workflows: ["Update Stock Signals"]
+    types: [completed]
+    branches: [main]
+  # 前端程式碼有異動時觸發
   push:
     branches: [main]
     paths:
-      - 'public/**'
       - 'web/**'
   workflow_dispatch:
 
