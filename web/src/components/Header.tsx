@@ -11,7 +11,7 @@ export function Header({ data }: { data: SignalsPayload }) {
   const totalInds = ms.bullish_industries + ms.neutral_industries + ms.bearish_industries
 
   return (
-    <header className="sticky top-0 z-10 border-b border-slate-800 bg-slate-950/85 backdrop-blur">
+    <header className="border-b border-slate-800 bg-slate-950/85 backdrop-blur">
       <div className="mx-auto max-w-7xl px-6 py-5">
         <div className="flex flex-wrap items-end justify-between gap-4">
           <div>
