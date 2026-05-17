@@ -68,7 +68,10 @@ export default function App() {
             <MarketHeatmap industries={data.industries} />
             <div className="grid gap-8 xl:grid-cols-5">
               <div className="xl:col-span-3">
-                <RecommendationTable recommendations={data.recommendations} />
+                  <RecommendationTable
+                  recommendations={data.recommendations}
+                  recommendationsLaunchpad={data.recommendations_launchpad}
+                />
               </div>
               <div className="xl:col-span-2">
                 <NewsWall news={data.news} />

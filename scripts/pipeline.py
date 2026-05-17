@@ -11,7 +11,12 @@ from pathlib import Path
 from analyze_llm import analyze_news
 from fetch_news import fetch_all
 from fetch_prices import fetch_technicals
-from map_to_tickers import aggregate_industries, build_recommendations, build_recommendations_v2
+from map_to_tickers import (
+    aggregate_industries,
+    build_recommendations,
+    build_recommendations_v2,
+    build_recommendations_launchpad,
+)
 from writers import write_latest
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(name)s: %(message)s")
@@ -104,12 +109,26 @@ def main() -> int:
     overall_news_score = max(0.0, round(overall, 3))
 
     # ── 5. Build recommendations ──────────────────────────────────────────────
+    recommendations_launchpad: list[dict] = []
+
     if chips_mode:
+        from calc_launchpad import screen_launchpad_candidates
+
         candidate_tickers = [c["ticker"] for c in candidates]
         tech_data = fetch_technicals(candidate_tickers)
+
+        # Strategy A: 作多動能 (ongoing momentum)
         recommendations = build_recommendations_v2(
             candidates, industries, industry_map, tech_data, overall_news_score
         )
+
+        # Strategy B: 即將起漲 (early launchpad)
+        lp_candidates = screen_launchpad_candidates(candidates, tech_data, max_results=30)
+        recommendations_launchpad = build_recommendations_launchpad(
+            lp_candidates, industries, industry_map, tech_data, overall_news_score
+        )
+        log.info("Launchpad recommendations: %d", len(recommendations_launchpad))
+
         schema_version = "2.0"
     else:
         all_tickers = [
@@ -151,10 +170,11 @@ def main() -> int:
             "bearish_industries": bearish,
             "neutral_industries": neutral,
         },
-        "industries":      industries_out,
-        "news":            enriched_news,
-        "recommendations": recommendations,
-        "meta":            meta,
+        "industries":               industries_out,
+        "news":                     enriched_news,
+        "recommendations":          recommendations,
+        "recommendations_launchpad": recommendations_launchpad,
+        "meta":                     meta,
     }
 
     path = write_latest(payload, PUBLIC_DATA)

@@ -44,6 +44,7 @@ export interface ChipsData {
 export interface TechnicalData {
   price: number
   ma5: number
+  ma10?: number
   ma20: number
   ma60: number
   rsi: number
@@ -51,6 +52,13 @@ export interface TechnicalData {
   vol_ratio: number
   tech_score: number
   signals: string[]
+  // Launchpad indicators
+  bias_pct?: number
+  gain_10d?: number
+  price_position_120d?: number
+  ma_convergence_pct?: number
+  ma5_cross_ma20?: boolean
+  macd_just_positive?: boolean
 }
 
 export interface Recommendation {
@@ -79,6 +87,7 @@ export interface SignalsPayload {
   industries: Industry[]
   news: News[]
   recommendations: Recommendation[]
+  recommendations_launchpad?: Recommendation[]
   meta: {
     pipeline_version: string
     ai_engine: string

@@ -18,6 +18,12 @@ NEWS_WEIGHT_V2  = 0.30
 STRONG_THRESHOLD_V2   = 0.68
 MODERATE_THRESHOLD_V2 = 0.44
 
+# Launchpad weights: raw launchpad score carries most of the weight
+LAUNCHPAD_RAW_WEIGHT  = 0.70
+LAUNCHPAD_NEWS_WEIGHT = 0.30
+LAUNCHPAD_STRONG_THRESHOLD   = 0.50
+LAUNCHPAD_MODERATE_THRESHOLD = 0.30
+
 
 def aggregate_industries(analyses: list[dict]) -> dict[str, dict]:
     bucket: dict[str, list[dict]] = defaultdict(list)
@@ -180,6 +186,89 @@ def build_recommendations_v2(
         }
         if tech:
             rec["technical"] = tech
+
+        recs.append(rec)
+
+    recs.sort(key=lambda r: r["bullish_score"], reverse=True)
+    for i, r in enumerate(recs, 1):
+        r["rank"] = i
+    return recs
+
+
+def build_recommendations_launchpad(
+    lp_candidates: list[dict],
+    industries: dict[str, dict],
+    industry_map: dict,
+    tech_data: dict[str, Any],
+    overall_news_score: float = 0.0,
+) -> list[dict]:
+    """
+    Build recommendations from launchpad-screened candidates.
+    Each lp_candidate has launchpad_score, launchpad_tech_signals,
+    launchpad_chips_signals from screen_launchpad_candidates().
+
+    composite = launchpad_raw × 0.70 + news × 0.30
+    """
+    ticker_index = _build_ticker_index(industry_map)
+    recs: list[dict] = []
+
+    for cand in lp_candidates:
+        code          = cand["ticker"]
+        chips         = cand["chips"]
+        launchpad_raw = cand["launchpad_score"]
+        lp_tech_sigs  = cand.get("launchpad_tech_signals", [])
+        lp_chips_sigs = cand.get("launchpad_chips_signals", [])
+
+        idx = ticker_index.get(code)
+        if idx:
+            ind = industries.get(idx["industry_code"])
+            if ind and ind["sentiment_score"] > 0:
+                news_boost = 1 + 0.05 * min(ind["news_count"], 5)
+                news_score = min(1.0, ind["sentiment_score"] * idx["weight"] * news_boost)
+            else:
+                news_score = max(0.0, overall_news_score)
+            industry_code    = idx["industry_code"]
+            industry_name_zh = idx["industry_name_zh"]
+            trigger_news_ids = (ind["news_ids"][:5] if ind else [])
+            reason_zh        = (ind["summary_zh"] if ind and ind.get("summary_zh") else "")
+        else:
+            news_score       = max(0.0, overall_news_score)
+            industry_code    = "GENERAL"
+            industry_name_zh = "綜合"
+            trigger_news_ids = []
+            reason_zh        = ""
+
+        composite = round(
+            launchpad_raw * LAUNCHPAD_RAW_WEIGHT + news_score * LAUNCHPAD_NEWS_WEIGHT,
+            3,
+        )
+        strength = (
+            "STRONG"   if composite >= LAUNCHPAD_STRONG_THRESHOLD else
+            "MODERATE" if composite >= LAUNCHPAD_MODERATE_THRESHOLD else
+            "WEAK"
+        )
+
+        # Override chips/tech signals with launchpad-specific signals
+        lp_chips = {**chips, "signals": lp_chips_sigs}
+        tech = tech_data.get(code)
+        lp_tech: dict | None = ({**tech, "signals": lp_tech_sigs} if tech else None)
+
+        rec: dict = {
+            "ticker":             code,
+            "name_zh":            cand["name_zh"],
+            "price":              cand["price"],
+            "industry_code":      industry_code,
+            "industry_name_zh":   industry_name_zh,
+            "news_score":         round(news_score, 3),
+            "bullish_score":      composite,
+            "signal_strength":    strength,
+            "trigger_news_ids":   trigger_news_ids,
+            "reason_zh":          reason_zh,
+            "related_industries": [industry_code],
+            "chips":              lp_chips,
+        }
+        if lp_tech:
+            rec["technical"] = lp_tech
 
         recs.append(rec)
 
