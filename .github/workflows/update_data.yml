@@ -43,6 +43,9 @@ jobs:
           # Backup pipeline output before touching git
           cp -r public/data /tmp/pipeline-data
 
+          # Discard local modifications so reset has a clean tree
+          git restore .
+
           # Hard-sync to remote so push is always fast-forward (no race condition)
           git fetch origin main
           git reset --hard origin/main
