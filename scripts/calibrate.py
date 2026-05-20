@@ -100,6 +100,23 @@ def _adjust_weights(
     return new_w, changes
 
 
+def _snap_perf(snapshots: list[dict], strategy: str) -> dict:
+    """Aggregate performance metrics across snapshots for history record."""
+    alphas, beat_rates, avg_returns = [], [], []
+    for r in snapshots:
+        s = (r.get(strategy, {}).get("summary") or {}).get(EVAL_KEY) or {}
+        if s.get("avg_alpha")  is not None: alphas.append(s["avg_alpha"])
+        if s.get("beat_rate")  is not None: beat_rates.append(s["beat_rate"])
+        if s.get("avg_return") is not None: avg_returns.append(s["avg_return"])
+    avg = lambda lst: round(sum(lst) / len(lst), 4) if lst else None
+    return {
+        "snapshots":    len(snapshots),
+        "avg_alpha":    avg(alphas),
+        "avg_beat_rate": avg(beat_rates),
+        "avg_return":   avg(avg_returns),
+    }
+
+
 def calibrate(backtest_results: list[dict], params_path: Path) -> dict:
     """
     根據回測結果更新 strategy_params.json。
@@ -119,10 +136,19 @@ def calibrate(backtest_results: list[dict], params_path: Path) -> dict:
 
     recent = valid[-5:]  # 最近 5 個快照
 
+    # 記錄校準前的原始績效與判別力，供歷史紀錄使用
+    weights_before = {
+        "momentum": {k: params["momentum"][k] for k in ("chips_weight", "tech_weight", "news_weight")},
+        "launchpad": {k: params["launchpad"][k] for k in ("raw_weight", "news_weight")},
+    }
+    disc_record: dict[str, dict] = {}
+
     # ── 作多動能校準 ──────────────────────────────────────────────────────────
     mom_stocks = [s for r in recent for s in r["momentum"]["stocks"]]
     mom_disc   = _discriminability(mom_stocks)
     log.info("Momentum discriminability: %s", mom_disc)
+    if mom_disc:
+        disc_record["momentum"] = {k: round(v, 4) for k, v in mom_disc.items()}
 
     if mom_disc:
         new_mom, mom_changes = _adjust_weights(
@@ -138,9 +164,10 @@ def calibrate(backtest_results: list[dict], params_path: Path) -> dict:
     if len(lp_stocks) >= MIN_STOCK_SAMPLES:
         lp_disc = _discriminability(lp_stocks)
         log.info("Launchpad discriminability: %s", lp_disc)
+        if lp_disc:
+            disc_record["launchpad"] = {k: round(v, 4) for k, v in lp_disc.items()}
 
         if lp_disc:
-            # chips_score ≈ 籌碼新鮮度 proxy；launchpad raw_weight 對應 chips+tech 綜合
             proxy = {
                 "chips": (lp_disc.get("chips", 0) + lp_disc.get("tech", 0)) / 2,
                 "news":  lp_disc.get("news", 0),
@@ -173,12 +200,34 @@ def calibrate(backtest_results: list[dict], params_path: Path) -> dict:
         elif avg_beat >= 0.60:
             change_log.append(f"[良好] 近3次beat_rate平均={avg_beat:.1%}，策略表現穩健")
 
-    # ── 寫回 ─────────────────────────────────────────────────────────────────
+    # ── 寫回（含完整歷史紀錄）────────────────────────────────────────────────
     if change_log:
-        params["last_updated"] = datetime.now(TPE).isoformat()
+        now = datetime.now(TPE).isoformat()
+        params["last_updated"] = now
         params["calibration_count"] = params.get("calibration_count", 0) + 1
+
+        history_entry = {
+            "at":              now,
+            "snapshots_used":  len(recent),
+            # 觸發校準的績效依據
+            "performance": {
+                "momentum":  _snap_perf(recent, "momentum"),
+                "launchpad": _snap_perf(recent, "launchpad"),
+            },
+            # 各分量的判別力（正值 = 贏家比輸家分數高 → 應加重）
+            "discriminability": disc_record,
+            # 調整前後的權重對比
+            "weights_before": weights_before,
+            "weights_after": {
+                "momentum": {k: params["momentum"][k] for k in ("chips_weight", "tech_weight", "news_weight")},
+                "launchpad": {k: params["launchpad"][k] for k in ("raw_weight", "news_weight")},
+            },
+            # 人讀的摘要
+            "changes": change_log,
+        }
+
         history = params.setdefault("calibration_history", [])
-        history.append({"at": params["last_updated"], "changes": change_log})
+        history.append(history_entry)
         params["calibration_history"] = history[-20:]  # 保留最近 20 次
         save_params(params, params_path)
         log.info("Calibration applied (%d changes): %s", len(change_log), change_log)
