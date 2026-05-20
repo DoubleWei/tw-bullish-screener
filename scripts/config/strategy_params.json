@@ -1,0 +1,23 @@
+{
+  "_comment": "Dynamic strategy weights. Auto-updated by calibrate.py after each backtest.",
+  "version": 1,
+  "last_updated": "",
+  "calibration_count": 0,
+  "momentum": {
+    "chips_weight": 0.40,
+    "tech_weight": 0.30,
+    "news_weight": 0.30,
+    "strong_threshold": 0.68,
+    "moderate_threshold": 0.44
+  },
+  "launchpad": {
+    "raw_weight": 0.70,
+    "news_weight": 0.30,
+    "strong_threshold": 0.50,
+    "moderate_threshold": 0.30,
+    "max_bias_abs": 8.0,
+    "max_gain_10d": 20.0,
+    "max_price_position": 65.0
+  },
+  "calibration_history": []
+}

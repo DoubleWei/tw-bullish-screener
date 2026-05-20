@@ -125,11 +125,20 @@ def build_recommendations_v2(
     industry_map: dict,
     tech_data: dict[str, Any],
     overall_news_score: float = 0.0,
+    params: dict | None = None,
 ) -> list[dict]:
     """
     Build recommendations from chips-screened candidates.
-    composite = chips × 0.40 + tech × 0.30 + news × 0.30
+    composite = chips × w_chips + tech × w_tech + news × w_news
+    Weights default to module constants; pass params dict from strategy_params.json to override.
     """
+    p = params or {}
+    w_chips      = p.get("chips_weight",      CHIPS_WEIGHT_V2)
+    w_tech       = p.get("tech_weight",       TECH_WEIGHT_V2)
+    w_news       = p.get("news_weight",       NEWS_WEIGHT_V2)
+    thr_strong   = p.get("strong_threshold",   STRONG_THRESHOLD_V2)
+    thr_moderate = p.get("moderate_threshold", MODERATE_THRESHOLD_V2)
+
     ticker_index = _build_ticker_index(industry_map)
     recs: list[dict] = []
 
@@ -161,12 +170,12 @@ def build_recommendations_v2(
         tech_score = tech["tech_score"] if tech else 0.0
 
         composite = round(
-            chips_score * CHIPS_WEIGHT_V2 + tech_score * TECH_WEIGHT_V2 + news_score * NEWS_WEIGHT_V2,
+            chips_score * w_chips + tech_score * w_tech + news_score * w_news,
             3,
         )
         strength = (
-            "STRONG"   if composite >= STRONG_THRESHOLD_V2 else
-            "MODERATE" if composite >= MODERATE_THRESHOLD_V2 else
+            "STRONG"   if composite >= thr_strong else
+            "MODERATE" if composite >= thr_moderate else
             "WEAK"
         )
 
@@ -201,14 +210,19 @@ def build_recommendations_launchpad(
     industry_map: dict,
     tech_data: dict[str, Any],
     overall_news_score: float = 0.0,
+    params: dict | None = None,
 ) -> list[dict]:
     """
     Build recommendations from launchpad-screened candidates.
-    Each lp_candidate has launchpad_score, launchpad_tech_signals,
-    launchpad_chips_signals from screen_launchpad_candidates().
-
-    composite = launchpad_raw × 0.70 + news × 0.30
+    composite = launchpad_raw × w_raw + news × w_news
+    Weights default to module constants; pass params dict to override.
     """
+    lp = params or {}
+    w_raw        = lp.get("raw_weight",        LAUNCHPAD_RAW_WEIGHT)
+    w_news_lp    = lp.get("news_weight",       LAUNCHPAD_NEWS_WEIGHT)
+    thr_strong_lp   = lp.get("strong_threshold",   LAUNCHPAD_STRONG_THRESHOLD)
+    thr_moderate_lp = lp.get("moderate_threshold", LAUNCHPAD_MODERATE_THRESHOLD)
+
     ticker_index = _build_ticker_index(industry_map)
     recs: list[dict] = []
 
@@ -239,12 +253,12 @@ def build_recommendations_launchpad(
             reason_zh        = ""
 
         composite = round(
-            launchpad_raw * LAUNCHPAD_RAW_WEIGHT + news_score * LAUNCHPAD_NEWS_WEIGHT,
+            launchpad_raw * w_raw + news_score * w_news_lp,
             3,
         )
         strength = (
-            "STRONG"   if composite >= LAUNCHPAD_STRONG_THRESHOLD else
-            "MODERATE" if composite >= LAUNCHPAD_MODERATE_THRESHOLD else
+            "STRONG"   if composite >= thr_strong_lp else
+            "MODERATE" if composite >= thr_moderate_lp else
             "WEAK"
         )
 

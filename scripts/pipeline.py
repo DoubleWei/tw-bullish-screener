@@ -9,6 +9,8 @@ from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 from analyze_llm import analyze_news
+from backtest import run_backtest
+from calibrate import calibrate, load_params
 from fetch_news import fetch_all
 from fetch_prices import fetch_technicals
 from map_to_tickers import (
@@ -28,6 +30,7 @@ PUBLIC_DATA = ROOT.parent / "public" / "data"
 CONFIG = ROOT / "config"
 WINDOW_HOURS = 24
 NEXT_RUN_HOURS = 6
+STRATEGY_PARAMS_PATH = CONFIG / "strategy_params.json"
 
 
 def _market_label(score: float) -> str:
@@ -43,6 +46,11 @@ def main() -> int:
     industry_codes = list(industry_map["industries"].keys())
     prompt_template = (CONFIG / "prompts" / "industry_analysis.md").read_text(encoding="utf-8")
     sources_cfg = json.loads((CONFIG / "rss_sources.json").read_text(encoding="utf-8"))
+
+    # Load dynamic strategy weights (auto-calibrated)
+    strategy_params = load_params(STRATEGY_PARAMS_PATH) if STRATEGY_PARAMS_PATH.exists() else {}
+    mom_params = strategy_params.get("momentum", {})
+    lp_params  = strategy_params.get("launchpad", {})
 
     # ── 1. Fetch TWSE full-market data (chips pipeline) ───────────────────────
     chips_mode = False
@@ -119,13 +127,15 @@ def main() -> int:
 
         # Strategy A: 作多動能 (ongoing momentum)
         recommendations = build_recommendations_v2(
-            candidates, industries, industry_map, tech_data, overall_news_score
+            candidates, industries, industry_map, tech_data, overall_news_score,
+            params=mom_params,
         )
 
         # Strategy B: 即將起漲 (early launchpad)
         lp_candidates = screen_launchpad_candidates(candidates, tech_data, max_results=30)
         recommendations_launchpad = build_recommendations_launchpad(
-            lp_candidates, industries, industry_map, tech_data, overall_news_score
+            lp_candidates, industries, industry_map, tech_data, overall_news_score,
+            params=lp_params,
         )
         log.info("Launchpad recommendations: %d", len(recommendations_launchpad))
 
@@ -182,6 +192,22 @@ def main() -> int:
         "Wrote %s (news=%d, industries=%d, recs=%d, tech=%d, chips_mode=%s)",
         path, len(enriched_news), len(industries_out), len(recommendations), len(tech_data), chips_mode,
     )
+
+    # ── 7. Backtest + auto-calibrate ─────────────────────────────────────────
+    try:
+        bt_results = run_backtest(
+            history_dir=PUBLIC_DATA / "history",
+            output_path=PUBLIC_DATA / "backtest_results.json",
+        )
+        if bt_results and STRATEGY_PARAMS_PATH.exists():
+            cal = calibrate(bt_results, STRATEGY_PARAMS_PATH)
+            if cal["changed"]:
+                log.info("Strategy calibrated: %s", cal["log"])
+            else:
+                log.info("Calibration: %s", cal["log"])
+    except Exception as exc:
+        log.warning("Backtest/calibrate failed (non-fatal): %s", exc)
+
     return 0
 
 
