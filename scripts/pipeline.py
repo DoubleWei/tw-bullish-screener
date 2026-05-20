@@ -33,6 +33,22 @@ NEXT_RUN_HOURS = 6
 STRATEGY_PARAMS_PATH = CONFIG / "strategy_params.json"
 
 
+def _read_calibration(params_path: Path) -> dict:
+    """Read strategy_params.json and return calibration data for the frontend payload."""
+    if not params_path.exists():
+        return {"current_weights": {}, "calibration_count": 0, "last_updated": "", "history": []}
+    sp = json.loads(params_path.read_text(encoding="utf-8"))
+    return {
+        "current_weights": {
+            "momentum":  {k: sp["momentum"][k]  for k in ("chips_weight", "tech_weight", "news_weight")  if "momentum"  in sp},
+            "launchpad": {k: sp["launchpad"][k] for k in ("raw_weight", "news_weight", "strong_threshold", "moderate_threshold") if "launchpad" in sp},
+        },
+        "calibration_count": sp.get("calibration_count", 0),
+        "last_updated":      sp.get("last_updated", ""),
+        "history":           sp.get("calibration_history", []),
+    }
+
+
 def _market_label(score: float) -> str:
     return "偏多" if score > 0.2 else "偏空" if score < -0.2 else "中性"
 
@@ -66,7 +82,7 @@ def main() -> int:
         margin_data  = fetch_margin_latest()
 
         if prices and inst_history:
-            candidates = screen_candidates(prices, inst_history, margin_data, max_candidates=60)
+            candidates = screen_candidates(prices, inst_history, margin_data, max_candidates=100)
             chips_mode = bool(candidates)
             log.info("Chips mode: %d candidates from %d stocks", len(candidates), len(prices))
         else:
@@ -185,6 +201,7 @@ def main() -> int:
         "recommendations":          recommendations,
         "recommendations_launchpad": recommendations_launchpad,
         "meta":                     meta,
+        "calibration":              _read_calibration(STRATEGY_PARAMS_PATH),
     }
 
     path = write_latest(payload, PUBLIC_DATA)

@@ -78,6 +78,42 @@ export interface Recommendation {
   chips?: ChipsData
 }
 
+export interface CalibrationWeights {
+  chips_weight?: number
+  tech_weight?: number
+  news_weight?: number
+  raw_weight?: number
+  strong_threshold?: number
+  moderate_threshold?: number
+}
+
+export interface CalibrationPerf {
+  snapshots: number
+  avg_alpha: number | null
+  avg_beat_rate: number | null
+  avg_return: number | null
+}
+
+export interface CalibrationEntry {
+  at: string
+  snapshots_used: number
+  performance: { momentum: CalibrationPerf; launchpad: CalibrationPerf }
+  discriminability: {
+    momentum?: { chips: number; tech: number; news: number }
+    launchpad?: { chips: number; tech: number; news: number }
+  }
+  weights_before: { momentum: CalibrationWeights; launchpad: CalibrationWeights }
+  weights_after:  { momentum: CalibrationWeights; launchpad: CalibrationWeights }
+  changes: string[]
+}
+
+export interface CalibrationData {
+  current_weights: { momentum: CalibrationWeights; launchpad: CalibrationWeights }
+  calibration_count: number
+  last_updated: string
+  history: CalibrationEntry[]
+}
+
 export interface SignalsPayload {
   schema_version: string
   generated_at: string
@@ -88,6 +124,7 @@ export interface SignalsPayload {
   news: News[]
   recommendations: Recommendation[]
   recommendations_launchpad?: Recommendation[]
+  calibration?: CalibrationData
   meta: {
     pipeline_version: string
     ai_engine: string

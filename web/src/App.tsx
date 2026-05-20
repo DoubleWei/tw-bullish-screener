@@ -8,8 +8,9 @@ import { NewsWall } from './components/NewsWall'
 import { RecommendationTable } from './components/RecommendationTable'
 import { NewsTable } from './components/NewsTable'
 import { StockDataTable } from './components/StockDataTable'
+import { CalibrationLog } from './components/CalibrationLog'
 
-type TabId = 'overview' | 'news' | 'stocks'
+type TabId = 'overview' | 'news' | 'stocks' | 'calibration'
 
 export default function App() {
   const { data, error, loading } = useSignals()
@@ -31,9 +32,10 @@ export default function App() {
   )
 
   const tabs: { id: TabId; label: string }[] = [
-    { id: 'overview', label: '市場概覽' },
-    { id: 'news',     label: `新聞列表 (${data.news.length})` },
-    { id: 'stocks',   label: `股票數據 (${data.recommendations.length})` },
+    { id: 'overview',     label: '市場概覽' },
+    { id: 'news',         label: `新聞列表 (${data.news.length})` },
+    { id: 'stocks',       label: `股票數據 (${data.recommendations.length})` },
+    { id: 'calibration',  label: `校準紀錄 (${data.calibration?.calibration_count ?? 0})` },
   ]
 
   return (
@@ -79,8 +81,9 @@ export default function App() {
             </div>
           </>
         )}
-        {activeTab === 'news'   && <NewsTable     news={data.news} />}
-        {activeTab === 'stocks' && <StockDataTable recommendations={data.recommendations} />}
+        {activeTab === 'news'        && <NewsTable      news={data.news} />}
+        {activeTab === 'stocks'      && <StockDataTable recommendations={data.recommendations} />}
+        {activeTab === 'calibration' && <CalibrationLog calibration={data.calibration} />}
       </main>
 
       <footer className="mx-auto max-w-7xl border-t border-slate-800 px-6 py-4 text-center text-xs text-slate-500">
