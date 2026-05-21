@@ -12,7 +12,7 @@ from analyze_llm import analyze_news
 from backtest import run_backtest
 from calibrate import calibrate, load_params
 from fetch_news import fetch_all
-from fetch_prices import fetch_technicals
+from fetch_prices import fetch_technicals, fetch_chart_data_batch
 from map_to_tickers import (
     aggregate_industries,
     build_recommendations,
@@ -165,6 +165,23 @@ def main() -> int:
         tech_data = fetch_technicals(all_tickers)
         recommendations = build_recommendations(industries, industry_map, tech_data)
         schema_version = "1.1"
+
+    # ── 5b. Fetch and write per-ticker chart data ─────────────────────────────
+    if chips_mode:
+        try:
+            chart_recs = recommendations[:20] + recommendations_launchpad[:10]
+            chart_data = fetch_chart_data_batch(chart_recs)
+            if chart_data:
+                charts_dir = PUBLIC_DATA / "charts"
+                charts_dir.mkdir(parents=True, exist_ok=True)
+                for ticker, cdata in chart_data.items():
+                    (charts_dir / f"{ticker}.json").write_text(
+                        json.dumps(cdata, ensure_ascii=False),
+                        encoding="utf-8",
+                    )
+                log.info("Wrote chart data for %d tickers", len(chart_data))
+        except Exception as exc:
+            log.warning("Chart data fetch failed (non-fatal): %s", exc)
 
     # ── 6. Write output ───────────────────────────────────────────────────────
     meta: dict = {

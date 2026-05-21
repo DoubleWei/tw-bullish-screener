@@ -199,3 +199,142 @@ def fetch_technicals(tickers: list[str]) -> dict[str, dict[str, Any]]:
 
     log.info("Technicals computed for %d/%d tickers", len(results), len(tickers))
     return results
+
+
+def _fetch_chart_data(
+    code: str,
+    selection_reasons: list[str] | None = None,
+    chart_days: int = 60,
+) -> tuple[str, dict | None]:
+    """Return {series, signals, selection_reasons} for 60-day price chart with annotations."""
+    try:
+        import yfinance as yf
+    except ImportError:
+        return code, None
+
+    symbol = f"{code}.TW"
+    try:
+        hist = yf.Ticker(symbol).history(period=f"{LOOKBACK_DAYS}d", interval="1d")
+        if hist.empty or len(hist) < max(chart_days, 65):
+            log.debug("%s: insufficient data for chart (%d rows)", symbol, len(hist))
+            return code, None
+
+        close  = hist["Close"].astype(float)
+        open_  = hist["Open"].astype(float)
+        high   = hist["High"].astype(float)
+        low    = hist["Low"].astype(float)
+        volume = hist["Volume"].astype(float)
+
+        ma5    = close.rolling(5).mean()
+        ma20   = close.rolling(20).mean()
+        ma60   = close.rolling(60).mean()
+        macd_h = _macd_series(close)
+
+        # Volume ratio vs prior 5-day average (shifted so today not included)
+        vol_avg5  = volume.rolling(5).mean().shift(1)
+        vol_ratio = (volume / vol_avg5).fillna(1.0)
+
+        n       = len(close)
+        start_i = max(0, n - chart_days)
+
+        def _safe(series: pd.Series, i: int, decimals: int = 2) -> float | None:
+            v = float(series.iloc[i])
+            return None if pd.isna(v) else round(v, decimals)
+
+        series_data = [
+            {
+                "date":      hist.index[i].strftime("%Y-%m-%d"),
+                "close":     round(float(close.iloc[i]), 2),
+                "open":      round(float(open_.iloc[i]), 2),
+                "high":      round(float(high.iloc[i]), 2),
+                "low":       round(float(low.iloc[i]), 2),
+                "volume":    int(volume.iloc[i]),
+                "ma5":       _safe(ma5, i),
+                "ma20":      _safe(ma20, i),
+                "ma60":      _safe(ma60, i),
+                "macd_hist": _safe(macd_h, i, 4),
+                "vol_ratio": round(float(vol_ratio.iloc[i]), 2),
+            }
+            for i in range(start_i, n)
+        ]
+
+        # Signal annotations: golden cross, MACD turn, volume surges
+        signals: list[dict] = []
+        for i in range(max(1, start_i), n):
+            date_str = hist.index[i].strftime("%Y-%m-%d")
+
+            # MA5 crosses above MA20 (golden cross)
+            if (not pd.isna(ma5.iloc[i]) and not pd.isna(ma20.iloc[i])
+                    and not pd.isna(ma5.iloc[i - 1]) and not pd.isna(ma20.iloc[i - 1])):
+                if (float(ma5.iloc[i - 1]) < float(ma20.iloc[i - 1])
+                        and float(ma5.iloc[i]) >= float(ma20.iloc[i])):
+                    signals.append({"date": date_str, "type": "golden_cross", "label": "黃金交叉"})
+
+            # MACD histogram turns positive
+            if (not pd.isna(macd_h.iloc[i]) and not pd.isna(macd_h.iloc[i - 1])):
+                if float(macd_h.iloc[i - 1]) <= 0 and float(macd_h.iloc[i]) > 0:
+                    signals.append({"date": date_str, "type": "macd_positive", "label": "MACD轉正"})
+
+            # Volume surge (≥2× prior 5-day avg)
+            vr = float(vol_ratio.iloc[i])
+            if vr >= 2.0:
+                signals.append({"date": date_str, "type": "volume_surge", "label": f"爆量{vr:.1f}×"})
+
+        # Cap at 5 most recent signals to keep chart readable
+        signals = signals[-5:]
+
+        return code, {
+            "series":            series_data,
+            "signals":           signals,
+            "selection_reasons": selection_reasons or [],
+        }
+
+    except Exception as exc:
+        log.warning("Failed chart fetch %s: %s", symbol, exc)
+        return code, None
+
+
+def fetch_chart_data_batch(
+    recommendations: list[dict],
+    max_workers: int = 8,
+) -> dict[str, dict]:
+    """Parallel-fetch 60-day chart data for a list of recommendation dicts."""
+    try:
+        import yfinance as yf  # noqa: F401
+    except ImportError:
+        log.warning("yfinance not installed — skipping chart data")
+        return {}
+
+    from concurrent.futures import ThreadPoolExecutor, as_completed
+
+    tasks: list[tuple[str, list[str]]] = []
+    seen: set[str] = set()
+    for r in recommendations:
+        ticker = r.get("ticker") or r.get("code", "")
+        if not ticker or ticker in seen:
+            continue
+        seen.add(ticker)
+        chips = r.get("chips") or {}
+        chip_sigs = list(chips.get("signals", [])) if isinstance(chips, dict) else []
+        reason = r.get("reason_zh", "")
+        tasks.append((ticker, chip_sigs + ([reason] if reason else [])))
+
+    if not tasks:
+        return {}
+
+    results: dict[str, dict] = {}
+    workers = min(max_workers, len(tasks))
+
+    with ThreadPoolExecutor(max_workers=workers) as pool:
+        futures = {
+            pool.submit(_fetch_chart_data, ticker, reasons): ticker
+            for ticker, reasons in tasks
+        }
+        for fut in as_completed(futures):
+            ticker = futures[fut]
+            _, data = fut.result()
+            if data:
+                results[ticker] = data
+
+    log.info("Chart data fetched for %d/%d tickers", len(results), len(tasks))
+    return results

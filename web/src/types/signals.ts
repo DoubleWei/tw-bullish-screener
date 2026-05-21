@@ -114,6 +114,34 @@ export interface CalibrationData {
   history: CalibrationEntry[]
 }
 
+export interface ChartDataPoint {
+  date: string
+  close: number
+  open: number
+  high: number
+  low: number
+  volume: number
+  ma5: number | null
+  ma20: number | null
+  ma60: number | null
+  macd_hist: number | null
+  vol_ratio: number
+}
+
+export type ChartSignalType = 'golden_cross' | 'macd_positive' | 'volume_surge'
+
+export interface ChartSignal {
+  date: string
+  type: ChartSignalType
+  label: string
+}
+
+export interface StockChartData {
+  series: ChartDataPoint[]
+  signals: ChartSignal[]
+  selection_reasons: string[]
+}
+
 export interface SignalsPayload {
   schema_version: string
   generated_at: string

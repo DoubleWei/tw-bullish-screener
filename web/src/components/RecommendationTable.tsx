@@ -1,7 +1,8 @@
 import { useState, useMemo } from 'react'
-import { TrendingUp, Rocket, Star, ChevronUp, ChevronDown, SlidersHorizontal } from 'lucide-react'
+import { TrendingUp, Rocket, Star, ChevronUp, ChevronDown, SlidersHorizontal, BarChart2 } from 'lucide-react'
 import type { Recommendation, SignalStrength, TechnicalData, ChipsData } from '../types/signals'
 import { SectionTitle, EmptyState } from './MarketHeatmap'
+import { StockChart } from './StockChart'
 
 // ── Styles ──────────────────────────────────────────────────────────────────
 
@@ -220,14 +221,15 @@ function LaunchpadMetaBadges({ tech }: { tech: TechnicalData }) {
 function RecommendationRow({
   rec: r, rank, showLaunchpadMeta,
 }: { rec: Recommendation; rank: number; showLaunchpadMeta: boolean }) {
+  const [expanded, setExpanded] = useState(false)
   const tech = r.technical
   const chips = r.chips
   const newsScore = r.news_score ?? r.bullish_score
 
   return (
     <div className="px-3 py-3 transition hover:bg-slate-900/40">
-      {/* Line 1 */}
-      <div className="flex items-center gap-2 min-w-0">
+      {/* Line 1 — clickable to expand chart */}
+      <div className="flex items-center gap-2 min-w-0 cursor-pointer select-none" onClick={() => setExpanded(v => !v)}>
         <div className="w-5 flex-shrink-0 text-center">
           {rank <= 3
             ? <Star className="h-3.5 w-3.5 fill-amber-400 text-amber-400" />
@@ -271,6 +273,7 @@ function RecommendationRow({
           <span className={`inline-flex rounded-full px-2 py-0.5 text-xs ring-1 ${STRENGTH_STYLES[r.signal_strength]}`}>
             {STRENGTH_LABELS[r.signal_strength]}
           </span>
+          <BarChart2 className={`h-3.5 w-3.5 flex-shrink-0 transition-colors ${expanded ? 'text-rose-400' : 'text-slate-700 hover:text-slate-500'}`} />
         </div>
       </div>
 
@@ -286,6 +289,13 @@ function RecommendationRow({
           </span>
         )}
       </div>
+
+      {/* Expanded chart panel */}
+      {expanded && (
+        <div className="mt-2 ml-5 rounded-lg border border-slate-800 bg-slate-900/40 px-3 py-2.5">
+          <StockChart ticker={r.ticker} name_zh={r.name_zh} />
+        </div>
+      )}
     </div>
   )
 }
