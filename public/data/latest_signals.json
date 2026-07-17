@@ -1,114 +1,159 @@
 {
   "schema_version": "2.0",
-  "generated_at": "2026-07-17T17:05:34.642740+08:00",
-  "next_update_at": "2026-07-17T23:05:34.642740+08:00",
+  "generated_at": "2026-07-17T22:28:55.498766+08:00",
+  "next_update_at": "2026-07-18T04:28:55.498766+08:00",
   "window": {
-    "from": "2026-07-16T17:05:34.642740+08:00",
-    "to": "2026-07-17T17:05:34.642740+08:00",
+    "from": "2026-07-16T22:28:55.498766+08:00",
+    "to": "2026-07-17T22:28:55.498766+08:00",
     "hours": 24
   },
   "market_sentiment": {
-    "overall_score": -0.308,
+    "overall_score": -0.438,
     "label": "偏空",
-    "bullish_industries": 1,
-    "bearish_industries": 2,
-    "neutral_industries": 2
+    "bullish_industries": 0,
+    "bearish_industries": 3,
+    "neutral_industries": 3
   },
   "industries": [
     {
       "industry_code": "SEMI",
       "industry_name_zh": "半導體",
-      "sentiment_score": -0.375,
-      "signal": "NEUTRAL",
-      "news_count": 16,
-      "summary_zh": "半導體產業出現跌停潮，顯示該產業面臨極度嚴重的利空衝擊。",
+      "sentiment_score": -0.512,
+      "signal": "BEARISH",
+      "news_count": 25,
+      "summary_zh": "台股暴跌導致台積電、聯電、南亞科、華邦電等半導體及欣興等PCB大廠股價重挫。",
       "key_drivers": []
     },
     {
       "industry_code": "PCB",
       "industry_name_zh": "PCB / 載板",
-      "sentiment_score": -0.8,
-      "signal": "BEARISH",
-      "news_count": 1,
-      "summary_zh": "台積電、聯電等半導體大廠及欣興等PCB指標廠重挫跌停，顯示產業面臨嚴重利空。",
-      "key_drivers": []
-    },
-    {
-      "industry_code": "PASSIVE",
-      "industry_name_zh": "被動元件",
-      "sentiment_score": -0.85,
-      "signal": "BEARISH",
+      "sentiment_score": -0.15,
+      "signal": "NEUTRAL",
       "news_count": 2,
-      "summary_zh": "被動元件指標廠及多檔個股重挫跌停，顯示產業面臨嚴重利空。",
+      "summary_zh": "台股暴跌導致台積電、聯電、南亞科、華邦電等半導體及欣興等PCB大廠股價重挫。",
       "key_drivers": []
     },
     {
       "industry_code": "AI_SERVER",
       "industry_name_zh": "AI 伺服器",
-      "sentiment_score": 0.4,
-      "signal": "BULLISH",
-      "news_count": 5,
-      "summary_zh": "AI相關類股普遍重挫，顯示AI伺服器產業面臨嚴重利空。",
+      "sentiment_score": -0.329,
+      "signal": "NEUTRAL",
+      "news_count": 7,
+      "summary_zh": "台積電法說會失靈導致股價重挫，日月光及台達電亦大跌，影響半導體、AI伺服器及電動車產業。",
+      "key_drivers": []
+    },
+    {
+      "industry_code": "EV",
+      "industry_name_zh": "電動車 / 車用",
+      "sentiment_score": -0.8,
+      "signal": "BEARISH",
+      "news_count": 1,
+      "summary_zh": "台積電法說會失靈導致股價重挫，日月光及台達電亦大跌，影響半導體、AI伺服器及電動車產業。",
+      "key_drivers": []
+    },
+    {
+      "industry_code": "PASSIVE",
+      "industry_name_zh": "被動元件",
+      "sentiment_score": -0.717,
+      "signal": "BEARISH",
+      "news_count": 6,
+      "summary_zh": "台股大跌導致被動元件產業全面重挫，對該產業造成顯著負面影響。",
       "key_drivers": []
     },
     {
       "industry_code": "FINANCE",
       "industry_name_zh": "金融",
-      "sentiment_score": 0.083,
+      "sentiment_score": -0.12,
       "signal": "NEUTRAL",
-      "news_count": 6,
-      "summary_zh": "金管會核准電支業者歐付寶開辦跨境匯兌，擴大電子支付服務範圍，對金融業是利多。",
+      "news_count": 5,
+      "summary_zh": "上半年金融業裁罰金額近億元，顯示監管趨嚴及銀行業營運風險增加，對金融產業為利空。",
       "key_drivers": []
     }
   ],
   "news": [
     {
-      "id": "d6c1ca3a2a877d4b",
-      "title": "台股狂瀉2000點！財經作家「曝進場價位」：今天我不會買 - ETtoday財經雲",
-      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE83Zm9Rb0hVdWFBUU03d2FsVWJQcHdXeXpaX280VnlYc21tMm9Lcl9BQ3NLNjFLejdZSHdQRXF0bEpwMWQ4eUEwWk1mZHA4SVNRVUHSAW5BVV95cUxPa2tqYnNmdlNhSUc1cFU2RDJFSEU1OC1kRll5aUFSVk1iLUtNRGcwSlp2ZThtZjlGZ3pYUjluTzBSQzZMR3NxNnA4VUt0anNXZkdfY1pxMDVtSDBXTUlIR0VJX0FCQnU1MmZjRjNsUQ?oc=5",
+      "id": "5c8dc1b86e6f7c73",
+      "title": "台指夜盤翻紅下周能穩？分析師吐實話「今年行情已告一段落」 - Yahoo股市",
+      "url": "https://news.google.com/rss/articles/CBMiqwNBVV95cUxOYmhmUmNUdEJWNHVUeGZ0UlpkbFZCc3dTXzgzLTV3cjFMM3NrbHAxRUZxQzlXdzBjWkt1TmRhbEE0c21rb1lRVFJGeUIxbU1QbTktb0dPdEl1T2QzUGFWU0pJVDlocUlCSUVxV29ySU5OUXVOX1JaQk55MVAtRzR4OXR4a05kUjJ5REdud2o0dEhUVnRDb0tiRW13OE1DNmlGNWJSR1lKU0ZseGF3SGlwdjQ4TG5wdGR5aVJXQ3pMRTN6SVpWaGgzMkFzclhDWnpjOGxCOGlnZHNCS1RCdHVIUFpreFpPSFpDVFpFeWF3NnJRajk2cmdmd1lwV05wSTNJb3dRQTRSbjVVejJlajNNalRpQmZ0aFlWbzQxX0RXakYxTkdzY1dVNWxrLW1reVVQcHZYSjRpR0dWQjRSUHRlNzJBZ29EQm1YWXpOUGk3dEdGMUZZYXI0aXpocHRpczZCQ24zWEtkdTJ6THZkWTdXMmEyejJvSlBHR3JrUnZ6T3BsREI4OGNtUlJmYXJOMWFkUmYxTnVYekhFTjNVa3NKZjdxOVd6NHllcko4?oc=5",
       "source": "Google News - 台股",
-      "published_at": "2026-07-17T11:06:00+08:00",
-      "snippet": "台股狂瀉2000點！財經作家「曝進場價位」：今天我不會買 ETtoday財經雲",
-      "sentiment_score": 0,
+      "published_at": "2026-07-17T17:38:09+08:00",
+      "snippet": "台指夜盤翻紅下周能穩？分析師吐實話「今年行情已告一段落」 Yahoo股市",
+      "sentiment_score": 0.0,
       "sentiment_label": "NEUTRAL",
       "affected_industries": [],
-      "impact_reason_zh": "純屬市場行情報導與個人投資建議，不涉及特定產業結構性影響。"
+      "impact_reason_zh": "新聞主要討論台股整體行情與分析師觀點，未提及特定產業的結構性影響。"
     },
     {
-      "id": "b452552b3d75d25a",
-      "title": "萬綠叢中一點紅！台股一度跌破2700點 「這4小當家」逆勢上漲成避難所 - 三立新聞",
-      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5SMW80R0VfQzhkM0Rpbm1UVDIyMm9YMUNaV2l6XzJLc2FWQmY3RWpoeWkwaWlwNTE5ZElwMzlDYlZuZXYteGNtVXBsRQ?oc=5",
+      "id": "4d7fd971e3a3907f",
+      "title": "暴跌2953點創紀錄！只是剛開始…陳嘉偉：狂跌走勢與「金融海嘯」泡沫極為相似 - UDN",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE16Uk1hU2R5ZXZPbXZGOFhVQ29kOUxza2FFRnROYWxjZEx5LW9veWRZZ3F6YVo2T0FvX0Yydi1pQ0FMR1k4VlNJX1k3UW5vTTExLVHSAVdBVV95cUxNT3pONDBDbXdYd3JoWHA3WkliQWVyeExwWVZCR3JiQVlpcGZzdlVBTXc2SWhsX0p3NXN3dWZvaVlxbkdlaDhhZXRhVTNzNHZ6QXBRRFlfajg?oc=5",
       "source": "Google News - 台股",
-      "published_at": "2026-07-17T13:10:34+08:00",
-      "snippet": "萬綠叢中一點紅！台股一度跌破2700點 「這4小當家」逆勢上漲成避難所 三立新聞",
-      "sentiment_score": 0,
+      "published_at": "2026-07-17T15:41:27+08:00",
+      "snippet": "暴跌2953點創紀錄！只是剛開始…陳嘉偉：狂跌走勢與「金融海嘯」泡沫極為相似 UDN",
+      "sentiment_score": 0.0,
       "sentiment_label": "NEUTRAL",
       "affected_industries": [],
-      "impact_reason_zh": "報導市場整體下跌與少數個股逆勢上漲，未提及特定產業的結構性利多。"
+      "impact_reason_zh": "新聞主要報導台股整體暴跌與市場恐慌情緒，未提及特定產業的結構性影響。"
     },
     {
-      "id": "1f6a5e39de57c96b",
-      "title": "台股崩跌2953點創史上最大跌點！盤整前5大股災 - Yahoo新聞",
-      "url": "https://news.google.com/rss/articles/CBMiswJBVV95cUxOemFkZ1FaeWtPSzdrWDh2VlMyZ3RwR3UtT0VEX2Jldkg5c19QdDVWVEVkZ0lkOWxEY0pMZ08yTldWZVRwRjV0SG9VY1BJOThlZWdYZU1sTXRNeFoyb1I2d29yR2ZveFdVei1CcmxsMXRvU0ZIUENVNVU3Y0dGdVQwWjZheENEcHdENEQ3dXl0UXJTMGx0Y3ZXMzlLS0huTC1RZjJ5MG1jWE9ZSnp6TFkxRE5VSlF6WV94aFlKOHM5RzNPcXZFQlFWWFJCUkF5bzRLWUROLWJ4LWxjR3pOblZtVUs1MEd6eThEeFRqMTNtZkp5TzhyZ0IxandQdkE0MloyV1hFX0JNSXc2ZjYxX0dabmU3UXYwTUVuMWdMOGhQUGtsOEJ0MkdweG8zX0V3Q0xuOXdN?oc=5",
+      "id": "454f5ae777705870",
+      "title": "祭股市穩定措施？金管會：台股反映國際情勢 密切注意市場變化 - 自由財經",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1hNy1mc1V6LTJWZTJtcXJGYkdfbTFYdjdSdDRqZmNBZnVHTml1Z0UwTGlZNHBZVnQ4MUFacVF1UFhldkhEa2Q5Q0toQmJUWGVfbW9tbndid2RzbFRHT0VZ0gFkQVVfeXFMUGhKS3VsNktQNmpqbW1FYjl1SVJVX1FjaVEwSjZYbzhNTWRtZzI4V1VEdFlGNXdaX241WVhIb0dhM2xwWm91MHc1MmpJbnc0ZnVSVmZLZndNUDF0M1AyeG1oYUxYSg?oc=5",
       "source": "Google News - 台股",
-      "published_at": "2026-07-17T15:24:00+08:00",
-      "snippet": "台股崩跌2953點創史上最大跌點！盤整前5大股災 Yahoo新聞 〈台股盤後〉崩跌2953點史上最慘烈！大逃殺壓垮季線和4萬3大關 news.cnyes.com 台股史詩崩盤！外資砍1890億元破紀錄 今年已提款1.56兆 中時新聞網",
-      "sentiment_score": 0,
+      "published_at": "2026-07-17T21:44:38+08:00",
+      "snippet": "祭股市穩定措施？金管會：台股反映國際情勢 密切注意市場變化 自由財經",
+      "sentiment_score": 0.0,
       "sentiment_label": "NEUTRAL",
       "affected_industries": [],
-      "impact_reason_zh": "純屬市場指數表現報導與歷史比較，不涉及特定產業結構性影響。"
+      "impact_reason_zh": "新聞報導金管會對台股整體市場的關注，未提及特定產業的結構性影響。"
     },
     {
-      "id": "f57324282381b13a",
-      "title": "台股狂瀉兇手是他們？專家點名「這7檔」：這是一種毀滅 - Yahoo新聞",
-      "url": "https://news.google.com/rss/articles/CBMiygJBVV95cUxNa01sM3RPelBXdnU0Q3ZvUnBoRmJvZTl4U25sbFo0LWpUQVo0MHpuM1IwTU9vWEJ3VjZVeS1UaFhDcnhsWmZLS1lubmI5T05HUWNVSC1iTGFYM3h2dFktbGM2Sms4YmFyYnJyRkdtU2hyUEI5b0xWVWpsNnVyOTlaS0VlbDRlcGNxZlcyTldSb29FN1ZUdy1GX1lTcWlwZjdpR1o0YmlNeXhxYVVXejZEU08zaWZJc2dBYW9GYnp6d1NCR2xSMFV5VDhKMGhpazNBMFFudzJMOTJVY3pBMTV1bFF1aUhyVkk4ZExTeWxpUUdBWnBrZ1MtUmZnV3N2dUVUTmxzT3RmUUxGOFJMcm1xWXFlemNxWDZQanp4TGRoaUtKT3pJTjZBamZpcUpiYml1dnBENHFkYkRfYnZvSmFidnFGWFBUbG1JbGc?oc=5",
+      "id": "1ebffe1b027743ab",
+      "title": "台股暴跌2953點史上最慘！財經作家揭原因 籲現在應做2事 - Yahoo新聞",
+      "url": "https://news.google.com/rss/articles/CBMi7wJBVV95cUxPcEJPWU53NDRGV1RzMFhsWlo4U0NMbE5Nd1k2OE1yem1kOXFtbFJCMFl2QlMyaVJxbHRzV1kwNXNNRmRudmlyLXgtT2k1Qmd5NmpqVXVORFhET1F3NGh2UHBsV1QxYkNWZ0UwUGFIQ2x0T2x5Tk9qOUYtcDJJWnRDNXo0WHRtU2NFdmNEQ2FTbFQ3ZmVGMjNqcmZwbUttZ0FDeFBUdmJQNTNQVVkyNnlTTERxSWNabFVUVGhGWldsbGlRMGZxb0t5QlVVU2NwOC1WaDIzZ3VfT0hvZC1OU3haRXduaV8weGNVRGE3LWNwaDBhUWEtOUh2MXUzUFNRNVVXNXB5eWRXcV9mQWd2cDE0cW5wdnB5bzYwRWREY1lzeGZJUUFzWnRJTVFwZXVoaGRrZ1oxeTR4OTFJRFoxWG1QbGUza25QeEJhVzBCVGI3cVU3eUxVQlV0LURXenBZYVdkNnB0OXdMVy1rZHhpLTJv?oc=5",
       "source": "Google News - 台股",
-      "published_at": "2026-07-17T16:51:00+08:00",
-      "snippet": "台股狂瀉兇手是他們？專家點名「這7檔」：這是一種毀滅 Yahoo新聞",
-      "sentiment_score": 0,
+      "published_at": "2026-07-17T17:18:00+08:00",
+      "snippet": "台股暴跌2953點史上最慘！財經作家揭原因 籲現在應做2事 Yahoo新聞 快訊／台股崩跌2953點、台積電大跌180元　雙刷史上單日最大跌勢 ETtoday財經雲 台股重挫2953點寫多項紀錄外資、自營商賣超登新高| 股市要聞| 股市 UDN",
+      "sentiment_score": 0.0,
       "sentiment_label": "NEUTRAL",
       "affected_industries": [],
-      "impact_reason_zh": "報導市場下跌與專家點名個股，未提及特定產業的結構性利空。"
+      "impact_reason_zh": "新聞主要報導台股整體暴跌，未提及特定產業的結構性影響。"
+    },
+    {
+      "id": "f3bc7527a677f1a7",
+      "title": "台股狂瀉2953點 史上最慘 | 中華日報 - LINE TODAY",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE53RlpNZ2ZVZjR6NE5qRHF5ME56S1R5X3VWc1J4Q0dWQ0g4bzRTTk41NmYtMXEzdW5Zem9FQ3FUTlhRWm1wOTNoQWxYcHhIY2I3Y3RGWWZn?oc=5",
+      "source": "Google News - 台股",
+      "published_at": "2026-07-17T21:35:30+08:00",
+      "snippet": "台股狂瀉2953點 史上最慘 | 中華日報 LINE TODAY",
+      "sentiment_score": 0.0,
+      "sentiment_label": "NEUTRAL",
+      "affected_industries": [],
+      "impact_reason_zh": "新聞主要報導台股整體狂瀉，未提及特定產業的結構性影響。"
+    },
+    {
+      "id": "f5e8248d8c720b4c",
+      "title": "快訊／外資殺紅眼！大砍台股1890億　改寫史上新高 - ETtoday財經雲",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5fTGpaT1NKYUJ4cG1aZ1pKVzVZNGx1cWNkMF9SVTAyMFJrLVZLQmxWaXJCbUtHd3BGSHJPOF9rVXc1dG1nMEFrMzA3dEFGS2JtTWfSAW5BVV95cUxQQ1A4VzRrX01tR2dvbWVRUlFwZF9wVUVmWEN3b1Q5XzFtX3I0eEZzNFlaTkI4TjdGWW5GanJldVlZWmtfV3FXT3p1YTlpODdhSjY3NXJFcHBuRXA1UDZfaVlnMENseEl1Wjg4T1MyZw?oc=5",
+      "source": "Google News - 台股",
+      "published_at": "2026-07-17T16:08:00+08:00",
+      "snippet": "快訊／外資殺紅眼！大砍台股1890億　改寫史上新高 ETtoday財經雲",
+      "sentiment_score": 0.0,
+      "sentiment_label": "NEUTRAL",
+      "affected_industries": [],
+      "impact_reason_zh": "新聞報導外資大砍台股，屬整體市場資金流動，非特定產業結構性影響。"
+    },
+    {
+      "id": "184c89e4b4c8c29f",
+      "title": "「人踩人」去槓桿大清洗！台股單日慘烈蒸發9.6兆元 單周縮水8.6兆元 - news.cnyes.com",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1VQ3B1dWRtcHo3SGh4Ulh3c25ueWFobFBuR0xWUWc3eXFJNVNacENBbmtlbTBBNHpPNmxyNHBXSElLaExWemEzX3E2dHJ6YTQ?oc=5",
+      "source": "Google News - 台股",
+      "published_at": "2026-07-17T18:45:41+08:00",
+      "snippet": "「人踩人」去槓桿大清洗！台股單日慘烈蒸發9.6兆元 單周縮水8.6兆元 news.cnyes.com",
+      "sentiment_score": 0.0,
+      "sentiment_label": "NEUTRAL",
+      "affected_industries": [],
+      "impact_reason_zh": "新聞報導台股整體市值蒸發與去槓桿，非特定產業結構性影響。"
     },
     {
       "id": "9de110d05721d74e",
@@ -117,70 +162,58 @@
       "source": "Google News - 台股",
       "published_at": "2026-07-17T13:44:00+08:00",
       "snippet": "台股重挫2953點收42671點失守季線創盤中及收盤最大跌點| 證券 中央社 CNA",
-      "sentiment_score": 0,
+      "sentiment_score": 0.0,
       "sentiment_label": "NEUTRAL",
       "affected_industries": [],
-      "impact_reason_zh": "純屬市場指數表現報導，不涉及特定產業結構性影響。"
+      "impact_reason_zh": "新聞報導台股整體指數重挫與技術線型，非特定產業結構性影響。"
     },
     {
-      "id": "f7d192251777d7f1",
-      "title": "台股迎黑色星期五 盤中血洗跌逾2100點 - 公視新聞網PNN",
-      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFA1NHdGaHhkVFhsb1dacXpCb0lMdHF4R0VwQnhueEtDakdzNnV6bGgweEtoU19LMndDVWdzRTBYMmZ1QWVaM3VDSy0wZjktY2c?oc=5",
+      "id": "bfa9fabacec3b75c",
+      "title": "台股暴跌2953點史上最慘！金管會揭主因：將密切關注 - 三立新聞",
+      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5JWDZTRGM4SVJQWWNpSFhETmFTYjlRZmxBTGNHR0xtUTg1Q0FXblFWeE1NUjc0Vlp4WWx0TkRMUy14OG1DeUtRdGNPbw?oc=5",
       "source": "Google News - 台股",
-      "published_at": "2026-07-17T13:41:08+08:00",
-      "snippet": "台股迎黑色星期五 盤中血洗跌逾2100點 公視新聞網PNN",
-      "sentiment_score": 0,
+      "published_at": "2026-07-17T20:08:33+08:00",
+      "snippet": "台股暴跌2953點史上最慘！金管會揭主因：將密切關注 三立新聞",
+      "sentiment_score": 0.0,
       "sentiment_label": "NEUTRAL",
       "affected_industries": [],
-      "impact_reason_zh": "純屬市場指數表現報導，不涉及特定產業結構性影響。"
+      "impact_reason_zh": "新聞報導台股整體暴跌與金管會關注，未提及特定產業的結構性影響。"
     },
     {
-      "id": "a661aeda5e510dc6",
-      "title": "台股血洗2953點最慘 三大法人狂砍2617億元史上最高 - TVBS新聞網",
-      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE51aE8xLXZ3MTV2MVBZbklWdWtWczBJa2lDOXp3ZmxXQjFnX1ZaVDFvY3NUOTNRVTdSbDVBUnh3ZmVhWWxjUmxTdWQ1bVZaVW8?oc=5",
+      "id": "84887ae803cc0821",
+      "title": "台股今重挫 2,953 點，改寫史上最大跌點紀錄 - TechNews 科技新報",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE05ek9vODFTSkszQjV3VVRIdm96dkhVcklkcVE1NGZCbFdMMDQyU3Bha25FcDk2ZjgzbjdraXNYeTZYZXJyM25WcEdTaXRjZWFQM3ZHRTZrWTI?oc=5",
       "source": "Google News - 台股",
-      "published_at": "2026-07-17T15:57:00+08:00",
-      "snippet": "台股血洗2953點最慘 三大法人狂砍2617億元史上最高 TVBS新聞網",
-      "sentiment_score": 0,
+      "published_at": "2026-07-17T16:52:24+08:00",
+      "snippet": "台股今重挫 2,953 點，改寫史上最大跌點紀錄 TechNews 科技新報",
+      "sentiment_score": 0.0,
       "sentiment_label": "NEUTRAL",
       "affected_industries": [],
-      "impact_reason_zh": "報導市場指數表現與法人賣超，不涉及特定產業結構性影響。"
+      "impact_reason_zh": "新聞報導台股整體重挫，未提及特定產業的結構性影響。"
     },
     {
-      "id": "b4a8d78e26b68c8b",
-      "title": "【Follow法人】殺瘋了！三大法人賣超台股2617億元史上最大 投顧董座：韓股休市賣壓轉向台日 - Yahoo股市",
-      "url": "https://news.google.com/rss/articles/CBMipgRBVV95cUxOUjhlQXFUT1dGMVJDWWVjYlhnTHlKLTlnaVRjeVY0WFRDTWtCRldTdDlyZXl1dWJQMlpHb01TNmlESWxERndnZzNYZVFNbjZ3UHJ6MUYtdUJKQ1Bicm9OUE1kMzFVWTN4NUZJbG94MXd5U29nbXByN1RmWGFSbVY5QmtYdFd2bWRCc3ZHVmRiUmNLMlJTYWl0UEwtaVhJNU1zT3NhT2pMaV9XQ0pGaWRvekwzdGprUkxtVnFIWmlMY1drR2l3V3YwOVpUTlNTZHNtVU0ydldFNDZJeDExX3ltYnFRWVpaWVdyanBTeVV4OWtVLTBJTnlLcUY1VXFRNVdKQm1oR09PcGZDMTIyQU9OZzlmOV9seDQxZmhwT2Vfc2N2enlkdkpSQTlYTlVHQi14UXN3SlZDNGx5TThYWFBVN1pEcEMxOVhxNlA4OXNmQUhnb001RUc0cFlvV0lYRFRKT2h1a0pWSUNCMFBmbXUzM1BNNG5qYWFFX3ZLaDRiOUQ3Rnc1VWRPLUR0VnFlT1o5ZDdXTnlMWEhrTGF0TE9OUUN0RHpxaEM1ZndTRk1LRmdMWThQVV9FSXVaV3JScU5QZmVmZUxhcF9SaFUtMHd2VGtFVGplVGlJNXVKWE1GUDZPcFBORnN4aDVZcTdRMnhMM19Fb1FWUjB5VDJ6YkhDNXhyQWpsLVU5NmZIU3ctb0hvZEJJQVA2d3VOdlkxeGdpZ2FVSUZB?oc=5",
+      "id": "24601aa6a656162b",
+      "title": "台股「黑色星期五」慘崩近3000點！外資賣超1890億創高市值型ETF集體爆量成逃命與搶反彈主戰場｜Yahoo財經掃描 - Yahoo股市",
+      "url": "https://news.google.com/rss/articles/CBMi9gRBVV95cUxPWUVycVQxeFhSb09xVUpQVDB6V2NudWc3ekgycUZFMTNBcExXRE9KWXJrMHd3S3ZudWx1bWQ3NnZaQjFsaW0tY0U5djJXU0RTODNOc085MzhITDFheVZIdGc0NzRLU3Y2b1d1N3lJNFp5QXJXOUJHQTF1R1lkTndwWDRrRG05NURWTjFqNVBjQ2tLZ0xvNHdjMmpBZzFuR3NxTll0T2FUVlJPZU16TWpxTTdrLUpPcTBOV0luUjZBbGNIckdRNWdtWTN2bjRub1N4NlE2OUhxaWQwdm1Wa0hETGVZY2c1ZVhzaG1yWVdDdmRxOXpoNERZZ05fUmxXZ2ZlbzRRVzVpWkNsdTFhMUZkY3VuX09wWjhnM0FuV3N0YWI1RU0tLUxGWm8yaVJmZU9iSWJZTEtiVDBQX2NNN1NFaVFVWnVaRHZQcU5KSGxSTkJRRFN0VmhlYkRGdWpZUkd4Z0lVSy1oVmdtT1c2WUNaQm5XMWN3LV9zSDZGblVaRWVNRGdyY0Jza1ZMZXJKalEtb1p0aU43bkRDR3FuTzM5cmZMTFM5d3M2Q1NLMHRfZ25CTlVHTXdfTGZMbzU3OFVBaUhwYnZKSmtSNzJEa0l2UTk2MGpYaF95amNCMlN5QmtPMDBtdUczMzloZWVqZDVZRUVGc2lNaG9OTVgxX2NaNjJEZ1J2eVR1QnZfUExmbkdoRktuYXRNQjNvNUoyVUxmSVNRUHEwRThVVHcySmtRSDFIcHBHRmV2dWVfSTNQZmNhaG41MDR6ZUlIZ2gybEMwMlgzMzdBcGhSR3RKWnpZWWtNaUM4b1BTdTAxM2ZRUUNhSlJuVXc?oc=5",
       "source": "Google News - 台股",
-      "published_at": "2026-07-17T16:10:35+08:00",
-      "snippet": "【Follow法人】殺瘋了！三大法人賣超台股2617億元史上最大 投顧董座：韓股休市賣壓轉向台日 Yahoo股市",
-      "sentiment_score": 0,
+      "published_at": "2026-07-17T16:30:17+08:00",
+      "snippet": "台股「黑色星期五」慘崩近3000點！外資賣超1890億創高市值型ETF集體爆量成逃命與搶反彈主戰場｜Yahoo財經掃描 Yahoo股市",
+      "sentiment_score": 0.0,
       "sentiment_label": "NEUTRAL",
       "affected_industries": [],
-      "impact_reason_zh": "報導法人賣超與外部市場因素，不涉及特定產業結構性影響。"
+      "impact_reason_zh": "新聞報導台股整體崩跌與外資賣超，非特定產業結構性影響。"
     },
     {
-      "id": "35880f413c1cbcb8",
-      "title": "刷新史上紀錄！外資單日賣超台股1,890億、本週累計提款逾3,100億 - Newtalk新聞",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5SRGFWUjRUVWpQTWFTZTZUQkJtMHlTNl9xNm9MRzFjb1gtN1ZldDktS1J2eGVvMkdnWGVIMDMxWl9mOHN3NnB0U3l2X1pFOUNJTTg1Vm1wYWdadzg?oc=5",
+      "id": "137be3c5e6ff72b9",
+      "title": "台股單日暴跌2,900 點寫下歷史！崩跌3大主因、重災區與避風港一次看｜股市話題｜豐雲學堂2026 年 07 月 - sinotrade.com.tw",
+      "url": "https://news.google.com/rss/articles/CBMi8wNBVV95cUxOZDJvVmIyS3g0WTlISE5FWGxhRVM4TmRONGpNdVVNZ3FaYnVzQ2plYkxucGRVakJEaEt3SEQ1MGduVFd4U0dHZkY4OVZvMWVQT3dIM0loQlVFdWpZQ2I3Mnd6LW1yaW00UXU1VUw4ak5pOUsyMGJOTTQ4X0lXNmE3V1FRcnMtT1FoOWhhQ0pieGZKRlFjSkpNMnhxWl9yaTJTTldpSVAzRlMtbmdDelBJTmdSTGlqRGh5R3J5ODFFSjlQdTBZd0ZNZE9zNENyVXZwRUNZMlgwcXR4Ymk0emdJMkVic3ctZU9sU2NVeWpyTG4zY19va1NFLUVaamN5NnktbEJULTRyaUZzV3ZKeXFRc1lmcE5WXzd3Tl9LYVp3RHZ3a2dRT3l6QVc2REktSEZUN2FtdE96aThfQWNQN3RQbUhxVUNFc0lrSXl6c1FmVmlnZm9nMGIwVnVkU0k2YXhEWGpvU3Z5VHphVkdXNW5TYjB0Unl4bzAtSjJ4SF9rdzVxRnBVd2dYTGRHTllHbjFLRmhHUmZuMUotall2ekw4bndXcS1EQTdWUHlGeUZhUnA0dk1vYThzUHlEMldvY0ZsTk13dFBpQ1NKbHZLWjlYb3BRU1dNdXRBbmZpSVVnLTJ2a3BZSS1Ubjc1YmliNFNONE5V?oc=5",
       "source": "Google News - 台股",
-      "published_at": "2026-07-17T16:05:56+08:00",
-      "snippet": "刷新史上紀錄！外資單日賣超台股1,890億、本週累計提款逾3,100億 Newtalk新聞",
-      "sentiment_score": 0,
+      "published_at": "2026-07-17T21:07:30+08:00",
+      "snippet": "台股單日暴跌2,900 點寫下歷史！崩跌3大主因、重災區與避風港一次看｜股市話題｜豐雲學堂2026 年 07 月 sinotrade.com.tw",
+      "sentiment_score": 0.0,
       "sentiment_label": "NEUTRAL",
       "affected_industries": [],
-      "impact_reason_zh": "報導外資大規模賣超，屬於市場資金流動事件，非特定產業結構性利空。"
-    },
-    {
-      "id": "16fb1596c254b404",
-      "title": "見0050慘摔！ 他「107元買30張」臉綠了 網：再跌再買 - Yahoo股市",
-      "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNVEYwdHBHRjBnM0VWTGdvQlZVdFVfMkxrTkJjZTlxOUY4dDZKeHJrNWgxeHhfSkhJdTNtSEtHMnBCWGNmY3FLOE16SXdJUkNBTjVKOFlRbEw1RmdSQkhvR21jcUN6UHl6ZkRSUUhTNHcxZTRTampUc1ZxeDhlWlY3UGRKeEZ0bV9YZmpVY2hyajNUZ2tUQngzc0lITDl4N3NnaV9NdGxHaHg3Nlp0TGRXcXdkLVh3Ml9tbF85N244Y2Z5Nm4wemt2WUU2SU4xTkI3a0tkOENVelZ0Y2VWa1AyMVV5RFZiaklPNElQWmthTFg?oc=5",
-      "source": "Google News - 台股",
-      "published_at": "2026-07-17T15:18:00+08:00",
-      "snippet": "見0050慘摔！ 他「107元買30張」臉綠了 網：再跌再買 Yahoo股市",
-      "sentiment_score": 0,
-      "sentiment_label": "NEUTRAL",
-      "affected_industries": [],
-      "impact_reason_zh": "純屬個人投資經驗與網路討論，不涉及特定產業結構性影響。"
+      "impact_reason_zh": "新聞報導台股整體暴跌與原因分析，未提及特定產業的結構性影響。"
     },
     {
       "id": "ca38b231ce6e8a66",
@@ -189,22 +222,22 @@
       "source": "Google News - 台股",
       "published_at": "2026-07-17T12:56:00+08:00",
       "snippet": "台股暴跌逾2000點，市場在怕什麼？法人建議布局8大方向－聯合新聞網 商周",
-      "sentiment_score": 0,
+      "sentiment_score": 0.0,
       "sentiment_label": "NEUTRAL",
       "affected_industries": [],
-      "impact_reason_zh": "報導市場下跌與法人建議布局方向，未具體指出特定產業的結構性影響。"
+      "impact_reason_zh": "新聞報導台股暴跌與法人投資建議，非特定產業結構性影響。"
     },
     {
-      "id": "f08892d4bb4b7c3b",
-      "title": "台股重挫只是「技術性調整」？股民吵翻：基本面沒問題但槓桿太多 - UDN",
-      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9kamo1MU5JQlYwUEFqeFJNdU92RGdUWEgwZS1mWi1ZR1N5R19ZbXU2WVo3V3JheDYtcmw5V3N4WTlfYm9BSTFNVVQ3RE9mVVBiLWfSAVdBVV95cUxObzhhRDJiZnVQeTM2UzFGVjFPNTE5NmMtdlhkMElhcmlMMmFHYzJUZkZ5dTNxZkpmVEdtOEJaTGJiMk5zb1hPaGxuLTlmWnlnNnBURkM0UWM?oc=5",
+      "id": "4d41873882eebc7e",
+      "title": "史詩崩盤「台股蒸發2953點」！分析師揭「關鍵支撐」別在恐慌中殺低 - Yahoo股市",
+      "url": "https://news.google.com/rss/articles/CBMihgNBVV95cUxNcHVIU29GaVJyZm9zS3QweUQwMEg4aXJ0cldsWFZWbW9wUkR0UW1uajhrb29XUlRNUzFLMm1CSVFrYjc1UXdZaW9NMmczeGR3cWxSSTRXb0FIcVpVVkZuTkFzMjQxMklmc1R6TE1GRHRDVnFVeHJFeWlnUUszSmlwOHlxeENYNmw2ZDhLZjFLR190TUZ0S2R2cWJfMzBvakxUZEVKN240RVRBRklPQXVrb0N3eS14SXBlV0J5S042Z2ktZ2NsLUstOWczNTNlVFFQTDIzSHJyMUFYSWctRlpTTGJ6Wkg5cU1jSXBvVXV6N1l0c2ZKZjg1UF9wdk5uOWFMWlhZb1hBUDZfcVBEYm8zRGY4Wlhqa1RjaVNpZWd2QnRZNEM0T3M1dzFnakVIc3ZzbGw0TDJaVGNGalJtOGQyTF9RUER2LVJzZWthTnJOZGl4MWtsVWtvR3lucm05TVVtWEVueEJIYkVTMU9ZNkEzWjBlLVN5V3JITk1EMEZRdHJ6UlhubFE?oc=5",
       "source": "Google News - 台股",
-      "published_at": "2026-07-17T15:23:37+08:00",
-      "snippet": "台股重挫只是「技術性調整」？股民吵翻：基本面沒問題但槓桿太多 UDN",
-      "sentiment_score": 0,
+      "published_at": "2026-07-17T16:41:19+08:00",
+      "snippet": "史詩崩盤「台股蒸發2953點」！分析師揭「關鍵支撐」別在恐慌中殺低 Yahoo股市",
+      "sentiment_score": 0.0,
       "sentiment_label": "NEUTRAL",
       "affected_industries": [],
-      "impact_reason_zh": "報導市場下跌原因討論與技術性調整觀點，不涉及特定產業結構性影響。"
+      "impact_reason_zh": "新聞報導台股整體崩盤與分析師觀點，未提及特定產業的結構性影響。"
     },
     {
       "id": "ac39a706f9a551ac",
@@ -213,10 +246,10 @@
       "source": "Google News - 台股",
       "published_at": "2026-07-17T13:35:39+08:00",
       "snippet": "台股收盤跌2953點！史上最大 4萬3關卡也沒了 Yahoo股市",
-      "sentiment_score": 0,
+      "sentiment_score": 0.0,
       "sentiment_label": "NEUTRAL",
       "affected_industries": [],
-      "impact_reason_zh": "純屬市場指數表現報導，不涉及特定產業結構性影響。"
+      "impact_reason_zh": "新聞報導台股整體收盤跌點，未提及特定產業的結構性影響。"
     },
     {
       "id": "1c01f9c16257d612",
@@ -225,61 +258,10 @@
       "source": "Google News - 台股",
       "published_at": "2026-07-17T13:06:37+08:00",
       "snippet": "台股重挫2600點 達人曝「未必壞消息」：能買到便宜台積電 Yahoo股市",
-      "sentiment_score": 0,
+      "sentiment_score": 0.0,
       "sentiment_label": "NEUTRAL",
       "affected_industries": [],
-      "impact_reason_zh": "報導市場下跌與專家觀點，提及個股台積電，非產業結構性影響。"
-    },
-    {
-      "id": "0bd52c76b27d4ec9",
-      "title": "台股狂挫近3千點！雪崩原因曝光 分析師解讀基本面全說了 - Yahoo股市",
-      "url": "https://news.google.com/rss/articles/CBMi_wJBVV95cUxQb3ZDSmxLanFlQzhDTC1BOGRfdzBleTcyRnhXWVVvVkZPMXR1SnpBcWFTUEk4UVdGVUVRZElWZ1R5YVV6Mlltb2tjYmpOYjN1azRqQ2RoVVU3UTRSUjlub0luVk9iNDFXeGpnVDk0M1drVkR5dXlicmR5NUZlTnU1bW1sckxNNWg2LTRxX2l4UjdhM29JandUYWhjX0puZGpSTGZoYzEyWE5oOE1keVRtOGU0VHFiVUFoNkkzaHZyRldnRWJaUGo0eU9haTdORUdBVC13Uk92QVRtVnp6dmJEVWVjS2NRZE1kTk1ObnpwMzNraDBaSTZEUDNTT0ROUXBicXJsRFBXVVUwcHRwOHJ1NnphcFhMbTJjeUgyNHQ2N1dlQWg4ZlNtMDF5STRuQVh4eUxNRU5VTVZQd1N3UUk5UC1zbG1fSkdocU53MHRLOThuSnNqRHRGNnFfbmZ5NVRTaFBOQlUwc1pjVHFOem00bkRBOFVPS3NGa2wzdUx5QQ?oc=5",
-      "source": "Google News - 台股",
-      "published_at": "2026-07-17T15:25:46+08:00",
-      "snippet": "台股狂挫近3千點！雪崩原因曝光 分析師解讀基本面全說了 Yahoo股市",
-      "sentiment_score": 0,
-      "sentiment_label": "NEUTRAL",
-      "affected_industries": [],
-      "impact_reason_zh": "報導市場下跌與分析師解讀，但未具體說明產業結構性影響原因。"
-    },
-    {
-      "id": "517f6541abeff1ae",
-      "title": "台股暴跌逾2400點！史上盤中第2大 失守4萬5、4萬4兩大關卡 - Yahoo股市",
-      "url": "https://news.google.com/rss/articles/CBMi8AJBVV95cUxPNDR1anpzOHdrWTZ0YnliQWdVZS1jM0UtWGI5WTh5YnRRclNjVUg5dl93ZmhwdF9pdFlwbVZES1lvdXpxSjdDdXAwb2p5ZTFWd25XNmV6bkQzbTNiY1dHLTQ2bEZuSFhLdnZ1ekg1eFI2TDBjMW5JNWxGNTFnSTN5TGVIZ2h4WTU3alJKYnA5SkZDemwwVmdDY1JVWU9mZHNyS08wTkpabjVCQmNBYzJiZlhZUUlOLTJqLUlrYU4zZ2ZHUGp0NTdaZFFYNDAyVEdwTmlvM25VaFlWaFA4SU5BZDcxTVpwN0xQbkRCV0NXMDJOVUItY2JiUkZSOGc5ZERfZFExSnExOVp4dzZocXdIUndnMGtqVHNOajQ5ZktqZm5nbktodlZRMHFZY1FuZ1BXWFBNd3RQdTBrTnAwYUpNYW1LVmtXdUFEb25xMFJSenI1b3JlS1ZJVnNCeXlRRHY4eFpIa1BlcGx2TE5aSjRfdw?oc=5",
-      "source": "Google News - 台股",
-      "published_at": "2026-07-17T12:18:09+08:00",
-      "snippet": "台股暴跌逾2400點！史上盤中第2大 失守4萬5、4萬4兩大關卡 Yahoo股市",
-      "sentiment_score": 0,
-      "sentiment_label": "NEUTRAL",
-      "affected_industries": [],
-      "impact_reason_zh": "純屬市場指數表現報導，不涉及特定產業結構性影響。"
-    },
-    {
-      "id": "5e6fd2b08166603f",
-      "title": "台股暴跌2953點刷史上最大收盤跌點！台積電慘180元收最低聯電、南亞科、華邦電、欣興全跌停 - Yahoo股市",
-      "url": "https://news.google.com/rss/articles/CBMi0gNBVV95cUxPSUlRRE5kdnJ2eTR3QUZEblFaVTB6Si1DNHJBelRGbmh4ZUtFTVRSVUhsMkRudjNpNk5zUFpFQkFBbmdQeFo2VFg4Z0p6MXpVSmhUWnN5bHotMWt4cEpkOTJOdEZwbTVjeG5hN3BQckg3SVM1Wkw1Qy1HU3c1NlFRUXh0LXUtdmpNd0VpYlVOLXU3MUE5Rjdrb1RaM183MEdiNDNOMU1RSkRuc1NkZFBSNHN5MWlfQjN0eng1Y3FmMWtNU3dBTlYtSm1QM3U5ZkNVXzJ3Sk1QVkw4X1dzUGJYMjlkdmdaRGQ5aEFHSVV6OVFhMWxId1VUVWszVHFlVGFjZkhNNlZELXRXazRGcGpRQWVSaGRvV3Y1RFVzaGpEbmRWcGxQMmx4eUJRYUdiTkstNVVlMjlXb0QwYk50QWVPUlNQdy1fal9OUDRYWGQ3NnNGdEgzVjRyYl80Qmcwd2hmaUExMlo1RU5WNHpORTRvMVhQRWkyekUwdTgyNnNPZUtYVER5aWpPSFB0VWhISGYzZkFYNlo3MW5Ydl9icGI5WThHTDNmWEFxMXJqanl0dTlvYzMwNkFIR0pHX09mRU12dzVIRlhpUHpIRHdfQnNKTUdR?oc=5",
-      "source": "Google News - 台股",
-      "published_at": "2026-07-17T14:11:15+08:00",
-      "snippet": "台股暴跌2953點刷史上最大收盤跌點！台積電慘180元收最低聯電、南亞科、華邦電、欣興全跌停 Yahoo股市",
-      "sentiment_score": -0.8,
-      "sentiment_label": "BEARISH",
-      "affected_industries": [
-        "SEMI",
-        "PCB"
-      ],
-      "impact_reason_zh": "台積電、聯電等半導體大廠及欣興等PCB指標廠重挫跌停，顯示產業面臨嚴重利空。"
-    },
-    {
-      "id": "faea8fb158065715",
-      "title": "台股重挫2400點！ 謝金河揪兇：「這國」為全球資本市場帶來災難 - Yahoo股市",
-      "url": "https://news.google.com/rss/articles/CBMi-AJBVV95cUxOSERwMDAtZ3NsZjZMX0NBLWFUbEtLYUhvLVVaeDFDRGxhV3BTTXN1empBNUFGUHIxeVhJZ29pcC04UUZFM1NsRlNwVTdfSlowNUhDNEdkVVZuRUY2Z29ySGhhb2R6RUJOM1JtS0MzLWRDVVhjekstRUVwNVBjLTdkT290TXNlUzZuMG1XYW5KUWRQTDlNNHZzSWxFbTRzZEpFNEdCci1oUF93bVAweF9ZcTVUNGdJV1EzdERZNTZSVkJzOTFZc0Rwa1htV1hUbFlUdkpqd3A5RW1UM0FxZnVQd0d5SE1DeC0wR1dsVXc4blg4WkxmN25fc0ZWSXNqSF9ZX1pVd2QzcXBlN0xlcGxhTFNYZXdHTjVDZVJwNm5KMVd3V1U5WWlvZGQxc2tBQ052alB5ZnNTd1lkZS1RczhDdGl2NW42NWhlYXJGZFg0Vlp0STh3VjVpR29nREdLa1lGYnBQYkE2bWo2S1B1Wm5ORzZYd0pHVTZt?oc=5",
-      "source": "Google News - 台股",
-      "published_at": "2026-07-17T12:26:37+08:00",
-      "snippet": "台股重挫2400點！ 謝金河揪兇：「這國」為全球資本市場帶來災難 Yahoo股市",
-      "sentiment_score": 0,
-      "sentiment_label": "NEUTRAL",
-      "affected_industries": [],
-      "impact_reason_zh": "報導市場下跌與歸因於國際因素，不涉及特定產業結構性影響。"
+      "impact_reason_zh": "新聞報導台股重挫與投資人觀點，未提及特定產業的結構性影響。"
     },
     {
       "id": "5083ca11074def31",
@@ -288,24 +270,115 @@
       "source": "Google News - 台股",
       "published_at": "2026-07-17T11:56:34+08:00",
       "snippet": "台股遭血洗！盤中狂瀉逾2100點 創史上盤中第2大跌點 Yahoo股市",
-      "sentiment_score": 0,
+      "sentiment_score": 0.0,
       "sentiment_label": "NEUTRAL",
       "affected_industries": [],
-      "impact_reason_zh": "純屬市場指數表現報導，不涉及特定產業結構性影響。"
+      "impact_reason_zh": "新聞報導台股整體盤中狂瀉，未提及特定產業的結構性影響。"
     },
     {
-      "id": "92562c1eb826071b",
-      "title": "台股盤中暴跌2117點！台積電崩100元「聯電、南亞、華邦電摜跌停」 專家：別盲目摸底 - Yahoo股市",
-      "url": "https://news.google.com/rss/articles/CBMiigRBVV95cUxNM1ZBSmlJcTF3WGhOcTBBSFNWWVJ1RTRpc3Q5R2Y4cjhVaXpKczIwY2M5T2pnZDlJcmdFeExBeW44aVhSUVo5OU1TWWwzdUpFNWh0Ry1CWEZuSjNvUjFtc1VSTTBMV01nSjYxWk84amFGZ24zNDRIR3ZvcDZmVUNJcmFTai1zQUQxQW1WWjR1TjZoSzRiQVNwT3VTcktYeGliSUJXSmJHYnJaOVhjM0NhdldXSjZUdTVqVmthODlLYjdPb2k5RVpuSUlBZnFLOUhpeHZwSmpTVjh4MElBTzZvMFNldXNubXZsYzY4RFhrX3JRVE52S3owZndDbHpkaUkxQmM1YjdRaWUtTnZ1aEpIOEVMWGY5S3M3V1ktdGpoOEZGeXk5TlRHZ0Rnb2xLNDdYM2l2di1GaEczN1FuSHdHSFRPTzhCams3bFp3UFB0Wm9Pd3QyMFBhMi1VaThZSDAxd2twZVhibG8zNnpCSHppNjhyQTdPQVdJWUNTUEhhTTdoVUFXU2d6ZmRaQlZMbHFGMGpMYWJ6aWtnd0x4X1d4TTBta3lxRTBkR01nVFBMaTVJVHp2cXAySTBtdXdRdk5yOEk1Y3hld2ptcllSWmVWTG5oQVE2bm5LcVNZd3J1eXl4ZTIyNlc4VlE1a2V4bUJCVXpVd1MxSUZkbHZKcTVqWG9aMF8xQVRWRGc?oc=5",
+      "id": "0bd52c76b27d4ec9",
+      "title": "台股狂挫近3千點！雪崩原因曝光 分析師解讀基本面全說了 - Yahoo股市",
+      "url": "https://news.google.com/rss/articles/CBMi_wJBVV95cUxQb3ZDSmxLanFlQzhDTC1BOGRfdzBleTcyRnhXWVVvVkZPMXR1SnpBcWFTUEk4UVdGVUVRZElWZ1R5YVV6Mlltb2tjYmpOYjN1azRqQ2RoVVU3UTRSUjlub0luVk9iNDFXeGpnVDk0M1drVkR5dXlicmR5NUZlTnU1bW1sckxNNWg2LTRxX2l4UjdhM29JandUYWhjX0puZGpSTGZoYzEyWE5oOE1keVRtOGU0VHFiVUFoNkkzaHZyRldnRWJaUGo0eU9haTdORUdBVC13Uk92QVRtVnp6dmJEVWVjS2NRZE1kTk1ObnpwMzNraDBaSTZEUDNTT0ROUXBicXJsRFBXVVUwcHRwOHJ1NnphcFhMbTJjeUgyNHQ2N1dlQWg4ZlNtMDF5STRuQVh4eUxNRU5VTVZQd1N3UUk5UC1zbG1fSkdocU53MHRLOThuSnNqRHRGNnFfbmZ5NVRTaFBOQlUwc1pjVHFOem00bkRBOFVPS3NGa2wzdUx5QQ?oc=5",
       "source": "Google News - 台股",
-      "published_at": "2026-07-17T11:35:42+08:00",
-      "snippet": "台股盤中暴跌2117點！台積電崩100元「聯電、南亞、華邦電摜跌停」 專家：別盲目摸底 Yahoo股市",
+      "published_at": "2026-07-17T14:49:07+08:00",
+      "snippet": "台股狂挫近3千點！雪崩原因曝光 分析師解讀基本面全說了 Yahoo股市",
+      "sentiment_score": 0.0,
+      "sentiment_label": "NEUTRAL",
+      "affected_industries": [],
+      "impact_reason_zh": "新聞報導台股整體狂挫與原因分析，未提及特定產業的結構性影響。"
+    },
+    {
+      "id": "b4a8d78e26b68c8b",
+      "title": "【Follow法人】殺瘋了！三大法人賣超台股2617億元史上最大 投顧董座：韓股休市賣壓轉向台日 - Yahoo股市",
+      "url": "https://news.google.com/rss/articles/CBMipgRBVV95cUxOUjhlQXFUT1dGMVJDWWVjYlhnTHlKLTlnaVRjeVY0WFRDTWtCRldTdDlyZXl1dWJQMlpHb01TNmlESWxERndnZzNYZVFNbjZ3UHJ6MUYtdUJKQ1Bicm9OUE1kMzFVWTN4NUZJbG94MXd5U29nbXByN1RmWGFSbVY5QmtYdFd2bWRCc3ZHVmRiUmNLMlJTYWl0UEwtaVhJNU1zT3NhT2pMaV9XQ0pGaWRvekwzdGprUkxtVnFIWmlMY1drR2l3V3YwOVpUTlNTZHNtVU0ydldFNDZJeDExX3ltYnFRWVpaWVdyanBTeVV4OWtVLTBJTnlLcUY1VXFRNVdKQm1oR09PcGZDMTIyQU9OZzlmOV9seDQxZmhwT2Vfc2N2enlkdkpSQTlYTlVHQi14UXN3SlZDNGx5TThYWFBVN1pEcEMxOVhxNlA4OXNmQUhnb001RUc0cFlvV0lYRFRKT2h1a0pWSUNCMFBmbXUzM1BNNG5qYWFFX3ZLaDRiOUQ3Rnc1VWRPLUR0VnFlT1o5ZDdXTnlMWEhrTGF0TE9OUUN0RHpxaEM1ZndTRk1LRmdMWThQVV9FSXVaV3JScU5QZmVmZUxhcF9SaFUtMHd2VGtFVGplVGlJNXVKWE1GUDZPcFBORnN4aDVZcTdRMnhMM19Fb1FWUjB5VDJ6YkhDNXhyQWpsLVU5NmZIU3ctb0hvZEJJQVA2d3VOdlkxeGdpZ2FVSUZB?oc=5",
+      "source": "Google News - 台股",
+      "published_at": "2026-07-17T16:10:35+08:00",
+      "snippet": "【Follow法人】殺瘋了！三大法人賣超台股2617億元史上最大 投顧董座：韓股休市賣壓轉向台日 Yahoo股市",
+      "sentiment_score": 0.0,
+      "sentiment_label": "NEUTRAL",
+      "affected_industries": [],
+      "impact_reason_zh": "新聞報導三大法人賣超台股，屬整體市場資金流動，非特定產業結構性影響。"
+    },
+    {
+      "id": "fc512553c0207f6c",
+      "title": "【Follow法人】殺瘋了！三大法人賣超台股2617億元史上最大 提款台積電破千億元 - Yahoo股市",
+      "url": "https://news.google.com/rss/articles/CBMi3gNBVV95cUxOaklWUXBuVmVYMjExQ2FsekdsS2pWbHJyOFNxZWJ0TXFyS3NUWU5JRlQyVHFfNmZtUEdCT3NuS0gxeWhtZWw2TTVUUG1iUm9LX3otSWUwcUh4Zk5oZEs1ZF9fYlFhcGxsY3Zma3BlS1dBX3JNTDBWa3RnTGxTSG56YVFpd3JiakMtdzVjTFQzTXlGZmRWSTl3eFNFZ3pmU0MyRkZzZVdtQTBoaEdnNWhRZEN6d2FKNHRDMVpDNUx0OThQUWFJdFhKUGRfeFB3SUJXSWFRR1ZvTld5VGt1MXdTd2lRVzlDM3dVVGdDYklkRzJTM1MwYXVvYVhLWU10TTRBdjdMTGFBOVpoVVpSUnhyMVBIbURrUG1KcnYyeVB1WE42MnpFNFVENzUtejRXQ0VnaVV0d2dzeUVOTm15QUI3aEpCbGZEbldTRm9NcEJOeFhlOW8tZFR6MnRjbXdidnRvbXFoVzN5T1g4VEJJWWJRUHFWME1SNTZiM2pKaTJtb3RYblg5ektxbkZPSlV5WXIyV3dmRms0QjZ0TnpFWnNKMzBmTVFpbTI1UjZHNnpzejhPZkk1QW14eElZUHJoRFBNdlRtdHRKenRPQnFWcUx0RXBlc0M1M3A3WFR3OGtR?oc=5",
+      "source": "Google News - 台股",
+      "published_at": "2026-07-17T16:42:46+08:00",
+      "snippet": "【Follow法人】殺瘋了！三大法人賣超台股2617億元史上最大 提款台積電破千億元 Yahoo股市",
       "sentiment_score": -0.8,
       "sentiment_label": "BEARISH",
       "affected_industries": [
         "SEMI"
       ],
-      "impact_reason_zh": "台積電、聯電、南亞科、華邦電等半導體指標股重挫，顯示半導體產業面臨嚴重利空。"
+      "impact_reason_zh": "三大法人巨額賣超台積電，顯示半導體產業龍頭受市場資金流出嚴重衝擊。"
+    },
+    {
+      "id": "5e6fd2b08166603f",
+      "title": "台股暴跌2953點刷史上最大收盤跌點！台積電慘崩180元收最低聯電、南亞科、華邦電、欣興全跌停 - Yahoo股市",
+      "url": "https://news.google.com/rss/articles/CBMi0gNBVV95cUxPSUlRRE5kdnJ2eTR3QUZEblFaVTB6Si1DNHJBelRGbmh4ZUtFTVRSVUhsMkRudjNpNk5zUFpFQkFBbmdQeFo2VFg4Z0p6MXpVSmhUWnN5bHotMWt4cEpkOTJOdEZwbTVjeG5hN3BQckg3SVM1Wkw1Qy1HU3c1NlFRUXh0LXUtdmpNd0VpYlVOLXU3MUE5Rjdrb1RaM183MEdiNDNOMU1RSkRuc1NkZFBSNHN5MWlfQjN0eng1Y3FmMWtNU3dBTlYtSm1QM3U5ZkNVXzJ3Sk1QVkw4X1dzUGJYMjlkdmdaRGQ5aEFHSVV6OVFhMWxId1VUVWszVHFlVGFjZkhNNlZELXRXazRGcGpRQWVSaGRvV3Y1RFVzaGpEbmRWcGxQMmx4eUJRYUdiTkstNVVlMjlXb0QwYk50QWVPUlNQdy1fal9OUDRYWGQ3NnNGdEgzVjRyYl80Qmcwd2hmaUExMlo1RU5WNHpORTRvMVhQRWkyekUwdTgyNnNPZUtYVER5aWpPSFB0VWhISGYzZkFYNlo3MW5Ydl9icGI5WThHTDNmWEFxMXJqanl0dTlvYzMwNkFIR0pHX09mRU12dzVIRlhpUHpIRHdfQnNKTUdR?oc=5",
+      "source": "Google News - 台股",
+      "published_at": "2026-07-17T14:05:00+08:00",
+      "snippet": "台股暴跌2953點刷史上最大收盤跌點！台積電慘崩180元收最低聯電、南亞科、華邦電、欣興全跌停 Yahoo股市",
+      "sentiment_score": -0.9,
+      "sentiment_label": "BEARISH",
+      "affected_industries": [
+        "SEMI",
+        "PCB"
+      ],
+      "impact_reason_zh": "台股暴跌導致台積電、聯電、南亞科、華邦電等半導體及欣興等PCB大廠股價重挫。"
+    },
+    {
+      "id": "f72c98ac74bd08d2",
+      "title": "台股「黑五」崩跌2953點！5檔「主動式ETF」破發 - Yahoo股市",
+      "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPRkpYeTFpRkZaUlVXY1lzbm5jcFVHM21pT0NMZzRrczkwLVRUNk1xTDFuSGNBQ25VTWpKc2NBYnA0c3RUWnVKOGx3RTYzVnFRYXlvU3BodFdNNFBBQXh4TGxac25iazViYWdMN3o5OUl4UFI2Mko4M1JHVFFuYWFFQjViYkxWTTBQOGpaVWlfbDhFeEFFQ0NaeDU4Z2dGVThiWXFFZ05ZSGlfam90MU5sWHJtS1owbTNmNFljOGt6SUd4b3lBNzBuaXJ5clY4QzJwU3VtQVJjUjNickNPX3MwQkNQeC00WXdfbkVIam5maw?oc=5",
+      "source": "Google News - 台股",
+      "published_at": "2026-07-17T14:27:51+08:00",
+      "snippet": "台股「黑五」崩跌2953點！5檔「主動式ETF」破發 Yahoo股市",
+      "sentiment_score": 0.0,
+      "sentiment_label": "NEUTRAL",
+      "affected_industries": [],
+      "impact_reason_zh": "新聞報導台股整體崩跌與ETF表現，非特定產業結構性影響。"
+    },
+    {
+      "id": "ff260fd079e38b15",
+      "title": "愈跌愈撿！台積電暴跌180元史上最慘 散戶搶零股破2058萬股寫新高 - Yahoo股市",
+      "url": "https://news.google.com/rss/articles/CBMingNBVV95cUxOVEpxNDQxdXg0bGpEdEoxQm5sTXR3OVBaSl9PcVZUWEVzWWNwOTRzQmFvQVg2dXZQdlA4bUM3cnVVSzBJNWJCQm84MkVyY1hlSTdrazhrQXhLT1Q2ZWJTbEZ5TGdWTXRXZjd3WWxEWWJwUGMyYmprZi1oUWZWODhWV3pVV2VPZl9WVmVqbmUtUEc3RXBoTjhuODdUUUVUeFJSbV9PYzhhRzNJRFh0VkVMN2ZVcG9QNVhseVY4ZWJKbXB1dzQ3bUZ6bjJxeHdFTjhrcTQzeTJzNF9CT2NrcVVVQVBjd2NFTjlxTkVuMElqbzA0ZkFENjZoQlBKMzRta2NPWFdMNDZqNFpfa0VoQ0NmN3d1LThqVmNNeTNBODlJVFNMa2FPWHdpQXJBamhybWM0Zl9PdkdLUEhoanJhV0ZGc3FNenA0cWRIQlBIczNGdFd1R1dCNWZZVFBUMWxQODVaOGs3Q24tVEljYklYSjBIVEF5V2x5YWVDYWFlX1kyNDlaRE0zdzlpbDFlOUc4TjROT1NEUk03cDc1NzBCQ0E?oc=5",
+      "source": "Google News - 台股",
+      "published_at": "2026-07-17T13:51:19+08:00",
+      "snippet": "愈跌愈撿！台積電暴跌180元史上最慘 散戶搶零股破2058萬股寫新高 Yahoo股市",
+      "sentiment_score": 0.0,
+      "sentiment_label": "NEUTRAL",
+      "affected_industries": [],
+      "impact_reason_zh": "新聞報導台積電股價下跌與散戶買進行為，非半導體產業結構性影響。"
+    },
+    {
+      "id": "dcb2a57018930c7d",
+      "title": "台積電法說會失靈慘崩95元！台股暴跌1758點失守44000點大關 日月光挫9%、台達電跌6% - Yahoo股市",
+      "url": "https://news.google.com/rss/articles/CBMizANBVV95cUxQRU05SFJGSWFXUUp6R0FvVU1Xa1NsRmROWm5fMHIxZnpFSzl2V3N6czJPc1lEWFFzc1E3YzBZVFBNZU43bGVaX1NaS3dGalNuY1FreTdjdnNRcjlraHpOSmRlM2lUOE5fVHdWOXAzNkR3UDg2d25PNTFnMUxqMFV5VDFSNlpvYmhsTkZucW5nTHM1bE5IZVcyeXl6S0tQZTRNMGZqZ1BJUFJJRHNnSDlXN3JzZjlsTEx4R05yemg1dzJrSWVLcjZpZGlYczdUNC1qR1g1SWFsN3h0bDhGQjVNWlV1cHVCWlhoUTF5cXJnMEVyU2plbHpmVUNQRGxYNkNDbWNLY2tTSG40Qjk3VFV6MUhVbi1GVERqclp3TDMtLUg4Vy05eXl1SU5ReS03bXhEX3YwRjFJZE56SlVMSUdnV3piNHlHTERjeUQwelZqYU1UUERYUGZacURrbDR2eDRPVm9WUUJfRW54SWtVV2lyb0ZUdk4yYW9RWDRRanRGNDZCTXRKZDVmbFJENkRweEx0VXEzeFpLcHNwazhvVVQzOUlMUXVSbngyZGRLUFVmRlkwUGRSOXl0RmctblhLYlNoRmFfZUNGOWNEVm5j?oc=5",
+      "source": "Google News - 台股",
+      "published_at": "2026-07-17T09:18:00+08:00",
+      "snippet": "台積電法說會失靈慘崩95元！台股暴跌1758點失守44000點大關 日月光挫9%、台達電跌6% Yahoo股市",
+      "sentiment_score": -0.8,
+      "sentiment_label": "BEARISH",
+      "affected_industries": [
+        "SEMI",
+        "AI_SERVER",
+        "EV"
+      ],
+      "impact_reason_zh": "台積電法說會失靈導致股價重挫，日月光及台達電亦大跌，影響半導體、AI伺服器及電動車產業。"
+    },
+    {
+      "id": "517f6541abeff1ae",
+      "title": "台股暴跌逾2400點！史上盤中第2大 失守4萬5、4萬4兩大關卡 - Yahoo股市",
+      "url": "https://news.google.com/rss/articles/CBMi8AJBVV95cUxPNDR1anpzOHdrWTZ0YnliQWdVZS1jM0UtWGI5WTh5YnRRclNjVUg5dl93ZmhwdF9pdFlwbVZES1lvdXpxSjdDdXAwb2p5ZTFWd25XNmV6bkQzbTNiY1dHLTQ2bEZuSFhLdnZ1ekg1eFI2TDBjMW5JNWxGNTFnSTN5TGVIZ2h4WTU3alJKYnA5SkZDemwwVmdDY1JVWU9mZHNyS08wTkpabjVCQmNBYzJiZlhZUUlOLTJqLUlrYU4zZ2ZHUGp0NTdaZFFYNDAyVEdwTmlvM25VaFlWaFA4SU5BZDcxTVpwN0xQbkRCV0NXMDJOVUItY2JiUkZSOGc5ZERfZFExSnExOVp4dzZocXdIUndnMGtqVHNOajQ5ZktqZm5nbktodlZRMHFZY1FuZ1BXWFBNd3RQdTBrTnAwYUpNYW1LVmtXdUFEb25xMFJSenI1b3JlS1ZJVnNCeXlRRHY4eFpIa1BlcGx2TE5aSjRfdw?oc=5",
+      "source": "Google News - 台股",
+      "published_at": "2026-07-17T12:18:09+08:00",
+      "snippet": "台股暴跌逾2400點！史上盤中第2大 失守4萬5、4萬4兩大關卡 Yahoo股市",
+      "sentiment_score": 0.0,
+      "sentiment_label": "NEUTRAL",
+      "affected_industries": [],
+      "impact_reason_zh": "新聞報導台股整體盤中暴跌，未提及特定產業的結構性影響。"
     },
     {
       "id": "acef98e8e1aa5d7c",
@@ -314,62 +387,74 @@
       "source": "Google News - 台股",
       "published_at": "2026-07-17T09:52:46+08:00",
       "snippet": "【Yahoo早盤】台股大跳水！盤中狂跌逾1800點失守4萬4 分析師張家豪：先別急著大跌大買 Yahoo股市",
-      "sentiment_score": 0,
+      "sentiment_score": 0.0,
       "sentiment_label": "NEUTRAL",
       "affected_industries": [],
-      "impact_reason_zh": "純屬市場行情報導與分析師建議，不涉及特定產業結構性影響。"
+      "impact_reason_zh": "新聞報導台股整體大跳水與分析師觀點，未提及特定產業的結構性影響。"
     },
     {
-      "id": "dcb2a57018930c7d",
-      "title": "台積電法說會失靈慘崩95元！台股暴跌1758點失守44000點大關 日月光挫9%、台達電跌6% - Yahoo股市",
-      "url": "https://news.google.com/rss/articles/CBMizANBVV95cUxQRU05SFJGSWFXUUp6R0FvVU1Xa1NsRmROWm5fMHIxZnpFSzl2V3N6czJPc1lEWFFzc1E3YzBZVFBNZU43bGVaX1NaS3dGalNuY1FreTdjdnNRcjlraHpOSmRlM2lUOE5fVHdWOXAzNkR3UDg2d25PNTFnMUxqMFV5VDFSNlpvYmhsTkZucW5nTHM1bE5IZVcyeXl6S0tQZTRNMGZqZ1BJUFJJRHNnSDlXN3JzZjlsTEx4R05yemg1dzJrSWVLcjZpZGlYczdUNC1qR1g1SWFsN3h0bDhGQjVNWlV1cHVCWlhoUTF5cXJnMEVyU2plbHpmVUNQRGxYNkNDbWNLY2tTSG40Qjk3VFV6MUhVbi1GVERqclp3TDMtLUg4Vy05eXl1SU5ReS03bXhEX3YwRjFJZE56SlVMSUdnV3piNHlHTERjeUQwelZqYU1UUERYUGZacURrbDR2eDRPVm9WUUJfRW54SWtVV2lyb0ZUdk4yYW9RWDRRanRGNDZCTXRKZDVmbFJENkRweEx0VXEzeFpLcHNwazhvVVQzOUlMUXVSbngyZGRLUFVmRlkwUGRSOXl0RmctblhLYlNoRmFfZUNGOWNEVm5j?oc=5",
+      "id": "9e84a91926126169",
+      "title": "台股暴跌逾1800點！史上盤中第4大 失守4萬5、4萬4兩大關卡 - Yahoo股市",
+      "url": "https://news.google.com/rss/articles/CBMi8AJBVV95cUxPWXc2RWRjR3NFVzNaUlBzZ0lNdXk1cTh5N2plbDJncDc5NFNHRXl4RzJPWG9LbFpEakJZRHBDR3RGVmxuS0lOZGZzcFdUZUd1NG1Ya0JRcDdDNFRZNndhV2gwU3hsOTNFUHBRRHpka2dIUlVNX2w5YTZoVm9WbG1kc3JHVXplZTZRaUg0WUFWRWswNkVzQl93SW4yZWZkYmIyanZHSFVFRllNaUROSzA3UHdsS0x0R3lzOUxqcHJWdmZicWlGY1drWXozamRvdU1pNXFfdVZQZU42dkVtWmx4cnlXVUtoUk5hV21KLXJpdF9obUpaRmc5NzZ4bjl2VXphN1FuVkdLSUZQdDZKMGNfdWZ0YWxsakpSMGlrUGJ1cUhXV2trT0lzSzgxTWwxT2UwenhGR1hUUWhoM3F5QUluOFFXRUJrdExQc0ZadWhPTnFJdFlKQnRXYjJWMDlzdGFVRTBUMjV5TldPQkxweXJ3Xw?oc=5",
       "source": "Google News - 台股",
-      "published_at": "2026-07-17T09:15:47+08:00",
-      "snippet": "台積電法說會失靈慘崩95元！台股暴跌1758點失守44000點大關 日月光挫9%、台達電跌6% Yahoo股市",
+      "published_at": "2026-07-17T09:52:30+08:00",
+      "snippet": "台股暴跌逾1800點！史上盤中第4大 失守4萬5、4萬4兩大關卡 Yahoo股市",
+      "sentiment_score": 0.0,
+      "sentiment_label": "NEUTRAL",
+      "affected_industries": [],
+      "impact_reason_zh": "新聞報導台股整體盤中暴跌，未提及特定產業的結構性影響。"
+    },
+    {
+      "id": "6d84089392d494aa",
+      "title": "台股崩盤！巴逆逆「入手這3檔」網全跪：靠妳救股市了 - Yahoo股市",
+      "url": "https://news.google.com/rss/articles/CBMi0gJBVV95cUxQMEtxdjlHRVMzN21WOHRlVkhxOFMxczhHdzhlWmRmVEVub0tFUFZ1VnU4Wnl1NnJkcXJSbDhidkQ2V0ZiRUdpblVyc2VZUkw5T3Fja0t4SUxJSDd3SnRwajRteXREcWJfbHB0UU5xcm05T1hNQVQ1bWk3VlBhMVQ1QmlTeU9SX08xSzRMMlBTWUN2TXM1N1VqLVJudkpWbU1VQ2o4bEh0RVZnNjVuME1uMXd4X0I5c3lUU3doZE1CZ18tZ0FHRlNHZkZMdEdMVkVRZWFKWE1wMVhQVm5sUU4xeVpUUGpVc3JtRElnQURJaXdBZEpJcW1GdUl4RTBRVzlhMUNKSkhxSVp5XzhGbms4MjM1Q2g2ejVmOUFPVDlHVkppV3laT0tCN19JOTM4N1pTX3ZlemswV1pVSWJmSjdEUTN0WGRRdWZQcFdmZm9RbjI4dw?oc=5",
+      "source": "Google News - 台股",
+      "published_at": "2026-07-17T15:09:01+08:00",
+      "snippet": "台股崩盤！巴逆逆「入手這3檔」網全跪：靠妳救股市了 Yahoo股市",
+      "sentiment_score": 0.0,
+      "sentiment_label": "NEUTRAL",
+      "affected_industries": [],
+      "impact_reason_zh": "新聞報導台股崩盤與個人投資者選股，屬市場雜訊，非特定產業結構性影響。"
+    },
+    {
+      "id": "14c55740404eff11",
+      "title": "台股盤中暴跌2117點！台積電崩100元「聯電、南亞、華邦電摜跌停」 專家：別盲目摸底 - Yahoo股市",
+      "url": "https://news.google.com/rss/articles/CBMi8gJBVV95cUxOZlZLOF9OZXk2dENzV2Z3NVBCaFBnUFZRc3FMNUdQY3dMeTJzbHpOd2hTOGRvYlNQRmpYcmJPLUE3TzRYRXlYR1VFMHlZNFkzUTRFWVhuODhVUnBSSlZsZEZZRnA4c09fZzd2ME5kMFlFT2dITDF4UDF5Qm5KQ1JIN2xhbWhxRGRHTGxIbHU5ODZMQnYyUHFyYU9yNU94TUtTMkt6MG0zOHNsLXNBcS1aMjhybFdBc1Z5OGs4eEVkYTF1Sko2NEhXWjJHNWJwcUhWQ09zSVY5d1FEMVJBc3NaTEdTX3BGYUdNbEpKTzZISVBYZ1hZMUd0c3UwNmdidXR1cjFIM2RIeFp5SE9DekY2TnRYY1hfMnpROEcwNG9wYWk1eDZQb3dYMnE1Z1A1T3FqWElPRldFTmRlYzllUlFSZF90T1dWcFliakdSUFdYR0pmQWluWVppNmhZNm9YSG1kczd0TktMYUdocDVGd2Z5UE5R?oc=5",
+      "source": "Google News - 台股",
+      "published_at": "2026-07-17T11:00:24+08:00",
+      "snippet": "台股盤中暴跌2117點！台積電崩100元「聯電、南亞、華邦電摜跌停」 專家：別盲目摸底 Yahoo股市",
+      "sentiment_score": -0.9,
+      "sentiment_label": "BEARISH",
+      "affected_industries": [
+        "SEMI"
+      ],
+      "impact_reason_zh": "台股暴跌導致台積電、聯電、南亞、華邦電等半導體大廠股價重挫。"
+    },
+    {
+      "id": "e2908a442a42fb44",
+      "title": "台股慘遭血洗「開盤重挫1700點」！巴逆逆「驚回4字」網震撼：要反轉了 - Yahoo股市",
+      "url": "https://news.google.com/rss/articles/CBMi1wJBVV95cUxPSFQtWFcwRTVHUFU2Y1FvQnktemZncVZtTWh1bHRsaXRMbHJ4M0NMbFRtMW8wa1hsVFZRanJnN3h4VmhvZndkVnIwS1dPUVFqSmstVzlOWC1RdG5taTZoSElVRjFraThVT3dlOWxBbW92VzVRbFozYTktUk1YLU1jSG5CQ1AybTN1MG5pWDJwd1F2UDdmWFFkcEthZEJlT21IVUJIUmwyT0pKN3J5cWtCd2Z2UEVxUzlDRHo3bmxKMWxpa1hDN0tkOGZoQk5QRk9aS3VWU0xHVjRCc0d0OWQ3dlFLRzZMeGdBYzZDNmlLUXFqeW9DeFVCUm5SWjYzSzBTbFF1WE1Jc2IzcnBqdFc1aTZ3clZOaHpielpnT0prTjFYemRNcTFwVjZMRTd1aFFLM3lQTFZ1Z3ZKcFRYb0hWd1ZiYXdBY2FvaGZfNGV5QUJJaUJ0a05r?oc=5",
+      "source": "Google News - 台股",
+      "published_at": "2026-07-17T09:55:42+08:00",
+      "snippet": "台股慘遭血洗「開盤重挫1700點」！巴逆逆「驚回4字」網震撼：要反轉了 Yahoo股市",
+      "sentiment_score": 0.0,
+      "sentiment_label": "NEUTRAL",
+      "affected_industries": [],
+      "impact_reason_zh": "新聞報導台股重挫與個人投資者觀點，屬市場雜訊，非特定產業結構性影響。"
+    },
+    {
+      "id": "69b5f6b36cf60da4",
+      "title": "台股重挫2953點收42671點 創盤中及收盤最大跌點 台積電跌180元 - Yahoo新聞",
+      "url": "https://news.google.com/rss/articles/CBMi7gJBVV95cUxNVWhyRG82RWVFTTJqSl9XUkg3STE2bTg3Y1p3bDBueWFBblRJMXJpNmxiR0lhWG13cnZXMDlON1lIaVIzVmlxT2N1RWs1RVd1YXFWblNYOTBXMGZWOWdUNC1VY1kxbDB3VVJORGlRNlJzUjJNR041VFE1LTdWY21jWVJUaTlyMGdkOWtlNlB2aXpnbjZpeEVwWjZRQ2pkSUxjYTFiVkpsaXBYcFNUM3hMSEdQaC05XzNwUXRFWVpWUlluOWJQTS1hR0xTUk9iNFkySWlrNlRPdWl6RmRvSF8ySWJIbmNzLVVZS3EzWXgxRndTNkZPSGV6VTVncFUtYVlSV2Y2clBCMFY0M1NfRTFLZmVNWm4zMDRQaEZxVnlpQTltNlZuclFuanl1cnJDb2kyRnYtYVE4RDg1RkFybjd0TlJXTlQ5UHNmWVF5LUlqV1huOXdVUmZuNFRVVndrN29LWEJvNGxTUktRelNiTmc?oc=5",
+      "source": "Google News - 台股",
+      "published_at": "2026-07-17T14:49:23+08:00",
+      "snippet": "台股重挫2953點收42671點 創盤中及收盤最大跌點 台積電跌180元 Yahoo新聞",
       "sentiment_score": -0.7,
       "sentiment_label": "BEARISH",
       "affected_industries": [
         "SEMI"
       ],
-      "impact_reason_zh": "台積電法說後股價重挫，日月光亦大跌，顯示半導體產業面臨利空衝擊。"
-    },
-    {
-      "id": "ff260fd079e38b15",
-      "title": "愈跌愈撿！台積電暴跌180元史上最慘 散戶搶零股破2058萬股寫新高 - Yahoo股市",
-      "url": "https://news.google.com/rss/articles/CBMingNBVV95cUxOVEpxNDQxdXg0bGpEdEoxQm5sTXR3OVBaSl9PcVZUWEVzWWNwOTRzQmFvQVg2dXZQdlA4bUM3cnVVSzBJNWJCQm84MkVyY1hlSTdrazhrQXhLT1Q2ZWJTbEZ5TGdWTXRXZjd3WWxEWWJwUGMyYmprZi1oUWZWODhWV3pVV2VPZl9WVmVqbmUtUEc3RXBoTjhuODdUUUVUeFJSbV9PYzhhRzNJRFh0VkVMN2ZVcG9QNVhseVY4ZWJKbXB1dzQ3bUZ6bjJxeHdFTjhrcTQzeTJzNF9CT2NrcVVVQVBjd2NFTjlxTkVuMElqbzA0ZkFENjZoQlBKMzRta2NPWFdMNDZqNFpfa0VoQ0NmN3d1LThqVmNNeTNBODlJVFNMa2FPWHdpQXJBamhybWM0Zl9PdkdLUEhoanJhV0ZGc3FNenA0cWRIQlBIczNGdFd1R1dCNWZZVFBUMWxQODVaOGs3Q24tVEljYklYSjBIVEF5V2x5YWVDYWFlX1kyNDlaRE0zdzlpbDFlOUc4TjROT1NEUk03cDc1NzBCQ0E?oc=5",
-      "source": "Google News - 台股",
-      "published_at": "2026-07-17T13:55:25+08:00",
-      "snippet": "愈跌愈撿！台積電暴跌180元史上最慘 散戶搶零股破2058萬股寫新高 Yahoo股市",
-      "sentiment_score": 0,
-      "sentiment_label": "NEUTRAL",
-      "affected_industries": [],
-      "impact_reason_zh": "報導台積電股價下跌與散戶買進零股，非產業結構性影響。"
-    },
-    {
-      "id": "24e65b526084da81",
-      "title": "台股血洗2953點元凶是它？謝金河點名「這7檔」出事害慘 - Yahoo股市",
-      "url": "https://news.google.com/rss/articles/CBMi1gJBVV95cUxNZ1ZXSzVpWlRnZ3ZWNjZxdWQyNy14RTlfaXh2T3BxR1pUaUxkWUJOMVE0UkVQQ2U5V1BudUJvWUtZdnpBSXY2bUtlQ3RwVlhhQXlpZnA3MnE1cHVoakYwNFhfRE1JWW9NMkJUX1hyc3BJQnN1VXhMei1qZDFvQzhTWmUxeW9CaEQwTllqU3JIZjhLV3FEYjYwTElXWkZ4TmNSeHBvTWxlVm9EdjhxT0JldEswVHNGeVhqWFl5dFFRQThOSFhOMmw2N1VLM1NYckV2MTd6SHhncmpDb2oxbE5LR1lHV1c3c21ibVFkbmNtek9DSVF3VjFyN0h0cU40R3R0MkVFWkpJdXpBelBkeFVrdUZ4TzAzSmhkcWJ5LU5YR3VtNjVCR3IydDhkU0FVQ1d3TU94cDNxTlNsQllLVUVURTZZU0t2bmtGcXVHUzl2YzFrYS1ienc?oc=5",
-      "source": "Google News - 台股",
-      "published_at": "2026-07-17T13:53:20+08:00",
-      "snippet": "台股血洗2953點元凶是它？謝金河點名「這7檔」出事害慘 Yahoo股市",
-      "sentiment_score": 0,
-      "sentiment_label": "NEUTRAL",
-      "affected_industries": [],
-      "impact_reason_zh": "報導市場下跌與專家點名個股，未提及特定產業的結構性利空。"
-    },
-    {
-      "id": "66ca5d644841bd48",
-      "title": "台股史上最大盤中跌點！被動元件全面倒地「 這檔」股價腰斬最慘 - Yahoo新聞",
-      "url": "https://news.google.com/rss/articles/CBMijwNBVV95cUxPMmgybFE4WHV5YnNuUUl2NVNzWHNObGt4VWMtcTNHMDZjeF9ySXV1cmhYc25JZi1nSzc4bkxyNmoweXgwRUtTcVFzU1NWWjRxdTQ5Nlg2OENqRzQ5eUpGekdCaU1WLXUtT1pWdk81bVdJY2Q1UlFZNVNSek5WaEN5ZEtLYUZwQ25Jb2hhRGQ0Q25IS1lVOUt1VEVfWDBtY1ZfLUxCZ3c4NlhxRERzVzFsZExlRHJKbzJjaXJoZHdjdmZxbGQxcFJXQ2lJREx1SkhYcXYzT1JNWDZRWlJNLUlBYUxKX1FOei1BX3M2YmZ6OHpPSmhGelc1aFlDeWg1V1VZQllOMHBDQ0g4cTROQUFuMnRhSEt5Z2xzNFp0YXdmUHJjQWRNSmk5TVBCOUZ5eHhOSFlfSGRNaTU4enIxbXF6Y2ZCQUxVSVlQVlRjajB4Qy1VTTg3alR5WDNpWkJQNzZyQ0hXdmdjNDZ1akRSMkVKQ2s5cEJHekcxdEVJLVZhYjYwc1ozdklJai11b0FESlU?oc=5",
-      "source": "Google News - 台股",
-      "published_at": "2026-07-17T15:01:00+08:00",
-      "snippet": "台股史上最大盤中跌點！被動元件全面倒地「 這檔」股價腰斬最慘 Yahoo新聞",
-      "sentiment_score": -0.8,
-      "sentiment_label": "BEARISH",
-      "affected_industries": [
-        "PASSIVE"
-      ],
-      "impact_reason_zh": "被動元件產業全面性股價下跌，顯示產業面臨嚴重利空。"
+      "impact_reason_zh": "台股重挫導致半導體龍頭台積電股價大跌，對半導體產業造成負面影響。"
     },
     {
       "id": "4a1fcd2db5ab87c0",
@@ -378,10 +463,168 @@
       "source": "Google News - 台股",
       "published_at": "2026-07-17T09:07:30+08:00",
       "snippet": "台股暴跌逾1700點！史上盤中第七大 失守4萬5、4萬4兩大關卡 Yahoo股市",
-      "sentiment_score": 0,
+      "sentiment_score": 0.0,
       "sentiment_label": "NEUTRAL",
       "affected_industries": [],
-      "impact_reason_zh": "純屬市場指數表現報導，不涉及特定產業結構性影響。"
+      "impact_reason_zh": "新聞報導台股整體盤中暴跌，未提及特定產業的結構性影響。"
+    },
+    {
+      "id": "457dd277d0383599",
+      "title": "台股雪崩「韓股巧碰休市」！南韓散戶「崩潰喊1句」集體挫咧等 - Yahoo股市",
+      "url": "https://news.google.com/rss/articles/CBMi9gJBVV95cUxQbUlIa2NCZW1qLTA5Q044aUlzcmxwX2FzNWUyRWpucmUzUld2WlBlWUdSUHpuMVdLdklWN2VBdnItZkNPUnNHUWJtU2loSVpMbzRYc2tRakl4QjJpOHQxdGtrQkV3TGtzc2xaWU1vWUdWYW5YT3dmZHA5MWZ1bU5PdmdHV0JyUG1ISl9qMWdNcURhRDdnRzJYdVQzTDM3dzlTem5iMEVIVGpsMHZZbU9jSGNjZWJUQmNXZ1pBVTQ5Q1pGS0g3M3N3RnZKSFEtWTdkRGtpdThKYXVTSFIxQzhIckRWRmpSc0JuU193RXBSc0EyRFJrNU1iaDR1aXZvaW9rc2s1UEptWHFNTk5uYWdrQzE3SDVRYkVtNFF6RW5hMEROTUdPV19sTURvLUJlQnN6MVVQVzZzaW9OTzVTSzE3WklDUDJZX3dmTkFXQjR1eXRKUXNqbk45YW5OMmJJZGk1LWllYmNDR2hRd08tMjRJTGZRRHFKdw?oc=5",
+      "source": "Google News - 台股",
+      "published_at": "2026-07-17T18:33:22+08:00",
+      "snippet": "台股雪崩「韓股巧碰休市」！南韓散戶「崩潰喊1句」集體挫咧等 Yahoo股市",
+      "sentiment_score": 0.0,
+      "sentiment_label": "NEUTRAL",
+      "affected_industries": [],
+      "impact_reason_zh": "新聞報導台股雪崩與市場情緒，未提及特定產業的結構性影響。"
+    },
+    {
+      "id": "67289fbb6354c7ef",
+      "title": "台股暴跌！今年違約交割已近71億元 證交所示警「加強監控」 - Yahoo股市",
+      "url": "https://news.google.com/rss/articles/CBMilwNBVV95cUxNclRiYTgySGY1V285d2FDUi11Zk5QTmgyOWIwM1hQRTJlX2VlS1B5WFRjcldhM1BWbEZBSDFrV2RiZFZoSl90cTJqcXVkTThMLWY4NmhkQUVsYU5mRlhpN3I2eFFDb2M5WVhka1ZTdGMwN054U2VOcHM1czZqaEE5Rk1CdjZvZGlxX0V1NW1GTmZMVk1RQnpaWDlEU3Zkd0QtZG9JVDh2NHFOQVFOZl9yMlpuNmEyd2VMbHN6ZU96Q3lXQnM5U0xWM3pndkRvRTJ0OF9JV3hkR1lRRFVzMDVPbWd2QVJ2a0R5LWtpM3VVUW1YTGhoa3Z3eUJQTldwdUZIUGFORmk0N0lWSmdPMVFzREcxMkhQQXZqMlFxY2gzSmYwTkhaVGFlTk9fM1QzZGt4cDNObVFINktqRUg4b1pjRWtHR3BsaUoxWkREZTFpTEd0bXY3aHNmVTdyLXVlaVRGXzAyNW40S1JJNWYydXhfY1RTUTB5RzQtYURudjhXZ3dhOUlkYWNBVU05Y19pbUVZZ1pOSGZnRQ?oc=5",
+      "source": "Google News - 台股",
+      "published_at": "2026-07-17T18:05:07+08:00",
+      "snippet": "台股暴跌！今年違約交割已近71億元 證交所示警「加強監控」 Yahoo股市",
+      "sentiment_score": 0.0,
+      "sentiment_label": "NEUTRAL",
+      "affected_industries": [],
+      "impact_reason_zh": "新聞報導台股暴跌導致違約交割增加，屬整體市場風險，非特定產業結構性影響。"
+    },
+    {
+      "id": "feeda6883cf5db4c",
+      "title": "史上最大跌點！台股狂瀉2953點 股民傻眼：假日公園又客滿了 - Yahoo新聞",
+      "url": "https://news.google.com/rss/articles/CBMi8AJBVV95cUxPWS13TkJObHBRV1U3cFJtbE9lV3ROck9ZZTQtTGFqOV9jbWlKSUU2cmphZThZVVFvYU80SnkyMG5iSWtPcXNPWktha3dfSXd5cl9SNnJYU01oUUIxdHZLS08xNTlydWgtYkZyc1ljLWpTaEgxU2hIUUM1M0YzMGdSYWRHdk5oRXJwQVd2bmZUbUtISmNkSi1Nd3RZd2gtNnRvcllIcEgtejdMU1NaX3ZueFVjZzNVQ216SThUa0piS2FYeGZMRkJkTnlwMExNSjZIQWNVSDFQdHdUWUF3NGpLWHZST0t4T0pnY29Uc2RqZ0FxWVotLUR1VGp6LThOVUJkQnp6X19xa2RwMmRBQXJXVzVGWDJ4ZjB0U244Ui1VNnRmcVdVbUNmNkNNY3dEUFMzOFVEbXpBS1V2Qmk4Z0J2d0N3ZWxWXzVGT1RYMmQ0Z2VYWl91aVJDWTBwSlNDMlBXSjhaR1dFaWU2STdsNXNpbw?oc=5",
+      "source": "Google News - 台股",
+      "published_at": "2026-07-17T14:31:22+08:00",
+      "snippet": "史上最大跌點！台股狂瀉2953點 股民傻眼：假日公園又客滿了 Yahoo新聞",
+      "sentiment_score": 0.0,
+      "sentiment_label": "NEUTRAL",
+      "affected_industries": [],
+      "impact_reason_zh": "新聞報導台股整體狂瀉與股民反應，未提及特定產業的結構性影響。"
+    },
+    {
+      "id": "5063a97a554016a4",
+      "title": "台股收盤重挫近3000點史上最慘 比關稅更傷 - Yahoo新聞",
+      "url": "https://news.google.com/rss/articles/CBMipgJBVV95cUxPZHU5eGNYVi1ncTN3SldVWXd2aXRCWDV1Z0FPeURja1NOTHZDNmtqYUFQNjZhVC0wMnFVaVFyUFIyNDdaQmRseHN5VUc5bEs5SmRsS1RQZWk0VHlzeU9CRDJlblZqTEo5Q2ZEVG1xTWRXOUt6M2s3SHBpalZMcWJ2SlFqcGlJRlZoNWYxNXE5TG1QNzNuU1BabC1fSUo0Z1hzaXhxeWZROC16bEJlMUlVU1QwXzRwT0pPMHJMNHRQZzlHNGNQODN5ZzZkZWFvd0taU21pNExuVERXZXpDRXJyeGU4c2x4MUtGNFZqWXBCZ29NQldzUEJMRzE3Nl9jVS1jQUhmTG1nLVZuVVppMkhVQnlyUFVvcHBVZDAxMks2TFctVkgzZFE?oc=5",
+      "source": "Google News - 台股",
+      "published_at": "2026-07-17T13:44:09+08:00",
+      "snippet": "台股收盤重挫近3000點史上最慘 比關稅更傷 Yahoo新聞",
+      "sentiment_score": 0.0,
+      "sentiment_label": "NEUTRAL",
+      "affected_industries": [],
+      "impact_reason_zh": "新聞報導台股整體收盤重挫，未提及特定產業的結構性影響。"
+    },
+    {
+      "id": "c8a4bd569802c730",
+      "title": "台股跌深反而撿？玉山金獲利創高獲三大法人逆勢狂敲6萬張奪冠 「這檔面板」重挫8％仍續買 - Yahoo股市",
+      "url": "https://news.google.com/rss/articles/CBMikwRBVV95cUxNMzBDdGhsbGpJMlN5a29IeDlicWl3WDhQejAzTzJMQXh3aFJRWjlfVzA3anc1S0NGbmVPQXVCRHN5bnoxTmdxWGVpZ2liNGVvT0dodlh5aTZrYTJmaXhqY2w1Z1Y1OHJfdjhTSnNVWUMtaktNZlcyVFFHR2h4cHRxSjdwVW5YRENEbTA3aDVTNEtmME5nM19RQmJqenBoMi1HbmczOHM1LWdCNmV4Y3NfZ2NOUDRhaUc2TjRPaEdaLTJRMVZkWTJ0X3FkYjN6eG42b3V3dWNsQUd0RGlYWEtXY09zZTFHS3gxb1Job19lV21wQkRpS2pMWUdBY2E4MzZWVE1LRGM2X0h0MmVIWGw1djU1TmpqNU5QY1A0bHI1cUFNTDlxcHF5ZGcyOVpMcTZiVjNMVG5mVmVQWjBSeVhSLXJPRWVxMkdzQ3ZYTEJ3eExiTERSVlVQdEFtckdhY0JYTFI3cVlUVFJ6dmkzMzNWQVNwOThwMWFiNzlHUFlTWjg4ZTN1WXQtRzFuUUVpQ2RhRHI0YlZLNTVTRkhRa3pyV0l6SlY4TEdxRk5XMkhzaV9QcmxyaWoxNllrMHFPVUVtX281Q0dKVkNOdzRrVW9MVTg3NVZQLWJuSVQ2WFBJRmFiNkRmaGlUUlNvUGxDWVRHb0dTV3Z3MnZXTWVxanhPZkFVWi1xOUhsUzRzQjFsSC1KUkU?oc=5",
+      "source": "Google News - 台股",
+      "published_at": "2026-07-17T21:00:00+08:00",
+      "snippet": "台股跌深反而撿？玉山金獲利創高獲三大法人逆勢狂敲6萬張奪冠 「這檔面板」重挫8％仍續買 Yahoo股市",
+      "sentiment_score": 0.0,
+      "sentiment_label": "NEUTRAL",
+      "affected_industries": [],
+      "impact_reason_zh": "新聞報導台股跌深與特定個股表現，非特定產業結構性影響。"
+    },
+    {
+      "id": "f08892d4bb4b7c3b",
+      "title": "台股重挫只是「技術性調整」？股民吵翻：基本面沒問題但槓桿太多 - UDN",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9kamo1MU5JQlYwUEFqeFJNdU92RGdUWEgwZS1mWi1ZR1N5R19ZbXU2WVo3V3JheDYtcmw5V3N4WTlfYm9BSTFNVVQ3RE9mVVBiLWfSAVdBVV95cUxObzhhRDJiZnVQeTM2UzFGVjFPNTE5NmMtdlhkMElhcmlMMmFHYzJUZkZ5dTNxZkpmVEdtOEJaTGJiMk5zb1hPaGxuLTlmWnlnNnBURkM0UWM?oc=5",
+      "source": "Google News - 台股",
+      "published_at": "2026-07-17T15:23:37+08:00",
+      "snippet": "台股重挫只是「技術性調整」？股民吵翻：基本面沒問題但槓桿太多 UDN",
+      "sentiment_score": 0.0,
+      "sentiment_label": "NEUTRAL",
+      "affected_industries": [],
+      "impact_reason_zh": "新聞報導台股重挫原因討論，未提及特定產業的結構性影響。"
+    },
+    {
+      "id": "5fcaa48649d8447b",
+      "title": "台股大跌進場撿？財經作家曝最佳進場時機 - Yahoo新聞",
+      "url": "https://news.google.com/rss/articles/CBMirAJBVV95cUxOaUliWG9iTUpnY2RQay16N1cwSWU0QlVtMXRUVnktdUNhekFIZkI4MHRsWnNOU1pleU5JVTFfOVBmaHZNWnhnaHFsQ3ZSTEdYMnJJd29kS0lfU3JIU053OVMxalY4RWg3OVYyYlpaNHJBYWI3aVZjSGRhWFlHV29GXzhnSEMzQVMtZVh3U29TLVEwT0NVZGtVZ19BNnhDSlV5bTBHVXRDYUFBN2tRZlZVeTJCdUU2cmN5MG1JR2xTRGVJdGhkMHI5MGIyNWkyc3dMdEVDSHVVd1JtdHNoWUtkT0syNy1jZmZjNVhmbGIzSzFCZkg4aDZTTE5ua0Qwd1RzNFA4aEwxY0U2VHB5OU84UE9pb1RGTy1LUVRWOGZKemxvMFNTMVl1RDlNVEs?oc=5",
+      "source": "Google News - 台股",
+      "published_at": "2026-07-17T13:52:14+08:00",
+      "snippet": "台股大跌進場撿？財經作家曝最佳進場時機 Yahoo新聞",
+      "sentiment_score": 0.0,
+      "sentiment_label": "NEUTRAL",
+      "affected_industries": [],
+      "impact_reason_zh": "新聞報導台股大跌與投資時機建議，非特定產業結構性影響。"
+    },
+    {
+      "id": "00a49924a40d1449",
+      "title": "改寫台股史上最大跌點！看懂無差別賣壓背後真相，這三大止穩訊號浮現才是真買點！ - news.cnyes.com",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE53NlU3bGphcXFrYkZOcmdKb3BhaFdjZlVPSmZ1NmpsWGdDMEdqcEtFX2pxWW9xRFg3ZDJ3YTZWMzVlYThUSnN5Z2lwVW1qSnc?oc=5",
+      "source": "Google News - 台股",
+      "published_at": "2026-07-17T17:15:35+08:00",
+      "snippet": "改寫台股史上最大跌點！看懂無差別賣壓背後真相，這三大止穩訊號浮現才是真買點！ news.cnyes.com",
+      "sentiment_score": 0.0,
+      "sentiment_label": "NEUTRAL",
+      "affected_industries": [],
+      "impact_reason_zh": "新聞報導台股整體跌點與止穩訊號，未提及特定產業的結構性影響。"
+    },
+    {
+      "id": "073a7c00f154b4fe",
+      "title": "史詩級股災！台股重挫2,953點 寫史上盤中與收盤最大跌點 - UDN",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFB1Z0lLdkFqMjVmeXJ3TUxXOEVZVmVqZ19DTml4VTVXYlZQVGRTNTdZeFdYYkFDbXZQSTl5QWtfdC1haTU4Ti1oR0I2eGY1MUlE0gFWQVVfeXFMT1k0WXpMSUVWNGhIWXVPaTFmXzRzeDNVTHVaV2phaG5EWVRST3BYQVZyUldQOEpXcUE5TENqaFgzLWdsRzJxaG54dWhmRGFHUUwxUFhzMFE?oc=5",
+      "source": "Google News - 台股",
+      "published_at": "2026-07-17T13:55:03+08:00",
+      "snippet": "史詩級股災！台股重挫2,953點 寫史上盤中與收盤最大跌點 UDN",
+      "sentiment_score": 0.0,
+      "sentiment_label": "NEUTRAL",
+      "affected_industries": [],
+      "impact_reason_zh": "新聞報導台股整體重挫，未提及特定產業的結構性影響。"
+    },
+    {
+      "id": "8fd5d82351b13321",
+      "title": "這次恐破紀錄？台股盤中血洗逾2600點 史上前十大股災一表看 - Yahoo新聞",
+      "url": "https://news.google.com/rss/articles/CBMi_AJBVV95cUxONDlXSGJJaGtYQjNhN2YzeHlwZ1hYc29BUzZKZnZ1SzJGUTVzZ1k1QkJvc1JERkJtVW0yRmZpd2NRdk16ck9LYnh0ZHp4N1Vic2RHcm54U2RaYTF4N21EZWZQS2dib2JJd1VOUXZoTU1oeGNDX0VNVGNGQ3J3ajZneE1GQ0hzR2JQRDZrVEdFbzZzRDUxbzNKY1JvTkFPMm5TakQ3ZVNVTjVlQ2lKTXdETTNGZmpLUHVxblFmT2VJdzlmWHBwVzVPa21ncE1rYVlSU2dTYnZXTWI1YUpEdVVILW9nR3o3MkZqTnJpMVdsTGRHQ0dqYms5MVQ1aFV4NzRiUGlDaERzZm04TG0yeUdmSW5PRjBZaFVxb2RoRXJZM0dOYmNEQ2VEczJfejlhNlFvVHZvUF9IbHdSWTNnZC1EeDZiZHRBcEJPZDg3VDF6dnd1amVXaVk0UXN1QzZGRkdHMGs0NWxrWlpGT2xDOVJqYmxzVVBielItM04zeQ?oc=5",
+      "source": "Google News - 台股",
+      "published_at": "2026-07-17T12:51:08+08:00",
+      "snippet": "這次恐破紀錄？台股盤中血洗逾2600點 史上前十大股災一表看 Yahoo新聞",
+      "sentiment_score": 0.0,
+      "sentiment_label": "NEUTRAL",
+      "affected_industries": [],
+      "impact_reason_zh": "新聞報導台股盤中血洗與股災歷史比較，未提及特定產業的結構性影響。"
+    },
+    {
+      "id": "9763f2799285ef78",
+      "title": "今日漲停股｜台股暴跌2953 點創紀錄，日馳、亞諾法、南良等個股逆勢鎖漲停0717｜豐雲學堂2026 年 07 月 - sinotrade.com.tw",
+      "url": "https://news.google.com/rss/articles/CBMi4ANBVV95cUxNZHh0SkpPbS16ZU1oN1FnTjZYVldXaDRzR2lEVlNmZ2xoSzBiOUxaYnJwUHdER3M3X0k4Q1lRU1czdm8tb3NmTldOeENKNnRyaC1Ub0psdllHUFFfRW9DNGRIOW5OVXZXcVFXUFQ2bkU5b3BOMmcyUWRKTzd3RzE5VTdqbVFpblVwcC1GQXFaNEZva1RBMmx4XzE1VXZJZ3Q2MXJveG1QSE9TU1dHWE5abFQ2WDZWMUtvTmlBb2VUYmdoTk51SXptTUp3UE04TjBrdXI0OUdnUk9aZFlNdmV5eDR6Q3BkN1ZzLWZjZUNXcmxCNUMyVGFrQ29SVGJZQUo1NmN3RjZyWjlCcnF1aEZIbkYxOVk0YVd5al9RVjdGVUJuZjNCdVJ5djRyQi1RSXA0NmVPVklpdm1GUEQtWVFmTnBWcGRiMi03emtqWWNwaVVXN3ZsQl9vTDlPZ1VYenBud0tyUm9qbTFuN3Z3Umt6Q1BDUGlienZndHNzMGJXdmh5U2VleFYxdDB2TFQzSy1wV0VZbThBeTQ4T0gxTy1jUGVjOFVQSWV1Nzl4QXh5UDhWRXFDR2xSNlRJbVowWFh5ZVdqUlJDazBtOTJwQ0hKLTNJS1g4djh6WlEwTEphVmM?oc=5",
+      "source": "Google News - 台股",
+      "published_at": "2026-07-17T15:31:02+08:00",
+      "snippet": "今日漲停股｜台股暴跌2953 點創紀錄，日馳、亞諾法、南良等個股逆勢鎖漲停0717｜豐雲學堂2026 年 07 月 sinotrade.com.tw",
+      "sentiment_score": 0.0,
+      "sentiment_label": "NEUTRAL",
+      "affected_industries": [],
+      "impact_reason_zh": "新聞報導台股暴跌與逆勢漲停個股，屬公司個別事件，非特定產業結構性影響。"
+    },
+    {
+      "id": "feb47ae70936d704",
+      "title": "台股重挫2953點！ 謝金河揪因：「這國」為全球資本市場帶來災難 - Yahoo新聞",
+      "url": "https://news.google.com/rss/articles/CBMingNBVV95cUxQUllHT2hmeWRXbWJUWWxUNVFXNTJYT1lwMXlqOWowY0VackhtY3RZZXZlSjdreWlnb2hlVDdXeEVsaG15ZlpoSmhzRHU0eFpGWlR5WWh6TWZTZVJKZzNjbzk3blc0SkN4LThJQ0NiMEpPRGJxb2dTcFBza1hVUGZmYll1Mk54TUV5UGtrR3pYNUc1TExNUkwyOE5YaFdtak5jZ2RNSF9KNGliTy1KaWg1VFNvU0dxREFtRk9oLUtsRHhNTDEzZEhvTDJxYy1UeVlDMUViSzRBbzdlT1IyaHlwSnpkSVZFMDdpZVpMOGFoYm9ETlFRTS1EV2VWZ19CMWY5aTBJaFVWX1NDVGU4TFVMemo2UVZIYW9jZnM2MkxsMW1IWWxLa05MVWxtMUdRN1FUdWliVHZYaXFIRXU4ZHBNMTRYT1pIWXJMeDJkX2ZCREFMSlJEN3EwVVVTdXYyOHhKd3MzcDJ4RjhTUXFKZzNYSWgweHgySm9KdTFOTGF2cEJMVGNkYm9GN0tNa2NwUk9Dbmo4NWFzc1ZMNEhOR2c?oc=5",
+      "source": "Google News - 台股",
+      "published_at": "2026-07-17T14:19:16+08:00",
+      "snippet": "台股重挫2953點！ 謝金河揪因：「這國」為全球資本市場帶來災難 Yahoo新聞",
+      "sentiment_score": 0.0,
+      "sentiment_label": "NEUTRAL",
+      "affected_industries": [],
+      "impact_reason_zh": "新聞報導台股重挫與全球資本市場災難原因，非特定產業結構性影響。"
+    },
+    {
+      "id": "66ca5d644841bd48",
+      "title": "台股史上最大盤中跌點！被動元件全面倒地「 這檔」股價腰斬最慘 - Yahoo新聞",
+      "url": "https://news.google.com/rss/articles/CBMijwNBVV95cUxPMmgybFE4WHV5YnNuUUl2NVNzWHNObGt4VWMtcTNHMDZjeF9ySXV1cmhYc25JZi1nSzc4bkxyNmoweXgwRUtTcVFzU1NWWjRxdTQ5Nlg2OENqRzQ5eUpGekdCaU1WLXUtT1pWdk81bVdJY2Q1UlFZNVNSek5WaEN5ZEtLYUZwQ25Jb2hhRGQ0Q25IS1lVOUt1VEVfWDBtY1ZfLUxCZ3c4NlhxRERzVzFsZExlRHJKbzJjaXJoZHdjdmZxbGQxcFJXQ2lJREx1SkhYcXYzT1JNWDZRWlJNLUlBYUxKX1FOei1BX3M2YmZ6OHpPSmhGelc1aFlDeWg1V1VZQllOMHBDQ0g4cTROQUFuMnRhSEt5Z2xzNFp0YXdmUHJjQWRNSmk5TVBCOUZ5eHhOSFlfSGRNaTU4enIxbXF6Y2ZCQUxVSVlQVlRjajB4Qy1VTTg3alR5WDNpWkJQNzZyQ0hXdmdjNDZ1akRSMkVKQ2s5cEJHekcxdEVJLVZhYjYwc1ozdklJai11b0FESlU?oc=5",
+      "source": "Google News - 台股",
+      "published_at": "2026-07-17T15:01:00+08:00",
+      "snippet": "台股史上最大盤中跌點！被動元件全面倒地「 這檔」股價腰斬最慘 Yahoo新聞",
+      "sentiment_score": -0.9,
+      "sentiment_label": "BEARISH",
+      "affected_industries": [
+        "PASSIVE"
+      ],
+      "impact_reason_zh": "台股大跌導致被動元件產業全面重挫，對該產業造成顯著負面影響。"
     },
     {
       "id": "1d6b4c4b98e5c4fc",
@@ -395,95 +638,7 @@
       "affected_industries": [
         "PASSIVE"
       ],
-      "impact_reason_zh": "被動元件指標廠及多檔個股重挫跌停，顯示產業面臨嚴重利空。"
-    },
-    {
-      "id": "e2908a442a42fb44",
-      "title": "台股慘遭血洗「開盤重挫1700點」！巴逆逆「驚回4字」網震撼：要反轉了 - Yahoo股市",
-      "url": "https://news.google.com/rss/articles/CBMi1wJBVV95cUxPSFQtWFcwRTVHUFU2Y1FvQnktemZncVZtTWh1bHRsaXRMbHJ4M0NMbFRtMW8wa1hsVFZRanJnN3h4VmhvZndkVnIwS1dPUVFqSmstVzlOWC1RdG5taTZoSElVRjFraThVT3dlOWxBbW92VzVRbFozYTktUk1YLU1jSG5CQ1AybTN1MG5pWDJwd1F2UDdmWFFkcEthZEJlT21IVUJIUmwyT0pKN3J5cWtCd2Z2UEVxUzlDRHo3bmxKMWxpa1hDN0tkOGZoQk5QRk9aS3VWU0xHVjRCc0d0OWQ3dlFLRzZMeGdBYzZDNmlLUXFqeW9DeFVCUm5SWjYzSzBTbFF1WE1Jc2IzcnBqdFc1aTZ3clZOaHpielpnT0prTjFYemRNcTFwVjZMRTd1aFFLM3lQTFZ1Z3ZKcFRYb0hWd1ZiYXdBY2FvaGZfNGV5QUJJaUJ0a05r?oc=5",
-      "source": "Google News - 台股",
-      "published_at": "2026-07-17T09:55:42+08:00",
-      "snippet": "台股慘遭血洗「開盤重挫1700點」！巴逆逆「驚回4字」網震撼：要反轉了 Yahoo股市",
-      "sentiment_score": 0,
-      "sentiment_label": "NEUTRAL",
-      "affected_industries": [],
-      "impact_reason_zh": "純屬市場行情報導與網路討論，不涉及特定產業結構性影響。"
-    },
-    {
-      "id": "980d971ddcf78dd8",
-      "title": "台股崩跌！謝金河示警：高檔股恐還沒跌完 - Yahoo新聞",
-      "url": "https://news.google.com/rss/articles/CBMiogJBVV95cUxPTHB1SHVVRElhWHNRRk8xdXdLaUdmbHBxcGJVT3RHRmVLakZCZTlfUnFqZi1odlFQZXYtTGRpNndnUE1kaF9FQU1FQUtQeUVncFhZY05BMVIxdXpvUHNIZWREQndUOWZmTWdsM0NCSmdsd3NCd29RcUk1VnFHTzd0N2V4a0liRWxXbVcxNHROWlVZV1BSN2N0WF9QMEZVcUVnYVY3aEhfbkRmci1teDRhVm5JU0JURDA5dXh4TDZjUU5CNEpGbUhnNFQybkRwUTRnYTRabmNHeEtlSFJIeFltcmdTckstZXFCbG5oS1B2VjNlV1A5UVo0MldNZkxtbjFVTkZyQzlZYUJFVkZFR3V6Y19VeWJJLW9qdGN4SlNBaXdMdw?oc=5",
-      "source": "Google News - 台股",
-      "published_at": "2026-07-17T13:51:53+08:00",
-      "snippet": "台股崩跌！謝金河示警：高檔股恐還沒跌完 Yahoo新聞",
-      "sentiment_score": 0,
-      "sentiment_label": "NEUTRAL",
-      "affected_industries": [],
-      "impact_reason_zh": "純屬市場行情報導與專家示警，不涉及特定產業結構性影響。"
-    },
-    {
-      "id": "69b5f6b36cf60da4",
-      "title": "台股重挫2953點收42671點 創盤中及收盤最大跌點 台積電跌180元 - Yahoo新聞",
-      "url": "https://news.google.com/rss/articles/CBMi7gJBVV95cUxNVWhyRG82RWVFTTJqSl9XUkg3STE2bTg3Y1p3bDBueWFBblRJMXJpNmxiR0lhWG13cnZXMDlON1lIaVIzVmlxT2N1RWs1RVd1YXFWblNYOTBXMGZWOWdUNC1VY1kxbDB3VVJORGlRNlJzUjJNR041VFE1LTdWY21jWVJUaTlyMGdkOWtlNlB2aXpnbjZpeEVwWjZRQ2pkSUxjYTFiVkpsaXBYcFNUM3hMSEdQaC05XzNwUXRFWVpWUlluOWJQTS1hR0xTUk9iNFkySWlrNlRPdWl6RmRvSF8ySWJIbmNzLVVZS3EzWXgxRndTNkZPSGV6VTVncFUtYVlSV2Y2clBCMFY0M1NfRTFLZmVNWm4zMDRQaEZxVnlpQTltNlZuclFuanl1cnJDb2kyRnYtYVE4RDg1RkFybjd0TlJXTlQ5UHNmWVF5LUlqV1huOXdVUmZuNFRVVndrN29LWEJvNGxTUktRelNiTmc?oc=5",
-      "source": "Google News - 台股",
-      "published_at": "2026-07-17T14:47:26+08:00",
-      "snippet": "台股重挫2953點收42671點 創盤中及收盤最大跌點 台積電跌180元 Yahoo新聞",
-      "sentiment_score": -0.7,
-      "sentiment_label": "BEARISH",
-      "affected_industries": [
-        "SEMI"
-      ],
-      "impact_reason_zh": "台積電股價大幅下跌，顯示半導體產業面臨利空衝擊。"
-    },
-    {
-      "id": "9e84a91926126169",
-      "title": "台股暴跌逾1800點！史上盤中第4大 失守4萬5、4萬4兩大關卡 - Yahoo股市",
-      "url": "https://news.google.com/rss/articles/CBMi8AJBVV95cUxPWXc2RWRjR3NFVzNaUlBzZ0lNdXk1cTh5N2plbDJncDc5NFNHRXl4RzJPWG9LbFpEakJZRHBDR3RGVmxuS0lOZGZzcFdUZUd1NG1Ya0JRcDdDNFRZNndhV2gwU3hsOTNFUHBRRHpka2dIUlVNX2w5YTZoVm9WbG1kc3JHVXplZTZRaUg0WUFWRWswNkVzQl93SW4yZWZkYmIyanZHSFVFRllNaUROSzA3UHdsS0x0R3lzOUxqcHJWdmZicWlGY1drWXozamRvdU1pNXFfdVZQZU42dkVtWmx4cnlXVUtoUk5hV21KLXJpdF9obUpaRmc5NzZ4bjl2VXphN1FuVkdLSUZQdDZKMGNfdWZ0YWxsakpSMGlrUGJ1cUhXV2trT0lzSzgxTWwxT2UwenhGR1hUUWhoM3F5QUluOFFXRUJrdExQc0ZadWhPTnFJdFlKQnRXYjJWMDlzdGFVRTBUMjV5TldPQkxweXJ3Xw?oc=5",
-      "source": "Google News - 台股",
-      "published_at": "2026-07-17T09:52:30+08:00",
-      "snippet": "台股暴跌逾1800點！史上盤中第4大 失守4萬5、4萬4兩大關卡 Yahoo股市",
-      "sentiment_score": 0,
-      "sentiment_label": "NEUTRAL",
-      "affected_industries": [],
-      "impact_reason_zh": "純屬市場指數表現報導，不涉及特定產業結構性影響。"
-    },
-    {
-      "id": "278155c4844dc715",
-      "title": "台股大跌法人提醒觀察止跌三訊號| 股市要聞| 股市 - UDN",
-      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9fX0twSVhYY3Jtc0p5QndNYjc2OXVoMVd6cEhySVkyUlcxSjYybGxTa2xzVDEwemFUbWFwekJiWTJUMjNfUXBxLXdSdm5nV0Fs?oc=5",
-      "source": "Google News - 台股",
-      "published_at": "2026-07-17T14:17:05+08:00",
-      "snippet": "台股大跌法人提醒觀察止跌三訊號| 股市要聞| 股市 UDN",
-      "sentiment_score": 0,
-      "sentiment_label": "NEUTRAL",
-      "affected_industries": [],
-      "impact_reason_zh": "報導市場下跌與法人觀察止跌訊號，不涉及特定產業結構性影響。"
-    },
-    {
-      "id": "951563d5c091b7a3",
-      "title": "台積電領跌使台股重挫逾兩千點 創史上次高跌點 法人建議布局方向 - UDN",
-      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE8zLUt0clMzWmFoMm5GQXZnSWhuejJXT2xrdF9uSVl3TER5eDNIY1c3VUc3eXROZ3Y3d3VWUWxoY3dnbi1kR24wQmRSbmhpUUxv0gFWQVVfeXFMUGFUdC12MzV2QkJnTTVvMENxc0xhNnBYMy02cFBUSTdTQmJpRHJoSGtfZzlTNUNtZXhtMmlfV1lTam5UbnYtSngzbjItTDllWjU5V3drLVE?oc=5",
-      "source": "Google News - 台股",
-      "published_at": "2026-07-17T14:09:06+08:00",
-      "snippet": "台積電領跌使台股重挫逾兩千點 創史上次高跌點 法人建議布局方向 UDN",
-      "sentiment_score": -0.7,
-      "sentiment_label": "BEARISH",
-      "affected_industries": [
-        "SEMI"
-      ],
-      "impact_reason_zh": "台積電領跌大盤，顯示半導體產業面臨顯著利空衝擊。"
-    },
-    {
-      "id": "feb47ae70936d704",
-      "title": "台股重挫2953點！ 謝金河揪因：「這國」為全球資本市場帶來災難 - Yahoo新聞",
-      "url": "https://news.google.com/rss/articles/CBMingNBVV95cUxQUllHT2hmeWRXbWJUWWxUNVFXNTJYT1lwMXlqOWowY0VackhtY3RZZXZlSjdreWlnb2hlVDdXeEVsaG15ZlpoSmhzRHU0eFpGWlR5WWh6TWZTZVJKZzNjbzk3blc0SkN4LThJQ0NiMEpPRGJxb2dTcFBza1hVUGZmYll1Mk54TUV5UGtrR3pYNUc1TExNUkwyOE5YaFdtak5jZ2RNSF9KNGliTy1KaWg1VFNvU0dxREFtRk9oLUtsRHhNTDEzZEhvTDJxYy1UeVlDMUViSzRBbzdlT1IyaHlwSnpkSVZFMDdpZVpMOGFoYm9ETlFRTS1EV2VWZ19CMWY5aTBJaFVWX1NDVGU4TFVMemo2UVZIYW9jZnM2MkxsMW1IWWxLa05MVWxtMUdRN1FUdWliVHZYaXFIRXU4ZHBNMTRYT1pIWXJMeDJkX2ZCREFMSlJEN3EwVVVTdXYyOHhKd3MzcDJ4RjhTUXFKZzNYSWgweHgySm9KdTFOTGF2cEJMVGNkYm9GN0tNa2NwUk9Dbmo4NWFzc1ZMNEhOR2c?oc=5",
-      "source": "Google News - 台股",
-      "published_at": "2026-07-17T14:19:16+08:00",
-      "snippet": "台股重挫2953點！ 謝金河揪因：「這國」為全球資本市場帶來災難 Yahoo新聞",
-      "sentiment_score": 0,
-      "sentiment_label": "NEUTRAL",
-      "affected_industries": [],
-      "impact_reason_zh": "報導市場下跌與歸因於國際因素，不涉及特定產業結構性影響。"
+      "impact_reason_zh": "台股重挫導致被動元件產業指標廠股價跌停，顯示產業受市場衝擊嚴重。"
     },
     {
       "id": "f1b972e387e8c421",
@@ -492,112 +647,34 @@
       "source": "Google News - 台股",
       "published_at": "2026-07-17T13:59:33+08:00",
       "snippet": "台股上演717慘案 崩跌2953點 創史上最大跌點 UDN",
-      "sentiment_score": 0,
+      "sentiment_score": 0.0,
       "sentiment_label": "NEUTRAL",
       "affected_industries": [],
-      "impact_reason_zh": "純屬市場指數表現報導，不涉及特定產業結構性影響。"
+      "impact_reason_zh": "新聞報導台股整體崩跌，未提及特定產業的結構性影響。"
     },
     {
-      "id": "8fd5d82351b13321",
-      "title": "這次恐破紀錄？台股盤中血洗逾2600點 史上前十大股災一表看 - Yahoo新聞",
-      "url": "https://news.google.com/rss/articles/CBMi_AJBVV95cUxONDlXSGJJaGtYQjNhN2YzeHlwZ1hYc29BUzZKZnZ1SzJGUTVzZ1k1QkJvc1JERkJtVW0yRmZpd2NRdk16ck9LYnh0ZHp4N1Vic2RHcm54U2RaYTF4N21EZWZQS2dib2JJd1VOUXZoTU1oeGNDX0VNVGNGQ3J3ajZneE1GQ0hzR2JQRDZrVEdFbzZzRDUxbzNKY1JvTkFPMm5TakQ3ZVNVTjVlQ2lKTXdETTNGZmpLUHVxblFmT2VJdzlmWHBwVzVPa21ncE1rYVlSU2dTYnZXTWI1YUpEdVVILW9nR3o3MkZqTnJpMVdsTGRHQ0dqYms5MVQ1aFV4NzRiUGlDaERzZm04TG0yeUdmSW5PRjBZaFVxb2RoRXJZM0dOYmNEQ2VEczJfejlhNlFvVHZvUF9IbHdSWTNnZC1EeDZiZHRBcEJPZDg3VDF6dnd1amVXaVk0UXN1QzZGRkdHMGs0NWxrWlpGT2xDOVJqYmxzVVBielItM04zeQ?oc=5",
+      "id": "fb700a9d5dca9828",
+      "title": "台股大跌 法人提醒觀察止跌三訊號 - UDN",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9fX0twSVhYY3Jtc0p5QndNYjc2OXVoMVd6cEhySVkyUlcxSjYybGxTa2xzVDEwemFUbWFwekJiWTJUMjNfUXBxLXdSdm5nV0Fs0gFWQVVfeXFMT25td3lFZWtqWDViSlVLbWdDQWx2eHpjQVJ4cnNnd0ZJWE14YUc2b0hPZkZLMmR4UjNDdUVnNVdjOFdhNHQ5MzJMMWR3bXFoNFk4OFRVRUE?oc=5",
       "source": "Google News - 台股",
-      "published_at": "2026-07-17T12:51:08+08:00",
-      "snippet": "這次恐破紀錄？台股盤中血洗逾2600點 史上前十大股災一表看 Yahoo新聞",
-      "sentiment_score": 0,
+      "published_at": "2026-07-17T14:17:05+08:00",
+      "snippet": "台股大跌 法人提醒觀察止跌三訊號 UDN",
+      "sentiment_score": 0.0,
       "sentiment_label": "NEUTRAL",
       "affected_industries": [],
-      "impact_reason_zh": "純屬市場指數表現報導與歷史比較，不涉及特定產業結構性影響。"
+      "impact_reason_zh": "新聞報導台股大跌與法人止跌訊號分析，非特定產業結構性影響。"
     },
     {
-      "id": "194e97e493ecefb1",
-      "title": "台股崩跌多殺多！第三季回檔壓力大 法人：多頭修正非趨勢反轉 後續觀察二變數 - Yahoo新聞",
-      "url": "https://news.google.com/rss/articles/CBMi5ANBVV95cUxPb1NUbWRoQ3pENzh2R2w4MFNuSzlKRGVtUGd5M0gtME1weGJ6aVF5eGZqUDJieFZhVjZzOFFJM1VyZGh0UkhNZGNtd0haRzNYQzNWUjllbllwSFlyRER3ZEV2SVZnTXVGN3FvSlJPT1ZLV3lkRFFudFhoUEhtVVVwRWx3b295cjZDdkZISlJtWXVOeTFVODR5ZFV2S05FemppZzdHWS1oN29lMXVDb0FRS3pYd1BTU1ZLWWhYc0EySFp5bjdWNnd1a0xPNnV4d3ozREZ1UWQwTXMwYnM5Tk9HQ3ZKSXdQdUk2dXRMbHRpeHVtSy1mNnZZNy00bHVaY21LMGVDOWI3RHVrNzRkQzczcDZ5UTRmZTBKck1iZm56dEV3ai1pRkE3a0M4dTlMT2Y3MWFtMU96dmlGejdzNEVUQVRlY2F3d1hLOHl6TElJeDBVbUM0OE9yV1JKNWhKSHNxZGttQ1dKVXNrRS1QR2JiSXJlcFVuTUdGLThVRVpVMXVvZWM1WVVYOGVvanNxbHl6MnZ4TV9uamVkRmVDNjc4M2dWRVhFbUR6Q2FrZEtrc29jTzRKcElUdDZqNmFQZWNYQnp4WWZqek5PSTVxS3RHdFloNVBfeWFrVGpGX3NWSy1lZko1?oc=5",
+      "id": "da09e8e1670d97d7",
+      "title": "〈台股盤後〉崩跌2953點史上最慘烈！大逃殺壓垮季線和4萬3大關 - news.cnyes.com",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1YWm9PaGdrRGFfc2dCckFYcUFTSy16R2VlQUZGbHlOUGJPOF9DM1ZKQ3JfT3Y1UHR0N0hZc1JZQ3B4U2hkUXFUQ2c1c0ZQQTA?oc=5",
       "source": "Google News - 台股",
-      "published_at": "2026-07-17T13:00:42+08:00",
-      "snippet": "台股崩跌多殺多！第三季回檔壓力大 法人：多頭修正非趨勢反轉 後續觀察二變數 Yahoo新聞",
-      "sentiment_score": 0,
+      "published_at": "2026-07-17T14:01:28+08:00",
+      "snippet": "〈台股盤後〉崩跌2953點史上最慘烈！大逃殺壓垮季線和4萬3大關 news.cnyes.com",
+      "sentiment_score": 0.0,
       "sentiment_label": "NEUTRAL",
       "affected_industries": [],
-      "impact_reason_zh": "報導市場下跌與法人對趨勢的看法，不涉及特定產業結構性影響。"
-    },
-    {
-      "id": "073a7c00f154b4fe",
-      "title": "史詩級股災！台股重挫2,953點 寫史上盤中與收盤最大跌點 - UDN",
-      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFB1Z0lLdkFqMjVmeXJ3TUxXOEVZVmVqZ19DTml4VTVXYlZQVGRTNTdZeFdYYkFDbXZQSTl5QWtfdC1haTU4Ti1oR0I2eGY1MUlE0gFWQVVfeXFMT1k0WXpMSUVWNGhIWXVPaTFmXzRzeDNVTHVaV2phaG5EWVRST3BYQVZyUldQOEpXcUE5TENqaFgzLWdsRzJxaG54dWhmRGFHUUwxUFhzMFE?oc=5",
-      "source": "Google News - 台股",
-      "published_at": "2026-07-17T13:55:03+08:00",
-      "snippet": "史詩級股災！台股重挫2,953點 寫史上盤中與收盤最大跌點 UDN",
-      "sentiment_score": 0,
-      "sentiment_label": "NEUTRAL",
-      "affected_industries": [],
-      "impact_reason_zh": "純屬市場指數表現報導，不涉及特定產業結構性影響。"
-    },
-    {
-      "id": "f27f4dc8399d770a",
-      "title": "台積電的4倍！0050越跌越搶手 零股爆近7000萬股 - Yahoo股市",
-      "url": "https://news.google.com/rss/articles/CBMitAJBVV95cUxQMGxjb2YtcGdSelJXRDc3UGoxSl9oaVVucTJRRXhleG1TRFZGc2VhNWpqVmI1aEIxcU9SOEFWUVozREhzZDJvWVlzb0FVbVJTd1lhWUJpVUM3UXVPS1VZRGFFdXBZamJtR0c4R1ZwcHJlZFRzUU9HcmUzLUNFMDVCRE5wQmxucHNpY1B2YzUwcmQ5dnNES0dpd3htM2dvcDFpX3hyV1JoRzV3SGlzZTVJNTRjWVZjMUFlb1B6cm1JYU5RVWI4RWhIWGRVcDIwZmtSX1pZOC1HY3BMTFNLcjVoWTRlaXVUa2ZFRWlIVUFlNXlfcEZ4MU5ycDl3NHBQVFk1d2Z1OUhFaWl1UDF5eGo2eXF3R1pSX3N1TVg4RlJHUkpmQVdPa1RCb2c0MEI4Mm1iLU5mag?oc=5",
-      "source": "Google News - 台股",
-      "published_at": "2026-07-17T13:00:25+08:00",
-      "snippet": "台積電的4倍！0050越跌越搶手 零股爆近7000萬股 Yahoo股市",
-      "sentiment_score": 0,
-      "sentiment_label": "NEUTRAL",
-      "affected_industries": [],
-      "impact_reason_zh": "純屬個人投資行為報導，不涉及特定產業結構性影響。"
-    },
-    {
-      "id": "9a296f2c182f1361",
-      "title": "台積電跌80元 台股下挫1720點 失守44000關卡 - Yahoo股市",
-      "url": "https://news.google.com/rss/articles/CBMilAJBVV95cUxOMWhqYUI1bkNDWmY1SjNHSDkxTVNzN0Rzb3diQ2h4dzhYNkhxNEE3WDZxU0QtR2dkZXNfNzhNYlFYRWdudVpoQmVHbWhEZlFtZndYeGdJVGdmbmRrLTBqTzNhWFBZLVBScUFyY2FpczdZLWh1b1JFRFlWWW9ESWIxNVNBWUVPODFGUUFfdXdldldmTC1XYldyUTJMN0ZIam14dWVxci14ZDRhVWEtUGdMMXRwNlgwUmRhMFJNNzZNLXhoX09EYnhRNlJVRmYxUndTRWNPUVhZZGVsLVdPaUVydjdoa2ppSFZjZ3BTYXNpVU1CUVUyanVDcnBhTkdta1JaVnYzS3B4R28zZGRsZWhFXzZJc3c?oc=5",
-      "source": "Google News - 台股",
-      "published_at": "2026-07-17T09:36:28+08:00",
-      "snippet": "台積電跌80元 台股下挫1720點 失守44000關卡 Yahoo股市",
-      "sentiment_score": -0.7,
-      "sentiment_label": "BEARISH",
-      "affected_industries": [
-        "SEMI"
-      ],
-      "impact_reason_zh": "台積電股價下跌，顯示半導體產業面臨利空衝擊。"
-    },
-    {
-      "id": "022d3f2ffd5d8732",
-      "title": "台股開盤／台積電跌85元拖累！大盤開盤重挫逾1700點 創盤中第4大跌點 - Yahoo新聞",
-      "url": "https://news.google.com/rss/articles/CBMiowNBVV95cUxQQTc3YjJ4aG1aVDN4WXVweTVDS2NxUlZGSzNzWU1Mc1AtY1pDRFpMRGJRVHVRamdKWVAxUW9LWmFiUFpCNzhmOFJfUzduRzRBdjk2ZEtCb0Jma0lyUnZMRFlXd3JSYlFrdFQ3U1NsNEJ5dkp2S1YxWmxTMzJMeDliNnNPWDBFSEZfOFI3Z3FGQTVUTzVyQ0hwNmFlazd0YVFRYmRBWVI0MGM2SHg0Z2ZHMjRqR0ZmZFYwdXhvbmNneTdob1VOLWhZWjRHWmo0SDdRSlc1SzRnWExFNEZWUzlsdHVLcENTYkRmeTE1MjMtbVYzbjhPMzc3Y3ZrRnRhMWJlR196YS0wa2VHZEcwVktvcm1wTExWaWZkeUVySXgwcXM2cE5CTlMwZmoyR0hZUkxzWkNTLWFzMXZ5YWh5ZVh3cTBCdGVnZW5DcUVNQmk3eUYtblVSa1VJOGZ1UXUzQnZqaFIwYTZOWjlKM0J5aExTLWM1TjdXckFLUTVjeGdLbU50VnB5VzJuYjNyTEc3RUFCQWtDUU1UUzhjbUJOb1QzQzJVSQ?oc=5",
-      "source": "Google News - 台股",
-      "published_at": "2026-07-17T09:17:01+08:00",
-      "snippet": "台股開盤／台積電跌85元拖累！大盤開盤重挫逾1700點 創盤中第4大跌點 Yahoo新聞",
-      "sentiment_score": -0.7,
-      "sentiment_label": "BEARISH",
-      "affected_industries": [
-        "SEMI"
-      ],
-      "impact_reason_zh": "台積電股價下跌拖累大盤，顯示半導體產業面臨利空衝擊。"
-    },
-    {
-      "id": "e0e026a0facd85f7",
-      "title": "〈台股開盤〉崩跌逾1700點空襲季線 美日股齊挫 台積電法說利多反跌近百元 - news.cnyes.com",
-      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1XTFpHOUlVMDA0eDVLM0lnZU02RkZIM0xCQjNHOFlvYWhkNkxRU3c4QXVZelpvbnZwVG9QdE5GbjZ6RjFGZXN4Z2dQNWN0dTA?oc=5",
-      "source": "Google News - 台股",
-      "published_at": "2026-07-17T09:47:37+08:00",
-      "snippet": "〈台股開盤〉崩跌逾1700點空襲季線 美日股齊挫 台積電法說利多反跌近百元 news.cnyes.com",
-      "sentiment_score": -0.7,
-      "sentiment_label": "BEARISH",
-      "affected_industries": [
-        "SEMI"
-      ],
-      "impact_reason_zh": "台積電法說後股價反跌近百元，顯示半導體產業面臨利空衝擊。"
-    },
-    {
-      "id": "6f45da0f24c8e3ed",
-      "title": "韭菜燒不盡！台股暴跌2100點「巴逆逆40字悲歌」萬人淚：是我…謝金河示警：2族群恐更慘 - Yahoo新聞",
-      "url": "https://news.google.com/rss/articles/CBMi3AJBVV95cUxQLTVyZm9ZbGl5S05HYldHemFtYWxEUDJpT3hpSFR5QUV4M2ZtYVFCWHplV216eXM4UThFSHN6cFRFbjFWLXhBcUYtOVFZck9QTEtPQTBCZ2F6QUNfY183cjgyQTJ4WTROejhQT0pJUXNUbTcyX3dTMlItVHY3V0VPb2hTUHNTRUlGNGxpNGZ5MXlTbjBTRV9EcVhvcnZreWl4X3NWSWlmbW5yUnBzX3FveHZ2ZS13SVlGZGd2b1JwM1JqYXdWa0xVQm5LaDU4OGRhUi16ZzZvcGhRM08xSjRTcEZjamFYdGI4TjlUTGgzd3NabTcwZGdBWlUya3NHRGFqM056ZEJYcjE2dFJ3bVYxbDdHb0dac2dmOU9TYm1oOHB0RUVWNHBKbE1KS2Y0clVhbW5mZ1MyU3N3emU4S3RXNEd0YkVRNlhzaXZmaFRPb1FFbmJVWWxvLUhQRzg?oc=5",
-      "source": "Google News - 台股",
-      "published_at": "2026-07-17T13:20:14+08:00",
-      "snippet": "韭菜燒不盡！台股暴跌2100點「巴逆逆40字悲歌」萬人淚：是我…謝金河示警：2族群恐更慘 Yahoo新聞",
-      "sentiment_score": 0,
-      "sentiment_label": "NEUTRAL",
-      "affected_industries": [],
-      "impact_reason_zh": "報導市場下跌與專家示警，但未具體指出特定產業的結構性利空。"
+      "impact_reason_zh": "新聞報導台股整體崩跌與技術線型，未提及特定產業的結構性影響。"
     },
     {
       "id": "6db98adcf0341970",
@@ -611,33 +688,57 @@
       "affected_industries": [
         "SEMI"
       ],
-      "impact_reason_zh": "半導體產業出現跌停潮，顯示該產業面臨極度嚴重的利空衝擊。"
+      "impact_reason_zh": "台股重挫引發半導體產業跌停潮，顯示該產業受市場賣壓嚴重衝擊。"
     },
     {
-      "id": "4d7fd971e3a3907f",
-      "title": "暴跌2953點創紀錄！只是剛開始…陳嘉偉：狂跌走勢與「金融海嘯」泡沫極為相似 - UDN",
-      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE16Uk1hU2R5ZXZPbXZGOFhVQ29kOUxza2FFRnROYWxjZEx5LW9veWRZZ3F6YVo2T0FvX0Yydi1pQ0FMR1k4VlNJX1k3UW5vTTExLVHSAVdBVV95cUxNT3pONDBDbXdYd3JoWHA3WkliQWVyeExwWVZCR3JiQVlpcGZzdlVBTXc2SWhsX0p3NXN3dWZvaVlxbkdlaDhhZXRhVTNzNHZ6QXBRRFlfajg?oc=5",
+      "id": "3bc7fd8a0c9c3b48",
+      "title": "台股慘崩2953點！專家揭「進場2條件」曝自身1超強操作 - Yahoo股市",
+      "url": "https://news.google.com/rss/articles/CBMiywJBVV95cUxNdGtfNGlYNF9MeFV3RkRtZVFJOU01WWItU2xKZGJUbkRxUDNhb0dYWkN1a2pneVUzeVpHZmJ1Y3hKN0xSdC1MV0ZNSFNaMWVhaTd1VlZfZFNkbzhObDdGMWNjTGppYTRub0dfalRaWnRuT2hsb3ZCOHozOWI3TXNsNndKYXkwVFdzaEx5N2ZsMGlPc1plWlpXT0ZMNjhRUThSQTl1by1lZjJZZGs0OFZfS1g2Qy16MGFuRmlYa0tsNDBtWGl0aXdvYUtCSTd0TGpyMTFud3hFekx0b09fZ2I0NnMzQXF3eHdJZmY5ZnFqWEhPR1VGbENXczYwdUwtb3ZmTGVmUlFpS1VfYlJVTXV2WWxiSkVZNjl5YmhYckp5cWF5NkR1U2h6blhYZUwzdk9hNVJsd2YxVW40RnJIRlFHTl9mSnRCalYyRTA4?oc=5",
       "source": "Google News - 台股",
-      "published_at": "2026-07-17T15:41:27+08:00",
-      "snippet": "暴跌2953點創紀錄！只是剛開始…陳嘉偉：狂跌走勢與「金融海嘯」泡沫極為相似 UDN",
-      "sentiment_score": 0,
+      "published_at": "2026-07-17T21:28:52+08:00",
+      "snippet": "台股慘崩2953點！專家揭「進場2條件」曝自身1超強操作 Yahoo股市",
+      "sentiment_score": 0.0,
       "sentiment_label": "NEUTRAL",
       "affected_industries": [],
-      "impact_reason_zh": "報導市場下跌與專家對市場走勢的類比，不涉及特定產業結構性影響。"
+      "impact_reason_zh": "新聞主要為市場崩跌後的專家進場建議，不涉及特定產業的結構性影響。"
     },
     {
-      "id": "fc512553c0207f6c",
-      "title": "【Follow法人】殺瘋了！三大法人賣超台股2617億元史上最大 提款台積電破千億元 - Yahoo股市",
-      "url": "https://news.google.com/rss/articles/CBMi3gNBVV95cUxOaklWUXBuVmVYMjExQ2FsekdsS2pWbHJyOFNxZWJ0TXFyS3NUWU5JRlQyVHFfNmZtUEdCT3NuS0gxeWhtZWw2TTVUUG1iUm9LX3otSWUwcUh4Zk5oZEs1ZF9fYlFhcGxsY3Zma3BlS1dBX3JNTDBWa3RnTGxTSG56YVFpd3JiakMtdzVjTFQzTXlGZmRWSTl3eFNFZ3pmU0MyRkZzZVdtQTBoaEdnNWhRZEN6d2FKNHRDMVpDNUx0OThQUWFJdFhKUGRfeFB3SUJXSWFRR1ZvTld5VGt1MXdTd2lRVzlDM3dVVGdDYklkRzJTM1MwYXVvYVhLWU10TTRBdjdMTGFBOVpoVVpSUnhyMVBIbURrUG1KcnYyeVB1WE42MnpFNFVENzUtejRXQ0VnaVV0d2dzeUVOTm15QUI3aEpCbGZEbldTRm9NcEJOeFhlOW8tZFR6MnRjbXdidnRvbXFoVzN5T1g4VEJJWWJRUHFWME1SNTZiM2pKaTJtb3RYblg5ektxbkZPSlV5WXIyV3dmRms0QjZ0TnpFWnNKMzBmTVFpbTI1UjZHNnpzejhPZkk1QW14eElZUHJoRFBNdlRtdHRKenRPQnFWcUx0RXBlc0M1M3A3WFR3OGtR?oc=5",
+      "id": "560a4fc687aa20ad",
+      "title": "萬綠叢中一點紅！台股一度跌破2700點 「這4小當家」逆勢上漲成避難所 - Yahoo新聞",
+      "url": "https://news.google.com/rss/articles/CBMinwJBVV95cUxQUGtQb3FBTlNvR3o0NVg4Z1JFeWxYdUJQQnBtWFA0c2hVaW1RR2xjdHkzb19VanhESzVSR0lLM0ZhdE0xeVcta3k0RGI2dWVUMlRQLTFla2hUUnMwaER6bDBuSzlUMmY5c2p6bU9tQTBzcDRYUTdIZ2E1aUZPY1FYOHZSOHMwUXpTMXNnYkttbDU5amdRYVY2a1NkbVBtYkM1SlFUVk5WMll6eGtuYXpaYnpIRVVoNlpudjB0NDZ0aEVqZGxxeHNYZUhBN3pvQVdBWDVHWkVZNXpMRGd2d3lURFdTU09aRUlURkZWUUJqLV9QRDQ5U0xlSEVLeVFVdkdNMDQ3cGlpLVV0V1dSd3RiWjBWMFFEdFh3LXVrbkZfRQ?oc=5",
       "source": "Google News - 台股",
-      "published_at": "2026-07-17T16:42:46+08:00",
-      "snippet": "【Follow法人】殺瘋了！三大法人賣超台股2617億元史上最大 提款台積電破千億元 Yahoo股市",
-      "sentiment_score": -0.7,
+      "published_at": "2026-07-17T13:12:00+08:00",
+      "snippet": "萬綠叢中一點紅！台股一度跌破2700點 「這4小當家」逆勢上漲成避難所 Yahoo新聞",
+      "sentiment_score": 0.0,
+      "sentiment_label": "NEUTRAL",
+      "affected_industries": [],
+      "impact_reason_zh": "新聞提及部分個股逆勢上漲，但未明確指出具體產業的結構性利多，資訊過於模糊。"
+    },
+    {
+      "id": "9ee104daf6dad36d",
+      "title": "台股慘崩2953點連達人也賠錢 曝1時刻成絕佳買進點 - Yahoo股市",
+      "url": "https://news.google.com/rss/articles/CBMi0wJBVV95cUxOM2hoSWY0OVMtbkxmWlpKd2RHME1XM1lJQzAyb0JmdDQ0LV85dkNaWjdqYklqRDFqVl9Cc09TY3d2Zzg5U1VhajZOQkRKSWc1TkdqakoyV21yMmhXMC1pMWl5S1NBRXFwU0M1c1ZudkNsblhRYlJPbm0xR0RxbWkzMi1PVGR2UlJvZURTbEtYZURKR1hzd2cybFdaeHNJdGEyQXV5ckdKSGhaMkhFU2g2eldkQ3V5R2tIdWRKeUg4QVNNS3R2dkZ2OXFPN3VtZUk4NEtVamNWQVFaendhdWpFWGxPaFNVOExwUl9vMFg5WWVzX2VjM29jZmY5Q2RITngzcEx1TGtwRk5oczdCbm5IVm13WXY2QzRJMVAtb3FZcXZlNGJ4dDRqdThGdWYtV1lsSU8yZkFIcWhYa3E5MGJaX3lFeXVnVnd1N2l0bFJELUgyNTg?oc=5",
+      "source": "Google News - 台股",
+      "published_at": "2026-07-17T16:56:04+08:00",
+      "snippet": "台股慘崩2953點連達人也賠錢 曝1時刻成絕佳買進點 Yahoo股市",
+      "sentiment_score": 0.0,
+      "sentiment_label": "NEUTRAL",
+      "affected_industries": [],
+      "impact_reason_zh": "新聞主要為市場崩跌後的專家買進時機建議，不涉及特定產業的結構性影響。"
+    },
+    {
+      "id": "951563d5c091b7a3",
+      "title": "台積電領跌使台股重挫逾兩千點 創史上次高跌點 法人建議布局方向 - UDN",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE8zLUt0clMzWmFoMm5GQXZnSWhuejJXT2xrdF9uSVl3TER5eDNIY1c3VUc3eXROZ3Y3d3VWUWxoY3dnbi1kR24wQmRSbmhpUUxv0gFWQVVfeXFMUGFUdC12MzV2QkJnTTVvMENxc0xhNnBYMy02cFBUSTdTQmJpRHJoSGtfZzlTNUNtZXhtMmlfV1lTam5UbnYtSngzbjItTDllWjU5V3drLVE?oc=5",
+      "source": "Google News - 台股",
+      "published_at": "2026-07-17T10:56:36+08:00",
+      "snippet": "台積電領跌使台股重挫逾兩千點 創史上次高跌點 法人建議布局方向 UDN",
+      "sentiment_score": -0.5,
       "sentiment_label": "BEARISH",
       "affected_industries": [
         "SEMI"
       ],
-      "impact_reason_zh": "法人對台積電大規模賣超，顯示半導體產業面臨顯著利空衝擊。"
+      "impact_reason_zh": "台積電領跌反映半導體產業短期面臨逆風，市場對其展望持謹慎態度。"
     },
     {
       "id": "4430bf04742ff02c",
@@ -646,12 +747,66 @@
       "source": "Google News - 台股",
       "published_at": "2026-07-17T12:11:20+08:00",
       "snippet": "AI股血流成河！台股盤中暴跌逾2300點 上市市值一夕蒸發7.6兆元 news.cnyes.com",
-      "sentiment_score": -0.8,
+      "sentiment_score": -0.6,
       "sentiment_label": "BEARISH",
       "affected_industries": [
+        "AI_SERVER",
+        "SEMI"
+      ],
+      "impact_reason_zh": "AI相關股票普遍重挫，顯示市場對AI產業短期展望或估值產生疑慮。"
+    },
+    {
+      "id": "f603ba9307d32598",
+      "title": "台股史詩級殺盤突圍！「網通晶片廠」一度衝漲3％終場收紅 Wi-Fi 7、AI應用題材掀買盤 - Yahoo股市",
+      "url": "https://news.google.com/rss/articles/CBMi4AJBVV95cUxNTmlmemlGU0ZJcV9WYkhXZjM0M3ZEcUpMVDdHYmdzVHBaZzZhd09NNmpLUFJ6NXJXUkgtRjVCallHQ1oydmZZQUx6V0FhZUg1RXRHRGxMMkFnMEVTVHVocUdfUWtWc3NWaXJEOUJSYW9UWElDRzQxNU1Ma1VSTUdMT21KRC1EM2RTTHpHLUhkclkwN09sSGhFcFN5V2I5WWlWbmZENFRra2dJUnhVSVdFSXZsX2t0amNtaDBRakIxQ1FqYlZtT0JtcVBOdnFkcXpWam4wY2g3T1F0OEp6M0xuTnVmcng3TmNMelpURnVoVHV3OTBLNl9XMjBXZGpCcFprRnB5eUlTeXFtdUprRlBQNm1IWTE1VDFSNzQyQU9QSEJSQmNwbXN0ZDBUcmRKQzdJM3JGeWEtQU1IdkI4aS1WUkQ2Nk9OSkd1bVc0Q3B4UFlIOG5uM3hvVmFvTm9UT096?oc=5",
+      "source": "Google News - 台股",
+      "published_at": "2026-07-17T21:45:00+08:00",
+      "snippet": "台股史詩級殺盤突圍！「網通晶片廠」一度衝漲3％終場收紅 Wi-Fi 7、AI應用題材掀買盤 Yahoo股市",
+      "sentiment_score": 0.5,
+      "sentiment_label": "BULLISH",
+      "affected_industries": [
+        "SEMI",
         "AI_SERVER"
       ],
-      "impact_reason_zh": "AI相關類股普遍重挫，顯示AI伺服器產業面臨嚴重利空。"
+      "impact_reason_zh": "網通晶片廠受惠Wi-Fi 7與AI應用題材，在市場重挫中逆勢上漲，顯示結構性需求強勁。"
+    },
+    {
+      "id": "e68b5b353caef3fe",
+      "title": "台股今崩跌近3千點、跌幅6.47％ 亞股各國最慘 - 自由財經",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9FYzlNMmFrM0Z6NUNEX1E4akNRX3pRdHVaN1NVUWZmRHFPUlNKNlpqVUxIaEVvQVV3S3hBNlBRTWJsZTY2cDYzVDlZd294VGhLT1MtbUR4RzRiUXRCV25V0gFkQVVfeXFMT0o5N2s5VkQ1R3RwanB1d0p3TWdPTDFORE1OM2duR3FuZ3FVOHd2aUppcWJwTVpnd01FUTdmMW5hYkpQU1ZuM1lfRWhjakVoN3duTWVrS0M4cU9KVmthcG9jTmFOZQ?oc=5",
+      "source": "Google News - 台股",
+      "published_at": "2026-07-17T16:07:44+08:00",
+      "snippet": "台股今崩跌近3千點、跌幅6.47％ 亞股各國最慘 自由財經",
+      "sentiment_score": 0.0,
+      "sentiment_label": "NEUTRAL",
+      "affected_industries": [],
+      "impact_reason_zh": "新聞主要報導台股大盤崩跌，屬於市場整體現象，不涉及特定產業的結構性影響。"
+    },
+    {
+      "id": "b169e4b5f44ead84",
+      "title": "不是台積！台股血崩原因找到了下周準備抄底？專家這樣說- 證券 - 工商時報",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBReTJiSUlmZWVoc1Z1STJndW1mV0JBX1ZSdGViWE1iNWo2ZGtEaFdZVHNRVDJ6cjBTN05QN0tSQzFhTWVOT0tYTi10d0VNQ2hQd2dzX2xOazZZSzBSblg4?oc=5",
+      "source": "Google News - 台股",
+      "published_at": "2026-07-17T15:46:00+08:00",
+      "snippet": "不是台積！台股血崩原因找到了下周準備抄底？專家這樣說- 證券 工商時報",
+      "sentiment_score": 0.0,
+      "sentiment_label": "NEUTRAL",
+      "affected_industries": [],
+      "impact_reason_zh": "新聞主要為市場崩跌原因分析與抄底建議，不涉及特定產業的結構性影響。"
+    },
+    {
+      "id": "e0e026a0facd85f7",
+      "title": "〈台股開盤〉崩跌逾1700點空襲季線 美日股齊挫 台積電法說利多反跌近百元 - news.cnyes.com",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1XTFpHOUlVMDA0eDVLM0lnZU02RkZIM0xCQjNHOFlvYWhkNkxRU3c4QXVZelpvbnZwVG9QdE5GbjZ6RjFGZXN4Z2dQNWN0dTA?oc=5",
+      "source": "Google News - 台股",
+      "published_at": "2026-07-17T09:47:37+08:00",
+      "snippet": "〈台股開盤〉崩跌逾1700點空襲季線 美日股齊挫 台積電法說利多反跌近百元 news.cnyes.com",
+      "sentiment_score": -0.5,
+      "sentiment_label": "BEARISH",
+      "affected_industries": [
+        "SEMI"
+      ],
+      "impact_reason_zh": "台積電法說利多卻反跌，顯示市場對半導體產業短期展望仍有疑慮，受整體市場氛圍影響。"
     },
     {
       "id": "284ba6955d8ea8e3",
@@ -660,218 +815,84 @@
       "source": "Google News - 台股",
       "published_at": "2026-07-17T10:45:47+08:00",
       "snippet": "台積電法說報喜也沒用！台股狂瀉逾1900點 殺盤原因曝光 Yahoo新聞",
-      "sentiment_score": -0.7,
+      "sentiment_score": -0.5,
       "sentiment_label": "BEARISH",
       "affected_industries": [
         "SEMI"
       ],
-      "impact_reason_zh": "台積電法說報喜仍無法止跌，顯示半導體產業面臨利空衝擊。"
+      "impact_reason_zh": "台積電法說報喜仍無法止跌，反映半導體產業短期受市場整體悲觀情緒影響。"
     },
     {
-      "id": "1ab206f01edacb67",
-      "title": "台股摔逾2,000點 三大類 ETF 逆勢紅 - UDN",
-      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5LTlYwdFNzZjFPX1o5MHBkRHZxWTJ0WkNjNUMxRnNua1lIeExLSVRJenVLVkI5aGtUQ3E3UWxFUk1ZUm9iYWxFNWM4OWNiVDRG0gFWQVVfeXFMT0RvdFNhazRMN21EQWtZNUFtTUN0amVKdEJ5eVpnQ2hNNFV5X0dfMUgtZkhBaklWbGFYR0Y3SzlUeU5ydW9acVdaN25KcS1FcXI3a0ZkMGc?oc=5",
+      "id": "7bbb62443ddbca90",
+      "title": "台股大跌2,953.71點創史上最大跌點金管會說話了- 金融 - 工商時報",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5HRlQ5S2p4aFZoV3BSV21DOWdEek5vMTJNV0xTTEZoTWNwN2NQSVhHN0RlU3o0SlJhaE5vZlFwWnl6RDlGSndCX0RYdXFjekc4T3lUYXloZlUybGNSdFpr?oc=5",
       "source": "Google News - 台股",
-      "published_at": "2026-07-17T12:52:10+08:00",
-      "snippet": "台股摔逾2,000點 三大類 ETF 逆勢紅 UDN",
-      "sentiment_score": 0,
-      "sentiment_label": "NEUTRAL",
-      "affected_industries": [],
-      "impact_reason_zh": "報導市場下跌與少數ETF逆勢上漲，未提及特定產業的結構性利多。"
-    },
-    {
-      "id": "132d4d8d477b111b",
-      "title": "台積電法說也難救 台股崩逾2300點創史上第二大盤中跌點 法人這樣解讀 - news.cnyes.com",
-      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE03ZDIzd1ZNUXg5RXA4X0JsbDZXUUZuWlVZY3Y0MC1zaHZOQ1RWdFBwUHgtZG5FZndDbnRaaWVmZ3VZSVFhejhsWEREVldZNW8?oc=5",
-      "source": "Google News - 台股",
-      "published_at": "2026-07-17T12:02:47+08:00",
-      "snippet": "台積電法說也難救 台股崩逾2300點創史上第二大盤中跌點 法人這樣解讀 news.cnyes.com",
-      "sentiment_score": -0.7,
-      "sentiment_label": "BEARISH",
-      "affected_industries": [
-        "SEMI"
-      ],
-      "impact_reason_zh": "台積電法說會後股價仍重挫，顯示半導體產業面臨利空衝擊。"
-    },
-    {
-      "id": "86879c0ce155c936",
-      "title": "「殺出汁來了」台股重挫…死多頭要不要停損？網：指數抱著、槓桿先處理 - UDN",
-      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9YN1pqNFJuUDR2VlM1SlBMNmZXODMzNlVzdW9tWmlkTWRON01xc280N290ME1yQU9SWThFQlg1UFlMU2VjYnhKR2lrNGlCYW5YOFHSAVdBVV95cUxNT0NpSFllZmQtRDA5MHhldkhYVEV3LWE1LVI4SFhwTE4xVWpOTkdwLUZ5TndSTDJIS1FnT0gxU19XTG15ck5WbU9ScmFzUGlWeVYyXzBKZkE?oc=5",
-      "source": "Google News - 台股",
-      "published_at": "2026-07-17T13:42:28+08:00",
-      "snippet": "「殺出汁來了」台股重挫…死多頭要不要停損？網：指數抱著、槓桿先處理 UDN",
+      "published_at": "2026-07-17T19:14:00+08:00",
+      "snippet": "台股大跌2,953.71點創史上最大跌點金管會說話了- 金融 工商時報",
       "sentiment_score": 0.0,
       "sentiment_label": "NEUTRAL",
       "affected_industries": [],
-      "impact_reason_zh": ""
+      "impact_reason_zh": "新聞主要報導台股大盤崩跌與金管會回應，不涉及特定產業的結構性影響。"
     },
     {
-      "id": "d4f014197a25845f",
-      "title": "台股寫盤中最大跌點紀錄 八檔熱門ETF跌逾一成 - UDN",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBDWFdsOExGTU53TC1xbUNjVEMxWUhZUmRrUjJ5UVA2U2RZdFU0cGtGM2U5WTRkMDRjMUl2b1ZsSnJtVFdjZGtGODRVYnFDaENhTmQ40gFYQVVfeXFMT1otcm5pZlhEZm9XbkpTNEx2NjZma0EyNXFYU3lxOF9PekpPdXJ5MmNOSWRxT2lKU3pqdDNKRWFhTTBMSkJLd2NNTU45d29sRHZZWUlLMWJqSg?oc=5",
+      "id": "a0e1835b2e928517",
+      "title": "台股暴跌投信前10大賣超揭曉！英業達僅排第2 它砍逾萬張才是最大苦主 - 自由財經",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE4tUTRTZDBvc1h1M3lJellTU29iZll6ZG5QdVZWbnVqWU0wTlNrbTFMdmNMWGpybTNRRG5nMDFkMlV0cm0zcTM5UVBwMEpucERUMTBtZi12TTZOc04tTUU40gFkQVVfeXFMUEYxYjBYZTA4blYxUkdBalhaYU0xcUhRTV95dVV2SEdIMy1MdGF0blBlbXFfTVkxam1CanM0X0lacEFueUUxU2xKYzR3THJITHNXRmlxdW1lQ29Wa19IX3Jyc3FJRg?oc=5",
       "source": "Google News - 台股",
-      "published_at": "2026-07-17T13:19:28+08:00",
-      "snippet": "台股寫盤中最大跌點紀錄 八檔熱門ETF跌逾一成 UDN",
+      "published_at": "2026-07-17T19:34:30+08:00",
+      "snippet": "台股暴跌投信前10大賣超揭曉！英業達僅排第2 它砍逾萬張才是最大苦主 自由財經",
       "sentiment_score": 0.0,
       "sentiment_label": "NEUTRAL",
       "affected_industries": [],
-      "impact_reason_zh": ""
+      "impact_reason_zh": "新聞主要揭露投信賣超個股，屬於公司個別事件與市場交易行為，非產業結構性利空。"
     },
     {
-      "id": "45120de93f367926",
-      "title": "崩盤8000點 台股生死的關鍵！ - 經濟日報",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9NS0syN095OE9MRVJ1YURvZWxURk9mdFFDeWVVdlZvQWtqQVc1Tkd4d1hEVzBkU0JUMTVmRWtWOXJwU3cxaDFzbjhsS3NJSHhMMUdKLTl0bTRwQdIBX0FVX3lxTE9kOXhaY3h6cDF0bzlJdUwyNjJPUFh4b3V4VFZiMUl5Y0d1Qk9sb1Z1SHB1WnNyRVQ2MUwyOUdiUEFlT3M4LVdKdUtwVV9oY1gxWVplSFpuQVRidUd2VjZr?oc=5",
+      "id": "bc4935fd018b574d",
+      "title": "三大法人搶2617億人踩人逃命！台股血崩2953點創紀錄 股民崩潰：不玩了把錢還我 - Yahoo股市",
+      "url": "https://news.google.com/rss/articles/CBMi0gNBVV95cUxQd08zd2dGcm9USW5IWTRXZlRBX3ppcDM2RnVBRWxlMUxZRmpBLWJFYVBCbWFoVEpyY3E3SW5fT3NFZmRUemR1czF3NWtWZnFGYnM0TGlrQ0pmTy1ieHc1N3FISW8yZGxLbFZCa1BGX3lTOWNsZG84TzZIbHpLWENyalIwbnBKQWdnX19WclgwUlZMR2xLUXR3VFdkTUdXQWVqZGFkUXBLM25RUFFXWmZpaV9sVGlXS3k4MU9CMHJzelZuNnBzWm0xaU5MejBNM2lCUTRaZ1FueUp3aEJyYnh2OVFOZnpSN0ZKTTRCNlRsMm44RWZSVzdVUHlfMF9RTlBrNU9ob3hOaUhJR3ZnTmg3bzJZcmdMUzRjeDhVUkdjUVVQYmNWUm9LcEo3MjM3dl83YV95b0VheGFUYW0yQWFEa3QtaWNqVDFJREhfTXhjNFZ2WDhuc2ZxWUIwUmNMdmdzS2k0T3RrenFFM3dRYnNfWkJxemtZblRBZTlBWHJuVUNxcEszbVpLd20zQ3ZNWVp5YXlsZmhQSDFhOWFiMFI4NEx6cTQ1MDhJR3dxbURqQzRHY184alFNUmo5VHdXQkZ6SWxKck5UWUtjZ2QtZXBSTk9B?oc=5",
       "source": "Google News - 台股",
-      "published_at": "2026-07-17T12:17:18+08:00",
-      "snippet": "崩盤8000點 台股生死的關鍵！ 經濟日報",
+      "published_at": "2026-07-17T17:03:00+08:00",
+      "snippet": "三大法人搶2617億人踩人逃命！台股血崩2953點創紀錄 股民崩潰：不玩了把錢還我 Yahoo股市",
       "sentiment_score": 0.0,
       "sentiment_label": "NEUTRAL",
       "affected_industries": [],
-      "impact_reason_zh": ""
+      "impact_reason_zh": "新聞主要報導台股大盤崩跌與法人賣超，屬於市場整體現象，不涉及特定產業的結構性影響。"
     },
     {
-      "id": "84c204de5789eb9a",
-      "title": "台股暴跌逾1700點！謝金河示警：矽光子、被動元件恐迎更大跌勢 - 自由財經",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE0zY2lxZm1pZTVIc1ZsT2lkWjhMYzB0WVdZNlM3M3JPcktBbjEteEpHQTdHQXZGeVdKQThwaEltcTFBSTRQMzNzUFhHY2pTbjlXUkVnTjJZTERSRFZxMjdj0gFkQVVfeXFMUGVrMUFWZEUxTmZDdFVoSkxVTkRPYXJXa0VmWmxCVUVjMUNBTlY4dG96aF9Hc2x0T0RhclRtYi1aT2VrX21PcEdHdXlLakpJQWc3eDhGWTdvdHA3QlMwekhxbGNHcQ?oc=5",
+      "id": "6f45da0f24c8e3ed",
+      "title": "韭菜燒不盡！台股暴跌2100點「巴逆逆40字悲歌」萬人淚：是我…謝金河示警：2族群恐更慘 - Yahoo新聞",
+      "url": "https://news.google.com/rss/articles/CBMi3AJBVV95cUxQLTVyZm9ZbGl5S05HYldHemFtYWxEUDJpT3hpSFR5QUV4M2ZtYVFCWHplV216eXM4UThFSHN6cFRFbjFWLXhBcUYtOVFZck9QTEtPQTBCZ2F6QUNfY183cjgyQTJ4WTROejhQT0pJUXNUbTcyX3dTMlItVHY3V0VPb2hTUHNTRUlGNGxpNGZ5MXlTbjBTRV9EcVhvcnZreWl4X3NWSWlmbW5yUnBzX3FveHZ2ZS13SVlGZGd2b1JwM1JqYXdWa0xVQm5LaDU4OGRhUi16ZzZvcGhRM08xSjRTcEZjamFYdGI4TjlUTGgzd3NabTcwZGdBWlUya3NHRGFqM056ZEJYcjE2dFJ3bVYxbDdHb0dac2dmOU9TYm1oOHB0RUVWNHBKbE1KS2Y0clVhbW5mZ1MyU3N3emU4S3RXNEd0YkVRNlhzaXZmaFRPb1FFbmJVWWxvLUhQRzg?oc=5",
       "source": "Google News - 台股",
-      "published_at": "2026-07-17T11:38:00+08:00",
-      "snippet": "台股暴跌逾1700點！謝金河示警：矽光子、被動元件恐迎更大跌勢 自由財經",
+      "published_at": "2026-07-17T13:20:14+08:00",
+      "snippet": "韭菜燒不盡！台股暴跌2100點「巴逆逆40字悲歌」萬人淚：是我…謝金河示警：2族群恐更慘 Yahoo新聞",
       "sentiment_score": 0.0,
       "sentiment_label": "NEUTRAL",
       "affected_industries": [],
-      "impact_reason_zh": ""
+      "impact_reason_zh": "新聞提及專家示警兩族群，但未明確指出具體產業代碼，資訊過於模糊。"
     },
     {
-      "id": "1e96263e67f2ea54",
-      "title": "黑色星期五！台股殺到見骨暴跌2635點　逼近史上盤中最大跌點　 - ETtoday財經雲",
-      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1mOTMwbElnSXBVWU9keDlGaVAyUXdTWjVXWGpYQ2ZBWE9fR0FWcXBFbGZzbkJ4X3UyalRHMXplWjIzdk5JVDQtUHNkWXM2MC1YZ2fSAW5BVV95cUxOQlgyYmdPQVpoeUhIMzhCc1ZRUFdLN0hOS2lucUNkQm1vVkxJZTU2Qms4eWZaRWg0Mm1qWXE3ZHlCUElkZDdNMmxxZWxjMVJPVEZXc2FfRFhNQTdkd2FkLS05SjVXM1ZvQnFUamlVdw?oc=5",
+      "id": "488f98b9a516451d",
+      "title": "法人看旺Q3有撐！台股創史上最大跌點「台塑四寶這一寶」逆勢抗跌國際油價漲、中東衝突爆利多 - Yahoo股市",
+      "url": "https://news.google.com/rss/articles/CBMijwNBVV95cUxQNWRjVDNiMTJJbXdfdEhmRjJYSzRwb3h0UVNqWjhUc3ktQWhXbHdZQ0ZQSTYyd0FLc2RDYlUyXzlocEJSaDRXVDRYMV9zdGNUNkZaTUZ1VzN5cFI2SW5LOXBDRXRNVVN1TUl4SWRwRTZtbkhRZ2pFV1FZUFVZVERza1FpRjNrU3I5QXptX3poTHhMMTRlVWNWSU1SLU5zWHZNbUF2a0hoWkduVjdxWVdNVS1uRXkwa1dZU2JOM2w1S1U0MHduNHZsc2c4VS1odGpqdEx6d1NFTk9QYndxRGN5eEFVWlJndHJ2TF9ySE5fbWZUaDU0RDZtblhCNWt1bm0yYXNVWGE2a3piTl9vRnRvVk5EOGlJSFpkMjJLRHF5VTZYajdCUTg0VzhIOGE1TVpjeENMdUxGNWpvMUtYSEw0cTg0eFY4MnhnNVZ5RFhzMnY4Zkd4aXhVdjg1bmQwNUlGR1Z1WVMwd2pqQUR4YUg2NHFtR1hqcEZLMHFwdFY5MWd0RE04LTRWdWg4a3hMakE?oc=5",
       "source": "Google News - 台股",
-      "published_at": "2026-07-17T16:16:45+08:00",
-      "snippet": "黑色星期五！台股殺到見骨暴跌2635點　逼近史上盤中最大跌點 ETtoday財經雲",
+      "published_at": "2026-07-17T20:15:00+08:00",
+      "snippet": "法人看旺Q3有撐！台股創史上最大跌點「台塑四寶這一寶」逆勢抗跌國際油價漲、中東衝突爆利多 Yahoo股市",
       "sentiment_score": 0.0,
       "sentiment_label": "NEUTRAL",
       "affected_industries": [],
-      "impact_reason_zh": ""
+      "impact_reason_zh": "新聞提及台塑四寶之一逆勢抗跌，但該產業不在指定範圍內，且為公司個別事件。"
     },
     {
-      "id": "bc8c77ec1c97a4e0",
-      "title": "黑色星期五！台股終場慘崩2953點「創史上最大跌點」台積電收2290元 - Yahoo股市",
-      "url": "https://news.google.com/rss/articles/CBMiigNBVV95cUxOb0hGR0VYMW9VQ0ctQXZWVDg2a1p0a21KNENBLXFUTlRfNkJwcFBweE9qRGcxdnNUa2NNWERyUk4xam4xNGFBT2VqMFFpTHF6YXE5dWdQaFRheXV4aUV0MEpweVp0VEM5dXBoSUFYYXVyaVFaUDk1eHg2ZFI0YjZsVkR0SF9mVWEtM2hWU0VnUThxdHVxcDdjeVdaeXhKUjMzQkdRaE52ai1UbkV6cWV5alVFVThOcUdwSWRDLWF2dWpCQVRwT29fZXZJSEwxbzFqNld3bVJNaEZPMlFuWFJlN3BWdkt3aEhoRW94NDdDUXRPMHdKY1A5ZGhjeUJvY2N4SUcxeEl6bEgyUG9TWnAwWkFmcGxPMGVhOHU2SUJPcHF2blg4MzRVdktDS2hjM1pXcnB4a204NERTX25xQ3FES3M1dm5ZTkxuQ01UQnN6cGJNOUc5aUFSdHdqSmpQdTFIdU9rLVpNTk5qd05QX0xxMjhfZm9aM3FCOU4wdHB4WEJ5cDFCNy1KYnZ3?oc=5",
+      "id": "4424f18e895da646",
+      "title": "王山投信經理人：短線價量背離 長線台股跌破季線都是好買點 7大族群可留意 - Yahoo股市",
+      "url": "https://news.google.com/rss/articles/CBMi6wNBVV95cUxPbl9HaXh0MWxUY051UFdIaXpvTkdUVTN6MWJvREdtS3M5Ymx6bVNvTkk0MGRpT3NSZlVPcFpLaGhBMXhYZHZjd2xwMEQ2VnVlM0E4X2dMaTNvM0ZlYzVoNTVCeWZkVXVRdlNlSnhWUXlYUEUwVnpCeURieXk4aVlJUFEwOGdFOFdXd1BVRGxTNmp2YzZhUi1oeFpYYlZBdzh1dEg2MGFQMXB3aWpIUW1pdFhSWHh5ZVRpZXdBc0xWTkZmZVFZQzFwNDF3LVpVdGE3NVNtWVZPY2RMc1l1cndNX2YtSnJaSEVsMFV2Z01qRWkyZk5JSkt2R3lQZUE5SjBEM0cxWVRYMjkyQUpYZ1FkNmRfQWNPX2lLdFJVTkVld1NVNElpSzZMY2hsRHoyMUxlQV9pTGwwUXB0M2RzU1g1Zk5wcGQtekU2MVE0NTZOOGtSbzlURnNlYWRPcUJsTjJMTG4zNXZ4cTNPZUd2MGhqNDFSTXZKcklVbzRpWVdLSzN6UDBJUW0xRTYtU2c1THY2TDNnMWZVeWMtUmE5Z081UmhLX0hKRjRNd25DcWJ1dGFlbGs4NHlMTWItRzVwVm9MWTA1aVdyT2tJU3FONEVUQm56MTc5aUVqUTB4NGozeG9YdUtxamV2NzdFOA?oc=5",
       "source": "Google News - 台股",
-      "published_at": "2026-07-17T14:16:44+08:00",
-      "snippet": "黑色星期五！台股終場慘崩2953點「創史上最大跌點」台積電收2290元 Yahoo股市",
+      "published_at": "2026-07-17T18:39:13+08:00",
+      "snippet": "王山投信經理人：短線價量背離 長線台股跌破季線都是好買點 7大族群可留意 Yahoo股市",
       "sentiment_score": 0.0,
       "sentiment_label": "NEUTRAL",
       "affected_industries": [],
-      "impact_reason_zh": ""
-    },
-    {
-      "id": "4b26a5917ef40b8e",
-      "title": "台股重挫1800點不只是台積電！謝金河揭元凶：南韓2倍槓桿ETF釀災難 「算帳的時刻到了」 - 財訊",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBmVmVvM054NWozcXBzZDBaT3AyZ1UtMlR5aTc5OFUxV3ZldDN0NWhVTG9vZmxNMk5ILTh2SVRkR3MwMFpZdzBaSVBaak45WjJPcmthNkNxY1FLT0NObkRhbE1qR2dqZnhGTGREb2J6VGI3LW1lOHFjNGh5cw?oc=5",
-      "source": "Google News - 台股",
-      "published_at": "2026-07-17T11:56:10+08:00",
-      "snippet": "台股重挫1800點不只是台積電！謝金河揭元凶：南韓2倍槓桿ETF釀災難 「算帳的時刻到了」 財訊",
-      "sentiment_score": 0.0,
-      "sentiment_label": "NEUTRAL",
-      "affected_industries": [],
-      "impact_reason_zh": ""
-    },
-    {
-      "id": "c5bfcdbe32724ed5",
-      "title": "【Hot台股】國巨跌停失守700元！網喊「699吃到飽」 分析師揭1關鍵價：別急著抄底 - Yahoo股市",
-      "url": "https://news.google.com/rss/articles/CBMi6gNBVV95cUxOc2pWZmxobDMtYWJORHJtNjJPSkMzVkd4eE5JdGJ2NFZQbU5SSFlMQ3NqcTMwS0ppaFB1Wm9SNEs5SUlGT1k1VEx3WlY3SFB5a0xkUkdtV0dSNEZXTTAzbjhKazdiUGUweEVxc1VUZ1RfbjMzTjlrRU1ieTNhMkRGVUJYWnRLZl8zWDRCWjl6czljM0pvZFdCV29Ib05hUlFYOVMwdXRfMlVDc0NzemdhX1B5WlNhZlZKRDZkTUFsWVFaMVVuRWg4YW1vN0ZSckJEbW9TdGxaSVA0ZGVoYTlLYUtrSHdSeDliVHQ4cDdKM2tVd1NTNm92cTRHd21hcW1CcC1vV0UwRDYxLTNlRi0zX0lZUU5zTUZyb3dfd2tubVRBQll3d0pVSFc4aW1HTGFZcUloT2J5OXY3M3pFakwxS3hsUVhCMkNLOGZjTVFZVEF2QU1OZnNoM29oeWZVQlNoRzFOeFdjMWRlcjBwc1FXdTZrLS1BbUZ5MDVFb1ZMSDJyNGhtbFN1NGplQWc1TEk3WFpEUU9lVGtwczQtbHM5Q1AwaXIyVkRxR2lrVFg2Mnhjd1BPRmRDdm0taDdtWWxFNDRYYzFCNktLYTlLTERiNTV0ZFRxci1wbjlPUjNKbzgzazlTMnU0U1F3?oc=5",
-      "source": "Google News - 台股",
-      "published_at": "2026-07-17T11:52:19+08:00",
-      "snippet": "【Hot台股】國巨跌停失守700元！網喊「699吃到飽」 分析師揭1關鍵價：別急著抄底 Yahoo股市",
-      "sentiment_score": 0.0,
-      "sentiment_label": "NEUTRAL",
-      "affected_industries": [],
-      "impact_reason_zh": ""
-    },
-    {
-      "id": "bb98b454a538f425",
-      "title": "台股賠到醜哭？50元換7億 今晚最猛翻身機會來了！ - Yahoo新聞",
-      "url": "https://news.google.com/rss/articles/CBMivgJBVV95cUxQME1Bd0o1ekJmWl9hbF9wWWQ5ODZCckhnNXdUNzNONVdnMWJHRUhDYU9ibF9WaDFNTUJ2OW0zX3k4Mmhsd25RQnZ3ODhraUx4OWhKQ0p2S29yTEhPY01oQjZkM1Z2QTlMZTJjTEp5eURudE5pYjVhbVUzZkdSRDdfbmtRendGSHZ3VzNMMWttUzR5SzhsY1V4UnJBUVpvWUhCS0pKWXVwWGw1dEstczRfOTRLa2tSN3VsOHRrRnpGZ0xWRzYzRENpeXNpVDdrOGxweGhlV1B3UlVIaFNrT1Z6VmtsUkdvbmZwZHJvLWctRXFOOU5QRUVveDFZTUxzRkx6T0tHLUNFUU40Qk1VYkhMbGU3RTVmRl83TkxHVUlaZUtrbE5QaEpfRWZ3S0xhM2Y2aWhMSjZpM2dtQzNqSEE?oc=5",
-      "source": "Google News - 台股",
-      "published_at": "2026-07-17T14:54:04+08:00",
-      "snippet": "台股賠到醜哭？50元換7億 今晚最猛翻身機會來了！ Yahoo新聞",
-      "sentiment_score": 0.0,
-      "sentiment_label": "NEUTRAL",
-      "affected_industries": [],
-      "impact_reason_zh": ""
-    },
-    {
-      "id": "062c4abc258a5037",
-      "title": "台股大跌原因曝光，狂殺2953點第1慘、下探42671破季線！台積電、國巨、聯電、南亞科全趴...專家為何說別摸底 - 今周刊",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOUk9fVkphUndEX2xWaEF2cW9YUEFLclgxdkRxZVpkUEJfX3dJSmhPSVJtdGdkSEc5MURJX2J1STRzQXZLNXk5UGNXdDdfcWVyVVljTEsxRWZyWGh4Y1NVNm9pV1RYcks5NnVJRHNDclp2S3kzaU9BVU5GZ0k3aF9aNA?oc=5",
-      "source": "Google News - 台股",
-      "published_at": "2026-07-17T13:37:00+08:00",
-      "snippet": "台股大跌原因曝光，狂殺2953點第1慘、下探42671破季線！台積電、國巨、聯電、南亞科全趴...專家為何說別摸底 今周刊",
-      "sentiment_score": 0.0,
-      "sentiment_label": "NEUTRAL",
-      "affected_industries": [],
-      "impact_reason_zh": ""
-    },
-    {
-      "id": "60809935ad732b5f",
-      "title": "快訊／台股崩跌2953點、台積電大跌180元　雙刷史上單日最大跌勢 - ETtoday財經雲",
-      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1BTHpaZjhveDFhX2RWb09sR1prYUtPT3hMVmpHLXlLTXlwc1AxcEFJWEtSMW92X3NydXctNHhBM1hWNDlCeEJvTERuM2xReGpWd1HSAW5BVV95cUxNbmprNjQ5NE11ZWxiQ0ZTb2hBdTFWTWtZMzBqT19yamZBX2hrN0JIVVIzMS1TbmhiUnVTdTdfNkR5cERIMWUxb01qMnZpTHhrVlhjN0FjWTVLQUhqajVyMzhBSzZtb2tWSzRVcUZXdw?oc=5",
-      "source": "Google News - 台股",
-      "published_at": "2026-07-17T13:38:00+08:00",
-      "snippet": "快訊／台股崩跌2953點、台積電大跌180元　雙刷史上單日最大跌勢 ETtoday財經雲",
-      "sentiment_score": 0.0,
-      "sentiment_label": "NEUTRAL",
-      "affected_industries": [],
-      "impact_reason_zh": ""
-    },
-    {
-      "id": "1b0bb00e648d6db4",
-      "title": "台股驚現恐慌大殺盤！旺矽、日月光、旺矽等十多檔熱門股慘躺平 - UDN",
-      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE54MkY5Tlo0QU1CREE3SG1hM0xEa3ZISlJoaTVkS3FDb2pmZU9ZZTZoemNuZmJ5Rmd1UVpGblBnTmtyLVRDb1dZeUxuOFBaSHVS0gFWQVVfeXFMTTdCanl1NjN1UFR0NkM1X0RQVTBST0lpc010S2x4eHFVeHNXWG9DMWU0RFFtN1JiRUpocHVudkEzclF6YWNvQk42ZHY5d2F0SnJvMktjY1E?oc=5",
-      "source": "Google News - 台股",
-      "published_at": "2026-07-17T13:00:57+08:00",
-      "snippet": "台股驚現恐慌大殺盤！旺矽、日月光、旺矽等十多檔熱門股慘躺平 UDN",
-      "sentiment_score": 0.0,
-      "sentiment_label": "NEUTRAL",
-      "affected_industries": [],
-      "impact_reason_zh": ""
-    },
-    {
-      "id": "24601aa6a656162b",
-      "title": "台股「黑色星期五」慘崩近3000點！外資賣超1890億創高市值型ETF集體爆量成逃命與搶反彈主戰場｜Yahoo財經掃描 - Yahoo股市",
-      "url": "https://news.google.com/rss/articles/CBMi9gRBVV95cUxPWUVycVQxeFhSb09xVUpQVDB6V2NudWc3ekgycUZFMTNBcExXRE9KWXJrMHd3S3ZudWx1bWQ3NnZaQjFsaW0tY0U5djJXU0RTODNOc085MzhITDFheVZIdGc0NzRLU3Y2b1d1N3lJNFp5QXJXOUJHQTF1R1lkTndwWDRrRG05NURWTjFqNVBjQ2tLZ0xvNHdjMmpBZzFuR3NxTll0T2FUVlJPZU16TWpxTTdrLUpPcTBOV0luUjZBbGNIckdRNWdtWTN2bjRub1N4NlE2OUhxaWQwdm1Wa0hETGVZY2c1ZVhzaG1yWVdDdmRxOXpoNERZZ05fUmxXZ2ZlbzRRVzVpWkNsdTFhMUZkY3VuX09wWjhnM0FuV3N0YWI1RU0tLUxGWm8yaVJmZU9iSWJZTEtiVDBQX2NNN1NFaVFVWnVaRHZQcU5KSGxSTkJRRFN0VmhlYkRGdWpZUkd4Z0lVSy1oVmdtT1c2WUNaQm5XMWN3LV9zSDZGblVaRWVNRGdyY0Jza1ZMZXJKalEtb1p0aU43bkRDR3FuTzM5cmZMTFM5d3M2Q1NLMHRfZ25CTlVHTXdfTGZMbzU3OFVBaUhwYnZKSmtSNzJEa0l2UTk2MGpYaF95amNCMlN5QmtPMDBtdUczMzloZWVqZDVZRUVGc2lNaG9OTVgxX2NaNjJEZ1J2eVR1QnZfUExmbkdoRktuYXRNQjNvNUoyVUxmSVNRUHEwRThVVHcySmtRSDFIcHBHRmV2dWVfSTNQZmNhaG41MDR6ZUlIZ2gybEMwMlgzMzdBcGhSR3RKWnpZWWtNaUM4b1BTdTAxM2ZRUUNhSlJuVXc?oc=5",
-      "source": "Google News - 台股",
-      "published_at": "2026-07-17T16:30:17+08:00",
-      "snippet": "台股「黑色星期五」慘崩近3000點！外資賣超1890億創高市值型ETF集體爆量成逃命與搶反彈主戰場｜Yahoo財經掃描 Yahoo股市",
-      "sentiment_score": 0.0,
-      "sentiment_label": "NEUTRAL",
-      "affected_industries": [],
-      "impact_reason_zh": ""
-    },
-    {
-      "id": "cbdfd37ab25861a9",
-      "title": "台股狂瀉2100點、台積電法說後跌百元！謝金河示警「算帳時刻」來了：掃到颱風尾 - Yahoo新聞",
-      "url": "https://news.google.com/rss/articles/CBMiigNBVV95cUxQVlhCUm5yWmdqek1jeE8tUm1QdHBHY3ZURDFxR1VDRmpmUkl3M2ExaHBoR3BGeW1nazN2aHRtTy1ZbE8zSHFVRlhoUHhlRFloMnc2VHAwUUltVFRGanF4TDlkekRSSDJyTTVMWFRQelEtV1JpSkd1bVI1NlNvdjRYMlBTOERWcy1ucTFQeE1oMFprVUVtTFRxbnUtWEhqLVM1Z210TkZRRDR4UUs0aFF5WVhERmpNdGRGMGMtMzl2UzNoOG1lYk9aNkkyU2plRUtwLVZQaVVzM1IzQ0ZJSTIyQl9tcmQtckpOb1laV2p6MGhPMV9ZVlNMSFVOQUJBdF9fUEZPblhuOTV4YXV6bnV3TXRySHl2ZUVSYlFuY0JSclNONkJGUVlvRXg0dmV5RUpIR2RNems0TlBLZ05za2hKT2UtZVluUExzVExQMUR5aVdTMXZkMVdvVXVQZXAzNWltZ0tkNjQxZ1NKVFpBX1I0eXFRMGUtSUVEN3lodWdTVjJvdnAxeEVEVTVn?oc=5",
-      "source": "Google News - 台股",
-      "published_at": "2026-07-17T13:35:47+08:00",
-      "snippet": "台股狂瀉2100點、台積電法說後跌百元！謝金河示警「算帳時刻」來了：掃到颱風尾 Yahoo新聞",
-      "sentiment_score": 0.0,
-      "sentiment_label": "NEUTRAL",
-      "affected_industries": [],
-      "impact_reason_zh": ""
-    },
-    {
-      "id": "e7461751d6b02066",
-      "title": "台股重挫2953點最大跌點! 跌破4萬3季線失守 - Yahoo股市",
-      "url": "https://news.google.com/rss/articles/CBMipAJBVV95cUxQV1JVX2p3d1dRZFBnSEFYbjRWTlhvZXFlQW5nX1NSeDdUSnVsVnB2aGZ4UElFMmdlelhkZ3JrODYzWG0tX2JjVldLMXFTZEhOcDFlQWdqWi15cDVmOGRSTEFPV3hvQ2xOcVotZFZoNDZSM0M2MmlNQ3FqMU5UbS11TjdPYVBhTVZRM1BHWlFkY1pfaXphRHBJLUZ3d1AzR1A5UUxXekJsWER1T0ZmclRSSGF0SjFyMzVmTHdHeF92eW5fSmd1Rjl6NnRiZWdHNFlNQ0pYTHpKdjhVcmV3RWpJTkFSd1Q1RkVrelRkS24tQ1ZJRTVsNURwUjJuZnVhMG1zU3RvZXhmNEJkTk1IdGtYQl9GZk9UQ0pyamF6MDQtaVhBcTFD?oc=5",
-      "source": "Google News - 台股",
-      "published_at": "2026-07-17T15:15:41+08:00",
-      "snippet": "台股重挫2953點最大跌點! 跌破4萬3季線失守 Yahoo股市",
-      "sentiment_score": 0.0,
-      "sentiment_label": "NEUTRAL",
-      "affected_industries": [],
-      "impact_reason_zh": ""
+      "impact_reason_zh": "新聞主要為投信經理人對大盤走勢與族群建議，不涉及特定產業的結構性影響。"
     },
     {
       "id": "42b663a088a3f02c",
@@ -883,55 +904,95 @@
       "sentiment_score": 0.0,
       "sentiment_label": "NEUTRAL",
       "affected_industries": [],
-      "impact_reason_zh": ""
+      "impact_reason_zh": "新聞主要為市場崩跌後的財經達人觀點，不涉及特定產業的結構性影響。"
     },
     {
-      "id": "b800e74e7c8c74c1",
-      "title": "法人狂砍2617億破紀錄！台積電殺180元破2300元 台股暴跌2953點史上最慘 - Yahoo新聞",
-      "url": "https://news.google.com/rss/articles/CBMiqgNBVV95cUxNYVF4UWFHTnpVOG9mRXJub21QMDlrOExsNEJmbVFyQUJGckFfUFBzU3l4T0FQS2ZDRVFhNDNiWGR0eFVERUd3NFVMa1NvMHhYbWZfUnFuVC10cUxRQm5BNE9TZ2ZxQ25EcDFCaXVvYUdFeVZzX3gyN25JYmpicXVTNUNybnY0TlF2enUzRU1SRVN0QVQ1cW4zS241NnJ5dUo0ZlRTelI0X2U3VG9rWVRyaGdfdGZ1LUpfa3FTUzFneTdTblZhdFpfMjMyR1hMUFdUaXNkNUtZdnBFcGQ4VWVva25MamhjMGJxWERYUlJYQmFNYmpBeHkwTGp0Y3prcU9naDdDOG5aV3Rfcm9QRV9DdGVmcnp5dFpCX0FRWDVnMldkMExfWktiRmdGeER0REd6VVFTbnZCdzVRSXN1Ni1xOGUzcVV3YzV3X2RiQzV5bEFRWjl6Ykc3cDVBNFU4OFhFcW1XMUx1Zi1TenQ4cHZKMGNQcmdjazgxTkUwTWRVVGgyYXh0VlpacUpPRTRyMlFRcllnR3c4TUc2ampONjRrMktCOVB2aG1lQmc?oc=5",
+      "id": "6fcf5845af21de23",
+      "title": "台股崩跌！ 他一日歸零還想「借錢抄底」 網傻眼：會變無底洞 - Yahoo股市",
+      "url": "https://news.google.com/rss/articles/CBMirAJBVV95cUxOY0NGQ0tZMUZQVzBuSnBHUkt0RjNzdlpZSnhkaW5aMm5PQlZVOHA4YmRJQ1FVZTdPdEZOdWpIM2NhZGZMemlfZGI1bWRLaUltNElFeFBlT3JoZjg1TC11MGt1b0VocTQySXM5YWJCU2tRcWEzQnFLc191ZkpOWm5GZEtxbUhmN0lDMnUwbVhEdXJWcldTVUV1VG9qc01IdW1waTB6ejBscEd2V29rVGQwYW53dXRidVk4elpmOXhZQzYzSkZ6SWJsbVZtcUs5dkVUbW1Sc1NQZ0NvNjdaZkhtbUoxRFdFTmF5ZTBtandWLWZkWXVRcGl2Wl9uTUFBQXFZTDk3bFZwa3Jvem5fNHpTWDM5cGlBYUFsMTNqUGVaSW1WMDV5M1IzZW1GWUQ?oc=5",
       "source": "Google News - 台股",
-      "published_at": "2026-07-17T15:37:00+08:00",
-      "snippet": "法人狂砍2617億破紀錄！台積電殺180元破2300元 台股暴跌2953點史上最慘 Yahoo新聞",
+      "published_at": "2026-07-17T17:52:00+08:00",
+      "snippet": "台股崩跌！ 他一日歸零還想「借錢抄底」 網傻眼：會變無底洞 Yahoo股市",
       "sentiment_score": 0.0,
       "sentiment_label": "NEUTRAL",
       "affected_industries": [],
-      "impact_reason_zh": ""
+      "impact_reason_zh": "新聞主要報導散戶虧損與抄底行為，屬於市場情緒與個人事件，非產業結構性影響。"
     },
     {
-      "id": "24c4f4b838ecfd9a",
-      "title": "台股盤中重挫逾2600點 台積電跌140元 - Yahoo新聞",
-      "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPWDNhdHdMSEYzem1teVVBaGcycXRjTXBhd3dpc1JRWHBZQ1NOd29sTEZHTjJCLVBsRHBVVmUtOXJXNGM1QW5XYVNYQXc4X2ctcXFDVVdMNHc2b0dzVjk0QkV1QXlHRndJX2tpd1RRV0FLMGJzUURUaGJDUU84MVo5NEZPUGJJZjMxYUU0ME9xdnV5WjNBajVwby1wU0NHNVVmTndyYUZDaU5tanE2RmRGU3JITFhtMEtwdFowaGVlN0N0Y0FGZFpkeEtMbE1IbVZ0U21zZ0kwRHBVMnBPT2otdkRzZnV3TmwtS2doYUVReGtWb1RuaTNQRm93?oc=5",
+      "id": "022d3f2ffd5d8732",
+      "title": "台股開盤／台積電跌85元拖累！大盤開盤重挫逾1700點 創盤中第4大跌點 - Yahoo新聞",
+      "url": "https://news.google.com/rss/articles/CBMiowNBVV95cUxQQTc3YjJ4aG1aVDN4WXVweTVDS2NxUlZGSzNzWU1Mc1AtY1pDRFpMRGJRVHVRamdKWVAxUW9LWmFiUFpCNzhmOFJfUzduRzRBdjk2ZEtCb0Jma0lyUnZMRFlXd3JSYlFrdFQ3U1NsNEJ5dkp2S1YxWmxTMzJMeDliNnNPWDBFSEZfOFI3Z3FGQTVUTzVyQ0hwNmFlazd0YVFRYmRBWVI0MGM2SHg0Z2ZHMjRqR0ZmZFYwdXhvbmNneTdob1VOLWhZWjRHWmo0SDdRSlc1SzRnWExFNEZWUzlsdHVLcENTYkRmeTE1MjMtbVYzbjhPMzc3Y3ZrRnRhMWJlR196YS0wa2VHZEcwVktvcm1wTExWaWZkeUVySXgwcXM2cE5CTlMwZmoyR0hZUkxzWkNTLWFzMXZ5YWh5ZVh3cTBCdGVnZW5DcUVNQmk3eUYtblVSa1VJOGZ1UXUzQnZqaFIwYTZOWjlKM0J5aExTLWM1TjdXckFLUTVjeGdLbU50VnB5VzJuYjNyTEc3RUFCQWtDUU1UUzhjbUJOb1QzQzJVSQ?oc=5",
       "source": "Google News - 台股",
-      "published_at": "2026-07-17T12:41:15+08:00",
-      "snippet": "台股盤中重挫逾2600點 台積電跌140元 Yahoo新聞",
+      "published_at": "2026-07-17T09:17:01+08:00",
+      "snippet": "台股開盤／台積電跌85元拖累！大盤開盤重挫逾1700點 創盤中第4大跌點 Yahoo新聞",
+      "sentiment_score": -0.5,
+      "sentiment_label": "BEARISH",
+      "affected_industries": [
+        "SEMI"
+      ],
+      "impact_reason_zh": "台積電大跌拖累大盤，反映半導體產業短期面臨壓力，市場情緒偏向悲觀。"
+    },
+    {
+      "id": "bc8c77ec1c97a4e0",
+      "title": "黑色星期五！台股終場慘崩2953點「創史上最大跌點」台積電收2290元 - Yahoo股市",
+      "url": "https://news.google.com/rss/articles/CBMiigNBVV95cUxOb0hGR0VYMW9VQ0ctQXZWVDg2a1p0a21KNENBLXFUTlRfNkJwcFBweE9qRGcxdnNUa2NNWERyUk4xam4xNGFBT2VqMFFpTHF6YXE5dWdQaFRheXV4aUV0MEpweVp0VEM5dXBoSUFYYXVyaVFaUDk1eHg2ZFI0YjZsVkR0SF9mVWEtM2hWU0VnUThxdHVxcDdjeVdaeXhKUjMzQkdRaE52ai1UbkV6cWV5alVFVThOcUdwSWRDLWF2dWpCQVRwT29fZXZJSEwxbzFqNld3bVJNaEZPMlFuWFJlN3BWdkt3aEhoRW94NDdDUXRPMHdKY1A5ZGhjeUJvY2N4SUcxeEl6bEgyUG9TWnAwWkFmcGxPMGVhOHU2SUJPcHF2blg4MzRVdktDS2hjM1pXcnB4a204NERTX25xQ3FES3M1dm5ZTkxuQ01UQnN6cGJNOUc5aUFSdHdqSmpQdTFIdU9rLVpNTk5qd05QX0xxMjhfZm9aM3FCOU4wdHB4WEJ5cDFCNy1KYnZ3?oc=5",
+      "source": "Google News - 台股",
+      "published_at": "2026-07-17T14:16:44+08:00",
+      "snippet": "黑色星期五！台股終場慘崩2953點「創史上最大跌點」台積電收2290元 Yahoo股市",
       "sentiment_score": 0.0,
       "sentiment_label": "NEUTRAL",
       "affected_industries": [],
-      "impact_reason_zh": ""
+      "impact_reason_zh": "新聞主要報導台股大盤崩跌與台積電收盤價，屬於市場整體現象，不涉及特定產業的結構性影響。"
     },
     {
-      "id": "08e4c526455914cb",
-      "title": "2,953點！台股跌點史上最大 台積電慘摔180元 千金股只留1活口 - 工商時報",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE0tOTdkSUVReEE3RVh2YlNNeDBhbjJ6YlZ3WUpwdng1YmplMXJfOHRsQ052bUNUZXlhWDlrenUzOWxQT2FJdkxzaHJHdl9DcGxTZUxiYmxwZFIyRWQ3TklJ?oc=5",
+      "id": "424b3896a225f3e3",
+      "title": "沒在怕！台股慘崩2953點「黑色星期五」 散戶買爆神山零股破史上紀錄 - Yahoo股市",
+      "url": "https://news.google.com/rss/articles/CBMinANBVV95cUxNREZkdkNERVJyeGZ1bUhROG1MOHVQRFRUX3JBaTcwWkt4SzFua1c1Wm40cEMxSWlnN0tlMXNZNGlveDA2OXpGWXVTWkRYRWJzdG9tSzBiWi11LVJKYjZMa2p1ZTMwWHdfbjJVN0VEVDByRDhtbWpZeVprTTdQZS1YVHJTUmlHVVhWdlRPdXE0UnRSNkdXN1ZCb3RoZWRCc2pqVzJLUzNQVlZ3N2UxS0tQYS1hMi1SQ1UtUHQ5YnVJZno3M2ItcmJxQzZ5ODVTV1BXakhDOExLQ2FyNUo0ZEw3TzU1UGZ0cFVaLTZxeE1RM1pQV2FQdlNqLVBycExGUThjc2Rvckg4NkZCbWE1MG56Z1h1TFlzSFIxOU1wNjI5T2lCenRGanNVVjI5enBIX2dUZm9oV3NsalRCajhfUW0yTnpCbW1DTi1XSDRyQjZhR1duWTQ0VEJCcVNlSy1fanZJdE9MZ1dfbUtiVlU5eHpxZloxdVJCdHVBQzdOZDVMOFcxUDFKQWh2amNOZUJ0RVFNeG91dno3SVBieGRU?oc=5",
       "source": "Google News - 台股",
-      "published_at": "2026-07-17T14:12:00+08:00",
-      "snippet": "2,953點！台股跌點史上最大 台積電慘摔180元 千金股只留1活口 工商時報",
+      "published_at": "2026-07-17T15:15:55+08:00",
+      "snippet": "沒在怕！台股慘崩2953點「黑色星期五」 散戶買爆神山零股破史上紀錄 Yahoo股市",
       "sentiment_score": 0.0,
       "sentiment_label": "NEUTRAL",
       "affected_industries": [],
-      "impact_reason_zh": ""
+      "impact_reason_zh": "新聞主要報導散戶買進台積電零股，屬於市場交易行為，非產業結構性利多。"
     },
     {
-      "id": "3d076666a445c60b",
-      "title": "台股崩跌「獲利全吐光」！他想繼續借錢抄底 全場嚇：變無底洞 - 三立新聞",
-      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBUX1pSOFM0cXQtX0duU2p1bEVQX0JEN1ZKa1k1aGMzd25nbmVvVHpGNTJsNnVpekR3ZmZkVW1SQk1YWWFWbDZrOE1IMA?oc=5",
+      "id": "e523f19ef70bfa39",
+      "title": "台股崩跌逾2800點！盤中跌幅歷史最慘 - Yahoo新聞",
+      "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxNcXlIb1I2NU16OE1qamk3NTR2amZtMWR4NDVKQmY4S3dEWHhjbTZnMzFDTE0taG1GNHB2VDkyemNfVmZ5bXhLU2RINnRhS2ZxYzJuaFluX2dRdThRdzYyTjdudXJhbzcxZlNEMlVBZ090Zm5vUjFxOEpwcjZLYU84Y3B0MVZwTnR1MzMxaEoxNUUxMkF4eDFpWENhYy03SnlkLWhBZHo3M2JVcXgyU3VhNjlGN0liNjFGck1sX2RseTVzUS1mZzd5MWo1U2xaZlFsMm5wYklraU80WTloSmpxajVsYThYcmdDaGNyb2p3RDdkYndPWTJ2dTVLTlhZSHZxMHc?oc=5",
       "source": "Google News - 台股",
-      "published_at": "2026-07-17T15:05:48+08:00",
-      "snippet": "台股崩跌「獲利全吐光」！他想繼續借錢抄底 全場嚇：變無底洞 三立新聞",
+      "published_at": "2026-07-17T13:23:45+08:00",
+      "snippet": "台股崩跌逾2800點！盤中跌幅歷史最慘 Yahoo新聞",
       "sentiment_score": 0.0,
       "sentiment_label": "NEUTRAL",
       "affected_industries": [],
-      "impact_reason_zh": ""
+      "impact_reason_zh": "新聞主要報導台股大盤崩跌，屬於市場整體現象，不涉及特定產業的結構性影響。"
+    },
+    {
+      "id": "77f1cd8aa5fe262f",
+      "title": "台股海嘯「他貸款賠光獲利」！急問「再借錢抄底嗎」網揭殘酷真相 - Yahoo股市",
+      "url": "https://news.google.com/rss/articles/CBMijANBVV95cUxPSXFyLW94S1lmdm1nNklqd0FVTVNIbU9QMGp5NGhnQWdCelFwNVJnQnc2eUNTVUJtOENveTlTWGlqaWJlSTBXQU1zd0xsUncyU3l6ZUxVX2ZvWkhGYy1xM1FGeGVxSkxCWWljZGgzMzdDM2ZLMld6WHVIT3hFWTFZcUdsNXBaN0pIUFZsOGx6Umk2a0dXbHRfUEZUa0MtNDRhY1g2WVVXLXZrVmpXWWlzajBZc0x4N3VlR24wUmNReTBFRE1zS3AtUktEc3RnNWRNZ3I5eDctVHY2T0FlYk9xQUo0XzZDNEF0OHA3WTJJYllrR3R4bWJkQ1dxajhHcTA4MTc4RllXNFNXSGhOejkwbngzUzN6cExTMjdkQzZfZzFUZFZVa20yMjNnNG1LdXRya0VmUG1sODA5cElkWnBNUzNOMWRIQlhuQUFvUG9IT3R0Q3FvZ2xIZGEzd0tERE9kOWVHV3FucHgxVzByTlh4MWRrNmNUN184LXJjZk5Kd1NWRjFZWk5ZY2R3MVI?oc=5",
+      "source": "Google News - 台股",
+      "published_at": "2026-07-17T17:24:48+08:00",
+      "snippet": "台股海嘯「他貸款賠光獲利」！急問「再借錢抄底嗎」網揭殘酷真相 Yahoo股市",
+      "sentiment_score": 0.0,
+      "sentiment_label": "NEUTRAL",
+      "affected_industries": [],
+      "impact_reason_zh": "新聞主要報導散戶虧損與抄底行為，屬於市場情緒與個人事件，非產業結構性影響。"
+    },
+    {
+      "id": "c5bfcdbe32724ed5",
+      "title": "【Hot台股】國巨跌停失守700元！網喊「699吃到飽」 分析師揭1關鍵價：別急著抄底 - Yahoo股市",
+      "url": "https://news.google.com/rss/articles/CBMi6gNBVV95cUxOc2pWZmxobDMtYWJORHJtNjJPSkMzVkd4eE5JdGJ2NFZQbU5SSFlMQ3NqcTMwS0ppaFB1Wm9SNEs5SUlGT1k1VEx3WlY3SFB5a0xkUkdtV0dSNEZXTTAzbjhKazdiUGUweEVxc1VUZ1RfbjMzTjlrRU1ieTNhMkRGVUJYWnRLZl8zWDRCWjl6czljM0pvZFdCV29Ib05hUlFYOVMwdXRfMlVDc0NzemdhX1B5WlNhZlZKRDZkTUFsWVFaMVVuRWg4YW1vN0ZSckJEbW9TdGxaSVA0ZGVoYTlLYUtrSHdSeDliVHQ4cDdKM2tVd1NTNm92cTRHd21hcW1CcC1vV0UwRDYxLTNlRi0zX0lZUU5zTUZyb3dfd2tubVRBQll3d0pVSFc4aW1HTGFZcUloT2J5OXY3M3pFakwxS3hsUVhCMkNLOGZjTVFZVEF2QU1OZnNoM29oeWZVQlNoRzFOeFdjMWRlcjBwc1FXdTZrLS1BbUZ5MDVFb1ZMSDJyNGhtbFN1NGplQWc1TEk3WFpEUU9lVGtwczQtbHM5Q1AwaXIyVkRxR2lrVFg2Mnhjd1BPRmRDdm0taDdtWWxFNDRYYzFCNktLYTlLTERiNTV0ZFRxci1wbjlPUjNKbzgzazlTMnU0U1F3?oc=5",
+      "source": "Google News - 台股",
+      "published_at": "2026-07-17T11:52:19+08:00",
+      "snippet": "【Hot台股】國巨跌停失守700元！網喊「699吃到飽」 分析師揭1關鍵價：別急著抄底 Yahoo股市",
+      "sentiment_score": -0.6,
+      "sentiment_label": "BEARISH",
+      "affected_industries": [
+        "PASSIVE"
+      ],
+      "impact_reason_zh": "國巨跌停反映被動元件產業在市場修正中面臨較大賣壓，短期展望承壓。"
     },
     {
       "id": "d66b4792ec120c3b",
@@ -940,46 +1001,67 @@
       "source": "Google News - 台股",
       "published_at": "2026-07-17T06:29:00+08:00",
       "snippet": "台股盤前／台指夜盤狂瀉976點！費半崩跌4.29% 台股今恐跳空開低 Yahoo新聞",
-      "sentiment_score": 0.0,
-      "sentiment_label": "NEUTRAL",
-      "affected_industries": [],
-      "impact_reason_zh": ""
+      "sentiment_score": -0.7,
+      "sentiment_label": "BEARISH",
+      "affected_industries": [
+        "SEMI"
+      ],
+      "impact_reason_zh": "費城半導體指數大跌，預示半導體產業將面臨沉重賣壓，市場情緒悲觀。"
     },
     {
-      "id": "2ddefe6fce8c7ce1",
-      "title": "台積電領1600家上市櫃下跌 台股慘摔2000點 財經粉專：就當市場請客 - Yahoo股市",
-      "url": "https://news.google.com/rss/articles/CBMilgNBVV95cUxONVlPLWVSWmRLamE3SExEeGYyeURRWVFzZWhxVFJwTkZNaTdzbE1KbXZIWEk4dGNSbE1MWmNQTG1IT2tvbDVjVUxIT1Z3NEhvWS1PU1dMbkxoemMtQ29rLU1RTFJ2Y2lZQWN0V2JJVG90Z2RCd2NpZ2NkTFdwZUtUSW1OZ2tfZXllaTY2TUxzd09lT2owWVZJcG1oMm05eTkteE9WcmZraVVHZnliaGZTc3gtb1dBY2ZDNWU5NmNWSnBkTDFWV2JWU1NBNkE2TUgyNFFMTU9GOURjTmtWZlNod0tHZjk2QkdKX085eWlpRUw0SkFacmhXako4V2hucmVDNVp6d1FFQTd0eGNKNFlyRWFfRXNHSDNvNFdDT0Y2QThjUF8zcllrX2ZVOWFYMzh6UnFxel9ORGFYSW5MdHA0eHNidmhDNjBBdERERTNTdEtHY2M2eWNFMGh2T2FoMDFsVC1CQU5PMV95YnUyQm9KSGh4TUMybU42eVVDSWdUZ3UydV9KU2NtRUVzLWVxYlY0aHBQOU1B?oc=5",
+      "id": "062c4abc258a5037",
+      "title": "台股大跌原因曝光，狂殺2953點第1慘、下探42671破季線！台積電、國巨、聯電、南亞科全趴...專家為何說別摸底 - 今周刊",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOUk9fVkphUndEX2xWaEF2cW9YUEFLclgxdkRxZVpkUEJfX3dJSmhPSVJtdGdkSEc5MURJX2J1STRzQXZLNXk5UGNXdDdfcWVyVVljTEsxRWZyWGh4Y1NVNm9pV1RYcks5NnVJRHNDclp2S3kzaU9BVU5GZ0k3aF9aNA?oc=5",
       "source": "Google News - 台股",
-      "published_at": "2026-07-17T12:16:34+08:00",
-      "snippet": "台積電領1600家上市櫃下跌 台股慘摔2000點 財經粉專：就當市場請客 Yahoo股市",
-      "sentiment_score": 0.0,
-      "sentiment_label": "NEUTRAL",
-      "affected_industries": [],
-      "impact_reason_zh": ""
+      "published_at": "2026-07-17T13:37:00+08:00",
+      "snippet": "台股大跌原因曝光，狂殺2953點第1慘、下探42671破季線！台積電、國巨、聯電、南亞科全趴...專家為何說別摸底 今周刊",
+      "sentiment_score": -0.7,
+      "sentiment_label": "BEARISH",
+      "affected_industries": [
+        "SEMI",
+        "PASSIVE"
+      ],
+      "impact_reason_zh": "台積電、國巨等半導體與被動元件大廠普遍重挫，顯示產業面臨結構性賣壓。"
     },
     {
-      "id": "efd4f7cae091ca3e",
-      "title": "台股一早慘遭血洗！開盤後瞬間重挫1700點 台積電開2375元 - Yahoo股市",
-      "url": "https://news.google.com/rss/articles/CBMi2gJBVV95cUxQWVpCMjJrcUlVbnBPYnNuY1FOREhNSWswV3RvN3NDNmRBS19WeHVqZzZYQ0xPdFIwRnJaUm9ReE5SWE5BQXg4TVlDOVZKZS1kSERKRFo0X0lKdW1GSzR6SjBoUkE3QWN2cXl5TDhkN0J5c2JTcU5DejgtY19zV2hWcl91d0VLMGQtdTNnbmhvNERDUHRzbHBLSU8ySm9yX2pNVlk5MU1lY3RBcjdZM2FVNGhFSjI4Y1lMbkIyMENiQ05laW5DN1pwaV9FcFlQM1o5UTRCdkV6eTBrc0toT3BtYlUyWGhxSjBIRUZKOHBZTjdsWVpIam1mSlk3eFh4THBqM2dmUFZIR0QtRkR2VGxtZG40ZFZudTNyLVJWenJ3UGJvM0xuTmRXMnNkc0xSc0ZfZXg4Z0VRclRKbm9pUVVlLTFiRTAwWGlZUWpROF9hUzBWZlFwb2lFc3Jn?oc=5",
+      "id": "86879c0ce155c936",
+      "title": "「殺出汁來了」台股重挫…死多頭要不要停損？網：指數抱著、槓桿先處理 - UDN",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9YN1pqNFJuUDR2VlM1SlBMNmZXODMzNlVzdW9tWmlkTWRON01xc280N290ME1yQU9SWThFQlg1UFlMU2VjYnhKR2lrNGlCYW5YOFHSAVdBVV95cUxNT0NpSFllZmQtRDA5MHhldkhYVEV3LWE1LVI4SFhwTE4xVWpOTkdwLUZ5TndSTDJIS1FnT0gxU19XTG15ck5WbU9ScmFzUGlWeVYyXzBKZkE?oc=5",
       "source": "Google News - 台股",
-      "published_at": "2026-07-17T09:45:42+08:00",
-      "snippet": "台股一早慘遭血洗！開盤後瞬間重挫1700點 台積電開2375元 Yahoo股市",
+      "published_at": "2026-07-17T13:42:28+08:00",
+      "snippet": "「殺出汁來了」台股重挫…死多頭要不要停損？網：指數抱著、槓桿先處理 UDN",
       "sentiment_score": 0.0,
       "sentiment_label": "NEUTRAL",
       "affected_industries": [],
-      "impact_reason_zh": ""
+      "impact_reason_zh": "新聞主要報導台股重挫後的投資人情緒與操作建議，不涉及特定產業的結構性影響。"
     },
     {
-      "id": "7df748d4966cf979",
-      "title": "下周3檔台股紅包來了！大鵬科申購中 抽中1張有望賺逾2萬元 - Yahoo股市",
-      "url": "https://news.google.com/rss/articles/CBMijANBVV95cUxPMkg3bUtJTHI3UndfWWFTWk52VFpYV2RlZTdHckVyb3llRWduZEQwTFVGcjJuaHE4cVJvbzNWMUtHSjRaRnRBeE0tSjVUSUZRZ2ctNnVMaFJER3VkSlhGOHcxZWpjOFE0S1g1UTdmR2pxNzh4TnZTZ2Q0SHg5elRsTmxmVEFvWTRJa2xhZFluX3RuVm9kQ3E2Q1pmS1I2VUNlTmlfWFpwaktRMDNsTWFDMjFjd01NaktnczdWLUl4MjVMTVRhWUY1eDBXRG5sYmI3RFB6WjdUWDVsSjlsbmNCYzV2d0hTc3k2RVo1UEM5eVd3Z2NMVXZycXhHYU1TNjhNQ0daUjEydkZHeEZaTTRLUlBNT2dsN0tJdkRmcnlFZTNhLTBodWhrX2JTYjFzY2JWSlN1T3ptN0lsd1BRVFBOMjl2aFNmbFExcUQwYmpFdW0yZllwVnVtWExaa29vLVFsYXJYRGExdnUzdVNWYUJFcXMwU3MxSF9wZ3dWYXFhUEZjMGNjZ09lUEY3OGs?oc=5",
+      "id": "132d4d8d477b111b",
+      "title": "台積電法說也難救 台股崩逾2300點創史上第二大盤中跌點 法人這樣解讀 - news.cnyes.com",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE03ZDIzd1ZNUXg5RXA4X0JsbDZXUUZuWlVZY3Y0MC1zaHZOQ1RWdFBwUHgtZG5FZndDbnRaaWVmZ3VZSVFhejhsWEREVldZNW8?oc=5",
       "source": "Google News - 台股",
-      "published_at": "2026-07-17T12:28:51+08:00",
-      "snippet": "下周3檔台股紅包來了！大鵬科申購中 抽中1張有望賺逾2萬元 Yahoo股市",
-      "sentiment_score": 0.0,
-      "sentiment_label": "NEUTRAL",
-      "affected_industries": [],
-      "impact_reason_zh": ""
+      "published_at": "2026-07-17T12:02:47+08:00",
+      "snippet": "台積電法說也難救 台股崩逾2300點創史上第二大盤中跌點 法人這樣解讀 news.cnyes.com",
+      "sentiment_score": -0.5,
+      "sentiment_label": "BEARISH",
+      "affected_industries": [
+        "SEMI"
+      ],
+      "impact_reason_zh": "台積電法說利多仍難挽救跌勢，顯示半導體產業短期受市場整體悲觀情緒影響。"
+    },
+    {
+      "id": "455c7fa935c33fe0",
+      "title": "市場夢醒！台積電法說一句話掀殺盤 力積電、「這檔晶圓代工」慘淪外資大逃殺主角 - Yahoo股市",
+      "url": "https://news.google.com/rss/articles/CBMi9AJBVV95cUxOcGo5dFhKMG5XZUJIQnRlMkd3RTRPb0RDa3lkNzVwZDlWZG5yY3hOX1F5d2FDczAtSGlLRkdqT3ZrNkJyRXdDbTJ5SUdHamh2V1lYSVJUU2hkUU5vOEJkcDlZb2Y0NjhWX1o3OXBlMi1PTk9DX3hrU2RESWJwUGp5YlNXSkJKaG80MDJ5eXpMUEM1WkZMLVBIOE1ROWZzLWdMNTRRWmlxOUF0UHd4OEc2NHhTR3pRUl9uZXV1NWxtNXdYTzYxMHNRcUM3bG0xYWZnOG82TEUxTHZKVlRJSzVWbFJlM2VWT2Y5YXFXSnhvZENsYW5rc01EbThoNFRsSmwzUnhLanBXcnlVckdtZlNscFozN2xRQ3R1TjlQLXlWdDhjV2otWWh2ZmRKd0pwY1VNN2czbGp2bG9WRVlwMWF0VTJ3c0prRlNSTjNsVEJMbnVnS2FDNjVUSFRvSVJJQmhRN19nbnJES2E5NThsNzJ4NzB0b24?oc=5",
+      "source": "Google News - 台股",
+      "published_at": "2026-07-17T20:30:00+08:00",
+      "snippet": "市場夢醒！台積電法說一句話掀殺盤 力積電、「這檔晶圓代工」慘淪外資大逃殺主角 Yahoo股市",
+      "sentiment_score": -0.8,
+      "sentiment_label": "BEARISH",
+      "affected_industries": [
+        "SEMI"
+      ],
+      "impact_reason_zh": "台積電法說會內容引發晶圓代工廠賣壓，顯示半導體產業短期展望面臨挑戰。"
     },
     {
       "id": "f5bccd45c5ef273c",
@@ -988,130 +1070,12 @@
       "source": "Google News - 台股",
       "published_at": "2026-07-17T14:16:44+08:00",
       "snippet": "日股美股重挫+台積電法說失靈 台股慘崩逾2000點 Yahoo股市",
-      "sentiment_score": 0.0,
-      "sentiment_label": "NEUTRAL",
-      "affected_industries": [],
-      "impact_reason_zh": ""
-    },
-    {
-      "id": "eab08dd7d69cabc9",
-      "title": "台股重挫謝金河點名韓股槓桿釀災並再提國巨！網卻開心：下周絕地大反彈 - UDN",
-      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBxdlFscmhzT1U3Qlc5X0tIbGZKdmlBbWppVVIzMG5mRlhNZ0ZGMThRMDlNLUt0dURkRHJyUmpQQjZHY09GdV9OdDZta3Zad3E2TVHSAVdBVV95cUxQVHdfUnhLcHBid280ZmZfb3R1aHRUYXl2NUM2Y2FXU0tPV29tLWo5elgzTm9ZU19DOGEyQ2VQZlQ4LUZOb0VKbHpJYWFsVmpWcXZMaWVOMlE?oc=5",
-      "source": "Google News - 台股",
-      "published_at": "2026-07-17T15:09:55+08:00",
-      "snippet": "台股重挫謝金河點名韓股槓桿釀災並再提國巨！網卻開心：下周絕地大反彈 UDN",
-      "sentiment_score": 0.0,
-      "sentiment_label": "NEUTRAL",
-      "affected_industries": [],
-      "impact_reason_zh": ""
-    },
-    {
-      "id": "4e3caffabe6748a7",
-      "title": "台積電尾盤爆近萬張賣單有警訊？分析師：送分題還不要？ - Yahoo股市",
-      "url": "https://news.google.com/rss/articles/CBMi_AJBVV95cUxPMjBUY2JyVVFIUlFjMWh6RE1maklySXNZYnhVV1c4aW9kTWxzZ3JuTloxbjA5ck9YZmFIMTdOLXJacDJ1RUptUl8yQ1AtZmxHSUo1LU5oZlMtb3pmTGJtcXByU282NHFGd19adU1ZU0R4NlZndlFTaVQ3MUJ4d203anZCYkljWXY3bXNKaTBPakFETUUwZWk4eGdSbGpQd1ZLb3hPR3BYVkRVR2E2b3dMQlY4Um9kTm9mc1BpMWlrcnhRRmlkMmJ3OUlyVlc1RjJjUXI0WDMzLURuMF85b1hlelRLcFV2cXE0akxDcmRBWjlWdkJGXzhMWTFWaFVYVFMtUHYxMWpDaFJKX0JfQm9iWkU3SVA2enF4VjhoWkFRdVRXdXdZN3BTVGY2N3dzaGhCbVVsaWp4S3Q2c1d1QXJSVjQ2MWdRTVhUQ2VCcmg1dXMzdkpFWE9kVWppMjRadllEazNmbkkzczZRbFZSOFJkUVp2VW1WT3pDbXRyZQ?oc=5",
-      "source": "Google News - 台股",
-      "published_at": "2026-07-17T14:50:42+08:00",
-      "snippet": "台積電尾盤爆近萬張賣單有警訊？分析師：送分題還不要？ Yahoo股市",
-      "sentiment_score": 0.0,
-      "sentiment_label": "NEUTRAL",
-      "affected_industries": [],
-      "impact_reason_zh": ""
-    },
-    {
-      "id": "48de917533fdf171",
-      "title": "無懼台股殺聲隆隆！「這散熱大廠」5月歸屬母公司淨利年增1.32倍 盤中逆勢翻紅 - Yahoo股市",
-      "url": "https://news.google.com/rss/articles/CBMizgNBVV95cUxQdjFjR0hjY3RjemlhQkNySkVucmYtOFFpcnBrVHBZYjhQV0JwX3ZnMXBRTTVlM3YyQVVsZGZSZTBOU251dlJoaHpoUENfcGtfajN4SW96RkVXQURudzJjbWlZSGhWelhRdDdvVFIyVnRpR0lVZEVMWEZUaldiZ2VPSTBsN3JYdWdKNTFGMS1ZVENucVVid3NfT3F1cGJ4N1RWdkhLdWdpekh1VzRISnRfRjJWS3FnR1RtcENCZm1CcXFHd1I0cGJDNzl4V3NfYm5BTEl0bFpyNnhkQnFjcmVXallOTFZ4a3luZklCY1VYaEVjcTRySUlUWHpfX1lhX1JkbEVFUkxkS0ZVN2hWeWNwYzZHSlhheG03TGg2ZkZNbnViNVFqc1V2dFZBNGpkVDI5dDFLLVR4SFdjbWxKN1VPazJKWGZjQ0MtVmVISmxnbFA3TWJpaVAzc1NFMXVFenpnb1NJdGx5RkY0TDFtZ1VMRXFscFlsT3huc3NXOGxlMXlCcWVGUE8tX0dOMEdmQi1XWG1jbXZMYkJNMG1OaHpKREJBczdqTjVWSHpHM3J3Z292S2tXTlpIbmRCbFVfWTFJZndTazN0clNVYmNJZ0E?oc=5",
-      "source": "Google News - 台股",
-      "published_at": "2026-07-17T14:35:25+08:00",
-      "snippet": "無懼台股殺聲隆隆！「這散熱大廠」5月歸屬母公司淨利年增1.32倍 盤中逆勢翻紅 Yahoo股市",
-      "sentiment_score": 0.0,
-      "sentiment_label": "NEUTRAL",
-      "affected_industries": [],
-      "impact_reason_zh": ""
-    },
-    {
-      "id": "4b6acadfe9cf1e3f",
-      "title": "焦點股》台灣大：台股重挫2800點 電信三雄全數填息 - 自由財經",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1NTW90OG9HNzdPZ3lrazhISmRKX1N5bXA4QkNkVnZzS1ZfZldfZG9LOGpBaDM2MWZjS3Etc0lDMG9UM3N6WDNuczdJZngxUmZidU4xNy1ncDZzaThCNHow0gFkQVVfeXFMT0hlSzNmZ2tTUnZLT1ZOQ1hYdTk3VzZ1Z0x1Znl4a3RZZW9NRE92X0RlZDZrdF9zVnlWRWxsVnU5YW50UlNvQzNNXzBrNV9PbDluUWhuaEplamNnOXZlaTE1bU4yRA?oc=5",
-      "source": "Google News - 台股",
-      "published_at": "2026-07-17T13:15:56+08:00",
-      "snippet": "焦點股》台灣大：台股重挫2800點 電信三雄全數填息 自由財經",
-      "sentiment_score": 0.0,
-      "sentiment_label": "NEUTRAL",
-      "affected_industries": [],
-      "impact_reason_zh": ""
-    },
-    {
-      "id": "b3e807fa387ebe16",
-      "title": "台積電重挫別怕！分析師：外資看不懂魏哲家策略 稱「下跌正是禮物」趕快買 - Yahoo股市",
-      "url": "https://news.google.com/rss/articles/CBMipANBVV95cUxNQ3pTcG9tWGktNTMxZ0JfV1NtZktOQWszRUwtendTblBUekRNb3ZhWXpfbDczUjJsVnRUbzJzamhMa3VhSGg1bFNubDBtbTVFUnFLbXdEUmt6TzA5dzZqTmlWcVVLb3duYjR2NzZwMk4xUWdNeWw2aVoybUVKaGNpWVBjYVB5SFhNdk1DaHZOWkllT2tuZERhOEI2ME9UVG11OTFPTVRyMF9SRjJ1ZG1LU3dPQmlkRHJ2c0tXRHV6dlhxUFoxVk9xUUpzQ2xOUnpUaFNNNndqRnVtTnBXd0dRRmhybkZGclM0QmUxdXFsaUJEUS1EYzdkN0gxQVc4QnFQMDg4Rmxwd01YV0V5Y2FmTWZhbnI2TG9La0w3S0hEaE9UbzBuNWtVWTc4MkdiSDNRUGVhTVE0bC10Sk51aUpOOWhLLXltSWozbEZfZWRRenFMUExncEktOVhoeDNHSnFvb3MwNHpZTEg0OWxtQlMxek5EbXlnUkMyLUVMZkRoSGVOMVpoRE5seEppWkVnMFAyZnByaFltQ3c1R3hTSTFNVXZHdlo?oc=5",
-      "source": "Google News - 台股",
-      "published_at": "2026-07-17T16:12:01+08:00",
-      "snippet": "台積電重挫別怕！分析師：外資看不懂魏哲家策略 稱「下跌正是禮物」趕快買 Yahoo股市",
-      "sentiment_score": 0.0,
-      "sentiment_label": "NEUTRAL",
-      "affected_industries": [],
-      "impact_reason_zh": ""
-    },
-    {
-      "id": "f01a92785e19f48b",
-      "title": "台股慘崩近3000點，下周一還會繼續跌？專家曝3大止跌訊號：這類ETF 先別買 - Storm.mg",
-      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE84VVBIU0NzbVBUZ2M2MjZKWWkwX3N3MDVwbVltR0pUVkJWN3F2RTFXUEpoNGpOdk9YaG8xNlZ1dnJLRlZZeE9WX0VFR1ZzYWZs?oc=5",
-      "source": "Google News - 台股",
-      "published_at": "2026-07-17T15:07:07+08:00",
-      "snippet": "台股慘崩近3000點，下周一還會繼續跌？專家曝3大止跌訊號：這類ETF 先別買 Storm.mg",
-      "sentiment_score": 0.0,
-      "sentiment_label": "NEUTRAL",
-      "affected_industries": [],
-      "impact_reason_zh": ""
-    },
-    {
-      "id": "eac631f5c3ee11c8",
-      "title": "亞股大崩跌！台韓日恐掀「系統性風暴」 分析師示警3大危險徵兆 - Yahoo新聞",
-      "url": "https://news.google.com/rss/articles/CBMipgNBVV95cUxOVThMZmpJcjE2RzlJWEZZdktCaHduaE1aMkktdFFib3JPQjJwYjBQYmxnR251Y1hIQUJZaFp2bHhHM1FCenVfY19UQkkxVkxEWGw3VG9UZ0hXdXhuekgwVGVVNlcwdmtva1RJSjBCM2JUeFV6b0dxQ0IxSXRtNEJWQ3JWWW9oUmh6dWtzenBCNlZkbWF0U0kxeHAtRG9jOHVSRGNJUGdPUlJIZVV2MXNiR2lxclJqOUZHbGg5N2JqamVlbURNdUpXcDdkVTcyMjRwaThENmV3Mk5WYXNVYkZRZHJSbGhwSzF2bU1CcWtkbDlucC03NnpUODRsNW53dkl2NkxaSmNXZHJtcTZ3ZU5yX2RKU0NmQ1p6QURVQkltSmt5UVp5ZmdSdl9lRVRLVFFoeUNvMkRic1VXWTVBTUFBWEVxM3Q0dG14ZmNmWWs2NnJ6WGwyMV9reHNlTGRsUXVTcUtIS0VodVhWVFJxYVlpWmRRaGhqSzB4TFVFSkFOdV9Ec0dTTzlESmVnNWJXbFhfVGpXWWpMNUZWSlBuYnp0ZlRSVGdmZw?oc=5",
-      "source": "Google News - 台股",
-      "published_at": "2026-07-17T13:00:51+08:00",
-      "snippet": "亞股大崩跌！台韓日恐掀「系統性風暴」 分析師示警3大危險徵兆 Yahoo新聞",
-      "sentiment_score": 0.0,
-      "sentiment_label": "NEUTRAL",
-      "affected_industries": [],
-      "impact_reason_zh": ""
-    },
-    {
-      "id": "162894a9ace0acb8",
-      "title": "PCB血流成河！「這2檔」吞連6跌拖華通、台光電、欣興等13檔跌停 惟它連拔2根漲停 - Yahoo股市",
-      "url": "https://news.google.com/rss/articles/CBMi5gJBVV95cUxNTS1qUUdmbmJxRjRWVzViblAtaEVmaE1xMklqZWZqbjIwbl9IZFN0UDVYUnlnUjBrb0I4cktzNlZaY25DZ0dVMjVORTJzUmVjeFFOVFJWMlpVaGM4TWY0WC1sYWdKTGlDUUNpUm03Z25KY3hYM25Qa3pNb0FhOHJwOUN1eWVvbU1tcThudnptamVBcXM5TG5yT2w1OFBqWlZmTldTdTZpeF9wTnFiZFV2MThSZUhmcV85dG5UUjA2SU9GQUhldnA2bXBMZEJwRkxlZjFLYTA2QjFTTUM4dDBzZWIyc1FWd0FnWlpkMTFJQjFWalRhdHN4OHNSb2FHdmdHVmdtRnd1ejQ0NDNPMGp0ZFM1UkZmOXV5OXBiTkhjaDhpaW0taU9TdUdvMHpIaHU3YW5XeTMxNmwtdl9kT2ZmczgxYVFqMHVqQmVPUDZPYTMyb2dTNmlKSEozN3REQVVsY3Q1Qm13?oc=5",
-      "source": "Google News - 台股",
-      "published_at": "2026-07-17T15:14:00+08:00",
-      "snippet": "PCB血流成河！「這2檔」吞連6跌拖華通、台光電、欣興等13檔跌停 惟它連拔2根漲停 Yahoo股市",
-      "sentiment_score": 0.0,
-      "sentiment_label": "NEUTRAL",
-      "affected_industries": [],
-      "impact_reason_zh": ""
-    },
-    {
-      "id": "bd2cca704379c3c2",
-      "title": "外資喊4200元目標價也無效！台積電創收盤最大跌點仍奪成交王「這檔」掃到台積電法說颱風尾慘摜跌停 - Yahoo股市",
-      "url": "https://news.google.com/rss/articles/CBMi0ARBVV95cUxPMkhMRlpZUTduaVY1SUc1S3JCN29PU0xLcTRDWkU5b0lhdGwxcWRXYkhMVFc4cm9CVEM2Sm5CeXlmMjBuR2ZuaDRzLU1zOEl2WklyRTRYaFNWb3FSQy12cjlCT0Y3SV9pck83WHFkdWFXbmx3Z2FGX1NVUW1IVTVsYXI0OWU5cHplZW5fREs0Z0dDWHFfTE5JU29UWHpOWDA0UDNQRXlNU2lVbXlYa3JVMjYyUDdhM2dGaEZiX1ZQRUk2VHJ3T0otdkF0N2JjaFlMb0FhOVZLSUl6UEpVSkwxRHNuRWo4SndOSVBqSTFpODlZS1A1U2JOQnBncUIzUkg4d3l1cTVqRkdEZkZQSExCSXA5d1FQeDM2QkMzblJGakNZd0tsVTU5TDB4NWpYNXFNbzNNNjhfbDVKZmtmNG90WUs5WFNSSmRvVWY1SkU0TTV6aENfREp4Zzh6bWxsTkxTQXdhMWZweUVGWENWVmVkZGtXa0E0cWJyWlN2czE0Vk5hUFpwTHl5azd2dG5SQ3hPN3Fjem1YQ2kxbmVsaEpIa0ExQUZyZ2JsQlVrc282R1FfMk9nejRDQmNZQVh6TVdHUmNJVU9zamZuVTdhdUhPdW5wNDBabmZSdHhHd0NLZ0IxbmQ0eGpwUy1WYTU5VFBNTk9VQk5KU3o3OEdZS0NLTTJ2a3VyTXctZThIZTZSQXFYb3RBdjJGZVFqc3Vkc0pzTzdja1FJZ2VYbEZTYVI4RUQ2LUhPZ2FlQjM5cEZjeEl5aFo3bWtBOHQ3UHdDQ1d6?oc=5",
-      "source": "Google News - 台股",
-      "published_at": "2026-07-17T15:26:00+08:00",
-      "snippet": "外資喊4200元目標價也無效！台積電創收盤最大跌點仍奪成交王「這檔」掃到台積電法說颱風尾慘摜跌停 Yahoo股市",
-      "sentiment_score": 0.0,
-      "sentiment_label": "NEUTRAL",
-      "affected_industries": [],
-      "impact_reason_zh": ""
-    },
-    {
-      "id": "faab412218054038",
-      "title": "台股暴跌2953點史上最慘！台積電崩跌180元，財經專家曝「進場價位」： 今天不會買 - Storm.mg",
-      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBFVHVVUTlCMzROUTdUSFFlQ3RtbVQxVngxblBydjlhU2sxVHoyZzJQaWZ0c0c3ZG1zMzlBellzOVpvdGRta2ZMNjNubzNvWEk2?oc=5",
-      "source": "Google News - 台股",
-      "published_at": "2026-07-17T13:40:18+08:00",
-      "snippet": "台股暴跌2953點史上最慘！台積電崩跌180元，財經專家曝「進場價位」： 今天不會買 Storm.mg",
-      "sentiment_score": 0.0,
-      "sentiment_label": "NEUTRAL",
-      "affected_industries": [],
-      "impact_reason_zh": ""
+      "sentiment_score": -0.5,
+      "sentiment_label": "BEARISH",
+      "affected_industries": [
+        "SEMI"
+      ],
+      "impact_reason_zh": "台積電法說會未能提振市場，反映半導體產業短期受全球市場悲觀情緒影響。"
     },
     {
       "id": "1862ed7f0052c045",
@@ -1123,163 +1087,199 @@
       "sentiment_score": 0.0,
       "sentiment_label": "NEUTRAL",
       "affected_industries": [],
-      "impact_reason_zh": ""
+      "impact_reason_zh": "新聞主要報導台股大盤崩跌與台積電跌幅，屬於市場整體現象，不涉及特定產業的結構性影響。"
     },
     {
-      "id": "fccfa9d3227ef06e",
-      "title": "台股史詩級重挫！ 專家曝「1關鍵」：比誰能穩得住 - Yahoo新聞",
-      "url": "https://news.google.com/rss/articles/CBMisAJBVV95cUxQVTFoMlpWTVdZWGliN1BTY1I2RUxySG4wekVIdVVtRTB5ZVBfTnJxeFlsVzVDRDZnVVhFZjQ5dkVZbFZ2VVk0c2h3aW1aRzh1bXlHQnA1UFJzME5QdlAyWHBJQ09FVU9XOEd2SVNyQ0NacUJGai04QkU4RG9jZ1k4YmRMQXR6UXhnQWtTVTRMQjNvNjJfd050VzlsQlpCblVMQkhwaWxfWC1vUUU5VDR3ZVIwY2VaVlJEdmttRzhhVENGdUlVZUZuQWRCbjcwOTBGdENBZkw3UFE5M3FnTVhrVnkxUGF6RmtsbjJ3dVZQUkpDTjQySzZfdnN1a25VenhSQzE5ZF9VQmotb3dMMDF2YkJUc25sak1ER2s0VHVDOVotcUdJV0hLUXJzOFE1ODNR?oc=5",
+      "id": "eab08dd7d69cabc9",
+      "title": "台股重挫謝金河點名韓股槓桿釀災並再提國巨！網卻開心：下周絕地大反彈 - UDN",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBxdlFscmhzT1U3Qlc5X0tIbGZKdmlBbWppVVIzMG5mRlhNZ0ZGMThRMDlNLUt0dURkRHJyUmpQQjZHY09GdV9OdDZta3Zad3E2TVHSAVdBVV95cUxQVHdfUnhLcHBid280ZmZfb3R1aHRUYXl2NUM2Y2FXU0tPV29tLWo5elgzTm9ZU19DOGEyQ2VQZlQ4LUZOb0VKbHpJYWFsVmpWcXZMaWVOMlE?oc=5",
       "source": "Google News - 台股",
-      "published_at": "2026-07-17T15:45:00+08:00",
-      "snippet": "台股史詩級重挫！ 專家曝「1關鍵」：比誰能穩得住 Yahoo新聞",
-      "sentiment_score": 0.0,
-      "sentiment_label": "NEUTRAL",
-      "affected_industries": [],
-      "impact_reason_zh": ""
+      "published_at": "2026-07-17T15:09:55+08:00",
+      "snippet": "台股重挫謝金河點名韓股槓桿釀災並再提國巨！網卻開心：下周絕地大反彈 UDN",
+      "sentiment_score": -0.5,
+      "sentiment_label": "BEARISH",
+      "affected_industries": [
+        "PASSIVE"
+      ],
+      "impact_reason_zh": "國巨被點名，顯示被動元件產業在市場重挫中仍受關注，短期壓力未解。"
     },
     {
-      "id": "730e7076aee07ddb",
-      "title": "台股黑五狂瀉兇手找到了！謝金河揭「這7檔」毀滅致災1220元→699元國巨暴跌4成原因也曝光- 上市櫃 - 旺得富理財網",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE15S3FOcEVOTXJmb2lJdWpCcDFXekJJYjBEN1p0REVjR2ZoTUZ3QVdsOFhXUXI0YVJuNHJIZms5QnR4VWpyR2JKTUNnaWNlNWZqVkFnZTJNOHZKVmxGVkx2YjM1QmlZQjFIUFE?oc=5",
+      "id": "3ed9917a04f6fb05",
+      "title": "台股崩跌2953點創史上最慘 專家揭反彈時間點 - Yahoo新聞",
+      "url": "https://news.google.com/rss/articles/CBMisgJBVV95cUxObWZjQkVkLU9aSUVfSTNUTXgtaVRyb0FtSGxfLThDeGNTeThOV2oyWWlaenJkckZ0T3U2YjBwanBDRkJyRmR3LVlXcTR3WGdkb1JFamJOUl9Xbi1qNDBiMHZsdGVFUmNCNkdaRkVGUVVUTUNsbWJlX3JoSkNFc3NQemowT2lpWHIyNnJQZ196RHBOTzRhQ1RnT3RBSVdSYlN2WTJiX1FYa2RsVHRlZE1tMWRLNUFpNkt4SExVOERlV0FYdVdHWk1BeWstcWNzRXhkaXNyclFRTllyUXBxMGRBWEVEZk5vTHpkRnJaYUVxd2pTZE44ekZ1Z3B1MGhYLTE0dXdZRjZ5ZURpRDJ1S3RYZ3cwUUZrVVZsbEVKWEM0aGF3LUU1TkRpb05OQmtTQUNWaHc?oc=5",
       "source": "Google News - 台股",
-      "published_at": "2026-07-17T12:22:33+08:00",
-      "snippet": "台股黑五狂瀉兇手找到了！謝金河揭「這7檔」毀滅致災1220元→699元國巨暴跌4成原因也曝光- 上市櫃 旺得富理財網",
+      "published_at": "2026-07-17T21:30:40+08:00",
+      "snippet": "台股崩跌2953點創史上最慘 專家揭反彈時間點 Yahoo新聞",
       "sentiment_score": 0.0,
       "sentiment_label": "NEUTRAL",
       "affected_industries": [],
-      "impact_reason_zh": ""
+      "impact_reason_zh": "新聞主要報導台股大盤崩跌與專家反彈時間點預測，不涉及特定產業的結構性影響。"
     },
     {
-      "id": "c0bc9a8fc45d1210",
-      "title": "台股暴跌1900點！台積電甜甜價來了？投資人能否趁機撿便宜， 分析師全說了 - Storm.mg",
-      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE52Z1Axa0dfRGhhNzZvR2liYUJOcTJScEhsaGVUck84VlF1T21NYlhzd0cyNURhZTVHbHhJSzZrVk9VSXZpZjUzREM5LVk4SzJj?oc=5",
+      "id": "45120de93f367926",
+      "title": "崩盤8000點 台股生死的關鍵！ - 經濟日報",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9NS0syN095OE9MRVJ1YURvZWxURk9mdFFDeWVVdlZvQWtqQVc1Tkd4d1hEVzBkU0JUMTVmRWtWOXJwU3cxaDFzbjhsS3NJSHhMMUdKLTl0bTRwQdIBX0FVX3lxTE9kOXhaY3h6cDF0bzlJdUwyNjJPUFh4b3V4VFZiMUl5Y0d1Qk9sb1Z1SHB1WnNyRVQ2MUwyOUdiUEFlT3M4LVdKdUtwVV9oY1gxWVplSFpuQVRidUd2VjZr?oc=5",
       "source": "Google News - 台股",
-      "published_at": "2026-07-17T10:35:02+08:00",
-      "snippet": "台股暴跌1900點！台積電甜甜價來了？投資人能否趁機撿便宜， 分析師全說了 Storm.mg",
+      "published_at": "2026-07-17T12:17:18+08:00",
+      "snippet": "崩盤8000點 台股生死的關鍵！ 經濟日報",
       "sentiment_score": 0.0,
       "sentiment_label": "NEUTRAL",
       "affected_industries": [],
-      "impact_reason_zh": ""
+      "impact_reason_zh": "新聞主要報導台股大盤崩跌，屬於市場整體現象，不涉及特定產業的結構性影響。"
     },
     {
-      "id": "fb5cb410d123f7a8",
-      "title": "台股暴跌逾2700點！史上盤中最大 4萬3關卡也沒了 - Yahoo新聞",
-      "url": "https://news.google.com/rss/articles/CBMiwAJBVV95cUxOUUVIZTR0dXlkMnBWelRzb3ZGUkpZYVgzMlMwcmx2X2tHeTNSWkh2dDhJZ2ZnWkRYaklLaURMU0Fnc2dPZi1mbHl0UjBMRXhaMm1pbm9JM2JPa3NYUW5sOUUwbUpfci1KNTJ3MW9oX1dzcElBOHRHQnB0ZThRZWQ0V2gzREg2NWFUakJmUkZxRUttTHl2SEZEZnZuTmxqdFNldDN6bnV2WVNUWUcxRjZuendIbmE1NzZVaFB1SHpGcmdveDRZUl9RLWVwVkJuZlpOWlpoSmotVlBqZ3FaaXFaMnk4RFVldXVqU3pDTk9HMjI4TU9xejg3ckVsMHpCdzlPQkYxcjF6dWotd2NKVmlBODc1T1hOUWE5cmo2VWlwTnRDVk95WDJlZW9SaE0xNXhTNUhqMWQxQWcxUWhvNGl0Sw?oc=5",
+      "id": "84c204de5789eb9a",
+      "title": "台股暴跌逾1700點！謝金河示警：矽光子、被動元件恐迎更大跌勢 - 自由財經",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE0zY2lxZm1pZTVIc1ZsT2lkWjhMYzB0WVdZNlM3M3JPcktBbjEteEpHQTdHQXZGeVdKQThwaEltcTFBSTRQMzNzUFhHY2pTbjlXUkVnTjJZTERSRFZxMjdj0gFkQVVfeXFMUGVrMUFWZEUxTmZDdFVoSkxVTkRPYXJXa0VmWmxCVUVjMUNBTlY4dG96aF9Hc2x0T0RhclRtYi1aT2VrX21PcEdHdXlLakpJQWc3eDhGWTdvdHA3QlMwekhxbGNHcQ?oc=5",
       "source": "Google News - 台股",
-      "published_at": "2026-07-17T13:11:17+08:00",
-      "snippet": "台股暴跌逾2700點！史上盤中最大 4萬3關卡也沒了 Yahoo新聞",
-      "sentiment_score": 0.0,
-      "sentiment_label": "NEUTRAL",
-      "affected_industries": [],
-      "impact_reason_zh": ""
+      "published_at": "2026-07-17T11:38:00+08:00",
+      "snippet": "台股暴跌逾1700點！謝金河示警：矽光子、被動元件恐迎更大跌勢 自由財經",
+      "sentiment_score": -0.7,
+      "sentiment_label": "BEARISH",
+      "affected_industries": [
+        "SEMI",
+        "AI_SERVER",
+        "PASSIVE"
+      ],
+      "impact_reason_zh": "專家示警矽光子與被動元件恐迎更大跌勢，顯示產業短期面臨結構性利空。"
     },
     {
-      "id": "05c6fbc22013f70a",
-      "title": "史上最慘！台股血腥屠殺2953點台積電崩7％、南亞科等135家跌停- 財經 - 中時新聞網",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBuWmVNYnNtUUQzWklqdW4tb29qRTZXR1lNRjVBZkZLZHZveHBockoxLWptYnB5TE04M2FwVFFWYW5UZVpFVEZRWFpPdllYVHM1SjNRd0tIeGhPUDFpWnlnbkVOdi11TDgwMi1pbG1B?oc=5",
+      "id": "e7461751d6b02066",
+      "title": "台股重挫2953點最大跌點! 跌破4萬3季線失守 - Yahoo股市",
+      "url": "https://news.google.com/rss/articles/CBMipAJBVV95cUxQV1JVX2p3d1dRZFBnSEFYbjRWTlhvZXFlQW5nX1NSeDdUSnVsVnB2aGZ4UElFMmdlelhkZ3JrODYzWG0tX2JjVldLMXFTZEhOcDFlQWdqWi15cDVmOGRSTEFPV3hvQ2xOcVotZFZoNDZSM0M2MmlNQ3FqMU5UbS11TjdPYVBhTVZRM1BHWlFkY1pfaXphRHBJLUZ3d1AzR1A5UUxXekJsWER1T0ZmclRSSGF0SjFyMzVmTHdHeF92eW5fSmd1Rjl6NnRiZWdHNFlNQ0pYTHpKdjhVcmV3RWpJTkFSd1Q1RkVrelRkS24tQ1ZJRTVsNURwUjJuZnVhMG1zU3RvZXhmNEJkTk1IdGtYQl9GZk9UQ0pyamF6MDQtaVhBcTFD?oc=5",
       "source": "Google News - 台股",
-      "published_at": "2026-07-17T13:39:19+08:00",
-      "snippet": "史上最慘！台股血腥屠殺2953點台積電崩7％、南亞科等135家跌停- 財經 中時新聞網",
+      "published_at": "2026-07-17T15:15:41+08:00",
+      "snippet": "台股重挫2953點最大跌點! 跌破4萬3季線失守 Yahoo股市",
       "sentiment_score": 0.0,
       "sentiment_label": "NEUTRAL",
       "affected_industries": [],
-      "impact_reason_zh": ""
+      "impact_reason_zh": "新聞主要報導台股大盤崩跌與技術線型失守，不涉及特定產業的結構性影響。"
     },
     {
-      "id": "c2bd635fc22f26db",
-      "title": "FOPLP題材退燒？群創跌8％仍爆量奪冠 「這檔晶圓代工」因魏哲家一句話慘吞跌停 - Yahoo股市",
-      "url": "https://news.google.com/rss/articles/CBMi8AJBVV95cUxQa0phYk1lMW4xWnZsTjJESjMyZXhnUXVWQXpRS2FQM0RNOXB2Zm9pazNsZy1kTF8zeDdmR3JLUjFTdUtzWUU4Mlh3Z0l1N0xtR3h5SjRBOERYNVlXelFRUW1iT1QxQ3lDS1IwdUdZRUxOSjUxX04wSWh5OEJUZWdObnlkcnBubGhVRzR0MDdsZUZUbmloWjBuSEFzN1B0UlpnN3NfNDFuS2ctOW16TENsYWxnRDhXOU40dmxhYThEdmVQLVg3ODVETGRkcjRZMmVWX0FsbEtrTnlVcTFzQ0VGWVpDQkktdDE4Q3BnQkUtbUhzTmpjTVMtNVlaOHI3ODFHWmJ5cC03N3VPLVJiTE55YXRDSXFnOHJ5QmJhN1hvNUlGX05xU1E0T0xHTmJKUmNaejRSNDJsU0hXcUFLRm1YYnl4N0x4TkJPSTBWNDZQdkxnVlNMeU9sc0hlaWloUVVBMFZ6ajlSZk9idHhfOFJlZg?oc=5",
+      "id": "b36183bd58916e27",
+      "title": "晶片股賣壓湧現 美股三大指數開盤走低 - Yahoo股市",
+      "url": "https://news.google.com/rss/articles/CBMiqAJBVV95cUxPWDJqeFpWNHVwTzd2ZzZaNjJuWXU4ajJDeUd5clNMNDVPYjBtZ2pqNVhJd1Q3c2JPY3BoTnpWMVp4T3FxSTZqallnNkNEMEtIOHh6S3RCM0tEOUF0YzZ5RFhiQUNWU0lHRW9pVGdwSEFhcDY1WTRZSzZ3cWNYd0pGU1VmTXA1TjhQZ0pUeVdVRGNGZVFwaDlzUVZsT0xvMkx6TDhucFp6bGdjQ3lKMVJ6YzZFaFZtckdtTVltdmlEc0VLdW51M2dGUkxhLWd6cGd3NjJncUppOUFPMnpCQURrX1NJaEQ3ZjBFNkhIMWtlS0J3a0tSSlhoQXAtNS1wY19ucGRYRFVndDlJMURURnhBbmU1YkZtNjMtd29iZWxWX3RXREhYZXp1eA?oc=5",
       "source": "Google News - 台股",
-      "published_at": "2026-07-17T16:05:00+08:00",
-      "snippet": "FOPLP題材退燒？群創跌8％仍爆量奪冠 「這檔晶圓代工」因魏哲家一句話慘吞跌停 Yahoo股市",
-      "sentiment_score": 0.0,
-      "sentiment_label": "NEUTRAL",
-      "affected_industries": [],
-      "impact_reason_zh": ""
+      "published_at": "2026-07-17T22:06:25+08:00",
+      "snippet": "晶片股賣壓湧現 美股三大指數開盤走低 Yahoo股市",
+      "sentiment_score": -0.6,
+      "sentiment_label": "BEARISH",
+      "affected_industries": [
+        "SEMI"
+      ],
+      "impact_reason_zh": "晶片股賣壓湧現，反映半導體產業在全球市場中面臨普遍的負面情緒。"
     },
     {
-      "id": "61281c3dd43c48c7",
-      "title": "收盤／台積電重挫180元！台股收盤崩跌2953點 寫下史上最慘跌點紀錄 - Yahoo新聞",
-      "url": "https://news.google.com/rss/articles/CBMijANBVV95cUxQZG1IeEktN0NObUoxNU9GRERQRU9MQWpuazhsM1NIa0IxV1d5RTJmc2hXWGx2Y0h1aGE3TWh1WGd0czJfTW00YjlkYmYtcHpDMXc3dGtwbnFEZElFNm9ISHBlbk1VYWUxMGVrSFRrVVk1ZUhkbXB6TmNOZkk1SFNfR3VtR2FtTGRaQndreFdRYkdESnI5MXJvR2QwUUMyUXZZY2pRTUNubkhwXzdlNWM1VEo4VkVsUEppdjV3UF9CN3JYb2pOcTZXeFpqdGh1VmxJREF4dHE5TGtDSUM2TlNXTno5U01wNUZQNXlHeW15NDltcmlzcUx4UkNSSUFwQjhvZWx3Ni1CNm9MODJicDFnOXZIZHBtZTJlemxfOU1NTnhEaE96ZXpmLVNDeU5td0FQQXZmZWQ2UFlBbk16c2p4cFlUOWl3cWJLSlpuclptSm5ieklzbWVwSjZXcmllNnlHbzZRNDg5TDVwNWdTOU1YSE44NXZiQnBKZmVwYk00a1Jza21NOTFOOFFBMXU?oc=5",
+      "id": "63065c12d727079d",
+      "title": "台股重挫2953點創史上最大跌點 金管會：反映國際情勢 將密切關注 - Yahoo新聞",
+      "url": "https://news.google.com/rss/articles/CBMinwNBVV95cUxORlVQaVo1cDFacWxUcjhWcTZvS0dNVUNBV2M3eEhydTVieXhkYXVGOGRlVl9QUHFBblJBdV9KV0IweTE4T2VNelhZZTNKS01GYURBTWRvbmo5QXNnSlVGbXgta2xqcjl3bzJWR1JaZURNVzdtTE90RklTQnYwUHlGVl9LZEpaZHlJYmJ5cWFBOElJYXR5aE9QencxZVhhTW5FWGthV09Kck1lek5ZSlJkVzVsaE1CNmFTOVRiRjVXVE11Rk1FUWpVc1BROTNiSF9MMHdyU2VHYlN3RXNiUFNkbEIta05yM3hkX180ODhEemJUYS1Na2RPcm9MWUFzN2x6UnpmRTk2U2dXS3p0VTVuR0k2WFh4OWp4MzZZM3RwdUstb3V0b09abVBPYkhfalpQczBVbGVndmpKM1dYNmdpZ0NrU0FUZ3ZtMEEtUG5JcVBiMmtTU3JmRTVCdWJucGFxYV8zQm5GeGRYRG44ZmdheWMzMmF6UlBIdC1yeWEtRUx3VWs1UnR5dlVmaEJPYjIxd3ZILW5BVzhVQ2tTeUJ3?oc=5",
       "source": "Google News - 台股",
-      "published_at": "2026-07-17T13:51:00+08:00",
-      "snippet": "收盤／台積電重挫180元！台股收盤崩跌2953點 寫下史上最慘跌點紀錄 Yahoo新聞",
+      "published_at": "2026-07-17T20:01:25+08:00",
+      "snippet": "台股重挫2953點創史上最大跌點 金管會：反映國際情勢 將密切關注 Yahoo新聞",
       "sentiment_score": 0.0,
       "sentiment_label": "NEUTRAL",
       "affected_industries": [],
-      "impact_reason_zh": ""
+      "impact_reason_zh": "新聞主要報導台股大盤崩跌與金管會回應，不涉及特定產業的結構性影響。"
     },
     {
-      "id": "fdf2367dabe5ae75",
-      "title": "失守4萬3！台股收跌2706.98點 收42918點 - Yahoo股市",
-      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQSTJ3UU1ocHNZTUJpQzlvUGNkSTlLUC1vNnlBQnhXVC02SU9sNzRBRmtfeFMwNkRLZ2tFWjhoSUVJLXBveXJHcTZsSHpnU01rR190emZjcDY3a0ZPcWFCamdaRFRsaENlMzFrRmF4MzZ1YnE5bjhsMVpRZ2lKRDAzOHB0bm9IZnJPdWxLVXd6SWxoTE0xenJHdWRTN1V6YmxWOWY2Ql9OaFUtLUt1UFU5dHRra1FYT05Xb3J5NXJiSk1wQ0JDbW5HYUV0LURjaVZheHdjNGJXWGpFMmFWWDJwS1NlWWhJTG1x?oc=5",
+      "id": "8fc8fb10bbeef627",
+      "title": "台股血洗2953點！專家驚吐「4字理論」點破關鍵 - Yahoo股市",
+      "url": "https://news.google.com/rss/articles/CBMipgJBVV95cUxNSWZIZDlXNlFrVEZxLU5hUmQ0VUtPaVZzb3R6cjR5TDFkZEg0ZHFKWllxT3VnLVBia3VLYzJxQWZjSll4SkJyWFhPNkpwNEcwOXIyUm9LcXdhdGdLNXYtU2JzSkF0S0IwajcydWVWeTZrRzdwSDB3U3JWVjg4RUttY0pqaXJ5MFRkSEFhN1JHd3Q1Z2JQeHZKVHp4dFIwRnpLc2xzbmcxSG5HVElfNk1td3drRTQ2Z0JDR2JzYTRBZU1PLVNKdTBUZW9fakxEV2VLWi1sV0dmbW50NFBTNFZGVVVnSXJqcEJieDNVY3VrZnNtWDJyWmFVQlcxT2ROdXVnTzlTMGpmcnFoTGowRzdGSGQ2T001ODRoV0dicGU2RFNkdnJld1E?oc=5",
       "source": "Google News - 台股",
-      "published_at": "2026-07-17T14:01:39+08:00",
-      "snippet": "失守4萬3！台股收跌2706.98點 收42918點 Yahoo股市",
+      "published_at": "2026-07-17T16:11:27+08:00",
+      "snippet": "台股血洗2953點！專家驚吐「4字理論」點破關鍵 Yahoo股市",
       "sentiment_score": 0.0,
       "sentiment_label": "NEUTRAL",
       "affected_industries": [],
-      "impact_reason_zh": ""
+      "impact_reason_zh": "新聞主要報導台股大盤崩跌與專家理論，不涉及特定產業的結構性影響。"
     },
     {
-      "id": "64fc4cbc35a51781",
-      "title": "台股重挫的元凶是他分析師：這時候要買最安全的公司| 股市要聞| 股市 - UDN",
-      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5panZGZXRSTWV0cUltNzFyZTlrSmpIYnpKdjNNLVJCRlItMHlKdkE5OEFWSHRvQjN1ZDl6eENGSWEyNEFoSk5MN1RlUTgzTVVJ?oc=5",
+      "id": "7411a35e5c6231ef",
+      "title": "台股重挫2953點 創單日最大跌點 - 公視新聞網PNN",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE82azh3MzhZZWFuOFd3WFl4R2ZvRFJicjZUbWZuQWhZcG5UUExvUDg3VFdmS0ZyRHNpajZZUjRJLXZWM2ZvSHhNb0FnM2kwWUU?oc=5",
       "source": "Google News - 台股",
-      "published_at": "2026-07-17T15:55:47+08:00",
-      "snippet": "台股重挫的元凶是他分析師：這時候要買最安全的公司| 股市要聞| 股市 UDN",
+      "published_at": "2026-07-17T19:40:21+08:00",
+      "snippet": "台股重挫2953點 創單日最大跌點 公視新聞網PNN",
       "sentiment_score": 0.0,
       "sentiment_label": "NEUTRAL",
       "affected_industries": [],
-      "impact_reason_zh": ""
+      "impact_reason_zh": "新聞主要報導台股大盤崩跌，屬於市場整體現象，不涉及特定產業的結構性影響。"
     },
     {
-      "id": "6955bc4637efe6f9",
-      "title": "台股重挫近3000點！他猶豫借錢加碼 網全勸退：抱不住 - Yahoo新聞",
-      "url": "https://news.google.com/rss/articles/CBMizAJBVV95cUxPa3RCdHFHaFowZmQ0VGI2cW9sVm4wY0dIZDMxNks0QkItY0VfMzdZUV9HWXpfd1phRmU0ZXJVV0JTSHlLd05DVUZkZ0J6U2RtZW9CbEpMMzA2eWdMbDFtaEVxOEFCN3JGalRwTDJLdEsyR2ljRlYyNERRQ0tOR1FGSWxsQkJSQWRuRWI0TFFUbzZQX3dJR01zSjF2WFJFU2VpVjUxVHBCZTR5RVhrOEUzZ3FPanIyYk9kamZYcUJ6Q0tvWkdQT0FUREVNNjBQaUpoSXZlVkRWdmx4S1o1d1pJOUlwdTVsOXBXTGd1Q1hkRkgyOXFVRkdVWHpzMW5NSDM5Z096NTR0MHJyeFh0TjZUVFBvNnBmeW9MRWtEWHpKMHBpa1drLUsxcHFrV2pXa0kyWklILVQ1bE40UDBicm90aVdwcmtvcTNIRkl3dg?oc=5",
+      "id": "1b0bb00e648d6db4",
+      "title": "台股驚現恐慌大殺盤！旺矽、日月光、旺矽等十多檔熱門股慘躺平 - UDN",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE54MkY5Tlo0QU1CREE3SG1hM0xEa3ZISlJoaTVkS3FDb2pmZU9ZZTZoemNuZmJ5Rmd1UVpGblBnTmtyLVRDb1dZeUxuOFBaSHVS0gFWQVVfeXFMTTdCanl1NjN1UFR0NkM1X0RQVTBST0lpc010S2x4eHFVeHNXWG9DMWU0RFFtN1JiRUpocHVudkEzclF6YWNvQk42ZHY5d2F0SnJvMktjY1E?oc=5",
       "source": "Google News - 台股",
-      "published_at": "2026-07-17T16:26:25+08:00",
-      "snippet": "台股重挫近3000點！他猶豫借錢加碼 網全勸退：抱不住 Yahoo新聞",
-      "sentiment_score": 0.0,
-      "sentiment_label": "NEUTRAL",
-      "affected_industries": [],
-      "impact_reason_zh": ""
+      "published_at": "2026-07-17T13:00:57+08:00",
+      "snippet": "台股驚現恐慌大殺盤！旺矽、日月光、旺矽等十多檔熱門股慘躺平 UDN",
+      "sentiment_score": -0.6,
+      "sentiment_label": "BEARISH",
+      "affected_industries": [
+        "SEMI"
+      ],
+      "impact_reason_zh": "旺矽、日月光等半導體熱門股慘跌，顯示半導體產業面臨恐慌性賣壓。"
     },
     {
-      "id": "5f47038f8f625d22",
-      "title": "台股崩跌2954點創史上最大跌點！ 達人揭暴跌4大元凶：「1動作」才能翻身 - Yahoo新聞",
-      "url": "https://news.google.com/rss/articles/CBMilwNBVV95cUxOdkdwZk5KVFI4RE1TWS1DTUs1cXEtSHl6aGNxbms2TXNXM1NQWnotT2ZPeWJtYUkwOWl2WmVTUmdkQVNGU0hlTjFBODdvbG45SUxZYnR1SWRBZ2N6alZtYW5zei1Pdl9oWFF4b2pzUVp4clFsU2hfU0Q4eFAtcF96d1FwWERPUXMtNGd4NjdUSElnaU9vbkxYMnJFWEpYYUxtZDFuS0Jic3hWdjdiOE1NaW5vWDRoelBXZjdsTEpKU1RlQVFRVlVMdlpYRUNxWkh1SjJmSEVydXREYmdNUGRGenpZWGxvUjZ6Smdtc2szQ1owckg4RmtPNm01eEtPdWNUeDdQTlRFdHZXNGlOU3dLYUgyQmQ2anRpZ29DOUgtSG9qZ0NGdzNISXlITVVrYlpMa2kwWFY2Q09CTHFmV2hrdUNmaDAySHBQdVhJS21tTnRpSnkzbHZaWE9GMHA5bE5UWC13Mm5sbzNVY2RnRl94eWppbVN0T3F0RnBvMlJaeWJzakJvQWRKV3BBV2I5eU96X3N2bkN2dw?oc=5",
+      "id": "1e96263e67f2ea54",
+      "title": "黑色星期五！台股殺到見骨暴跌2635點　逼近史上盤中最大跌點　 - ETtoday財經雲",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1mOTMwbElnSXBVWU9keDlGaVAyUXdTWjVXWGpYQ2ZBWE9fR0FWcXBFbGZzbkJ4X3UyalRHMXplWjIzdk5JVDQtUHNkWXM2MC1YZ2fSAW5BVV95cUxOQlgyYmdPQVpoeUhIMzhCc1ZRUFdLN0hOS2lucUNkQm1vVkxJZTU2Qms4eWZaRWg0Mm1qWXE3ZHlCUElkZDdNMmxxZWxjMVJPVEZXc2FfRFhNQTdkd2FkLS05SjVXM1ZvQnFUamlVdw?oc=5",
       "source": "Google News - 台股",
-      "published_at": "2026-07-17T15:25:00+08:00",
-      "snippet": "台股崩跌2954點創史上最大跌點！ 達人揭暴跌4大元凶：「1動作」才能翻身 Yahoo新聞",
+      "published_at": "2026-07-17T12:59:00+08:00",
+      "snippet": "黑色星期五！台股殺到見骨暴跌2635點　逼近史上盤中最大跌點 ETtoday財經雲",
       "sentiment_score": 0.0,
       "sentiment_label": "NEUTRAL",
       "affected_industries": [],
-      "impact_reason_zh": ""
+      "impact_reason_zh": "新聞主要報導台股大盤崩跌，屬於市場整體現象，不涉及特定產業的結構性影響。"
     },
     {
-      "id": "e030dc9b722413c8",
-      "title": "傳蘋果評估收購AI晶片新創 加速布局AI伺服器 | TVBS - LINE TODAY",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE12bFZBUTJpY0JzbTFGV1Fwd1p4VkVzYTAtdHg5RlNEOHhPOUhnUkNnRDU0dnFQajl4YlU2bThiU09BQ3c4bE0wMjBYdTVxVjhSMHRTbmFB?oc=5",
-      "source": "Google News - AI 伺服器",
-      "published_at": "2026-07-16T17:51:52+08:00",
-      "snippet": "傳蘋果評估收購AI晶片新創 加速布局AI伺服器 | TVBS LINE TODAY",
-      "sentiment_score": 0.0,
-      "sentiment_label": "NEUTRAL",
-      "affected_industries": [],
-      "impact_reason_zh": ""
+      "id": "cbdfd37ab25861a9",
+      "title": "台股狂瀉2100點、台積電法說後跌百元！謝金河示警「算帳時刻」來了：掃到颱風尾 - Yahoo新聞",
+      "url": "https://news.google.com/rss/articles/CBMiigNBVV95cUxQVlhCUm5yWmdqek1jeE8tUm1QdHBHY3ZURDFxR1VDRmpmUkl3M2ExaHBoR3BGeW1nazN2aHRtTy1ZbE8zSHFVRlhoUHhlRFloMnc2VHAwUUltVFRGanF4TDlkekRSSDJyTTVMWFRQelEtV1JpSkd1bVI1NlNvdjRYMlBTOERWcy1ucTFQeE1oMFprVUVtTFRxbnUtWEhqLVM1Z210TkZRRDR4UUs0aFF5WVhERmpNdGRGMGMtMzl2UzNoOG1lYk9aNkkyU2plRUtwLVZQaVVzM1IzQ0ZJSTIyQl9tcmQtckpOb1laV2p6MGhPMV9ZVlNMSFVOQUJBdF9fUEZPblhuOTV4YXV6bnV3TXRySHl2ZUVSYlFuY0JSclNONkJGUVlvRXg0dmV5RUpIR2RNems0TlBLZ05za2hKT2UtZVluUExzVExQMUR5aVdTMXZkMVdvVXVQZXAzNWltZ0tkNjQxZ1NKVFpBX1I0eXFRMGUtSUVEN3lodWdTVjJvdnAxeEVEVTVn?oc=5",
+      "source": "Google News - 台股",
+      "published_at": "2026-07-17T13:35:47+08:00",
+      "snippet": "台股狂瀉2100點、台積電法說後跌百元！謝金河示警「算帳時刻」來了：掃到颱風尾 Yahoo新聞",
+      "sentiment_score": -0.5,
+      "sentiment_label": "BEARISH",
+      "affected_industries": [
+        "SEMI"
+      ],
+      "impact_reason_zh": "台積電法說後股價下跌，反映半導體產業短期受市場整體悲觀情緒影響。"
     },
     {
-      "id": "e32637550158a123",
-      "title": "瞄準2040年AI機器人霸權 日本攜手輝達打造2.75萬顆GPU超大算力中心 - mirrordaily.news",
-      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5fdThGZHR0eDRyeWYwVUZRTEFoWDltNzVjZnlfR2l3ZXc1RWpuRnpYQzBLMzlMeld1ZUl3enlsVXhBb1Z3bzB5cWpJYXJQOGxnbEE?oc=5",
-      "source": "Google News - AI 伺服器",
-      "published_at": "2026-07-16T18:39:00+08:00",
-      "snippet": "瞄準2040年AI機器人霸權 日本攜手輝達打造2.75萬顆GPU超大算力中心 mirrordaily.news",
+      "id": "3d076666a445c60b",
+      "title": "台股崩跌「獲利全吐光」！他想繼續借錢抄底 全場嚇：變無底洞 - 三立新聞",
+      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBUX1pSOFM0cXQtX0duU2p1bEVQX0JEN1ZKa1k1aGMzd25nbmVvVHpGNTJsNnVpekR3ZmZkVW1SQk1YWWFWbDZrOE1IMA?oc=5",
+      "source": "Google News - 台股",
+      "published_at": "2026-07-17T15:05:48+08:00",
+      "snippet": "台股崩跌「獲利全吐光」！他想繼續借錢抄底 全場嚇：變無底洞 三立新聞",
       "sentiment_score": 0.0,
       "sentiment_label": "NEUTRAL",
       "affected_industries": [],
-      "impact_reason_zh": ""
+      "impact_reason_zh": "新聞主要報導散戶虧損與抄底行為，屬於市場情緒與個人事件，非產業結構性影響。"
+    },
+    {
+      "id": "1581756afdd80cf5",
+      "title": "切台積電CoPoS供應鏈！「面板廠」獲外資投32.2億元敲進5.9萬張 股價卻大殺8.20% - Yahoo股市",
+      "url": "https://news.google.com/rss/articles/CBMi3gJBVV95cUxONWZuT0l3NHd4SW1ieHdNQlpSM0ZoMUc5Z3VTTFRURXNhS1lUNWtmZl9INTQ4QWNmQ2c5VEg5el9LSnhOU0FDSm1jMURYcGozbnlXYUFOMy12eXE3allUTUY2UF9MVV9WM25YNVdKdG1icGUtT0phXzNyR0VFb2d1TUNlUnJKd0ZYdDhUSkpOTmZMdVhWNUF4SnhuZGJjeHpjSVJ4VWREdkFNMGw1U0NjQ1ZpVXA1cUFXLWx3a3o3YnpDdWZhX0dpbTE1UzNhZjdweEF2eUVYU2h2MWZUZFdVbk83eUpjY2NLSFREenk2ay03VTZScXR3TDhRMmhNbjlNUHhvX19HVUJDN1hOcUZ4OGt1UGVtUEF1WVQ3ZEp4VnlJelRzalFUdjQ4akM2OFVIVFY5X2tJeE9IVWlrc1lkSnNQZWlVTFRqMWg4Zk1YajhVMWNuTUU3T1hsNlFBQQ?oc=5",
+      "source": "Google News - 台股",
+      "published_at": "2026-07-17T20:00:00+08:00",
+      "snippet": "切台積電CoPoS供應鏈！「面板廠」獲外資投32.2億元敲進5.9萬張 股價卻大殺8.20% Yahoo股市",
+      "sentiment_score": 0.0,
+      "sentiment_label": "NEUTRAL",
+      "affected_industries": [],
+      "impact_reason_zh": "新聞提及面板廠為台積電供應鏈，但面板產業不在指定範圍，且為公司個別事件。"
+    },
+    {
+      "id": "3d941548dca47c3a",
+      "title": "三大法人買賣超 – 外資買超(6488)環球晶、(3481)群創，投信買超(1303)南亞、(2330)台積電，法人合計賣超2617.15億元 - sinotrade.com.tw",
+      "url": "https://news.google.com/rss/articles/CBMizwRBVV95cUxQTlI3NGlxZ3poQ1ExN1l6c0pWMlJ2a2NMX0lQYzVkWVN4UFFBLTl6ZkZ4YjI1bTdMdWlPbzk1S3ItVGljWElnaUpqcXl0ZG90VUdhTUswaVZYNXk4Q0Q4SWVPZExMaGxqU3pFYmE3UDdfYzNNQVJJZXdSd3dDY2pzcjg0UTEzVWhfc0VvSENfR3ptR2ZzWVFXX3lTNTRBMzEyQTBjYnQ5VkgwLWxIem4tUVlpRXpQMVRVaWJmT0ZVak93TnNkU1hQMmRUSXVYMDdTQmV2NkJ4amNmdU9zdVU4RGNEX3pDVk1HcTdkODhSVFRuY3RWQ2p1RDJ2N1FpLTl3azF1MEhlZkIybHVEZG8zYmNQUEV6WVgtRWhXWjRzRzFHcmM4eWtQRWpBQ2hOTTVLeTFJUzVQTXY3emY5dG5EdW5VR1ljZG5hc01DT2lRQktpSkxUWjhRT1p4UU96bk5TQTFpYU5BbUd6NGZCMGJLRmRsTFpaQUUzcUhNMWZ3N3laVmN6ZEZQTUo2UWJaNW96ZXpyc0ZXTkhsLUQtMjZpd3JTWkVHWkRjWHVPaFVEbGJvTHpITG1MWUJ5NW80Y25LVXExYVpJZ0hEdjBGQzEzTTZUZkZTVERXNDhkaS1TOXpjcHdjRjllRjJpN2FXWW92cmFVRG5EQUEzVUc5VV9LTXZrSTFrMUVNM2xiYTV0S0pxYkYzdWE0MTdmd3c1ekZvaGF6d2oxNjZTSXZfN2VJajFuejk5NHNPWDduTjNTRnE0ZmxBRzktMlctQXpKMnM?oc=5",
+      "source": "Google News - 台股法人",
+      "published_at": "2026-07-17T17:05:21+08:00",
+      "snippet": "三大法人買賣超 – 外資買超(6488)環球晶、(3481)群創，投信買超(1303)南亞、(2330)台積電，法人合計賣超2617.15億元 sinotrade.com.tw",
+      "sentiment_score": 0.0,
+      "sentiment_label": "NEUTRAL",
+      "affected_industries": [],
+      "impact_reason_zh": "新聞主要報導三大法人買賣超數據，屬於市場交易行為，非特定產業的結構性影響。"
     },
     {
       "id": "0811311f381e92ce",
@@ -1291,19 +1291,7 @@
       "sentiment_score": 0.0,
       "sentiment_label": "NEUTRAL",
       "affected_industries": [],
-      "impact_reason_zh": ""
-    },
-    {
-      "id": "117487c4c4fcbb83",
-      "title": "三大法人賣超431億元 齊買力積電近6萬張 外資大動作加碼台指期空單 - news.cnyes.com",
-      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBrVzkyeTd2RE5jRXVwcWcxdDV0WEN4eDRnUWx3eTlFR0NJSkpldlh2R3JSWjVwQkhUN1RBc0JhR2hYc0JjaFhSTlZONXlCRzA?oc=5",
-      "source": "Google News - 台股法人",
-      "published_at": "2026-07-16T18:09:51+08:00",
-      "snippet": "三大法人賣超431億元 齊買力積電近6萬張 外資大動作加碼台指期空單 news.cnyes.com",
-      "sentiment_score": 0,
-      "sentiment_label": "NEUTRAL",
-      "affected_industries": [],
-      "impact_reason_zh": "法人買賣超與期貨空單為市場短期資金流向，非特定產業結構性利多或利空。"
+      "impact_reason_zh": "新聞主要報導外資與三大法人大賣超，屬於市場整體現象，不涉及特定產業的結構性影響。"
     },
     {
       "id": "7d0f9c782b037258",
@@ -1312,70 +1300,67 @@
       "source": "Google News - Global AI",
       "published_at": "2026-07-16T23:45:59+08:00",
       "snippet": "NVIDIA's 75% Margins vs TSMC's Foundry Gamble: Two Paths to AI Dominance, One Winner 24/7 Wall St.",
-      "sentiment_score": 0.5,
-      "sentiment_label": "BULLISH",
+      "sentiment_score": -0.5,
+      "sentiment_label": "BEARISH",
       "affected_industries": [
         "SEMI",
         "AI_SERVER"
       ],
-      "impact_reason_zh": "報導強調台積電在AI晶片製造的關鍵地位，對半導體及AI伺服器產業具結構性利多。"
+      "impact_reason_zh": "報導探討台積電在AI領域的晶圓代工策略風險，可能影響半導體及AI伺服器產業。"
     },
     {
-      "id": "ed75fc3fe434da46",
-      "title": "TSMC Posts Record Quarter as AI Chip Demand Pushes Full-Year Growth Outlook Past 40% - Tech Times",
-      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPTHMzZ0ZlU3FCVXRxREFvdlYxN2VPdnNSTnFVbmhkRGxCT1dydTlsQnhkb2dLMmh0RnFJZWJvZEJGQ21sZ3B0ejFRTVMzZDR4SmpXMlZRa1BnUW9xSnp0X1RaNTYtMEtwMm5kSlNCR3NYZ0xIX0RjMEZIaHZGREU5NnY1Rm5oN2RJWk5sc2RjRkV1Rm9YT3NnWVFwOFB3QmJHNlN3RzNUVF9jS1ZVMVI1SEgtSTBYSUw0eUh3clpTX2RNY19vaW1YYk55TFltWHJV?oc=5",
+      "id": "db20796ffd608287",
+      "title": "Why AI Chip Stocks Are Falling: Nvidia, Micron, AMD and TSMC All Slide - Stocks Down Under",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1PYnA2MXlIZ2syLTBCaWkyYkJBb29YUGVxaGtITDlkcWw2T3hoNkdXeEdibDNRYjRLcTFuQ2xuWDB6cjd4RWRCaGJpYXNzRC1xOV9IV2NkWWFnTVloVXhKRXVSeE5xcmhSdHpF?oc=5",
       "source": "Google News - Global AI",
-      "published_at": "2026-07-16T21:37:50+08:00",
-      "snippet": "TSMC Posts Record Quarter as AI Chip Demand Pushes Full-Year Growth Outlook Past 40% Tech Times",
-      "sentiment_score": 0.8,
-      "sentiment_label": "BULLISH",
+      "published_at": "2026-07-17T01:58:08+08:00",
+      "snippet": "Why AI Chip Stocks Are Falling: Nvidia, Micron, AMD and TSMC All Slide Stocks Down Under",
+      "sentiment_score": -0.8,
+      "sentiment_label": "BEARISH",
       "affected_industries": [
         "SEMI",
         "AI_SERVER"
       ],
-      "impact_reason_zh": "台積電因AI晶片需求強勁而創紀錄營收並上調展望，顯示半導體及AI伺服器產業景氣樂觀。"
-    },
-    {
-      "id": "8b36de38f15d845e",
-      "title": "台股為何重挫逾2000點？杜金龍揭「回檔極限」：4大指標1次看- 上市櫃 - 旺得富理財網",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE8tS05VcUNiSU5UTTN1V0d0V2NsUHctcC1weEJqYVZ5RWsza3NYbG1SOXI5NWoyUkJaWE1HWHNNaUpmaFh0WXlfY0wtdUpqUEsydzYtaHRqSHJJMGpJTWR6SENfUkZPOENyRUE?oc=5",
-      "source": "Google News - 科技股",
-      "published_at": "2026-07-17T12:37:33+08:00",
-      "snippet": "台股為何重挫逾2000點？杜金龍揭「回檔極限」：4大指標1次看- 上市櫃 旺得富理財網",
-      "sentiment_score": 0,
-      "sentiment_label": "NEUTRAL",
-      "affected_industries": [],
-      "impact_reason_zh": "內容為台股大盤技術分析與回檔預測，非特定產業結構性利多或利空。"
-    },
-    {
-      "id": "40208fdc94f1a909",
-      "title": "台積電配息「有異動」！法說會二度上調全年展望 財務長一句話讓291萬名股東樂壞-Money錢 - CMoney投資網誌",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE4zUDRmZlNqc1Y0anZCVXhPbldwNzQ4N2VrM05Gd1FtaFBhbm5rUmUyZDJsMllFOWpRN3ZldlVLWDdfOHB5QlloemdpTjU4RU0wOTdlNDk4VDZISkZINUJhRHFQckJlR0d2MUR0V3BhYlJaLUl0Y1FrMUFZNmM?oc=5",
-      "source": "Google News - 科技股",
-      "published_at": "2026-07-16T20:36:42+08:00",
-      "snippet": "台積電配息「有異動」！法說會二度上調全年展望 財務長一句話讓291萬名股東樂壞-Money錢 CMoney投資網誌",
-      "sentiment_score": 0.8,
-      "sentiment_label": "BULLISH",
-      "affected_industries": [
-        "SEMI",
-        "AI_SERVER"
-      ],
-      "impact_reason_zh": "台積電二度上調全年展望，反映AI晶片需求強勁，對半導體及AI伺服器產業是利多。"
+      "impact_reason_zh": "報導分析Nvidia、Micron、AMD、台積電等AI晶片股下跌原因，顯示AI與半導體產業面臨逆風。"
     },
     {
       "id": "d951817908528e00",
       "title": "台股史詩重挫免驚？ 蔡明翰：五大雲端巨頭支出續增 台積電EPS仍有成長空間 | Newtalk - LINE TODAY",
       "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE84S2pRQ0ZGYkw2bXVzZEczeFJwN1pwUjRNRTliTE8ycTAyZ3JmT1VUY2dDYm9yLV9KTE9zd1RfbkM1RlNHSGZwc056ajBiV24wWW1yaGhn?oc=5",
       "source": "Google News - 法說會 / 財報",
-      "published_at": "2026-07-17T13:39:20+08:00",
+      "published_at": "2026-07-17T15:50:32+08:00",
       "snippet": "台股史詩重挫免驚？ 蔡明翰：五大雲端巨頭支出續增 台積電EPS仍有成長空間 | Newtalk LINE TODAY",
-      "sentiment_score": 0.7,
+      "sentiment_score": 0.6,
       "sentiment_label": "BULLISH",
       "affected_industries": [
         "AI_SERVER",
         "SEMI"
       ],
-      "impact_reason_zh": "五大雲端巨頭支出續增，顯示AI相關基礎建設需求強勁，利好AI伺服器與半導體產業。"
+      "impact_reason_zh": "專家指出五大雲端巨頭支出續增，有利於AI伺服器與半導體產業的長期需求。"
+    },
+    {
+      "id": "138279f50a641356",
+      "title": "台股雪崩上演「717慘案」！ 資深分析師喊免驚：台積電EPS還有成長空間 | 中廣新聞網 - LINE TODAY",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1PTlBVanRtcVlLdnZPMTRZVkpiWE1TV1oxX2ZNaHRVSWhEejNfRDE0WU1KRE4ySFBySDAtYVhYbnU4UDd2dGVlQWZtY05oWV9feHViX1Rn?oc=5",
+      "source": "Google News - 法說會 / 財報",
+      "published_at": "2026-07-17T17:07:36+08:00",
+      "snippet": "台股雪崩上演「717慘案」！ 資深分析師喊免驚：台積電EPS還有成長空間 | 中廣新聞網 LINE TODAY",
+      "sentiment_score": 0.0,
+      "sentiment_label": "NEUTRAL",
+      "affected_industries": [],
+      "impact_reason_zh": "內容主要為市場評論及分析師對台積電個股看法，非產業結構性利多或利空。"
+    },
+    {
+      "id": "bd2cca704379c3c2",
+      "title": "外資喊4200元目標價也無效！台積電創收盤最大跌點仍奪成交王「這檔」掃到台積電法說颱風尾慘摜跌停 - Yahoo股市",
+      "url": "https://news.google.com/rss/articles/CBMi0ARBVV95cUxPMkhMRlpZUTduaVY1SUc1S3JCN29PU0xLcTRDWkU5b0lhdGwxcWRXYkhMVFc4cm9CVEM2Sm5CeXlmMjBuR2ZuaDRzLU1zOEl2WklyRTRYaFNWb3FSQy12cjlCT0Y3SV9pck83WHFkdWFXbmx3Z2FGX1NVUW1IVTVsYXI0OWU5cHplZW5fREs0Z0dDWHFfTE5JU29UWHpOWDA0UDNQRXlNU2lVbXlYa3JVMjYyUDdhM2dGaEZiX1ZQRUk2VHJ3T0otdkF0N2JjaFlMb0FhOVZLSUl6UEpVSkwxRHNuRWo4SndOSVBqSTFpODlZS1A1U2JOQnBncUIzUkg4d3l1cTVqRkdEZkZQSExCSXA5d1FQeDM2QkMzblJGakNZd0tsVTU5TDB4NWpYNXFNbzNNNjhfbDVKZmtmNG90WUs5WFNSSmRvVWY1SkU0TTV6aENfREp4Zzh6bWxsTkxTQXdhMWZweUVGWENWVmVkZGtXa0E0cWJyWlN2czE0Vk5hUFpwTHl5azd2dG5SQ3hPN3Fjem1YQ2kxbmVsaEpIa0ExQUZyZ2JsQlVrc282R1FfMk9nejRDQmNZQVh6TVdHUmNJVU9zamZuVTdhdUhPdW5wNDBabmZSdHhHd0NLZ0IxbmQ0eGpwUy1WYTU5VFBNTk9VQk5KU3o3OEdZS0NLTTJ2a3VyTXctZThIZTZSQXFYb3RBdjJGZVFqc3Vkc0pzTzdja1FJZ2VYbEZTYVI4RUQ2LUhPZ2FlQjM5cEZjeEl5aFo3bWtBOHQ3UHdDQ1d6?oc=5",
+      "source": "Google News - 外資評等 / 目標價",
+      "published_at": "2026-07-17T15:26:00+08:00",
+      "snippet": "外資喊4200元目標價也無效！台積電創收盤最大跌點仍奪成交王「這檔」掃到台積電法說颱風尾慘摜跌停 Yahoo股市",
+      "sentiment_score": 0.0,
+      "sentiment_label": "NEUTRAL",
+      "affected_industries": [],
+      "impact_reason_zh": "內容主要為台積電股價波動及個股事件，非產業結構性利多或利空。"
     },
     {
       "id": "5a0d16466151ba9a",
@@ -1384,22 +1369,10 @@
       "source": "Google News - 外資評等 / 目標價",
       "published_at": "2026-07-17T12:31:49+08:00",
       "snippet": "台積電法說後多家外資上調目標價 最高飆到4200元 news.cnyes.com",
-      "sentiment_score": 0,
+      "sentiment_score": 0.0,
       "sentiment_label": "NEUTRAL",
       "affected_industries": [],
-      "impact_reason_zh": "內容為券商上調個股目標價，屬於券商喊單，非產業結構性利多。"
-    },
-    {
-      "id": "7597c0c5a1d3434b",
-      "title": "今年EPS衝12元、目標價300元！「這玻纖布廠」卻遭外資連9砍 狂倒5.2萬張抽回117億元 - Yahoo股市",
-      "url": "https://news.google.com/rss/articles/CBMi6gJBVV95cUxNZXFNSXRidTZvNGJVZDR2aU5hQjVjX0lWbGx6TkJHYzBDcnl5TDZUZUtmdS1fcnlvT1l0UWNfV2k1WlppR1ItaV8xaXN3Z191YUg4R0hhNGczM2tRY0dKRlVYNG1xN0lvZ0V2Z2tST3dCanE3bk5WeG5fT0NWdVNUMHYwUVV3ZkMtZ256MGdWQm53TFlJSHhSM2ctUFVNZklCVkE0T2tEV3ZFZHozSGJ4U053RGVmdEhHZDBOdzMzN2psYUdEYm91MUpKRDk5a0V5Ni14MTR6MXJSSk8tSWxQMFBSVTBnVjdsZ0NQT2RaalNYREdRX0R0RWszMVAzLXF3WDBHWFhyOEYyUUhzWjk0ZWlJWWx2UVhwd0l4Rkl5SndzQnl6OWRrSTMtUjNScFFuN1gyTzJuYi1ySEJZUG9WTG5xQlIxX1REdmRLVUV2bUdJa3FhMzQxamFTOXJLdzNYRjQ0TDMtRU1HQQ?oc=5",
-      "source": "Google News - 外資評等 / 目標價",
-      "published_at": "2026-07-16T20:30:00+08:00",
-      "snippet": "今年EPS衝12元、目標價300元！「這玻纖布廠」卻遭外資連9砍 狂倒5.2萬張抽回117億元 Yahoo股市",
-      "sentiment_score": 0,
-      "sentiment_label": "NEUTRAL",
-      "affected_industries": [],
-      "impact_reason_zh": "內容為特定玻纖布廠的個股表現與外資買賣超，非產業結構性利多或利空。"
+      "impact_reason_zh": "內容為外資上調台積電目標價，屬券商喊單及個股事件，非產業結構性利多。"
     },
     {
       "id": "d4ba2494c2c84af8",
@@ -1408,10 +1381,10 @@
       "source": "Google News - 政府標案 / 科技採購",
       "published_at": "2026-07-17T09:04:00+08:00",
       "snippet": "綠友友廠商奪國防部9.8億標案「3度驗收不合格」 黃國昌點名顧立雄說清楚 梅花新聞網",
-      "sentiment_score": 0,
+      "sentiment_score": 0.0,
       "sentiment_label": "NEUTRAL",
       "affected_industries": [],
-      "impact_reason_zh": "內容為特定廠商國防標案驗收不合格的個案爭議，非產業結構性利多或利空。"
+      "impact_reason_zh": "內容為特定廠商國防標案驗收不合格事件，非產業結構性利多或利空。"
     },
     {
       "id": "44362e8683db6d69",
@@ -1420,10 +1393,10 @@
       "source": "Google News - 政府標案 / 科技採購",
       "published_at": "2026-07-17T11:56:15+08:00",
       "snippet": "【11:55 即時新聞】臺境*(8476)股價小幅走高，受營收爆發與國防標案題材支撐＋中多格局下主力中長天期偏多佈局 CMoney投資網誌",
-      "sentiment_score": 0,
+      "sentiment_score": 0.0,
       "sentiment_label": "NEUTRAL",
       "affected_industries": [],
-      "impact_reason_zh": "內容為特定公司股價走勢與營收爆發，非產業結構性利多或利空。"
+      "impact_reason_zh": "內容為特定公司股價走勢、營收及國防標案題材，非產業結構性利多。"
     },
     {
       "id": "891620a279ce1cb2",
@@ -1432,10 +1405,10 @@
       "source": "Google News - 政府標案 / 科技採購",
       "published_at": "2026-07-16T23:27:13+08:00",
       "snippet": "無人機反制系統3次驗收不合格黃國昌點名顧立雄說清楚：「創未來」太大尾才能拿9.8億標案？ | 蕭宥宸 | 新聞 Storm.mg",
-      "sentiment_score": 0,
+      "sentiment_score": 0.0,
       "sentiment_label": "NEUTRAL",
       "affected_industries": [],
-      "impact_reason_zh": "內容為特定廠商國防標案驗收不合格的個案爭議，非產業結構性利多或利空。"
+      "impact_reason_zh": "內容為特定廠商國防標案驗收不合格事件，非產業結構性利多或利空。"
     },
     {
       "id": "f9a0dda8d483f413",
@@ -1444,12 +1417,12 @@
       "source": "Google News - 金管會 裁罰 / 新規 / 資本市場",
       "published_at": "2026-07-17T02:36:00+08:00",
       "snippet": "上半年金融裁罰近億元 銀行3大重案推升罰鍰 蕃新聞",
-      "sentiment_score": -0.5,
+      "sentiment_score": -0.6,
       "sentiment_label": "BEARISH",
       "affected_industries": [
         "FINANCE"
       ],
-      "impact_reason_zh": "金融業上半年裁罰金額近億元，顯示監管趨嚴及合規成本增加，對金融業為利空。"
+      "impact_reason_zh": "上半年金融業裁罰金額近億元，顯示監管趨嚴及銀行業營運風險增加，對金融產業為利空。"
     },
     {
       "id": "ee3cdd95fcc99ead",
@@ -1458,26 +1431,26 @@
       "source": "Google News - 金管會 裁罰 / 新規 / 資本市場",
       "published_at": "2026-07-17T08:30:00+08:00",
       "snippet": "△興櫃：歐付寶(6878)獲金管會核准跨境匯兌，第四季搶攻千億移工匯兌市場 富聯網",
-      "sentiment_score": 0.6,
+      "sentiment_score": 0.5,
       "sentiment_label": "BULLISH",
       "affected_industries": [
         "FINANCE"
       ],
-      "impact_reason_zh": "金管會核准電支業者歐付寶開辦跨境匯兌，擴大電子支付服務範圍，對金融業是利多。"
+      "impact_reason_zh": "歐付寶獲准跨境匯兌並搶攻千億移工匯兌市場，為金融科技領域帶來新商機，對金融產業為利多。"
     },
     {
-      "id": "cdae432dae688058",
-      "title": "韓股震盪禍首？金管會：台灣不開放單一股槓桿 ETF | 金融脈動 | 金融 - 經濟日報",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1rYmc2QTJJbUVoWVI0QWw3d2NJLXo0OUlkaGZSOFNkbnhkZkNsSmtCRXVqVWpmMkxXS3lWZFZfY1lncmlIaWlqUFNBRE1ERkFKTDVzX2U0Wk8yQQ?oc=5",
+      "id": "8708f1b373377a46",
+      "title": "台股崩跌｜南韓槓桿斷裂影響全球 金管會：台灣禁發「單一股票槓桿ETF」 - 壹蘋新聞網",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNMFdaTFBlR21fVmU0cUxkVzE3Y2FiQ3dMNUY5dU5WazFCR2tTaEFfMnFiS1ZFUFExdkZuY0lmZzNSMEI4S2V2N0Q2c2tOdVFXbFpXV3dXbEI0MnUxOGtTQVFVTEtWQjdtUlRmc20zaVlfcDVRZ3lHd2JkLVdQTXVCbXZn?oc=5",
       "source": "Google News - 金管會 裁罰 / 新規 / 資本市場",
-      "published_at": "2026-07-16T20:46:12+08:00",
-      "snippet": "韓股震盪禍首？金管會：台灣不開放單一股槓桿 ETF | 金融脈動 | 金融 經濟日報",
-      "sentiment_score": -0.4,
+      "published_at": "2026-07-17T18:46:00+08:00",
+      "snippet": "台股崩跌｜南韓槓桿斷裂影響全球 金管會：台灣禁發「單一股票槓桿ETF」 壹蘋新聞網",
+      "sentiment_score": -0.5,
       "sentiment_label": "BEARISH",
       "affected_industries": [
         "FINANCE"
       ],
-      "impact_reason_zh": "金管會不開放單一個股槓桿ETF，限制金融商品發展與市場規模，對金融業為利空。"
+      "impact_reason_zh": "金管會禁止發行單一股票槓桿ETF，限制金融商品發展，對金融產業為利空。"
     },
     {
       "id": "f37c2a8ceb2e2bef",
@@ -1486,12 +1459,12 @@
       "source": "Google News - 金管會 裁罰 / 新規 / 資本市場",
       "published_at": "2026-07-17T00:39:54+08:00",
       "snippet": "南韓個股槓桿ETF 金管會：不開放相關商品 經濟日報",
-      "sentiment_score": -0.4,
+      "sentiment_score": -0.5,
       "sentiment_label": "BEARISH",
       "affected_industries": [
         "FINANCE"
       ],
-      "impact_reason_zh": "金管會不開放單一個股槓桿ETF，限制金融商品發展與市場規模，對金融業為利空。"
+      "impact_reason_zh": "金管會不開放個股槓桿ETF，限制金融商品發展，對金融產業為利空。"
     },
     {
       "id": "75202a71b29f2dc5",
@@ -1500,38 +1473,39 @@
       "source": "Google News - 金管會 裁罰 / 新規 / 資本市場",
       "published_at": "2026-07-17T03:16:36+08:00",
       "snippet": "電支業搶千億移工匯款商機 歐付寶獲准經營國外小額匯兌 經濟日報",
-      "sentiment_score": 0.6,
+      "sentiment_score": 0.5,
       "sentiment_label": "BULLISH",
       "affected_industries": [
         "FINANCE"
       ],
-      "impact_reason_zh": "金管會核准電支業者歐付寶開辦跨境匯兌，擴大電子支付服務範圍，對金融業是利多。"
+      "impact_reason_zh": "電支業者獲准經營國外小額匯兌，搶攻千億移工匯款商機，對金融產業為利多。"
     },
     {
-      "id": "328f4ddef280eea5",
-      "title": "首家電支跨境匯兌！金管會准「歐付寶」開辦國外小額匯兌、移工匯款 - 自由財經",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5vMEtYSWZFT3J4d3hjaEx2MHQ1VjVTM1oyMXNoUDJvay1NUmRBSDltNU81OUczdWJaTmZwc2lyT0NjdzdHbm5JUlA3dXFUWnpSTENCRkxYSlhuaTNkMzhr0gFkQVVfeXFMTVJ4OE1tZER0WlVtNDdiQkJRQmN0aTRXQzlTNFZMWGh5amx1akFNd2ZmX19lSjZ2RlZybEN4dUhZUkZpV2VwSUpBOTJENGVobUVTT19BTDA5UnhvQUJfNmx6dnV4Zg?oc=5",
-      "source": "Google News - 金管會 裁罰 / 新規 / 資本市場",
-      "published_at": "2026-07-16T17:06:54+08:00",
-      "snippet": "首家電支跨境匯兌！金管會准「歐付寶」開辦國外小額匯兌、移工匯款 自由財經",
-      "sentiment_score": 0.6,
-      "sentiment_label": "BULLISH",
-      "affected_industries": [
-        "FINANCE"
-      ],
-      "impact_reason_zh": "金管會核准電支業者歐付寶開辦跨境匯兌，擴大電子支付服務範圍，對金融業是利多。"
-    },
-    {
-      "id": "d2f83d491f3ff425",
-      "title": "因應歐盟鋼鐵關稅配額制 經濟部出口管理新規7/24上路 - Yahoo新聞",
-      "url": "https://news.google.com/rss/articles/CBMi4gJBVV95cUxNSmk4RGVXOE9EWEdVSzl6MlB6bE1Hc3MtZWw3UlI5YUtxMm1uOHFkRHhldVZxanlFSS14WHVxMVVybS1uTTlqWlR4eVoyOTJWNXc4aGI3ODZLNHNTR29GTFZPOE5iMUZTcTQ1R3BOaFp1LTVTN0JJSFNJRTd2MjRKQ21JX0FIVEduaHJvLWF5YW1PSF90Q3RoSWRLQzVLVWZjdGhUT01SVzJmcnNfYXdKbnpZcTZDRTJsUm54OWVqcFZFcDRTT3JUdm56bGxsYUg3ZGxKUEpjR0hMdURSWDJ4dlo0V182S3JEVGJCNm5Pa3BzYmRTSC1YaEtqTl9lYllQb1ZneHFiWXYxcU9uWGVrVmFlMEtHOWRjeGlFQVhfZE1MVU5IOTRHRzhDRGtWWFRQZHpCZEJqaU82Zi1EQlJuVGowM2lTQWl1VW03N3YwanpTUDZvdWZZUUtjMHlJRjdsMVE?oc=5",
+      "id": "b10034ad70274443",
+      "title": "無人機出口破2億美元暴風成長百倍！經濟部盤點自主研發「實績」駁斥政治抹黑 - news.cnyes.com",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE43dThkVnlYdFU4Vk5NMVktc1BXay1MMlJlRFRuUk5kcjgtWHFsSlFRQWFiSV8tVU55ZllRWWNFYzBxbjhFOVVlenFCc2l4Wm8?oc=5",
       "source": "Google News - 經濟部 / 工業局 / 投審會",
-      "published_at": "2026-07-16T19:21:00+08:00",
-      "snippet": "因應歐盟鋼鐵關稅配額制 經濟部出口管理新規7/24上路 Yahoo新聞",
-      "sentiment_score": 0,
+      "published_at": "2026-07-17T20:05:21+08:00",
+      "snippet": "無人機出口破2億美元暴風成長百倍！經濟部盤點自主研發「實績」駁斥政治抹黑 news.cnyes.com",
+      "sentiment_score": 0.6,
+      "sentiment_label": "BULLISH",
+      "affected_industries": [
+        "SEMI",
+        "PCB"
+      ],
+      "impact_reason_zh": "台灣無人機出口額暴風成長百倍，顯示相關零組件如半導體及PCB需求增加，對產業為利多。"
+    },
+    {
+      "id": "dcf71fecaecca0be",
+      "title": "助攻外泌體出海 經濟部祭千萬補助挺國家隊 - Yahoo新聞",
+      "url": "https://news.google.com/rss/articles/CBMiuAJBVV95cUxQbGVsSEtObmpETzZfR0c0dm5yUHdSZ0ZoeG5QXzRXWDNXZ01NR1U1dXBNOHZEQmoxMnFSRWxsbHFBcHUwdDhaUXJkaUY1bWYtZHFjZGVBcWV4TmpCTk4yRjU0cGZScnZRX29WQnJucXoxaGEzVzBYRHdCNURYZHhXcG5Hc3A1ZzZBci11TXZnVGQ5MkJWRVBqdWdCVDJnUk52YWwwd0ZHbTQ0N2s0OXgtZC1seGM3Y3JCM0xyR3hYRTc2NWdDLU9rdkxYVmpDRVlfVWs5VUFUUVY3UUF4TnQtSzVXb05aeTlReF92eUtMNk9xcnVjU0RUTXFEampRWmlnQ3BGMHVfeTJIaTk1MktvbFdnS3g2VFMyekpCREliRHNrejd1Rkd5SDFSeFItRDctZGFTVFNwX0Y?oc=5",
+      "source": "Google News - 經濟部 / 工業局 / 投審會",
+      "published_at": "2026-07-17T17:01:00+08:00",
+      "snippet": "助攻外泌體出海 經濟部祭千萬補助挺國家隊 Yahoo新聞",
+      "sentiment_score": 0.0,
       "sentiment_label": "NEUTRAL",
       "affected_industries": [],
-      "impact_reason_zh": "歐盟鋼鐵關稅配額制及台灣出口管理新規，主要影響鋼鐵業，非列出之產業。"
+      "impact_reason_zh": "經濟部補助外泌體技術發展，屬生技產業範疇，非指定分析產業。"
     },
     {
       "id": "073737d88bfa85ff",
@@ -1540,22 +1514,22 @@
       "source": "Google News - 經濟部 / 工業局 / 投審會",
       "published_at": "2026-07-17T00:28:40+08:00",
       "snippet": "因應歐盟關稅新制 經濟部：九類鋼品輸歐納管 UDN",
-      "sentiment_score": 0,
+      "sentiment_score": 0.0,
       "sentiment_label": "NEUTRAL",
       "affected_industries": [],
-      "impact_reason_zh": "歐盟鋼鐵關稅配額制及台灣出口管理新規，主要影響鋼鐵業，非列出之產業。"
+      "impact_reason_zh": "內容為歐盟鋼品關稅新制，影響鋼鐵產業，非指定分析產業。"
     },
     {
-      "id": "f5ecf2a832042297",
-      "title": "防歐盟鋼鐵配額遭占用 自由港區463項鋼品出口須先申請許可 - 自由財經",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFA3VkYyWmpSdkFMbVZOYXd1aXdOeWtBMjVyNml1dGV2eExXN3UtRTBOUGZNaWxQWlMxa3MwbGU2OFkxMzljX2cyWEd1LXMtZHVWMlY5WjZJeEtUdHFFWXkw0gFkQVVfeXFMTmJqcmFwZ3ZvY1ZNUFBibWhpYnEzdE9qWFBuaU54cmUxVEZmZ3MyUm1GeHFVNWsydUtOcDhwS0VaSC1tUFBKM1o2NXN0U2FLbGJrVFNlbHlYODVTNHVKbzNyMmVLbg?oc=5",
-      "source": "Google News - 經濟部 / 工業局 / 投審會",
-      "published_at": "2026-07-16T19:32:18+08:00",
-      "snippet": "防歐盟鋼鐵配額遭占用 自由港區463項鋼品出口須先申請許可 自由財經",
-      "sentiment_score": 0,
+      "id": "79cf31de82c5bb10",
+      "title": "台揚私募延遲重訊 證交所開罰 - UDN",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5oNF8ycGFEVDROdHppZi1hcTJfeThsZFdPMDRFU19CU1lub202MjlnMjNTaU9LcXUwUVJlWDRieHluTWVMRFJtcEVGLTQtNk5JU1BvNlc4X2MtWGhKZk9nYXQ0U29MMDlOdVFHSWxOSWFiZ9IBVkFVX3lxTE43bERETW5vUk9fXzNZZ0JCbGwtQ1RpeWpLQl9LWHpVWEFIX1UzZHNaeXExV3djVzlheWdJRy1wZlI1UkRNNzdBRXlPNXdzUWQ5VmJIaXVn?oc=5",
+      "source": "Google News - 證交所 / 重大訊息 / 上市公告",
+      "published_at": "2026-07-17T18:00:26+08:00",
+      "snippet": "台揚私募延遲重訊 證交所開罰 UDN",
+      "sentiment_score": 0.0,
       "sentiment_label": "NEUTRAL",
       "affected_industries": [],
-      "impact_reason_zh": "歐盟鋼鐵關稅配額制及台灣出口管理新規，主要影響鋼鐵業，非列出之產業。"
+      "impact_reason_zh": "內容為特定公司因延遲重訊遭證交所開罰，屬個股事件，非產業結構性利多或利空。"
     },
     {
       "id": "91ed3dcafd7aad61",
@@ -1564,10 +1538,34 @@
       "source": "Google News - 證交所 / 重大訊息 / 上市公告",
       "published_at": "2026-07-17T08:35:00+08:00",
       "snippet": "《證交所》兆捷科技送件申請股票創新板上市- 證券 工商時報",
-      "sentiment_score": 0,
+      "sentiment_score": 0.0,
       "sentiment_label": "NEUTRAL",
       "affected_industries": [],
-      "impact_reason_zh": "內容為特定公司申請或獲准上市，屬於個股事件，非產業結構性利多。"
+      "impact_reason_zh": "內容為特定公司申請股票上市，屬個股事件，非產業結構性利多。"
+    },
+    {
+      "id": "ab1f7e0b50df3f58",
+      "title": "毒油事件延遲發重訊 證交所對這4上市公司各開30萬違約金 - 知新聞",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBsTkRTYUZQa1V2ejQxYlUxWHh0eWtPZXlrcXBPVkU3ejAxNG1VckJpVkx3VEYwTGNCSTVIZEUzLWppR0kzRGxzZDFGamtPMUl2NXR5VTM4SUM3MFRVZGtZTXZvYmZLTmF3VVF5RW1XTQ?oc=5",
+      "source": "Google News - 證交所 / 重大訊息 / 上市公告",
+      "published_at": "2026-07-17T19:27:00+08:00",
+      "snippet": "毒油事件延遲發重訊 證交所對這4上市公司各開30萬違約金 知新聞",
+      "sentiment_score": 0.0,
+      "sentiment_label": "NEUTRAL",
+      "affected_industries": [],
+      "impact_reason_zh": "內容為特定公司因毒油事件延遲重訊遭證交所開罰，屬個股事件，非產業結構性利多或利空。"
+    },
+    {
+      "id": "96ae331313198545",
+      "title": "致癌油延燒 證交所開罰泰山、南僑、福壽、福懋油各30萬 - 自由時報",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE96OXc3Um0tRGpvUC1uZDl4MTMwcjd2YkpJa1pWX0VfeDE1ZHVRTGd1RER2MUZUeEhFeHJjeW9xUURscDI5NUpSdndXNUt0REx3dFk0UUxCTTk?oc=5",
+      "source": "Google News - 證交所 / 重大訊息 / 上市公告",
+      "published_at": "2026-07-17T19:48:20+08:00",
+      "snippet": "致癌油延燒 證交所開罰泰山、南僑、福壽、福懋油各30萬 自由時報",
+      "sentiment_score": 0.0,
+      "sentiment_label": "NEUTRAL",
+      "affected_industries": [],
+      "impact_reason_zh": "內容為特定公司因致癌油事件遭證交所開罰，屬個股事件，非產業結構性利多或利空。"
     },
     {
       "id": "8f524545347a3ce2",
@@ -1576,22 +1574,22 @@
       "source": "Google News - 證交所 / 重大訊息 / 上市公告",
       "published_at": "2026-07-17T07:46:00+08:00",
       "snippet": "興櫃：證交所上市審議會週四審議通過東擎科技(7710)初次申請股票上市案 富聯網",
-      "sentiment_score": 0,
+      "sentiment_score": 0.0,
       "sentiment_label": "NEUTRAL",
       "affected_industries": [],
-      "impact_reason_zh": "內容為特定公司申請或獲准上市，屬於個股事件，非產業結構性利多。"
+      "impact_reason_zh": "內容為特定公司申請股票上市獲審議通過，屬個股事件，非產業結構性利多。"
     },
     {
-      "id": "9c61b0b88d78f17f",
-      "title": "爆！違反重大訊息規定　中纖遭重罰3萬！ - 鏡週刊Mirror Media",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE02S2RfYldodzFLZHZYT0ZqTkMwRXlqT0VYeFR4VHVBMmVlM01NUGhYTHkzWktMM0pMLXpqTl9hNkpFemlqd3VldFVwYkZULXFmRXhOMWZPUld0eEptY20zRkVn0gFiQVVfeXFMTTZLZF9iV2h3MUtkdlhPRmpOQzBFeWpPRVh4VHhUdUEyZWUzTU1QaFhMeTNaS0wzSkwtempOX2E2SkV6aWp3dWV0VXBiRlQtcWZFeE4xZk9SV3R4Sm1jbTNGRWc?oc=5",
+      "id": "22e443a8ab1a410d",
+      "title": "致癌油延燒 證交所開罰泰山、南僑、福壽、福懋油各30萬 - 自由財經",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFB0c2pkTnZJbWZjdS1lWHlMbnVHeGRjOF91SHdxNUhQWU92UkZreXkzWlFuTUppQldBSEFzTHItV0FkQmsyb2dMVVRyWXBFUWJTT2JvUnZ1QVc1ZzU0ZG9LWEdRMEHSAWRBVV95cUxQdHNqZE52SW1mY3UtZVh5TG51R3hkYzhfdUh3cTVIUFlPdlJGa3l5M1pRbk1KaUJXQUhBc0xyLVdBZEJrMm9nTFVUcllwRVFiU09ib1J2dUFXNWc1NGRvS1hHUTBB?oc=5",
       "source": "Google News - 證交所 / 重大訊息 / 上市公告",
-      "published_at": "2026-07-17T03:40:00+08:00",
-      "snippet": "爆！違反重大訊息規定　中纖遭重罰3萬！ 鏡週刊Mirror Media",
-      "sentiment_score": 0,
+      "published_at": "2026-07-17T19:46:47+08:00",
+      "snippet": "致癌油延燒 證交所開罰泰山、南僑、福壽、福懋油各30萬 自由財經",
+      "sentiment_score": 0.0,
       "sentiment_label": "NEUTRAL",
       "affected_industries": [],
-      "impact_reason_zh": "內容為特定公司違反重大訊息規定遭罰，屬於個股事件，非產業結構性利空。"
+      "impact_reason_zh": "內容為特定公司因致癌油事件遭證交所開罰，屬個股事件，非產業結構性利多或利空。"
     }
   ],
   "recommendations": [
@@ -2561,9 +2559,10 @@
       "bullish_score": 0.39,
       "signal_strength": "WEAK",
       "trigger_news_ids": [
-        "5e6fd2b08166603f"
+        "5e6fd2b08166603f",
+        "b10034ad70274443"
       ],
-      "reason_zh": "台積電、聯電等半導體大廠及欣興等PCB指標廠重挫跌停，顯示產業面臨嚴重利空。",
+      "reason_zh": "台股暴跌導致台積電、聯電、南亞科、華邦電等半導體及欣興等PCB大廠股價重挫。",
       "related_industries": [
         "PCB"
       ],
@@ -4707,13 +4706,13 @@
       "bullish_score": 0.24,
       "signal_strength": "WEAK",
       "trigger_news_ids": [
+        "fc512553c0207f6c",
         "5e6fd2b08166603f",
-        "92562c1eb826071b",
         "dcb2a57018930c7d",
-        "69b5f6b36cf60da4",
-        "951563d5c091b7a3"
+        "14c55740404eff11",
+        "69b5f6b36cf60da4"
       ],
-      "reason_zh": "半導體產業出現跌停潮，顯示該產業面臨極度嚴重的利空衝擊。",
+      "reason_zh": "台股暴跌導致台積電、聯電、南亞科、華邦電等半導體及欣興等PCB大廠股價重挫。",
       "related_industries": [
         "SEMI"
       ],
@@ -4947,8 +4946,10 @@
       "news_score": 0.0,
       "bullish_score": 0.22,
       "signal_strength": "WEAK",
-      "trigger_news_ids": [],
-      "reason_zh": "",
+      "trigger_news_ids": [
+        "dcb2a57018930c7d"
+      ],
+      "reason_zh": "台積電法說會失靈導致股價重挫，日月光及台達電亦大跌，影響半導體、AI伺服器及電動車產業。",
       "related_industries": [
         "EV"
       ],
@@ -5365,9 +5366,10 @@
       "bullish_score": 0.18,
       "signal_strength": "WEAK",
       "trigger_news_ids": [
-        "5e6fd2b08166603f"
+        "5e6fd2b08166603f",
+        "b10034ad70274443"
       ],
-      "reason_zh": "台積電、聯電等半導體大廠及欣興等PCB指標廠重挫跌停，顯示產業面臨嚴重利空。",
+      "reason_zh": "台股暴跌導致台積電、聯電、南亞科、華邦電等半導體及欣興等PCB大廠股價重挫。",
       "related_industries": [
         "PCB"
       ],
@@ -7619,11 +7621,11 @@
   "meta": {
     "pipeline_version": "1.0.0",
     "ai_engine": "gemini-2.5-flash",
-    "total_news_fetched": 123,
-    "total_news_analyzed": 73,
+    "total_news_fetched": 120,
+    "total_news_analyzed": 120,
     "rss_sources_count": 15,
     "tickers_with_technicals": 97,
-    "elapsed_seconds": 212.0,
+    "elapsed_seconds": 238.6,
     "total_stocks_scanned": 1244,
     "chips_candidates": 97
   },
