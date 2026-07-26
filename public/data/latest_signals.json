@@ -1,27 +1,36 @@
 {
   "schema_version": "2.0",
-  "generated_at": "2026-07-26T04:08:39.871768+08:00",
-  "next_update_at": "2026-07-26T10:08:39.871768+08:00",
+  "generated_at": "2026-07-26T12:23:01.928199+08:00",
+  "next_update_at": "2026-07-26T18:23:01.928199+08:00",
   "window": {
-    "from": "2026-07-25T04:08:39.871768+08:00",
-    "to": "2026-07-26T04:08:39.871768+08:00",
+    "from": "2026-07-25T12:23:01.928199+08:00",
+    "to": "2026-07-26T12:23:01.928199+08:00",
     "hours": 24
   },
   "market_sentiment": {
-    "overall_score": 0.537,
+    "overall_score": 0.382,
     "label": "偏多",
-    "bullish_industries": 3,
+    "bullish_industries": 2,
     "bearish_industries": 0,
-    "neutral_industries": 0
+    "neutral_industries": 1
   },
   "industries": [
     {
       "industry_code": "SEMI",
       "industry_name_zh": "半導體",
-      "sentiment_score": 0.45,
+      "sentiment_score": -0.02,
+      "signal": "NEUTRAL",
+      "news_count": 5,
+      "summary_zh": "三星與博通建立2000億美元AI半導體聯盟，顯示AI半導體市場巨大潛力，利多半導體產業。",
+      "key_drivers": []
+    },
+    {
+      "industry_code": "AI_SERVER",
+      "industry_name_zh": "AI 伺服器",
+      "sentiment_score": 0.667,
       "signal": "BULLISH",
-      "news_count": 4,
-      "summary_zh": "報導指出若AI支出達兆美元，Nvidia、Broadcom及台積電將受益最多，對半導體與AI伺服器產業為極大利多。",
+      "news_count": 3,
+      "summary_zh": "AMD掌握近半伺服器CPU市場並瞄準2兆美元商機，對半導體及AI伺服器產業具結構性利多。",
       "key_drivers": []
     },
     {
@@ -30,67 +39,48 @@
       "sentiment_score": 0.5,
       "signal": "BULLISH",
       "news_count": 1,
-      "summary_zh": "電源雙雄法說會聚焦800VDC導入時程，顯示電動車產業技術升級趨勢，對EV產業為利多。",
-      "key_drivers": []
-    },
-    {
-      "industry_code": "AI_SERVER",
-      "industry_name_zh": "AI 伺服器",
-      "sentiment_score": 0.66,
-      "signal": "BULLISH",
-      "news_count": 5,
-      "summary_zh": "報導指出若AI支出達兆美元，Nvidia、Broadcom及台積電將受益最多，對半導體與AI伺服器產業為極大利多。",
+      "summary_zh": "電源雙雄聚焦800VDC導入時程，顯示高功率電源需求成長，利於EV及AI伺服器產業發展。",
       "key_drivers": []
     }
   ],
   "news": [
     {
-      "id": "d596289c028daba5",
-      "title": "台股慘跌1195點！阮慕驊點名「這3檔」抗跌還能反彈 - Yahoo股市",
-      "url": "https://news.google.com/rss/articles/CBMivgJBVV95cUxQenE2OXlrT0x2UmJvZUpuVS1GVnhKcTBoU0FEX05MSk03MjFxQkJicFl2cE9jOVZMQUpESHFwdXA4SmYwLVBreS1TY3dFNHE3R3RGWkxNS2dRdHpwaDRWNmQ2ZERvYkM1YlRRN0xxbVkwRjhfZjRMNWNsTlpvTDhyX2tMQk9qTTAycGRLa3p5TDJWb1lHeGk2SDZkeUd6YzZEeFFQaHpaUGV2aGlaYnJ4VGUybWkwUkRGZlFtYnZ4NTZXSC0zS0w4QllQNnlwRzd5RkUzYW1UQXdTdHB2U1JfR3lZY3YwYTdBc2Z6aWJ0ZWVYSDdxd1hzNTl6dGhfTTkyTXBHOEtJR2RJU1VhVHRmdzVLRGJHcTdBLWNYd3BmcjRIOWFaM3JydFdrZWhBVmYxbFFneEhUWHpwdDByMEE?oc=5",
+      "id": "d826e2bab52519cb",
+      "title": "台股恐怕還要繼續跌？阮慕驊預告下周6大事件：這2天是股市大考日 - Yahoo新聞",
+      "url": "https://news.google.com/rss/articles/CBMinANBVV95cUxNV1pRdXlMV3dPUktyWF9BYnFVTmRScDdiTGRwc3pTVTMxdlBfUk5CVXllRDdRR1dfQjVBSzYySkNvTzgtUmZuR1JRNGtGamJ0M29MSnI4MVE2a3Iwa3p4UWxUSTIzRTZvWFl6TlFHbzBiTGVXcGlKbzRscTdJQkFxLVhKc3ZsWU1DUWVuZFlTZ283bUhjR2I5bWl1dG1lNnNsckZLSEFDN1IwVXY1ZGxwcUs4VkFlb2h3YzdyYy1yb3J2eEJ6VnNFdEl0NUdTMjhfLWFScS1SRnJDM0JqZ3l5QnkzLWVrNFJXM2xvVUVoa2hTZk9iUWtJMDlTRVVkU0ZsNmZ0TXRZNkNlaWpqeTVHajBoRXRZNWFOTXlxQkhCbnJvT3FFTE1PSUo1VElRTmtRRFhfU1BleFZwRGdoSGUybEhNRURVdTc1X3BJdk5SMkJBNGwtcnE5d2c3R3dRWDdybTBGbU9ZbUdnMjYyaWVyakhhajZJdnBIdTJYNG5FdkxPQnVxYjVhMDlJbEF6OXQ4WG1oNldVcXZUSU9K?oc=5",
       "source": "Google News - 台股",
-      "published_at": "2026-07-25T07:49:21+08:00",
-      "snippet": "台股慘跌1195點！阮慕驊點名「這3檔」抗跌還能反彈 Yahoo股市",
-      "sentiment_score": 0.0,
+      "published_at": "2026-07-26T11:47:58+08:00",
+      "snippet": "台股恐怕還要繼續跌？阮慕驊預告下周6大事件：這2天是股市大考日 Yahoo新聞",
+      "sentiment_score": 0,
       "sentiment_label": "NEUTRAL",
       "affected_industries": [],
-      "impact_reason_zh": "純屬個股推薦與市場評論，不涉及產業結構性利多或利空。"
+      "impact_reason_zh": "純屬市場預測與技術分析，未涉及特定產業結構性變化。"
     },
     {
-      "id": "02bc43a2c1c252f2",
-      "title": "台股湧入近5千億股息活水- 日報 - 工商時報",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1uRERFZDNfODk5dDFuOC1tRk1xcWlXNXpwWkUyWDd2bkctdFZKWV9ra3pPb183ZVBFTVZSaVQxWWtvNkh3RlJHRlZnNWdlSlQtQW0wUUdFU2VPd2xFeWE4?oc=5",
+      "id": "2cd956365ddf091e",
+      "title": "費半重挫逾4%　法人：台股短線仍處修正整理 - 經濟日報",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9EZ0g1dXVwc2d0Q3BpSUhCMWNoZkRENkREQ016dGxWRGJrWXpVNFNobWhxc25xZ0l3QXBybGZuX2x1eTRQdmlDMlhYeENreVRPQzdqc2NIbThrb1NrVm1zZEFyQkhjdjFaeTBnc2l1WkZqWmNkU0FVQTgzb3kzd9IBYEFVX3lxTE5ORDRmTTBtYVd3NWxIR2hhZWRNLUpaVVprb2FxUnE2Vnk3ZWIxbzJUNjdhME5JanBnSlN2VzV6ZW9NX0ZxaXllWjZtckFITG9IM0JvS0VIY25QRWt0WmhobQ?oc=5",
       "source": "Google News - 台股",
-      "published_at": "2026-07-26T03:00:00+08:00",
-      "snippet": "台股湧入近5千億股息活水- 日報 工商時報",
-      "sentiment_score": 0.0,
-      "sentiment_label": "NEUTRAL",
-      "affected_industries": [],
-      "impact_reason_zh": "報導為整體台股資金活水，非針對特定產業的結構性利多。"
+      "published_at": "2026-07-26T11:06:53+08:00",
+      "snippet": "費半重挫逾4%　法人：台股短線仍處修正整理 經濟日報",
+      "sentiment_score": -0.6,
+      "sentiment_label": "BEARISH",
+      "affected_industries": [
+        "SEMI"
+      ],
+      "impact_reason_zh": "費半指數重挫逾4%，直接影響台灣半導體產業的短期市場情緒與修正壓力。"
     },
     {
-      "id": "aca56d16f2109777",
-      "title": "徐新洋台股賠到深夜睡公園！乃哥開嗆他「不懂在幹嘛」 鬆口虧損金額 - Yahoo新聞",
-      "url": "https://news.google.com/rss/articles/CBMipwNBVV95cUxNbjZJN1VOM0kzT3RuTG00eG9VMm83anE4eDEwU0I2VDY2QUlaSUpVQjJXdXR4aS1TMXhRUVIyc3lzbndvR3pvOElXdXJ1U1BmTEJtOWVUYllIR1hCRVhmM3RaR2tnazIxaE1qRkZoRW9qNDY3Vmx0MHN1ZlBsMDh4b3RlWHcwSXdNb0tWOGpDaEVleml3YnQxbldOM0NrT29FcU5BLVd3NEdXS0tyZmdXOFRheUxpWTBZdjdSQk5kUUdsQmtlZ0J1YmowTWhiMjR4YTJYT0ZNM1lGZENPUlB4R2x6QzdrUEhrVnNzakREc0ZmM3BBOE9WOWl1X2JGVDNPbXJpUEtrU2JabmFyT2F4WGFhVHZMMjhHb0xtNmowam9UVElrc3FVRHh1V0JIMXgtQ0lIMUZoVFl6blBIVHRQMXdvODhkUkQtQVJXcEdQRnF2V3ViT1FIdFRCNXkzTXRNMDNsaHJZVC1sVW9jRG5Kc1VPTWE0QVQ4dDdFVXBIM2VYRlZCM1l1a1c4M0tpekN6YlhkOWJmZGVVOGpLWVVwc0FYR2tIUXc?oc=5",
+      "id": "d546aeef5589f224",
+      "title": "台股跳水式下殺「該不該停損？」 Cheap曝數據：最猛反彈都緊黏著大跌 - Yahoo股市",
+      "url": "https://news.google.com/rss/articles/CBMikgNBVV95cUxPeDU3YU5BSXpacGdFODk1N2JVbWVDX0ZsUlhDNW9xc1k4UnhmMkc3aW5pcnBFUDhpVGZDbjl3RGhDZ25xRXlvUHNHTm80VDUzbVJoTjlBQ21KY09rQ3VxdXBxQ2JlbjNLRkFWdWxjUlllcld4dzgtd0RLblBIZm5IZkRPcW5WRWxleTYzR29xYlEtSFNaMVhESFJ3bzlQY0RIUUY5a2VSQUp4QWpYX2gzQ0huVTlIdDBrTl8yZTcwMUtHSmN4QVVmY3B6X3F4WERQLUl3dnQzQ2NDT0dWWTVhT1dtZWJsbE5pMm1iTDdyb1I0SmM3QmI3dmRldVhfcExPZlNpSldWb1ZLZDg1V2hWYzdXaW1TRXkycGlaSUpVOWVoOVhPNThUYVZoY00zSk5BMEEzbzdxLWZQcVM2SUY5OTJEcUxjTkJRSFFfcWMzd3hYQTBNZ1VBNENDcUl6RTZSM2JDNnQyMFlWM0NJcEJPQURmaGxDLWsyUmg3NWJmX0NxcEdrcWpBekxxc2JkbUx6QlE?oc=5",
       "source": "Google News - 台股",
-      "published_at": "2026-07-25T17:37:00+08:00",
-      "snippet": "徐新洋台股賠到深夜睡公園！乃哥開嗆他「不懂在幹嘛」 鬆口虧損金額 Yahoo新聞",
-      "sentiment_score": 0.0,
+      "published_at": "2026-07-26T11:38:31+08:00",
+      "snippet": "台股跳水式下殺「該不該停損？」 Cheap曝數據：最猛反彈都緊黏著大跌 Yahoo股市",
+      "sentiment_score": 0,
       "sentiment_label": "NEUTRAL",
       "affected_industries": [],
-      "impact_reason_zh": "純屬個人投資經驗分享，不涉及產業結構性利多或利空。"
-    },
-    {
-      "id": "1e2035a14bb275a7",
-      "title": "（影）台股慘跌！徐新洋「打地鋪睡公園」全被拍 徐乃麟訝異發聲 - 自由娛樂",
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1oSm1WTXN1Rk1kaHR2Rko0SWlrWGJUS242a3NHcmlLbzdyZjlWa05OWi1rOGhCSVB2NWlqcmRBalFIMm5zdkMtWmliMXp3S2RKM2o1dWs4Rms1MnZN0gFiQVVfeXFMTVN4RUtDSVpFaWV1dVh5cUNWeHVjeWJuQkVOWks1cGh0SFl4RUFCU01CSkp6OFpoUEItelFRcjluTWZjbUxRR1pTZ1EwUllPVGU4dW9UTmctVjVIQ1ByYk8tWVE?oc=5",
-      "source": "Google News - 台股",
-      "published_at": "2026-07-25T17:34:42+08:00",
-      "snippet": "（影）台股慘跌！徐新洋「打地鋪睡公園」全被拍 徐乃麟訝異發聲 自由娛樂",
-      "sentiment_score": 0.0,
-      "sentiment_label": "NEUTRAL",
-      "affected_industries": [],
-      "impact_reason_zh": "純屬個人投資經驗分享，不涉及產業結構性利多或利空。"
+      "impact_reason_zh": "純屬市場情緒與技術分析討論，未涉及特定產業結構性變化。"
     },
     {
       "id": "5da4559cbaac4051",
@@ -99,58 +89,118 @@
       "source": "Google News - 台股",
       "published_at": "2026-07-25T15:22:38+08:00",
       "snippet": "徐乃麟兒深夜獨自睡公園草皮！台股崩跌「買在最高點」 中時新聞網",
-      "sentiment_score": 0.0,
+      "sentiment_score": 0,
       "sentiment_label": "NEUTRAL",
       "affected_industries": [],
-      "impact_reason_zh": "純屬個人投資經驗分享，不涉及產業結構性利多或利空。"
+      "impact_reason_zh": "屬個人投資經驗分享，非產業結構性利多或利空。"
     },
     {
-      "id": "559952ec5026fc05",
-      "title": "台股再度進入季線攻防戰　短線轉為區間震盪 - ETtoday財經雲",
-      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5ZN0pVWDJnWXVNTlMwLU9abVQza01ac3RpenhUZDBGN0pPOEw5c09pWXpMY1dqMUItSEdrMVFqbk5VZFpKeG0zSWVKM091SVp3S0HSAVBBVV95cUxOa2JDM3pQbTJ6bHp0WlBxZngxRTRtTnVkWVVwQ2hPZ1Iwc2V1aFRveGFxTF9UdUgxRkdKeFNTamJfLTdxQ25xMzMzUG9zbkoxUg?oc=5",
+      "id": "6e77643b50325c21",
+      "title": "台股大跌慘淪韭菜！星二代「公園當據點」　熊熊吐槽：看來有買國巨？ - 噓！星聞",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1NYURyZEJFUmxoRzhiSEY0M0tQV2xYMF9FUklWN0tfcjNJS20yWnlOa0hqWklmY0NNMGx3Yi05dzc3TFhHU3RYUGkwNDlNcE9YNk5Bd3lnODJNd9IBX0FVX3lxTE5DTEtIVUEzX0J2cVo4dmpLSlFEeE9XMVZFRUNuTkl3Y194X2hUM0YxZVpSa0U2cGNaX3pXUXVKR2VQeFZpeUdXVlJNaVFUa0FuQ2R6cTBGLU0yMUQxcV9N?oc=5",
       "source": "Google News - 台股",
-      "published_at": "2026-07-25T06:05:00+08:00",
-      "snippet": "台股再度進入季線攻防戰　短線轉為區間震盪 ETtoday財經雲",
-      "sentiment_score": 0.0,
+      "published_at": "2026-07-25T14:44:52+08:00",
+      "snippet": "台股大跌慘淪韭菜！星二代「公園當據點」　熊熊吐槽：看來有買國巨？ 噓！星聞",
+      "sentiment_score": 0,
       "sentiment_label": "NEUTRAL",
       "affected_industries": [],
-      "impact_reason_zh": "純屬技術線型分析與市場短線預測，不涉及產業結構性利多或利空。"
+      "impact_reason_zh": "屬個人投資經驗分享與八卦新聞，未涉及特定產業結構性利多或利空。"
     },
     {
-      "id": "aaa2666c8069a85e",
-      "title": "財經青紅燈》台股體質遠優韓股 - 自由財經",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE94M1hNRS0zOHh5TXhmTnAwdTdVS1l6MFpMZkVMRE1tcmpFYmdrMWQ0d1lUNW5jVzhyeWZFZWJNR050VVU3eUJFSFd4ZUo3ZWI2UXhRTFB30gFbQVVfeXFMUGhQenZadEx1Z3JHdXJnQ2ctMXZsRTBCMHBxOEZ0ZzYxUWM4UVNkOXktdGVoeXoxQlZJMmxzblR1RmZQMkdycnZ1aEVfRm9HS2Fkb2tRTDJiSUxLVQ?oc=5",
+      "id": "7db4406e618a7308",
+      "title": "台股跌千點你恐慌　股海老牛曝加碼訊號 - ETtoday財經雲",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1yaFlhLWh2T3lnTFZQRnZQUFVVekdCUlRxc193cUh1YzMtOEJjRFRtT3NtVzRZQVIzSWJtVVZTYzQyVkg2YkpNNkhsM0ZLOFhKNXfSAVBBVV95cUxPV2VFbWV6R3ZMRjR0bHJrajVmeThWeG91UVM4SVd5VzEwbHh4Y1Q4Z0pRd09CVU84Tm9DVzREaHVxcHB4OV9nZEpRY2Nkb1RwaA?oc=5",
       "source": "Google News - 台股",
-      "published_at": "2026-07-25T05:30:00+08:00",
-      "snippet": "財經青紅燈》台股體質遠優韓股 自由財經",
-      "sentiment_score": 0.0,
+      "published_at": "2026-07-26T07:56:00+08:00",
+      "snippet": "台股跌千點你恐慌　股海老牛曝加碼訊號 ETtoday財經雲",
+      "sentiment_score": 0,
       "sentiment_label": "NEUTRAL",
       "affected_industries": [],
-      "impact_reason_zh": "純屬整體市場評論，不涉及特定產業的結構性利多或利空。"
+      "impact_reason_zh": "純屬市場情緒與投資策略討論，未涉及特定產業結構性變化。"
     },
     {
-      "id": "9fcb76855db428fa",
-      "title": "台股跌不停？台指期夜盤重挫445點 台積電期貨同步下殺 - Yahoo股市",
-      "url": "https://news.google.com/rss/articles/CBMi6gJBVV95cUxOX1JQQ2N4N1M1VHhDTmUtN08xaFFEbERvcW5ndEhfYkZQVDlXR3NDeVdnTFI4QUd1QVlXdEQwMk4xSVE1MlotY0xCdWJldm42RnZoS2kzX0tRWUdWNVdqeV9oRWw5c3RYQ01ab21hRmdiQXlCc3hwVk9yWWZYeWVhMEdMaU1Yb29rQUtDeHdfS0hVRDYxTWhuMEU1d0p0UlFtcWdsTnRBeFBqNmlIQWdoaVV3b2RBQ1B0dXA4LThCaUFuaEZSMU5NM1JQX2FUcVhMUklwTkItdTdUcnpDQnN1bW82cWJ6bG1uN18xbEVtVHJVNWhseFBGbWtVRHBtak5EdGlZUGp3UkZpWTNOdlRRbEh0WTZ0alhlSUhua1ZPU3hWNmJRV3lHeHhiczE4Zm56bi13TFNUVHJMbEZVQ2IxTTVXRVRLV2Q2cm1ySkRDeWlpVk5fSHgzemYxVlVwWmhoVGphWU9HMklDdw?oc=5",
+      "id": "53a99d097443af50",
+      "title": "台股重挫近1200點 投顧估本週落在42500至45000點 - 自由財經",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFAtd2E0bndJNVZaU3prTzJFeG9EZjNVU1FlWHRKNE12QnJ6ZmpfODlKRVBTYkhVODdRbGoxUmRfbWcteVNpbWRkamkxUDZ3Ui1HUVVMbl9maVltYVBNU2Nr0gFkQVVfeXFMTnI3S1pENUxGZFpFWkhwSjZ3SW5tbkszaTFla0V6dm9xcVhJUXgzdWR5SHZXTlBzT3pzeExKSlM4S0p1UGZHY2F0djY0M2ExYjN2RXp2dnZQOE44SGxDa2EtbTgzOA?oc=5",
       "source": "Google News - 台股",
-      "published_at": "2026-07-25T07:16:14+08:00",
-      "snippet": "台股跌不停？台指期夜盤重挫445點 台積電期貨同步下殺 Yahoo股市",
-      "sentiment_score": 0.0,
+      "published_at": "2026-07-26T06:39:45+08:00",
+      "snippet": "台股重挫近1200點 投顧估本週落在42500至45000點 自由財經",
+      "sentiment_score": 0,
       "sentiment_label": "NEUTRAL",
       "affected_industries": [],
-      "impact_reason_zh": "報導為市場短期波動及個股期貨表現，非產業結構性利空。"
+      "impact_reason_zh": "純屬市場行情報導與點位預估，未涉及特定產業結構性變化。"
+    },
+    {
+      "id": "a7b22a5c7b462044",
+      "title": "台股剉咧等？本週迎「超級考驗」5大重磅事件來襲　專家曝行情看3關鍵 - 鏡週刊Mirror Media",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5vWEdOOVJ3dUN0NVJRbUZ0ZEZUV0RFQURaOUY0dFBFUldXc09zX3l6V1RKRlJPazFXVnJBdk5KeE5ISHZwTVZ4aHdlUFM3aTBfX1ZlbGhlSzNzSVRUUE1jbWRha9IBaEFVX3lxTE8tVTlfZnpxYlF1VExteGxkRFpHX2ZWb0hpUzRxdXZKNEZMVkg4X1E4cEctU1U3MTFKLWc5VEw1X21henNfLVB1eVB5TUYzWWZ5V3ZxWEZ0R3hiTVJ3cTkxLWdZbzJBaWYz?oc=5",
+      "source": "Google News - 台股",
+      "published_at": "2026-07-26T11:17:00+08:00",
+      "snippet": "台股剉咧等？本週迎「超級考驗」5大重磅事件來襲　專家曝行情看3關鍵 鏡週刊Mirror Media",
+      "sentiment_score": 0,
+      "sentiment_label": "NEUTRAL",
+      "affected_industries": [],
+      "impact_reason_zh": "純屬市場預測與事件提醒，未涉及特定產業結構性變化。"
+    },
+    {
+      "id": "27f97990fd650a16",
+      "title": "台股拉回緯創獨扛 6檔含緯ETF近一周含息報酬衝破4% - news.cnyes.com",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5xOFB4Q2Z0RjRGc2IyNkxZaXhIQ2kwTkNKdlJVVDNpckNKOEdYaWlpeU9NN3hGeXFieDRPaDNwMXcwV0dOd1IzZWlwWXcwTVE?oc=5",
+      "source": "Google News - 台股",
+      "published_at": "2026-07-26T09:13:55+08:00",
+      "snippet": "台股拉回緯創獨扛 6檔含緯ETF近一周含息報酬衝破4% news.cnyes.com",
+      "sentiment_score": 0,
+      "sentiment_label": "NEUTRAL",
+      "affected_industries": [],
+      "impact_reason_zh": "屬緯創個股表現與ETF報導，非AI伺服器產業結構性利多。"
+    },
+    {
+      "id": "9a42e5ebf24fe7d8",
+      "title": "台股反彈1,783點 最後掙扎？ - 經濟日報",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9ZVW1lTGFSZ0JoU0hfUkJCTG5QTWZ0dWtxZXU0WHppRWhuMFo5NG5JZDd2ZldRQVlKQUdwZGJQYmtaanlVamF6d3VSTjNSQUlYVW94ZkVPZHBGd9IBX0FVX3lxTE5ZUVBVMHZXTkxCdFYyR0R1eS05YnRkRVJ2b3RtSW0tdC1vWVhJa0xGNHFDZy1pWXU4S0poZVJJRzlROXlGZXhUal9ndXBhZ3BFMWRzY2hDMmIwRHNNbUVZ?oc=5",
+      "source": "Google News - 台股",
+      "published_at": "2026-07-26T04:11:59+08:00",
+      "snippet": "台股反彈1,783點 最後掙扎？ 經濟日報",
+      "sentiment_score": 0,
+      "sentiment_label": "NEUTRAL",
+      "affected_industries": [],
+      "impact_reason_zh": "純屬市場行情報導與技術分析，未涉及特定產業結構性變化。"
+    },
+    {
+      "id": "b3a9820405a544f7",
+      "title": "台股「殺千點免驚」下週強彈了？專家曝抄底時間點 - Yahoo股市",
+      "url": "https://news.google.com/rss/articles/CBMizwJBVV95cUxNT1NzOEthUDltUkZlSTBsbjRfb3QwRDhqb0ZMN0RXaEZYZFlMQS1Icnl1OU4ydXppSHN1M1k5a0tTdU8zMFB0ZlBHRS1TcUZZVDN0U1Q1MElQbXJXMk1HdkJRWDUzc1VDX2pnYmlNVTY4QjJHTjM1Ump5RThnQmtOMlRyOHA0RVZoQXYza1pqWUtGSjJ2R1Zpb3JqWjljbEkyX2FRU0xPVE4weTZ4UGo0VThpemdpSm5ndmpvazVXTUZmejVEd0ZPSG9hQkdJWGpKWUZDd1hSS2lHTkdrZjRxOFV4cmg1cGpyVVMwZ0JxWm52ZGtoak5MeUhwTUNmZkJNekljOGpFcEhWcFNJZGhyQVEzWk9ud0cyRkdnRkJ6d3dPN3ZHOXFZY2pZMDFkNHcyUVNVQzgydlgzYklSb1V4c2djMlFVcHEwWUs0aXBjbw?oc=5",
+      "source": "Google News - 台股",
+      "published_at": "2026-07-25T15:01:42+08:00",
+      "snippet": "台股「殺千點免驚」下週強彈了？專家曝抄底時間點 Yahoo股市",
+      "sentiment_score": 0,
+      "sentiment_label": "NEUTRAL",
+      "affected_industries": [],
+      "impact_reason_zh": "純屬市場預測與投資策略討論，未涉及特定產業結構性變化。"
+    },
+    {
+      "id": "328bbec143704814",
+      "title": "單季EPS直接賺贏1年！「記憶體模組大廠」觸漲停奪量價雙增王 挺住台股摜破44K - Yahoo股市",
+      "url": "https://news.google.com/rss/articles/CBMixANBVV95cUxOejNHR0wxRHRoQ05oOEx3Y0F1LWQ1UHhTSW9GWUYtanRrTFNKaDdNbjhqdy0tYnZENmFKY3h1M1lrZy0xRGJINkxNQVVYTVVEakFOQW96TWlseVQxcjVad1ZjWm9GQkJGaFc5M3NWdVd1TmxyemRyQk5ULXZVRm0zaGpoS2ZvODFab1dScmhNdW41bnFHVF94MVpRMXFaYjdHV3I2aV9KT0tuZUV2bi02bGRBVXNZeTRsV1dUaTJWejBEcnphV052Q2dmVFVOazBvQzJPZHlVRmFtYmpsM0Q3SWFQYnVoMEdxakowZjNtWHh5a3ZWaUlydWljelFVdUFGaHZrTlNHUHA5VDVTWVhScjBqU0xYaTJ4N3M1UDZBTU1NVFVXYWs3OHhvS3VuNWtqRVh4cGJRbzNhVG1RcEc1dV8yQVNqS3RtLUxLTUJYQ1NlNDlpZzJEYkFnQUw4Q09TXzZ2djJCSEViN000UzB2RVN3UV9GM0pDZ3E1dlItOGs4TXRMc0w2aUEzd05Va3dMLUdIVmc1OGJseEFxTi1kRmM1VnpXOGhfT3E2OG5iOFVXRFZYMkpBUFlBOEY3RUZJR1ludA?oc=5",
+      "source": "Google News - 台股",
+      "published_at": "2026-07-26T09:08:22+08:00",
+      "snippet": "單季EPS直接賺贏1年！「記憶體模組大廠」觸漲停奪量價雙增王 挺住台股摜破44K Yahoo股市",
+      "sentiment_score": 0,
+      "sentiment_label": "NEUTRAL",
+      "affected_industries": [],
+      "impact_reason_zh": "屬特定記憶體模組大廠的個股利多，非半導體產業結構性利多。"
     },
     {
       "id": "89f8afdadc171d38",
       "title": "塑膠、油電股重跌 台股大跌1195點 跌破四萬四 惟周線仍翻紅 - 經濟日報",
       "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1HRXhEaEwySlZ5TjJBT25wUzJVWkoyLXlBSlg5SHU4WUtTYnh2LXNtSTRnc0xzNlhONEpKZ1pWSmppdkR5aUVfMWlrLUN2ZjZoN1VPdHAzWVRuQdIBX0FVX3lxTE1TRG9xdWVobzBVWWpTV2x2bmRMOG5DeGE3OUdwVXpnaTFNcmN3b1d2akdxOXdTRUFVVGJaQ2JoUVFVczJtRTg0dUVrNmpsUllfM0VYNDlFYzE0clNIRkd3?oc=5",
       "source": "Google News - 台股",
-      "published_at": "2026-07-26T00:13:47+08:00",
+      "published_at": "2026-07-26T00:18:05+08:00",
       "snippet": "塑膠、油電股重跌 台股大跌1195點 跌破四萬四 惟周線仍翻紅 經濟日報",
-      "sentiment_score": 0.0,
+      "sentiment_score": 0,
       "sentiment_label": "NEUTRAL",
       "affected_industries": [],
-      "impact_reason_zh": "報導提及的下跌產業不在指定範圍內，且為整體市場波動。"
+      "impact_reason_zh": "報導台股大盤下跌，提及的產業不在分析範圍內。"
     },
     {
       "id": "f3a005986a7d66d1",
@@ -159,48 +209,36 @@
       "source": "Google News - 台股",
       "published_at": "2026-07-25T14:00:00+08:00",
       "snippet": "台股再崩千點摔下季線！千金股3檔殞落、5大權值股全收黑 法人點出反攻契機 Yahoo股市",
-      "sentiment_score": 0.0,
+      "sentiment_score": 0,
       "sentiment_label": "NEUTRAL",
       "affected_industries": [],
-      "impact_reason_zh": "純屬市場短期波動與技術分析，不涉及產業結構性利多或利空。"
+      "impact_reason_zh": "純屬市場行情報導與技術分析，未涉及特定產業結構性變化。"
     },
     {
-      "id": "9a42e5ebf24fe7d8",
-      "title": "台股反彈1,783點 最後掙扎？ - 經濟日報",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9ZVW1lTGFSZ0JoU0hfUkJCTG5QTWZ0dWtxZXU0WHppRWhuMFo5NG5JZDd2ZldRQVlKQUdwZGJQYmtaanlVamF6d3VSTjNSQUlYVW94ZkVPZHBGd9IBX0FVX3lxTE5ZUVBVMHZXTkxCdFYyR0R1eS05YnRkRVJ2b3RtSW0tdC1vWVhJa0xGNHFDZy1pWXU4S0poZVJJRzlROXlGZXhUal9ndXBhZ3BFMWRzY2hDMmIwRHNNbUVZ?oc=5",
+      "id": "e39832aa5272a3dd",
+      "title": "台股遭大提款！欣興、旺宏等16檔「跌出身價」外資逆勢進場撿便宜- 日報 - 工商時報",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5GbHMxUkl0QWlOSmhmVlRMSnMyMzJMclVpQW5xWXJ0SVJEcWh2cnBEUVNvXzlqSG5mY0pMSVRWRWxDZmxsamhtY2c5NEhWemhJZ1VFU0JjdEV5ODRMZWNr?oc=5",
       "source": "Google News - 台股",
-      "published_at": "2026-07-25T11:08:54+08:00",
-      "snippet": "台股反彈1,783點 最後掙扎？ 經濟日報",
-      "sentiment_score": 0.0,
+      "published_at": "2026-07-26T03:00:00+08:00",
+      "snippet": "台股遭大提款！欣興、旺宏等16檔「跌出身價」外資逆勢進場撿便宜- 日報 工商時報",
+      "sentiment_score": 0,
       "sentiment_label": "NEUTRAL",
       "affected_industries": [],
-      "impact_reason_zh": "純屬市場短期波動，不涉及產業結構性利多或利空。"
+      "impact_reason_zh": "屬個股股價表現與外資交易行為，非產業結構性利多或利空。"
     },
     {
-      "id": "9df20eebc79ca588",
-      "title": "晶片股遇拋售潮！美股費半重挫逾4%、台積電ADR跌2.93% 台指期夜盤下滑445點 - Yahoo股市",
-      "url": "https://news.google.com/rss/articles/CBMipgNBVV95cUxNaUR2RmxRMmZfc0ZRT2tCMmZvVnQtQWtveF9qbklrM0lPalJ3WFVoQ29PNENqbzhBVEJmWFJPRDZzSU5xN1NpeTlvbTJQb2RHdTVVMTE1ZWNoSTI4RV82R0xfOFJBZDYwWEFMc1dybEV6SzAwTHRuNVBWbFB2aWhXUTI3b3ZXOTVyeVlYcmM2ODlJSTNBLUZFZTVVUGdMUVNUWXFsdFg1eVN1YkFPRWpSXzFGa2FIR015WXJhTHd1QXVWMnpGaF9vNHQ5NjFyeHNZTGp3SVdZOFBfRldRbjYtVk9SSWxzckFaSnBWVXZfS0NHVnJIRFlBYzFKSGZrWU9fbVpXX2FaeVhQZ1ppZTNFdzVqZXlsb2VVRXloZFd1ZlNTcDZqMUJmY0ZJOTAtWlFvZ3ZrZml4dEV0cTdVWU9PUFNNaEZ4MWVsSVM2REFTLTIzTHdJSWtKVHBITWhFbjBpYWlJa19ObXpKODFGRzBldkEwb3FOQl9iMDdFZFBzSE5qZVM2d2JLUF95MnJkZXhOUGFRNzBHLVNKV2VaSzI3N3pEd290QQ?oc=5",
+      "id": "02bc43a2c1c252f2",
+      "title": "費半殺台股恐血流成河...近5千億股息活水來了 螞蟻雄兵能助攻止血？ - 工商時報",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1uRERFZDNfODk5dDFuOC1tRk1xcWlXNXpwWkUyWDd2bkctdFZKWV9ra3pPb183ZVBFTVZSaVQxWWtvNkh3RlJHRlZnNWdlSlQtQW0wUUdFU2VPd2xFeWE4?oc=5",
       "source": "Google News - 台股",
-      "published_at": "2026-07-25T07:30:00+08:00",
-      "snippet": "晶片股遇拋售潮！美股費半重挫逾4%、台積電ADR跌2.93% 台指期夜盤下滑445點 Yahoo股市",
+      "published_at": "2026-07-26T03:00:00+08:00",
+      "snippet": "費半殺台股恐血流成河...近5千億股息活水來了 螞蟻雄兵能助攻止血？ 工商時報",
       "sentiment_score": -0.6,
       "sentiment_label": "BEARISH",
       "affected_industries": [
         "SEMI"
       ],
-      "impact_reason_zh": "美股費半重挫及台積電ADR下跌，反映晶片股面臨拋售壓力，對半導體產業構成利空。"
-    },
-    {
-      "id": "f1ce28345284ce5c",
-      "title": "台股44K、季線雙雙摜破！專家喊「免驚」：中秋吃大肉大月餅 - Yahoo股市",
-      "url": "https://news.google.com/rss/articles/CBMi4AJBVV95cUxOSHJCY1ZVaDNFenhrX0NxU1JrdWM3VmdDbjI2TC1IOVEzQ1Z3cDNnMzBWYXItT2Z1SlN4U1RHN0p3OVpHS1NtcTBaUktCT3EtTWtsMV83Umw3eUlUdWV3SUZXTzgxWmJRa3ZNMDEyRVljdjRlSkxWT1BPZHFRQUZ1UDVyaXdTejBEV2hRc3BUSnl2c09nRlM0ZGM5c19pZmhUUERvblJrMWxuWFl0NklYXzBQMk95MWtORmI5TUJKMUc5UXJWNU90LXhSeGhGNC1VaEJMcHI1OVZzdTRlWVdBMlg0Uy14eTBPM0hVRnRWQ2hsV0VBVkpzSGo4dzNPOEk4OFZGYUhHeTh3SXlLSDJHbHVKNEdxVmJJc1owUFdQTEpTaVllT2NtbXhad0NaU204Y250M09UUTNaZGsycmNNbmxBcVgyWHFkc2hQbkhKeHFDME5KOVhLTmhTWWVJdGdZ?oc=5",
-      "source": "Google News - 台股",
-      "published_at": "2026-07-25T13:39:57+08:00",
-      "snippet": "台股44K、季線雙雙摜破！專家喊「免驚」：中秋吃大肉大月餅 Yahoo股市",
-      "sentiment_score": 0.0,
-      "sentiment_label": "NEUTRAL",
-      "affected_industries": [],
-      "impact_reason_zh": "純屬市場短期波動與專家評論，不涉及產業結構性利多或利空。"
+      "impact_reason_zh": "費半指數重挫，對台灣半導體產業形成利空壓力。"
     },
     {
       "id": "99de4af547ce1a5a",
@@ -209,10 +247,46 @@
       "source": "Google News - 台股",
       "published_at": "2026-07-26T00:13:49+08:00",
       "snippet": "三大法人賣超台股663.94億元 經濟日報",
-      "sentiment_score": 0.0,
+      "sentiment_score": 0,
       "sentiment_label": "NEUTRAL",
       "affected_industries": [],
-      "impact_reason_zh": "報導為整體市場資金流向，非針對特定產業的結構性利多或利空。"
+      "impact_reason_zh": "純屬市場資金流向報導，未涉及特定產業結構性變化。"
+    },
+    {
+      "id": "24244284b1c6811d",
+      "title": "抽中一張賺6萬！和運租車、華德動能、新應材台股3檔紅包申購一次看 - Yahoo新聞",
+      "url": "https://news.google.com/rss/articles/CBMi7wJBVV95cUxPeUxCNDNEbVk5by1lVW56eldEOXVnRmZ4UGt5TnVoYjZhdENZTWw4TXdlZy1HQjlpS1F4OFhISWh5M0dQNGdaWGhuc2JDam54cC1xcnY5RnFJaWM3NGFJYlpOdlNKcXJiZG01R0RXX1FzQkhnc3FWQldNVEE3ZXRQMEhOUnZoQkc1Ny1yU3dTQVlNZWFQaklQemY3azdsU3VjbEVtMFZxMlFmUmpjTlQ2Zk05UlhqZ1MxNEhfY1VxTnZaUUdxVXBEXzNzZTU2UVFLRjRrRF9CbFByb0xFQkpHR2hmVHBobFVvYmd6cHc3S1pfUmdUMTRvdjRTbVcxY1RWV0pjX01CQ19zUmw4QWlUQWx5T3hjZVE3NVF3dy1DLVM2RnhOOWRYbDAtZmJ1Q2dxYmFobGJLLVBZRlVEYmpyR1VBYXIxQTFydWlzSDNjTVhoNW1zMkZhcG9TWXgwVEx6MEVVc2l6bGNSR3l5UUpJ?oc=5",
+      "source": "Google News - 台股",
+      "published_at": "2026-07-26T07:25:00+08:00",
+      "snippet": "抽中一張賺6萬！和運租車、華德動能、新應材台股3檔紅包申購一次看 Yahoo新聞",
+      "sentiment_score": 0,
+      "sentiment_label": "NEUTRAL",
+      "affected_industries": [],
+      "impact_reason_zh": "屬個股申購資訊，非產業結構性利多。"
+    },
+    {
+      "id": "f1ce28345284ce5c",
+      "title": "台股44K、季線雙雙摜破！專家喊「免驚」：中秋吃大肉大月餅 - Yahoo股市",
+      "url": "https://news.google.com/rss/articles/CBMi4AJBVV95cUxOSHJCY1ZVaDNFenhrX0NxU1JrdWM3VmdDbjI2TC1IOVEzQ1Z3cDNnMzBWYXItT2Z1SlN4U1RHN0p3OVpHS1NtcTBaUktCT3EtTWtsMV83Umw3eUlUdWV3SUZXTzgxWmJRa3ZNMDEyRVljdjRlSkxWT1BPZHFRQUZ1UDVyaXdTejBEV2hRc3BUSnl2c09nRlM0ZGM5c19pZmhUUERvblJrMWxuWFl0NklYXzBQMk95MWtORmI5TUJKMUc5UXJWNU90LXhSeGhGNC1VaEJMcHI1OVZzdTRlWVdBMlg0Uy14eTBPM0hVRnRWQ2hsV0VBVkpzSGo4dzNPOEk4OFZGYUhHeTh3SXlLSDJHbHVKNEdxVmJJc1owUFdQTEpTaVllT2NtbXhad0NaU204Y250M09UUTNaZGsycmNNbmxBcVgyWHFkc2hQbkhKeHFDME5KOVhLTmhTWWVJdGdZ?oc=5",
+      "source": "Google News - 台股",
+      "published_at": "2026-07-25T13:35:00+08:00",
+      "snippet": "台股44K、季線雙雙摜破！專家喊「免驚」：中秋吃大肉大月餅 Yahoo股市",
+      "sentiment_score": 0,
+      "sentiment_label": "NEUTRAL",
+      "affected_industries": [],
+      "impact_reason_zh": "純屬市場行情報導與技術分析，未涉及特定產業結構性變化。"
+    },
+    {
+      "id": "d17f054e30e855df",
+      "title": "台股還要繼續跌？專家預言：下週2天迎大考| 民視新聞網 - LINE TODAY",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1KNU42VEFleEJwVDNJUWNGdm5VU0pyZXN1R280Ml9zemxrZ1NSVkZTZWpQbmw5eERvWXMtSUx6cE1ORWU3NjYzNERtWnhxc09FZF9iN2VR?oc=5",
+      "source": "Google News - 台股",
+      "published_at": "2026-07-26T12:15:16+08:00",
+      "snippet": "台股還要繼續跌？專家預言：下週2天迎大考| 民視新聞網 LINE TODAY",
+      "sentiment_score": 0,
+      "sentiment_label": "NEUTRAL",
+      "affected_industries": [],
+      "impact_reason_zh": "純屬市場預測與事件提醒，未涉及特定產業結構性變化。"
     },
     {
       "id": "efe1abe7f23d61ee",
@@ -221,10 +295,22 @@
       "source": "Google News - 台股",
       "published_at": "2026-07-25T23:40:47+08:00",
       "snippet": "台股擂台／衛冕者「低調黑馬」陳奇琛 本周布局聯亞、漢翔 經濟日報",
-      "sentiment_score": 0.0,
+      "sentiment_score": 0,
       "sentiment_label": "NEUTRAL",
       "affected_industries": [],
-      "impact_reason_zh": "純屬個股推薦與投資競賽內容，不涉及產業結構性利多或利空。"
+      "impact_reason_zh": "屬券商喊單與個股推薦，非產業結構性利多或利空。"
+    },
+    {
+      "id": "8a133d13c25b9a5a",
+      "title": "台股跌千點你恐慌 股海老牛曝加碼訊號 - facebook.com",
+      "url": "https://news.google.com/rss/articles/CBMitgJBVV95cUxPMzl1LVNQem5JMUlCSTdFbXpPZFl1S1VRMzFUcGstMThpVnhfTVJzODdUUHBOUWJkdFplc01rdDRUU1l3UmpVVm9NNTkwZTBtNzNCRFpMdGQyU2ZnVjhGWllXd1NqTklJWTVvb3lodF84UXBFS19pcXFoVW5QclQyY3Nsb0dnX3pkNHFhQUlHTHlHVVI5bk9EMk9ZSzV1SERVRldlSm1pUHQtYVplTXJCUnN0T205X1liQzNZcHpKUlE2VHB3ajBUNnlSN0pWY09iRUhxSXNkYV9WYjBmbG1WVS1iOTlIMVo4REFQNU9FTklLNlhsTXR1elBqNDliaVFuWjg0XzFZZFgzNDdlT01GMGVLcnlkNjE0VVFDUGY1MjkyOVJMczExQXVFZjlvNnBaSGlwdmZn?oc=5",
+      "source": "Google News - 台股",
+      "published_at": "2026-07-26T10:00:07+08:00",
+      "snippet": "台股跌千點你恐慌 股海老牛曝加碼訊號 facebook.com",
+      "sentiment_score": 0,
+      "sentiment_label": "NEUTRAL",
+      "affected_industries": [],
+      "impact_reason_zh": "純屬市場情緒與投資策略討論，未涉及特定產業結構性變化。"
     },
     {
       "id": "6823ef8e9f72cf04",
@@ -233,34 +319,36 @@
       "source": "Google News - 台股",
       "published_at": "2026-07-25T23:39:36+08:00",
       "snippet": "台股擂台／挑戰者「華冠北極星」劉彥良 本周青睞創見、宇瞻 | 台股擂台 | 證券 經濟日報",
-      "sentiment_score": 0.0,
+      "sentiment_score": 0,
       "sentiment_label": "NEUTRAL",
       "affected_industries": [],
-      "impact_reason_zh": "純屬個股推薦與投資競賽內容，不涉及產業結構性利多或利空。"
+      "impact_reason_zh": "屬券商喊單與個股推薦，非產業結構性利多或利空。"
     },
     {
-      "id": "d71fa76dc0debbcc",
-      "title": "台股重挫1195點該停損？ Cheap揭1數據：最強反彈都在暴跌後 - Yahoo新聞",
-      "url": "https://news.google.com/rss/articles/CBMi0wJBVV95cUxPd1FxU0E5QTdPWDFRd201cERiMjJqZi1PZXkxV054RkRJTTBFdV9OQzdPWklEeWhXNFpIR1c2Q25IRTlOTFlRUW4wdVdoclc5ZHg1LS1OeW1rVXh2cHV5THdKMkRjYk9WNUlqUHZ4RUI5cWhTenBpX19yRWxWRTJZN3F3eG1ZTl9fd0dOeGs3RlZMYTI0VGpRNXNlMWV2cnRRYlNJUDVmNVpuUnZsaG1CdjZDOXU2ZGJTYjl3YTA4cnMyYndIQ0QyV04tb2hoT1JMUnZ2UzUtUHNyWUlpeldsVmEwdEdwRTZ5eGtfbjFWZTFwdzVldkVveWFMT01KU3pGeFVxeVBrV2dVRzdJX2hvbGZyMkFXZFdRWTZaZWVlLVlyMkM3RWE1Y1dZbUlfanBHQnMyYjhFS1ZnZDBIVDhKN1V1OHdSYWRUZzN0b1pDa1Fibjg?oc=5",
+      "id": "2041e1f8a49da7f8",
+      "title": "交易時段延至3點半、1股為單位兩大提案雙雙被否決！ 台股三大新制哪些真的過關上路了 - 理財周刊",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5Gd3RPUVVHa2thcnVyMUx1YzFoODdGdzJreGpKQUY0UUhqR1ppNldDQWxpaDhHR1dqdnFtUHlFbHg2MFNobWMzdU41UmNISVNkM05wcEE4SDhrLXk2TWlXR0x0OFA2LWNlUm9CSGNDNA?oc=5",
       "source": "Google News - 台股",
-      "published_at": "2026-07-25T11:06:30+08:00",
-      "snippet": "台股重挫1195點該停損？ Cheap揭1數據：最強反彈都在暴跌後 Yahoo新聞",
-      "sentiment_score": 0.0,
+      "published_at": "2026-07-26T00:05:04+08:00",
+      "snippet": "交易時段延至3點半、1股為單位兩大提案雙雙被否決！ 台股三大新制哪些真的過關上路了 理財周刊",
+      "sentiment_score": 0,
       "sentiment_label": "NEUTRAL",
       "affected_industries": [],
-      "impact_reason_zh": "純屬市場評論與投資建議，不涉及產業結構性利多或利空。"
+      "impact_reason_zh": "屬市場交易制度調整，未涉及特定產業結構性變化。"
     },
     {
-      "id": "e710dd10b5be2d1b",
-      "title": "台股收兩週黑色星期五 抗跌12檔指標必收 - Yahoo新聞",
-      "url": "https://news.google.com/rss/articles/CBMiowJBVV95cUxNQnhvQ2d3aFF5N1JFQ0psMUZFa3lCZTk2X3liOUR6YW5HQmlSam13VXVOVmhsZzhIM1dqNEhMbHpseEM0cTZsYTh6Q3E3SVgwZnROX1JwRmFwSWNNYWQ3ZFlWc2F4SUJWUk05bnJrRl93di1EMmZGX2JtWjFPdVhXNnFQRC1OQXIwc195UHF4bGJiZVlNMnFKdG13Q2xISkt4NjBJUjdYYlN1OXFhQmZhSktKcVIxSGoybmVBZzRtVlI0RWdnNjY2emt2aUJSS2FHSWVEWFl5NVg0UXZuZ2pVSmI2MDZ2NTQzc3AyQTVmOVRHOEZIZGxteUtUUGFyTG5mdnR0ZHlXRGJlSlY4QlZMQTFURHh3eEJJa2ZEeUNEUXZWSlE?oc=5",
+      "id": "ae9c738dbf6aae66",
+      "title": "費半重挫拖累台股！本周「大考」挫咧蛋 專家：股市現裂痕恐再起波瀾 - 知新聞",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE0yaEFZdEQxazhRSTZ5MmFEdHhmR1hsRWNlT2Z2eVNIbjNHTDlTT0FKbUpXbFVpblVyYzZaVVhFOGhUY3BsT3ZjVlhZUDNmRXJ3aFJsX3l2bkFJNzJJU2NRT3JJNXp0WEljUGpNWHREQQ?oc=5",
       "source": "Google News - 台股",
-      "published_at": "2026-07-25T13:18:16+08:00",
-      "snippet": "台股收兩週黑色星期五 抗跌12檔指標必收 Yahoo新聞",
-      "sentiment_score": 0.0,
-      "sentiment_label": "NEUTRAL",
-      "affected_industries": [],
-      "impact_reason_zh": "純屬市場評論與個股推薦，不涉及產業結構性利多或利空。"
+      "published_at": "2026-07-26T12:05:00+08:00",
+      "snippet": "費半重挫拖累台股！本周「大考」挫咧蛋 專家：股市現裂痕恐再起波瀾 知新聞",
+      "sentiment_score": -0.6,
+      "sentiment_label": "BEARISH",
+      "affected_industries": [
+        "SEMI"
+      ],
+      "impact_reason_zh": "費半指數重挫，對台灣半導體產業形成利空壓力。"
     },
     {
       "id": "ce23076dc668a357",
@@ -269,58 +357,10 @@
       "source": "Google News - 台股",
       "published_at": "2026-07-25T23:42:31+08:00",
       "snippet": "台股擂台／周冠軍「股市獲利王」何文高 本周看好緯穎、漢翔 經濟日報",
-      "sentiment_score": 0.0,
+      "sentiment_score": 0,
       "sentiment_label": "NEUTRAL",
       "affected_industries": [],
-      "impact_reason_zh": "純屬個股推薦與投資競賽內容，不涉及產業結構性利多或利空。"
-    },
-    {
-      "id": "d7a447361d02e6dd",
-      "title": "台股暴跌別急砍！專家揭「AI殺盤真相」點名3檔ETF：1檔防守、2檔搶反彈 - Yahoo新聞",
-      "url": "https://news.google.com/rss/articles/CBMi0gJBVV95cUxNc1AzOE9DVE1reDBTRENpc0w2eE5VbUNiNnU4TG04TzBOcDJLREg0eXNhZTFpa1JRS0ZWaERpVnhRNTdpSVNhUE1BVlJndHU3ZFYwY0Z1R09abnQxeFk3SnRNSjkwbThLRFg4TXpnSGJYN1NpYkQ1cm85a3RfMEIyZm8tcEx5Q2FSeXZyUU9XNFJITF9rMVQyYVhNYUdfU0Ixa0xTTldkd0E1QXF4ckUxc3NPTmpnNnlJTHVReV8tbGlUS1VhRVYyU19qb0gtMXVLRHdscXhTbERUX3VodzRocTQxTzVLM19uSWpfODRlOXpOdDY0OV80STU4S0pUYnFnRlJUMlVuRlRLZlpZY0JMcUduOXA2Y3laSV9QZHlobklBV2VLY1Rmd3RPaUpKcnZCcFE5LTdkX0RGc2lmSnJzRWc1bHNqc1RuenhnRlBvN3RqZw?oc=5",
-      "source": "Google News - 台股",
-      "published_at": "2026-07-25T13:56:35+08:00",
-      "snippet": "台股暴跌別急砍！專家揭「AI殺盤真相」點名3檔ETF：1檔防守、2檔搶反彈 Yahoo新聞",
-      "sentiment_score": 0.0,
-      "sentiment_label": "NEUTRAL",
-      "affected_industries": [],
-      "impact_reason_zh": "報導主要為市場評論與ETF推薦，未明確指出AI產業的結構性利空。"
-    },
-    {
-      "id": "27d9fee2eb864e62",
-      "title": "台股擂台／挑戰者「Q女王」劉良梅 本周押環球晶、新興 | 台股擂台 | 證券 - 經濟日報",
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFA1YVFjOGt4eERVWTYzcVItZGNUUTFmTy04dlBYQTJrSE8xU0QwTzB0UlR3WTNlT1RJLXQxNGUwUW1KZzhhbmpUMDNpbGZBNXRRbzFtS2RFS3c1WUVD?oc=5",
-      "source": "Google News - 台股",
-      "published_at": "2026-07-25T23:38:18+08:00",
-      "snippet": "台股擂台／挑戰者「Q女王」劉良梅 本周押環球晶、新興 | 台股擂台 | 證券 經濟日報",
-      "sentiment_score": 0.0,
-      "sentiment_label": "NEUTRAL",
-      "affected_industries": [],
-      "impact_reason_zh": "純屬個股推薦與投資競賽內容，不涉及產業結構性利多或利空。"
-    },
-    {
-      "id": "9c3729beba10aa43",
-      "title": "「神速填息股」後勁十足 大立光、台塑化等股息、價差兩頭賺 - UDN",
-      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBnNUVkV19MeC1JbFladTF1S1VEN1pfUWpiZnI5LS1uQjF0ck5mTmIxSHVmZEk0VnptRUpZUlV4VHRoYm54a0FPQlRMN3ZOWWlf0gFWQVVfeXFMTW1waGgwU3RfUmdVczJZWkFiQnNZUUtYNG9zUVJqNjNDaEJNaDJwSjhUYVBJMzBaV2lJZFhwcWRUMDZJUjZIcmdGVTNaRV8xalBReEtUWnc?oc=5",
-      "source": "Google News - 台股",
-      "published_at": "2026-07-26T01:42:03+08:00",
-      "snippet": "「神速填息股」後勁十足 大立光、台塑化等股息、價差兩頭賺 UDN",
-      "sentiment_score": 0.0,
-      "sentiment_label": "NEUTRAL",
-      "affected_industries": [],
-      "impact_reason_zh": "純屬個股填息表現，不涉及產業結構性利多或利空。"
-    },
-    {
-      "id": "d8a7441d70b94eee",
-      "title": "換股納入台勝科、中美晶！「這檔ETF」單周遭外資抱回2.48億元 0050被狂倒12.9萬張慘居榜首 - Yahoo股市",
-      "url": "https://news.google.com/rss/articles/CBMi5AJBVV95cUxNUVRpSHVVVm9WZktMNEc1MWZTMWJDWFpBSVU3Y2FDMmdSTUdrQVVZZFlTX2h6dFBoUllVVGtUVnZlRHdDSFBRcHhYdDFTNE1iSWZ1SGYwVEQtVE80bDl0RnFQczN2Z2trZXg3azJlT25OM1NRQVdDYjZfcDdMX1ljU2tSM1B3cXBMUW96OENDZTc4bGt3d1BuRHBSc3Nya0tac1lMQWFObTRCRDJiZGtwd2x5TDdrd3M5TEJyVHNDZTNsRDdyQkExQUVreUR6cWp5SzY2MTBTeVNjNEhRcFZkd2JWRHp6SlVQemtONWxTbV90UTROeUhvdzVONXJqLWFJTElNY3M3bW5SWDhLd1JZU294Q3hHcFFSUWh3R1JJOEMwcUhkdU9QZW1BLU9pZGNnU0I3Vnp3YmQ5QVVaRjRTeW1TRmNLT2Z0VVl1ei1ndlhwSUJPOExJTjRDdlNOVHlGRlh0QQ?oc=5",
-      "source": "Google News - 台股",
-      "published_at": "2026-07-25T18:30:00+08:00",
-      "snippet": "換股納入台勝科、中美晶！「這檔ETF」單周遭外資抱回2.48億元 0050被狂倒12.9萬張慘居榜首 Yahoo股市",
-      "sentiment_score": 0.0,
-      "sentiment_label": "NEUTRAL",
-      "affected_industries": [],
-      "impact_reason_zh": "報導為ETF成分股調整及法人資金流向，非產業結構性利多或利空。"
+      "impact_reason_zh": "屬券商喊單與個股推薦，非產業結構性利多或利空。"
     },
     {
       "id": "c6b41537e4da57f7",
@@ -329,82 +369,70 @@
       "source": "Google News - 台股",
       "published_at": "2026-07-25T18:54:07+08:00",
       "snippet": "台股單日重挫逾千點該退場？ Cheap揭回測研究：最猛反彈緊黏大跌 三立新聞",
-      "sentiment_score": 0.0,
+      "sentiment_score": 0,
       "sentiment_label": "NEUTRAL",
       "affected_industries": [],
-      "impact_reason_zh": "純屬市場評論與投資建議，不涉及產業結構性利多或利空。"
-    },
-    {
-      "id": "5b3b64b0d0396afb",
-      "title": "【台股115/7/27(一)盤前分析】 - 台灣好新聞",
-      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOVjFlcklmd3JPNnpFR1E2Y3JGSHlTY1FHQ2RIYW0tWXZ2RGxOcHpkMTZKZUpfTXVUN2lzLWlMMFlfM2IzSFJBbnlmUks1aXpNV1lZWHNWSWRPNWxOOHIydGdTR3hRQS1hS2ctSmRUOGhha0hXaV93dDBuTmR2ek5FZ3ViUk1nQ0lQSFRIeUNEQmdMYlJoMWJoaE53S1RiZlNfNm4zR3B4UWhGakZJNDhyY2VDMXVvQ1VaZWpEVVJSTW1fZ3N6ZnE1RnpCY25BdWs?oc=5",
-      "source": "Google News - 台股",
-      "published_at": "2026-07-25T15:30:07+08:00",
-      "snippet": "【台股115/7/27(一)盤前分析】 台灣好新聞",
-      "sentiment_score": 0.0,
-      "sentiment_label": "NEUTRAL",
-      "affected_industries": [],
-      "impact_reason_zh": "純屬盤前分析，不涉及產業結構性利多或利空。"
+      "impact_reason_zh": "純屬市場情緒與技術分析討論，未涉及特定產業結構性變化。"
     },
     {
       "id": "1ccf7615ecdcfd7c",
       "title": "台股一恐慌，連台積電也會忍痛砍在阿呆谷？筆記4檢查點、3動作， 這次別再含淚出場 - 理財周刊",
       "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9iMzJWSFRqdEhIUTlOT19yNXg5MlE5eTJBd05aME94REF5cmhseTFDODlzVDBpM2NzLXlIeEdSeWtBNy1iYmFNMHh5RzlMWWQyaG1GaklYU24xOFk5SDVON0czZ25MUUlRQTdKV2stQQ?oc=5",
       "source": "Google News - 台股",
-      "published_at": "2026-07-25T23:56:15+08:00",
+      "published_at": "2026-07-26T00:05:04+08:00",
       "snippet": "台股一恐慌，連台積電也會忍痛砍在阿呆谷？筆記4檢查點、3動作， 這次別再含淚出場 理財周刊",
-      "sentiment_score": 0.0,
+      "sentiment_score": 0,
       "sentiment_label": "NEUTRAL",
       "affected_industries": [],
-      "impact_reason_zh": "純屬投資心理與操作建議，不涉及產業結構性利多或利空。"
+      "impact_reason_zh": "純屬市場情緒與投資策略討論，未涉及特定產業結構性變化。"
     },
     {
-      "id": "ab2ec46e7057b41d",
-      "title": "台股跌千點 投資人不恐慌仍看多後市 - Yahoo新聞",
-      "url": "https://news.google.com/rss/articles/CBMilAJBVV95cUxNRk1GUm44TFZ1YnA4WXpKZDk5VWpmQzhWdnpIS2VSc01xQVVWeFlaeWZoM2xIV0JwV3p0RlhWS0xQUFhjNlNiU0VfYTZZcnRTS0Z4WVRUTEkxSWhYN01zQ0F6WkNaZEVtYmFpaXFpVnZaRG9RYUdqYjVwLWx5aUVyTWh3bmtlejBIWEhSRnJ5Z3JiU2hMTDlFNXJCRjVHWkQyM09xQ1pobGRTWjZ0SGpOZjNCQlpJamVnVnNEZWZWc1lmMjV4c0VQQjJTcDhjS2JSYnpvQ3owaUFfRXJoWmJKYnVTcnc4SmpJUDJ6LXZvbU5ORDQwZ3RsdEpibmdFRVdScGh2MDlIeHJ4cVFCYTk1SThjY2I?oc=5",
+      "id": "27d9fee2eb864e62",
+      "title": "台股擂台／挑戰者「Q女王」劉良梅 本周押環球晶、新興 | 台股擂台 | 證券 - 經濟日報",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFA1YVFjOGt4eERVWTYzcVItZGNUUTFmTy04dlBYQTJrSE8xU0QwTzB0UlR3WTNlT1RJLXQxNGUwUW1KZzhhbmpUMDNpbGZBNXRRbzFtS2RFS3c1WUVD?oc=5",
       "source": "Google News - 台股",
-      "published_at": "2026-07-25T06:42:27+08:00",
-      "snippet": "台股跌千點 投資人不恐慌仍看多後市 Yahoo新聞",
-      "sentiment_score": 0.0,
+      "published_at": "2026-07-25T23:38:18+08:00",
+      "snippet": "台股擂台／挑戰者「Q女王」劉良梅 本周押環球晶、新興 | 台股擂台 | 證券 經濟日報",
+      "sentiment_score": 0,
       "sentiment_label": "NEUTRAL",
       "affected_industries": [],
-      "impact_reason_zh": "純屬市場情緒與投資人看法，不涉及產業結構性利多或利空。"
+      "impact_reason_zh": "屬券商喊單與個股推薦，非產業結構性利多或利空。"
     },
     {
-      "id": "f619226f362232f1",
-      "title": "台股崩跌！徐乃麟兒慘賠「深夜睡公園」畫面曝 她補刀：看來有買國巨 - Yahoo新聞",
-      "url": "https://news.google.com/rss/articles/CBMi1AJBVV95cUxNVzZnbFVKeldjZlktZFBEODA3d1pHejJUeldLeldqV0NCY1hmOGc2a2gwanh1V3FsdXRDZWdsLUdNWUItekhsYzUwVUJ3d3o5S3FzRjUtbXlhS0lXSDFMcFprVlY3ZFdqc1JVejR1U3AxakN6T01BdUdJOVI1ZVJBSVlGcXI2M0xQT0dBbEllSko3ZFVOUG5nRnB4bjBXenlhY0tyeVpOSjFRLXVhbW9iOVRsSDNvQ1NNWFpRekEwMFNIM0hVM0QxbUJ2QlJoMEZoZXlKaW5pZkFrcEwwcXlMOVVvV1lVWmFiUXc5RlFXdGFELWtGRldWUzQ3Wm80WGUyano0WDNxem1YRVM1N3cwWW9uVVNNNTdPemJHOUM3anVwaXZheTBvNEVOQ3llaHBEOTNBRjF3SHRyem80QnotOHBZSkp6LU82aWpVQS1EZUpsSTZm?oc=5",
+      "id": "d8a7441d70b94eee",
+      "title": "換股納入台勝科、中美晶！「這檔ETF」單周遭外資抱回2.48億元 0050被狂倒12.9萬張慘居榜首 - Yahoo股市",
+      "url": "https://news.google.com/rss/articles/CBMi5AJBVV95cUxNUVRpSHVVVm9WZktMNEc1MWZTMWJDWFpBSVU3Y2FDMmdSTUdrQVVZZFlTX2h6dFBoUllVVGtUVnZlRHdDSFBRcHhYdDFTNE1iSWZ1SGYwVEQtVE80bDl0RnFQczN2Z2trZXg3azJlT25OM1NRQVdDYjZfcDdMX1ljU2tSM1B3cXBMUW96OENDZTc4bGt3d1BuRHBSc3Nya0tac1lMQWFObTRCRDJiZGtwd2x5TDdrd3M5TEJyVHNDZTNsRDdyQkExQUVreUR6cWp5SzY2MTBTeVNjNEhRcFZkd2JWRHp6SlVQemtONWxTbV90UTROeUhvdzVONXJqLWFJTElNY3M3bW5SWDhLd1JZU294Q3hHcFFSUWh3R1JJOEMwcUhkdU9QZW1BLU9pZGNnU0I3Vnp3YmQ5QVVaRjRTeW1TRmNLT2Z0VVl1ei1ndlhwSUJPOExJTjRDdlNOVHlGRlh0QQ?oc=5",
       "source": "Google News - 台股",
-      "published_at": "2026-07-25T11:58:53+08:00",
-      "snippet": "台股崩跌！徐乃麟兒慘賠「深夜睡公園」畫面曝 她補刀：看來有買國巨 Yahoo新聞",
-      "sentiment_score": 0.0,
+      "published_at": "2026-07-25T18:30:00+08:00",
+      "snippet": "換股納入台勝科、中美晶！「這檔ETF」單周遭外資抱回2.48億元 0050被狂倒12.9萬張慘居榜首 Yahoo股市",
+      "sentiment_score": 0,
       "sentiment_label": "NEUTRAL",
       "affected_industries": [],
-      "impact_reason_zh": "純屬個人投資經驗與八卦，不涉及產業結構性利多或利空。"
+      "impact_reason_zh": "屬ETF成分股調整與資金流向，非半導體產業結構性利多。"
     },
     {
-      "id": "e93d2060395cc3c7",
-      "title": "台股重挫千點！徐乃麟兒「帶枕頭睡公園」：綠地任我躺 - Yahoo新聞",
-      "url": "https://news.google.com/rss/articles/CBMi0wJBVV95cUxNdFBMd1BhSXZuemVMNlhNY080Nm1aZHVOQm5INWlZMUs3eVVodk03Wnd5eGFNTmRSaXlhN1R6SzJMdE9oVGFwcERmV00yZU51SzJIVUFPZ1pXanZOY0xybVZiTWhvc3FjWXotMEVPLU0wRUVWTUI0NFJuVEtQMWk0cWRqdW1lVDhyZ0xnd3NLdDl2SWxwWGlvX20zVGlMZUh5V1Jyc0JsV29kZXluVkpWdjZxRF9sQ2tTN0lUX2NKSm5KUWN2VnBnVWdKczdERDl1VGFjbk4xd1pPYXk0b0NQVkctejRWU2U0eVRXRjNld0VVZzQ5SzFPbU5UdnRtUUJteTk1UklmZ0IzdEw3WjBqLVlOck42TEVRT1VMY19CZUc3RGc1UE1VVHZpYjdWU2oyR1JmejhzSlFUT2wzWFlWODRpYmE4TURaT1pWMjNQdmxqUjA?oc=5",
+      "id": "9883487d6b45d4c3",
+      "title": "存「千張0050」　素人大媽看2指標 - ETtoday財經雲",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5LSmtFUVpiMWx3aklubUkwcjdkM2tuamVsT1Atd1Ftd3JQaVF2akpDbDUzbC0tV2Njd1lQLVg1aDAzOVdEakJ5cUVPeGxRZGo5UWfSAVBBVV95cUxNVkd3SF9ScEpCOXY4eVpLb0JwUEtVcDlWa29VdmpjcTNQcUdrVkZqS3Bmc3VDWFctazN5NHdzNUxMX2gtVGc3dnhXRVdxeWlIZg?oc=5",
       "source": "Google News - 台股",
-      "published_at": "2026-07-25T14:03:00+08:00",
-      "snippet": "台股重挫千點！徐乃麟兒「帶枕頭睡公園」：綠地任我躺 Yahoo新聞",
-      "sentiment_score": 0.0,
+      "published_at": "2026-07-26T07:37:00+08:00",
+      "snippet": "存「千張0050」　素人大媽看2指標 ETtoday財經雲",
+      "sentiment_score": 0,
       "sentiment_label": "NEUTRAL",
       "affected_industries": [],
-      "impact_reason_zh": "純屬個人投資經驗分享，不涉及產業結構性利多或利空。"
+      "impact_reason_zh": "屬個人投資經驗分享，非產業結構性利多或利空。"
     },
     {
-      "id": "7f43a4ea9800e38e",
-      "title": "15檔大戶抄底悍 英業達、萬海等有望領漲抗跌 | 市場焦點 | 證券 - 經濟日報",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9FblMwczJmaFdzQU9iLVhEalMyNktSV1FQTG9naEhWeVJneG5vcldIOU1nTUJqenIwV2ZxYUlPdURSY0NzanlaaGlYTWtKM1NBeTZxbU5Gc1BTQQ?oc=5",
+      "id": "f78341294f8a03f7",
+      "title": "台股跌千點你恐慌 股海老牛曝加碼訊號 - facebook.com",
+      "url": "https://news.google.com/rss/articles/CBMitwJBVV95cUxNVndCSmxWa1BZejA3R3U3LU80dHVWOWtlMFJxbUJjSHVoeVlCS0JITUxnbXJlOHlDT0c0OEpOSndOM3JnMVBOcTE1ZlA2b011VU9MbVpCbmJuNTFsZW51RUkyM2ZYZGJkR2tzSXJpdUZoNTVPbnlpV0pMV1l4bHlZQXVadHNaQS1Eb0loazV0UVlFcjN3QURhSkpjUGJQejNDdXlHNlFoWUZldXBzeXpCWlhJQW81LVhsZzc0dGZFNlc1Wlp4SFkwYUctNzk1emo0b2x3NlpSWTlHQzVneDBRT0xiZ0NqSkxZRWx6SS1yYS04X0RobjlVdC1INi1OdGtpVFdTSDhocWZ5alpPT3FpUnFtS1JLcmZWaVozZU5OZ2JydFMtOFlsR3FHWi12Tmx2d3YtY1huWQ?oc=5",
       "source": "Google News - 台股",
-      "published_at": "2026-07-26T01:45:09+08:00",
-      "snippet": "15檔大戶抄底悍 英業達、萬海等有望領漲抗跌 | 市場焦點 | 證券 經濟日報",
-      "sentiment_score": 0.0,
+      "published_at": "2026-07-26T10:00:08+08:00",
+      "snippet": "台股跌千點你恐慌 股海老牛曝加碼訊號 facebook.com",
+      "sentiment_score": 0,
       "sentiment_label": "NEUTRAL",
       "affected_industries": [],
-      "impact_reason_zh": "純屬個股推薦，非針對產業的結構性利多。"
+      "impact_reason_zh": "純屬市場情緒與投資策略討論，未涉及特定產業結構性變化。"
     },
     {
       "id": "4f97c5ea2a7b043a",
@@ -413,10 +441,48 @@
       "source": "Google News - 台股",
       "published_at": "2026-07-25T17:11:00+08:00",
       "snippet": "台股重挫！徐新洋「睡公園」自嘲買在最高點 熊熊神回：有買國巨？ Yahoo新聞",
-      "sentiment_score": 0.0,
+      "sentiment_score": 0,
       "sentiment_label": "NEUTRAL",
       "affected_industries": [],
-      "impact_reason_zh": "純屬個人投資經驗與八卦，不涉及產業結構性利多或利空。"
+      "impact_reason_zh": "屬個人投資經驗分享與八卦新聞，未涉及特定產業結構性利多或利空。"
+    },
+    {
+      "id": "9c61bf6c85392da8",
+      "title": "台股剉咧等？本週迎「超級考驗」5大重磅事件來襲 專家曝行情看3關鍵 - 鏡報",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFB1QjZHU2dZczk2WHhNaGlXM3gzSnE5R0h6WmYyUDE5WWtTME8zeFdoZHBzZk9mR0ZxUTNDMTFIdGVXN0tHdHUxcHIyUm95TVY2aEE?oc=5",
+      "source": "Google News - 台股",
+      "published_at": "2026-07-26T11:18:40+08:00",
+      "snippet": "台股剉咧等？本週迎「超級考驗」5大重磅事件來襲 專家曝行情看3關鍵 鏡報",
+      "sentiment_score": 0,
+      "sentiment_label": "NEUTRAL",
+      "affected_industries": [],
+      "impact_reason_zh": "純屬市場預測與事件提醒，未涉及特定產業結構性變化。"
+    },
+    {
+      "id": "5b3b64b0d0396afb",
+      "title": "【台股115/7/27(一)盤前分析】 - 台灣好新聞",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOVjFlcklmd3JPNnpFR1E2Y3JGSHlTY1FHQ2RIYW0tWXZ2RGxOcHpkMTZKZUpfTXVUN2lzLWlMMFlfM2IzSFJBbnlmUks1aXpNV1lZWHNWSWRPNWxOOHIydGdTR3hRQS1hS2ctSmRUOGhha0hXaV93dDBuTmR2ek5FZ3ViUk1nQ0lQSFRIeUNEQmdMYlJoMWJoaE53S1RiZlNfNm4zR3B4UWhGakZJNDhyY2VDMXVvQ1VaZWpEVVJSTW1fZ3N6ZnE1RnpCY25BdWs?oc=5",
+      "source": "Google News - 台股",
+      "published_at": "2026-07-25T15:30:07+08:00",
+      "snippet": "【台股115/7/27(一)盤前分析】 台灣好新聞",
+      "sentiment_score": 0,
+      "sentiment_label": "NEUTRAL",
+      "affected_industries": [],
+      "impact_reason_zh": "純屬市場盤前分析，未涉及特定產業結構性變化。"
+    },
+    {
+      "id": "5768cdaec04e7414",
+      "title": "緯創昔分家最不被看好！今獲黃仁勳親飛德州站台 林憲銘25年AI逆襲路 - 民報",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9rQjdtMWdjRlN1QmxCakl1aXJvemZqRlpySnNPNGpPajI5dEl5THA4dzVHQnY1X01odHZxVlRKbGZicFlQS1FiVklwSjExMTFvNWw5TFpCd3JMNFZoZWljcF82RFE?oc=5",
+      "source": "Google News - AI 伺服器",
+      "published_at": "2026-07-26T10:00:00+08:00",
+      "snippet": "緯創昔分家最不被看好！今獲黃仁勳親飛德州站台 林憲銘25年AI逆襲路 民報",
+      "sentiment_score": 0.7,
+      "sentiment_label": "BULLISH",
+      "affected_industries": [
+        "AI_SERVER"
+      ],
+      "impact_reason_zh": "黃仁勳親自站台緯創，凸顯其在AI伺服器領域的成功與重要性，對AI伺服器產業具正面意義。"
     },
     {
       "id": "2c30c5aa26f3fb87",
@@ -428,9 +494,10 @@
       "sentiment_score": 0.5,
       "sentiment_label": "BULLISH",
       "affected_industries": [
-        "EV"
+        "EV",
+        "AI_SERVER"
       ],
-      "impact_reason_zh": "電源雙雄法說會聚焦800VDC導入時程，顯示電動車產業技術升級趨勢，對EV產業為利多。"
+      "impact_reason_zh": "電源雙雄聚焦800VDC導入時程，顯示高功率電源需求成長，利於EV及AI伺服器產業發展。"
     },
     {
       "id": "ade5b535151027f1",
@@ -439,12 +506,10 @@
       "source": "Google News - AI 伺服器",
       "published_at": "2026-07-25T13:45:14+08:00",
       "snippet": "緯創(3231)AI伺服器資金續追，真正撐住估值的是哪一個關鍵？-王澤明 CMoney投資網誌",
-      "sentiment_score": 0.6,
-      "sentiment_label": "BULLISH",
-      "affected_industries": [
-        "AI_SERVER"
-      ],
-      "impact_reason_zh": "報導指出AI伺服器資金持續追捧緯創，反映市場對AI伺服器產業的強勁需求與成長動能。"
+      "sentiment_score": 0,
+      "sentiment_label": "NEUTRAL",
+      "affected_industries": [],
+      "impact_reason_zh": "屬緯創個股估值分析，非AI伺服器產業結構性利多。"
     },
     {
       "id": "414b8e4b663b1497",
@@ -453,13 +518,13 @@
       "source": "Google News - AI 伺服器",
       "published_at": "2026-07-26T00:00:00+08:00",
       "snippet": "AMD 宣稱掌握近半伺服器 CPU 市場，瞄準 2 兆美元商機 蕃新聞",
-      "sentiment_score": 0.7,
+      "sentiment_score": 0.8,
       "sentiment_label": "BULLISH",
       "affected_industries": [
-        "AI_SERVER",
-        "SEMI"
+        "SEMI",
+        "AI_SERVER"
       ],
-      "impact_reason_zh": "AMD宣稱掌握近半伺服器CPU市場並瞄準兆元商機，顯示AI伺服器與半導體產業的巨大成長潛力。"
+      "impact_reason_zh": "AMD掌握近半伺服器CPU市場並瞄準2兆美元商機，對半導體及AI伺服器產業具結構性利多。"
     },
     {
       "id": "b298dd8995dc856e",
@@ -468,24 +533,10 @@
       "source": "Google News - AI 伺服器",
       "published_at": "2026-07-25T14:54:25+08:00",
       "snippet": "AI硬體股誰勝出？美超微與威騰電子投資潛力分析 墨新聞-MORE News",
-      "sentiment_score": 0.5,
-      "sentiment_label": "BULLISH",
-      "affected_industries": [
-        "AI_SERVER"
-      ],
-      "impact_reason_zh": "報導分析AI硬體股投資潛力，顯示市場對AI伺服器相關硬體產業的看好。"
-    },
-    {
-      "id": "e737bdb61c195cbd",
-      "title": "飆股幕後》外資買完 投信買 研華本週創天價 - 自由財經",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBIY2ZaVGFITEUzLTBZYXhTZGlqMVZIcUdlZFhyYXpwZXN1aUc5RzFyelZNcWtKbHRMRHIybFpWVzh1S0JaNlNjcFpvcUMzUG52TWd4Vmp30gFbQVVfeXFMTUJvMWp4ZldpbFZ0VG9RTENtZXlxX1hhQ3F4Mm5kN0pTQ29ESG53RWVZSDFRYzhhbkNIN282am1CdkIxTUxzUkwzX3VaQWR5ZTBZOHBnanFOU05Jdw?oc=5",
-      "source": "Google News - 台股法人",
-      "published_at": "2026-07-25T05:30:00+08:00",
-      "snippet": "飆股幕後》外資買完 投信買 研華本週創天價 自由財經",
-      "sentiment_score": 0.0,
+      "sentiment_score": 0,
       "sentiment_label": "NEUTRAL",
       "affected_industries": [],
-      "impact_reason_zh": "純屬個股股價表現與法人買賣超，不涉及產業結構性利多。"
+      "impact_reason_zh": "屬個股投資潛力分析，非AI伺服器產業結構性利多。"
     },
     {
       "id": "7733802a08acbfa6",
@@ -494,27 +545,10 @@
       "source": "Google News - 台股法人",
       "published_at": "2026-07-25T12:33:14+08:00",
       "snippet": "緯創(3231)獲外資連4買，AI伺服器動能之外還看哪一條線？-陳逸軒 CMoney投資網誌",
-      "sentiment_score": 0.6,
-      "sentiment_label": "BULLISH",
-      "affected_industries": [
-        "AI_SERVER"
-      ],
-      "impact_reason_zh": "緯創獲外資連續買超，凸顯AI伺服器產業動能強勁，對AI伺服器產業為利多。"
-    },
-    {
-      "id": "a3c55aed30515523",
-      "title": "Nvidia (NASDAQ: NVDA), Broadcom (NASDAQ: AVGO), And TSMC (NYSE: TSM) Stand To Gain Most If AI Spending Reaches $1 Trillion - foreignpolicyjournal.com",
-      "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPdVM0WEVvSWw0OXBIbmxhY3FySzFtOXItdlhRWUxRTTd0MS1KY0cxNUNZYkFtdGlVZ2kxMERKYXQwTnFVdm9aTHZmWm9BNkpPc1RqVUhJY2FyX3duZUFzMkNJTncxMzlENC1DNjNYTTNpNVZnVHBUaEtpQi05VG1WRERRajU4NTNCWVQwWGpvVDJCSGJ1cHRIRDdqTjBkUGRJRHg2MkJtYmt6VWdXZldMNkFRVGRqM2ZjWUQ2UWtPbDNtZl9ScWxtbzdIcG5xeS1qVXJwLU5LTmRlWVdhWWl5aFkyUmhjaFFaTm41SWhCdEs?oc=5",
-      "source": "Google News - Global AI",
-      "published_at": "2026-07-25T08:38:00+08:00",
-      "snippet": "Nvidia (NASDAQ: NVDA), Broadcom (NASDAQ: AVGO), And TSMC (NYSE: TSM) Stand To Gain Most If AI Spending Reaches $1 Trillion foreignpolicyjournal.com",
-      "sentiment_score": 0.9,
-      "sentiment_label": "BULLISH",
-      "affected_industries": [
-        "SEMI",
-        "AI_SERVER"
-      ],
-      "impact_reason_zh": "報導指出若AI支出達兆美元，Nvidia、Broadcom及台積電將受益最多，對半導體與AI伺服器產業為極大利多。"
+      "sentiment_score": 0,
+      "sentiment_label": "NEUTRAL",
+      "affected_industries": [],
+      "impact_reason_zh": "屬緯創個股分析與外資買賣超，非AI伺服器產業結構性利多。"
     },
     {
       "id": "67d4e9f5a1c1981d",
@@ -523,24 +557,12 @@
       "source": "Google News - Global AI",
       "published_at": "2026-07-25T16:33:28+08:00",
       "snippet": "Samsung Electronics, Broadcom Forge $200 Billion AI Semiconductor Alliance 조선일보",
-      "sentiment_score": 0.8,
+      "sentiment_score": 0.9,
       "sentiment_label": "BULLISH",
       "affected_industries": [
         "SEMI"
       ],
-      "impact_reason_zh": "三星與博通建立2000億美元AI半導體聯盟，顯示AI半導體產業的重大合作與發展，對SEMI產業為利多。"
-    },
-    {
-      "id": "a594b1d459acc181",
-      "title": "H1財報亮眼！國家隊砸2億買超「這檔金融股」 - 三立新聞網SETN.com",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE4tRHJRN2NMT3A5YVhjdjd2MTJ3UTd2WUFxcmxxdmp2YWpPQXJtQ2haY1VTQ1o5WGRDdElHbFlfNHp0dzMxTVNtYdIBTEFVX3lxTE5SandDMFpwbFVJOV9hdUZqTllBanBxMjFQU21iczNsd0dvaFNoQVNMaVNWdkR3QkxVV2VWWmZBek5SM2RQLWZIX2N6SUQ?oc=5",
-      "source": "Google News - 法說會 / 財報",
-      "published_at": "2026-07-25T05:10:00+08:00",
-      "snippet": "H1財報亮眼！國家隊砸2億買超「這檔金融股」 三立新聞網SETN.com",
-      "sentiment_score": 0.0,
-      "sentiment_label": "NEUTRAL",
-      "affected_industries": [],
-      "impact_reason_zh": "純屬個股財報表現與法人買超，不涉及金融產業結構性利多。"
+      "impact_reason_zh": "三星與博通建立2000億美元AI半導體聯盟，顯示AI半導體市場巨大潛力，利多半導體產業。"
     },
     {
       "id": "c097d2e15e84d589",
@@ -549,45 +571,45 @@
       "source": "Google News - 外資評等 / 目標價",
       "published_at": "2026-07-25T21:30:00+08:00",
       "snippet": "法說報喜也沒用！力積電目標價喊80元仍遭外資狂撤10萬張淪賣超王「這檔金融」EPS看俏也遭倒 FTNN 新聞網",
-      "sentiment_score": 0.0,
+      "sentiment_score": 0,
       "sentiment_label": "NEUTRAL",
       "affected_industries": [],
-      "impact_reason_zh": "報導為個股股價表現與法人賣超，非產業結構性利多或利空。"
+      "impact_reason_zh": "屬個股股價表現與外資交易行為，非產業結構性利多或利空。"
     },
     {
-      "id": "730c1e080bd8b674",
-      "title": "中科院查獲「疑中製原料」停權3年 「不良廠商」照拿國防部11標案 - 自由軍武頻道",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE83Z3hYQjZQUTJ0ZjZyazFEVmVQOVNOdUY5MkdNSlhCWm5iZmI3WHkwaVprVnVnM1hndGdjcG5uWTIxdWNiSmM2a2ZSeUpUSE9KLW1yTjd2TGE3TkJnSTdsTtIBZkFVX3lxTE1BdXdISHhJbzd5M19oSENBdGZHNW9XbUNrTlozZkxJR2NXWFB2ajdGc1hBenFLNTBfNWNqUksxU2FXNEtQbDREN1JGdk9SY3JTSTl0LVF0X3A4ajd2OEhDeFlWLUx2dw?oc=5",
-      "source": "Google News - 政府標案 / 科技採購",
-      "published_at": "2026-07-25T11:52:00+08:00",
-      "snippet": "中科院查獲「疑中製原料」停權3年 「不良廠商」照拿國防部11標案 自由軍武頻道",
-      "sentiment_score": 0.0,
+      "id": "3396aa5e3cced553",
+      "title": "證交所舉辦「企業併購實戰論壇」 助力上市公司價值提升開創新局 - 經濟日報",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFB0V0IzZnh0OVZUdmZwVk94aXlZNHVlcldXNXZCSVNLYlRvX2tBOWszZ1BlZlgzSnA2TDh1VDlod2RmNnRjX0hYNzdPbTVZQVFNanZUTW40dzAzZ9IBX0FVX3lxTE5ZSU5Vb2ZqZVM0eVJtUDVobTNqMlNhNGVKSEplMF9xWlc2QldFUENZYVZScjBnLWFQd2o1VmdDSXRrSnJYYVV5MnVKc0l2S0JPZUpaUUNTeTk4VEx4bzY4?oc=5",
+      "source": "Google News - 證交所 / 重大訊息 / 上市公告",
+      "published_at": "2026-07-25T17:00:00+08:00",
+      "snippet": "證交所舉辦「企業併購實戰論壇」 助力上市公司價值提升開創新局 經濟日報",
+      "sentiment_score": 0,
       "sentiment_label": "NEUTRAL",
       "affected_industries": [],
-      "impact_reason_zh": "報導為廠商採購與合約問題，不涉及指定產業的結構性利多或利空。"
+      "impact_reason_zh": "屬市場政策與企業發展活動，未涉及特定產業結構性變化。"
     },
     {
-      "id": "44d89e21779332e4",
-      "title": "6830 汎銓- 請金管會追查元大券商是否放空光焱並且共謀操縱壓低股價- 股市爆料同學會 - CMoney",
-      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9HRzlSQU5WSHE4MlUwQjd5emU2enRJN0N1QndzNzdvU19xb0xqQWw1NEJUYTNRZDBzeWlBbEZqYV9LT2d0VWVLbUdoYlhYdEVlZ3ZEdWw4UlA?oc=5",
-      "source": "Google News - 金管會 裁罰 / 新規 / 資本市場",
-      "published_at": "2026-07-25T05:32:54+08:00",
-      "snippet": "6830 汎銓- 請金管會追查元大券商是否放空光焱並且共謀操縱壓低股價- 股市爆料同學會 CMoney",
-      "sentiment_score": 0.0,
+      "id": "87b84fe754856932",
+      "title": "8月共九家上市公司於證交所辦法說會 關貿、東元、競國等入列 - 經濟日報",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBSR2tTalFIellabFZZXzZVOXBzTXRsZnNRWlVTS29MRWJZWGtKWEF4NkExWlNPWklMc1VDT3V3LS1yVENtSGxvdV9HcDhtamRQZEFnbGtjT0hFZ9IBX0FVX3lxTE1qZVU0LWk5a3JtQVpoU2g1SjltRVVOVDlkMXQ1Q0VCN3ZlVEhfeUxDM2dFN1AyUjYxNU5ZUWt6aXd1dzF5dDZRVm9sX2RMZDJYdkg3aWlZN0ViQzg4TURn?oc=5",
+      "source": "Google News - 證交所 / 重大訊息 / 上市公告",
+      "published_at": "2026-07-25T17:00:00+08:00",
+      "snippet": "8月共九家上市公司於證交所辦法說會 關貿、東元、競國等入列 經濟日報",
+      "sentiment_score": 0,
       "sentiment_label": "NEUTRAL",
       "affected_industries": [],
-      "impact_reason_zh": "純屬個股股價爭議與爆料，不涉及產業結構性利多或利空。"
+      "impact_reason_zh": "屬上市公司法說會排程報導，非產業結構性利多或利空。"
     }
   ],
   "recommendations": [
     {
-      "ticker": "2615",
-      "name_zh": "萬海",
-      "price": 87.0,
+      "ticker": "3706",
+      "name_zh": "神達",
+      "price": 91.3,
       "industry_code": "GENERAL",
       "industry_name_zh": "綜合",
-      "news_score": 0.537,
-      "bullish_score": 0.723,
+      "news_score": 0.382,
+      "bullish_score": 0.687,
       "signal_strength": "STRONG",
       "trigger_news_ids": [],
       "reason_zh": "",
@@ -595,37 +617,38 @@
         "GENERAL"
       ],
       "chips": {
-        "trust_consec_buy": 5,
-        "foreign_consec_buy": 6,
-        "trust_buy_3d": 157,
-        "foreign_buy_3d": 13706,
-        "chips_score": 0.73,
+        "trust_consec_buy": 6,
+        "foreign_consec_buy": 5,
+        "trust_buy_3d": 2813,
+        "foreign_buy_3d": 3023,
+        "chips_score": 0.83,
         "signals": [
-          "投信連買5日",
-          "外資連買6日",
-          "外資投信共振"
+          "投信連買6日",
+          "外資連買5日",
+          "外資投信共振",
+          "投信3日+2,813張"
         ]
       },
       "technical": {
-        "price": 87.0,
-        "ma5": 84.46,
-        "ma10": 82.28,
-        "ma20": 80.17,
-        "ma60": 78.34,
-        "rsi": 66.5,
-        "macd_hist": 0.7584,
-        "vol_ratio": 1.58,
-        "tech_score": 0.9,
+        "price": 91.3,
+        "ma5": 90.84,
+        "ma10": 90.38,
+        "ma20": 89.84,
+        "ma60": 87.51,
+        "rsi": 54.5,
+        "macd_hist": 0.151,
+        "vol_ratio": 0.9,
+        "tech_score": 0.8,
         "signals": [
           "站穩月線",
           "站穩季線",
           "多頭排列",
-          "量增 1.6×"
+          "RSI 55"
         ],
-        "bias_pct": 8.52,
-        "gain_10d": 8.21,
-        "price_position_120d": 100.0,
-        "ma_convergence_pct": 7.81,
+        "bias_pct": 1.63,
+        "gain_10d": 2.93,
+        "price_position_120d": 66.8,
+        "ma_convergence_pct": 3.8,
         "ma5_cross_ma20": false,
         "macd_just_positive": false
       },
@@ -637,17 +660,15 @@
       "price": 179.0,
       "industry_code": "AI_SERVER",
       "industry_name_zh": "AI 伺服器",
-      "news_score": 0.743,
-      "bullish_score": 0.702,
+      "news_score": 0.69,
+      "bullish_score": 0.686,
       "signal_strength": "STRONG",
       "trigger_news_ids": [
-        "ade5b535151027f1",
-        "414b8e4b663b1497",
-        "b298dd8995dc856e",
-        "7733802a08acbfa6",
-        "a3c55aed30515523"
+        "5768cdaec04e7414",
+        "2c30c5aa26f3fb87",
+        "414b8e4b663b1497"
       ],
-      "reason_zh": "報導指出若AI支出達兆美元，Nvidia、Broadcom及台積電將受益最多，對半導體與AI伺服器產業為極大利多。",
+      "reason_zh": "AMD掌握近半伺服器CPU市場並瞄準2兆美元商機，對半導體及AI伺服器產業具結構性利多。",
       "related_industries": [
         "AI_SERVER"
       ],
@@ -689,13 +710,64 @@
       "rank": 2
     },
     {
+      "ticker": "2615",
+      "name_zh": "萬海",
+      "price": 87.0,
+      "industry_code": "GENERAL",
+      "industry_name_zh": "綜合",
+      "news_score": 0.382,
+      "bullish_score": 0.677,
+      "signal_strength": "MODERATE",
+      "trigger_news_ids": [],
+      "reason_zh": "",
+      "related_industries": [
+        "GENERAL"
+      ],
+      "chips": {
+        "trust_consec_buy": 5,
+        "foreign_consec_buy": 6,
+        "trust_buy_3d": 157,
+        "foreign_buy_3d": 13706,
+        "chips_score": 0.73,
+        "signals": [
+          "投信連買5日",
+          "外資連買6日",
+          "外資投信共振"
+        ]
+      },
+      "technical": {
+        "price": 87.0,
+        "ma5": 84.46,
+        "ma10": 82.28,
+        "ma20": 80.17,
+        "ma60": 78.34,
+        "rsi": 66.5,
+        "macd_hist": 0.7584,
+        "vol_ratio": 1.58,
+        "tech_score": 0.9,
+        "signals": [
+          "站穩月線",
+          "站穩季線",
+          "多頭排列",
+          "量增 1.6×"
+        ],
+        "bias_pct": 8.52,
+        "gain_10d": 8.21,
+        "price_position_120d": 100.0,
+        "ma_convergence_pct": 7.81,
+        "ma5_cross_ma20": false,
+        "macd_just_positive": false
+      },
+      "rank": 3
+    },
+    {
       "ticker": "2637",
       "name_zh": "慧洋-KY",
       "price": 83.8,
       "industry_code": "GENERAL",
       "industry_name_zh": "綜合",
-      "news_score": 0.537,
-      "bullish_score": 0.657,
+      "news_score": 0.382,
+      "bullish_score": 0.611,
       "signal_strength": "MODERATE",
       "trigger_news_ids": [],
       "reason_zh": "",
@@ -736,7 +808,7 @@
         "ma5_cross_ma20": false,
         "macd_just_positive": true
       },
-      "rank": 3
+      "rank": 4
     },
     {
       "ticker": "5871",
@@ -744,8 +816,8 @@
       "price": 120.0,
       "industry_code": "GENERAL",
       "industry_name_zh": "綜合",
-      "news_score": 0.537,
-      "bullish_score": 0.647,
+      "news_score": 0.382,
+      "bullish_score": 0.601,
       "signal_strength": "MODERATE",
       "trigger_news_ids": [],
       "reason_zh": "",
@@ -787,7 +859,60 @@
         "ma5_cross_ma20": false,
         "macd_just_positive": false
       },
-      "rank": 4
+      "rank": 5
+    },
+    {
+      "ticker": "2317",
+      "name_zh": "鴻海",
+      "price": 252.5,
+      "industry_code": "AI_SERVER",
+      "industry_name_zh": "AI 伺服器",
+      "news_score": 0.767,
+      "bullish_score": 0.6,
+      "signal_strength": "MODERATE",
+      "trigger_news_ids": [
+        "5768cdaec04e7414",
+        "2c30c5aa26f3fb87",
+        "414b8e4b663b1497"
+      ],
+      "reason_zh": "AMD掌握近半伺服器CPU市場並瞄準2兆美元商機，對半導體及AI伺服器產業具結構性利多。",
+      "related_industries": [
+        "AI_SERVER"
+      ],
+      "chips": {
+        "trust_consec_buy": 5,
+        "foreign_consec_buy": 0,
+        "trust_buy_3d": 1294,
+        "foreign_buy_3d": 35918,
+        "chips_score": 0.4,
+        "signals": [
+          "投信連買5日"
+        ]
+      },
+      "technical": {
+        "price": 252.5,
+        "ma5": 248.4,
+        "ma10": 242.95,
+        "ma20": 241.22,
+        "ma60": 249.25,
+        "rsi": 60.2,
+        "macd_hist": 2.3661,
+        "vol_ratio": 0.56,
+        "tech_score": 0.7,
+        "signals": [
+          "站穩月線",
+          "站穩季線",
+          "RSI 60",
+          "MACD ↑"
+        ],
+        "bias_pct": 4.68,
+        "gain_10d": 6.32,
+        "price_position_120d": 59.7,
+        "ma_convergence_pct": 3.33,
+        "ma5_cross_ma20": false,
+        "macd_just_positive": false
+      },
+      "rank": 6
     },
     {
       "ticker": "2892",
@@ -795,8 +920,8 @@
       "price": 34.3,
       "industry_code": "GENERAL",
       "industry_name_zh": "綜合",
-      "news_score": 0.537,
-      "bullish_score": 0.632,
+      "news_score": 0.382,
+      "bullish_score": 0.586,
       "signal_strength": "MODERATE",
       "trigger_news_ids": [],
       "reason_zh": "",
@@ -838,62 +963,7 @@
         "ma5_cross_ma20": false,
         "macd_just_positive": false
       },
-      "rank": 5
-    },
-    {
-      "ticker": "2317",
-      "name_zh": "鴻海",
-      "price": 252.5,
-      "industry_code": "AI_SERVER",
-      "industry_name_zh": "AI 伺服器",
-      "news_score": 0.825,
-      "bullish_score": 0.617,
-      "signal_strength": "MODERATE",
-      "trigger_news_ids": [
-        "ade5b535151027f1",
-        "414b8e4b663b1497",
-        "b298dd8995dc856e",
-        "7733802a08acbfa6",
-        "a3c55aed30515523"
-      ],
-      "reason_zh": "報導指出若AI支出達兆美元，Nvidia、Broadcom及台積電將受益最多，對半導體與AI伺服器產業為極大利多。",
-      "related_industries": [
-        "AI_SERVER"
-      ],
-      "chips": {
-        "trust_consec_buy": 5,
-        "foreign_consec_buy": 0,
-        "trust_buy_3d": 1294,
-        "foreign_buy_3d": 35918,
-        "chips_score": 0.4,
-        "signals": [
-          "投信連買5日"
-        ]
-      },
-      "technical": {
-        "price": 252.5,
-        "ma5": 248.4,
-        "ma10": 242.95,
-        "ma20": 241.22,
-        "ma60": 249.25,
-        "rsi": 60.2,
-        "macd_hist": 2.3661,
-        "vol_ratio": 0.56,
-        "tech_score": 0.7,
-        "signals": [
-          "站穩月線",
-          "站穩季線",
-          "RSI 60",
-          "MACD ↑"
-        ],
-        "bias_pct": 4.68,
-        "gain_10d": 6.32,
-        "price_position_120d": 59.7,
-        "ma_convergence_pct": 3.33,
-        "ma5_cross_ma20": false,
-        "macd_just_positive": false
-      },
-      "rank": 6
+      "rank": 7
     },
     {
       "ticker": "2412",
@@ -901,8 +971,8 @@
       "price": 139.0,
       "industry_code": "GENERAL",
       "industry_name_zh": "綜合",
-      "news_score": 0.537,
-      "bullish_score": 0.613,
+      "news_score": 0.382,
+      "bullish_score": 0.567,
       "signal_strength": "MODERATE",
       "trigger_news_ids": [],
       "reason_zh": "",
@@ -943,7 +1013,7 @@
         "ma5_cross_ma20": false,
         "macd_just_positive": false
       },
-      "rank": 7
+      "rank": 8
     },
     {
       "ticker": "3045",
@@ -951,8 +1021,8 @@
       "price": 113.5,
       "industry_code": "GENERAL",
       "industry_name_zh": "綜合",
-      "news_score": 0.537,
-      "bullish_score": 0.613,
+      "news_score": 0.382,
+      "bullish_score": 0.567,
       "signal_strength": "MODERATE",
       "trigger_news_ids": [],
       "reason_zh": "",
@@ -993,7 +1063,7 @@
         "ma5_cross_ma20": false,
         "macd_just_positive": false
       },
-      "rank": 8
+      "rank": 9
     },
     {
       "ticker": "4904",
@@ -1001,8 +1071,8 @@
       "price": 105.5,
       "industry_code": "GENERAL",
       "industry_name_zh": "綜合",
-      "news_score": 0.537,
-      "bullish_score": 0.613,
+      "news_score": 0.382,
+      "bullish_score": 0.567,
       "signal_strength": "MODERATE",
       "trigger_news_ids": [],
       "reason_zh": "",
@@ -1043,7 +1113,7 @@
         "ma5_cross_ma20": false,
         "macd_just_positive": false
       },
-      "rank": 9
+      "rank": 10
     },
     {
       "ticker": "9921",
@@ -1051,8 +1121,8 @@
       "price": 88.7,
       "industry_code": "GENERAL",
       "industry_name_zh": "綜合",
-      "news_score": 0.537,
-      "bullish_score": 0.613,
+      "news_score": 0.382,
+      "bullish_score": 0.567,
       "signal_strength": "MODERATE",
       "trigger_news_ids": [],
       "reason_zh": "",
@@ -1093,7 +1163,7 @@
         "ma5_cross_ma20": false,
         "macd_just_positive": false
       },
-      "rank": 10
+      "rank": 11
     },
     {
       "ticker": "2324",
@@ -1101,8 +1171,8 @@
       "price": 37.2,
       "industry_code": "GENERAL",
       "industry_name_zh": "綜合",
-      "news_score": 0.537,
-      "bullish_score": 0.609,
+      "news_score": 0.382,
+      "bullish_score": 0.563,
       "signal_strength": "MODERATE",
       "trigger_news_ids": [],
       "reason_zh": "",
@@ -1144,7 +1214,7 @@
         "ma5_cross_ma20": false,
         "macd_just_positive": false
       },
-      "rank": 11
+      "rank": 12
     },
     {
       "ticker": "1590",
@@ -1152,8 +1222,8 @@
       "price": 1425.0,
       "industry_code": "GENERAL",
       "industry_name_zh": "綜合",
-      "news_score": 0.537,
-      "bullish_score": 0.607,
+      "news_score": 0.382,
+      "bullish_score": 0.561,
       "signal_strength": "MODERATE",
       "trigger_news_ids": [],
       "reason_zh": "",
@@ -1194,7 +1264,7 @@
         "ma5_cross_ma20": false,
         "macd_just_positive": false
       },
-      "rank": 12
+      "rank": 13
     },
     {
       "ticker": "2425",
@@ -1202,8 +1272,8 @@
       "price": 46.85,
       "industry_code": "GENERAL",
       "industry_name_zh": "綜合",
-      "news_score": 0.537,
-      "bullish_score": 0.601,
+      "news_score": 0.382,
+      "bullish_score": 0.555,
       "signal_strength": "MODERATE",
       "trigger_news_ids": [],
       "reason_zh": "",
@@ -1243,7 +1313,7 @@
         "ma5_cross_ma20": false,
         "macd_just_positive": false
       },
-      "rank": 13
+      "rank": 14
     },
     {
       "ticker": "1476",
@@ -1251,8 +1321,8 @@
       "price": 334.5,
       "industry_code": "GENERAL",
       "industry_name_zh": "綜合",
-      "news_score": 0.537,
-      "bullish_score": 0.583,
+      "news_score": 0.382,
+      "bullish_score": 0.537,
       "signal_strength": "MODERATE",
       "trigger_news_ids": [],
       "reason_zh": "",
@@ -1293,7 +1363,7 @@
         "ma5_cross_ma20": false,
         "macd_just_positive": false
       },
-      "rank": 14
+      "rank": 15
     },
     {
       "ticker": "2347",
@@ -1301,8 +1371,8 @@
       "price": 88.6,
       "industry_code": "GENERAL",
       "industry_name_zh": "綜合",
-      "news_score": 0.537,
-      "bullish_score": 0.583,
+      "news_score": 0.382,
+      "bullish_score": 0.537,
       "signal_strength": "MODERATE",
       "trigger_news_ids": [],
       "reason_zh": "",
@@ -1343,7 +1413,7 @@
         "ma5_cross_ma20": true,
         "macd_just_positive": false
       },
-      "rank": 15
+      "rank": 16
     },
     {
       "ticker": "2603",
@@ -1351,8 +1421,8 @@
       "price": 206.0,
       "industry_code": "SHIPPING",
       "industry_name_zh": "航運",
-      "news_score": 0.537,
-      "bullish_score": 0.583,
+      "news_score": 0.382,
+      "bullish_score": 0.537,
       "signal_strength": "MODERATE",
       "trigger_news_ids": [],
       "reason_zh": "",
@@ -1393,7 +1463,7 @@
         "ma5_cross_ma20": false,
         "macd_just_positive": false
       },
-      "rank": 16
+      "rank": 17
     },
     {
       "ticker": "3702",
@@ -1401,8 +1471,8 @@
       "price": 117.5,
       "industry_code": "GENERAL",
       "industry_name_zh": "綜合",
-      "news_score": 0.537,
-      "bullish_score": 0.581,
+      "news_score": 0.382,
+      "bullish_score": 0.535,
       "signal_strength": "MODERATE",
       "trigger_news_ids": [],
       "reason_zh": "",
@@ -1443,7 +1513,7 @@
         "ma5_cross_ma20": false,
         "macd_just_positive": false
       },
-      "rank": 17
+      "rank": 18
     },
     {
       "ticker": "1402",
@@ -1451,8 +1521,8 @@
       "price": 27.35,
       "industry_code": "GENERAL",
       "industry_name_zh": "綜合",
-      "news_score": 0.537,
-      "bullish_score": 0.578,
+      "news_score": 0.382,
+      "bullish_score": 0.532,
       "signal_strength": "MODERATE",
       "trigger_news_ids": [],
       "reason_zh": "",
@@ -1493,7 +1563,7 @@
         "ma5_cross_ma20": false,
         "macd_just_positive": false
       },
-      "rank": 18
+      "rank": 19
     },
     {
       "ticker": "2882",
@@ -1501,8 +1571,8 @@
       "price": 97.0,
       "industry_code": "FINANCE",
       "industry_name_zh": "金融",
-      "news_score": 0.537,
-      "bullish_score": 0.568,
+      "news_score": 0.382,
+      "bullish_score": 0.522,
       "signal_strength": "MODERATE",
       "trigger_news_ids": [],
       "reason_zh": "",
@@ -1543,7 +1613,7 @@
         "ma5_cross_ma20": true,
         "macd_just_positive": false
       },
-      "rank": 19
+      "rank": 20
     },
     {
       "ticker": "2376",
@@ -1551,8 +1621,8 @@
       "price": 354.5,
       "industry_code": "GENERAL",
       "industry_name_zh": "綜合",
-      "news_score": 0.537,
-      "bullish_score": 0.561,
+      "news_score": 0.382,
+      "bullish_score": 0.515,
       "signal_strength": "MODERATE",
       "trigger_news_ids": [],
       "reason_zh": "",
@@ -1592,7 +1662,7 @@
         "ma5_cross_ma20": false,
         "macd_just_positive": false
       },
-      "rank": 20
+      "rank": 21
     },
     {
       "ticker": "2395",
@@ -1600,8 +1670,8 @@
       "price": 581.0,
       "industry_code": "GENERAL",
       "industry_name_zh": "綜合",
-      "news_score": 0.537,
-      "bullish_score": 0.561,
+      "news_score": 0.382,
+      "bullish_score": 0.515,
       "signal_strength": "MODERATE",
       "trigger_news_ids": [],
       "reason_zh": "",
@@ -1641,7 +1711,7 @@
         "ma5_cross_ma20": false,
         "macd_just_positive": false
       },
-      "rank": 21
+      "rank": 22
     },
     {
       "ticker": "2890",
@@ -1649,8 +1719,8 @@
       "price": 38.55,
       "industry_code": "GENERAL",
       "industry_name_zh": "綜合",
-      "news_score": 0.537,
-      "bullish_score": 0.557,
+      "news_score": 0.382,
+      "bullish_score": 0.511,
       "signal_strength": "MODERATE",
       "trigger_news_ids": [],
       "reason_zh": "",
@@ -1690,7 +1760,7 @@
         "ma5_cross_ma20": false,
         "macd_just_positive": false
       },
-      "rank": 22
+      "rank": 23
     },
     {
       "ticker": "2606",
@@ -1698,8 +1768,8 @@
       "price": 64.0,
       "industry_code": "GENERAL",
       "industry_name_zh": "綜合",
-      "news_score": 0.537,
-      "bullish_score": 0.555,
+      "news_score": 0.382,
+      "bullish_score": 0.509,
       "signal_strength": "MODERATE",
       "trigger_news_ids": [],
       "reason_zh": "",
@@ -1740,7 +1810,7 @@
         "ma5_cross_ma20": false,
         "macd_just_positive": false
       },
-      "rank": 23
+      "rank": 24
     },
     {
       "ticker": "2006",
@@ -1748,8 +1818,8 @@
       "price": 71.8,
       "industry_code": "GENERAL",
       "industry_name_zh": "綜合",
-      "news_score": 0.537,
-      "bullish_score": 0.553,
+      "news_score": 0.382,
+      "bullish_score": 0.507,
       "signal_strength": "MODERATE",
       "trigger_news_ids": [],
       "reason_zh": "",
@@ -1790,7 +1860,7 @@
         "ma5_cross_ma20": false,
         "macd_just_positive": false
       },
-      "rank": 24
+      "rank": 25
     },
     {
       "ticker": "2880",
@@ -1798,8 +1868,8 @@
       "price": 40.7,
       "industry_code": "GENERAL",
       "industry_name_zh": "綜合",
-      "news_score": 0.537,
-      "bullish_score": 0.551,
+      "news_score": 0.382,
+      "bullish_score": 0.505,
       "signal_strength": "MODERATE",
       "trigger_news_ids": [],
       "reason_zh": "",
@@ -1840,7 +1910,7 @@
         "ma5_cross_ma20": false,
         "macd_just_positive": false
       },
-      "rank": 25
+      "rank": 26
     },
     {
       "ticker": "3665",
@@ -1848,8 +1918,8 @@
       "price": 2205.0,
       "industry_code": "GENERAL",
       "industry_name_zh": "綜合",
-      "news_score": 0.537,
-      "bullish_score": 0.551,
+      "news_score": 0.382,
+      "bullish_score": 0.505,
       "signal_strength": "MODERATE",
       "trigger_news_ids": [],
       "reason_zh": "",
@@ -1890,7 +1960,7 @@
         "ma5_cross_ma20": false,
         "macd_just_positive": false
       },
-      "rank": 26
+      "rank": 27
     },
     {
       "ticker": "2633",
@@ -1898,8 +1968,8 @@
       "price": 26.05,
       "industry_code": "GENERAL",
       "industry_name_zh": "綜合",
-      "news_score": 0.537,
-      "bullish_score": 0.549,
+      "news_score": 0.382,
+      "bullish_score": 0.503,
       "signal_strength": "MODERATE",
       "trigger_news_ids": [],
       "reason_zh": "",
@@ -1939,7 +2009,7 @@
         "ma5_cross_ma20": false,
         "macd_just_positive": false
       },
-      "rank": 27
+      "rank": 28
     },
     {
       "ticker": "1216",
@@ -1947,8 +2017,8 @@
       "price": 77.4,
       "industry_code": "GENERAL",
       "industry_name_zh": "綜合",
-      "news_score": 0.537,
-      "bullish_score": 0.542,
+      "news_score": 0.382,
+      "bullish_score": 0.496,
       "signal_strength": "MODERATE",
       "trigger_news_ids": [],
       "reason_zh": "",
@@ -1988,7 +2058,7 @@
         "ma5_cross_ma20": false,
         "macd_just_positive": false
       },
-      "rank": 28
+      "rank": 29
     },
     {
       "ticker": "1303",
@@ -1996,8 +2066,8 @@
       "price": 177.5,
       "industry_code": "GENERAL",
       "industry_name_zh": "綜合",
-      "news_score": 0.537,
-      "bullish_score": 0.542,
+      "news_score": 0.382,
+      "bullish_score": 0.496,
       "signal_strength": "MODERATE",
       "trigger_news_ids": [],
       "reason_zh": "",
@@ -2037,7 +2107,7 @@
         "ma5_cross_ma20": false,
         "macd_just_positive": false
       },
-      "rank": 29
+      "rank": 30
     },
     {
       "ticker": "9945",
@@ -2045,8 +2115,8 @@
       "price": 26.1,
       "industry_code": "GENERAL",
       "industry_name_zh": "綜合",
-      "news_score": 0.537,
-      "bullish_score": 0.538,
+      "news_score": 0.382,
+      "bullish_score": 0.492,
       "signal_strength": "MODERATE",
       "trigger_news_ids": [],
       "reason_zh": "",
@@ -2087,7 +2157,7 @@
         "ma5_cross_ma20": false,
         "macd_just_positive": false
       },
-      "rank": 30
+      "rank": 31
     },
     {
       "ticker": "2801",
@@ -2095,8 +2165,8 @@
       "price": 24.35,
       "industry_code": "GENERAL",
       "industry_name_zh": "綜合",
-      "news_score": 0.537,
-      "bullish_score": 0.536,
+      "news_score": 0.382,
+      "bullish_score": 0.49,
       "signal_strength": "MODERATE",
       "trigger_news_ids": [],
       "reason_zh": "",
@@ -2137,7 +2207,7 @@
         "ma5_cross_ma20": false,
         "macd_just_positive": false
       },
-      "rank": 31
+      "rank": 32
     },
     {
       "ticker": "2886",
@@ -2145,8 +2215,8 @@
       "price": 48.45,
       "industry_code": "GENERAL",
       "industry_name_zh": "綜合",
-      "news_score": 0.537,
-      "bullish_score": 0.536,
+      "news_score": 0.382,
+      "bullish_score": 0.49,
       "signal_strength": "MODERATE",
       "trigger_news_ids": [],
       "reason_zh": "",
@@ -2187,7 +2257,7 @@
         "ma5_cross_ma20": false,
         "macd_just_positive": false
       },
-      "rank": 32
+      "rank": 33
     },
     {
       "ticker": "2912",
@@ -2195,8 +2265,8 @@
       "price": 241.0,
       "industry_code": "GENERAL",
       "industry_name_zh": "綜合",
-      "news_score": 0.537,
-      "bullish_score": 0.536,
+      "news_score": 0.382,
+      "bullish_score": 0.49,
       "signal_strength": "MODERATE",
       "trigger_news_ids": [],
       "reason_zh": "",
@@ -2237,7 +2307,7 @@
         "ma5_cross_ma20": false,
         "macd_just_positive": false
       },
-      "rank": 33
+      "rank": 34
     },
     {
       "ticker": "2634",
@@ -2245,8 +2315,8 @@
       "price": 65.4,
       "industry_code": "GENERAL",
       "industry_name_zh": "綜合",
-      "news_score": 0.537,
-      "bullish_score": 0.53,
+      "news_score": 0.382,
+      "bullish_score": 0.484,
       "signal_strength": "MODERATE",
       "trigger_news_ids": [],
       "reason_zh": "",
@@ -2287,7 +2357,7 @@
         "ma5_cross_ma20": false,
         "macd_just_positive": false
       },
-      "rank": 34
+      "rank": 35
     },
     {
       "ticker": "2883",
@@ -2295,8 +2365,8 @@
       "price": 30.65,
       "industry_code": "GENERAL",
       "industry_name_zh": "綜合",
-      "news_score": 0.537,
-      "bullish_score": 0.528,
+      "news_score": 0.382,
+      "bullish_score": 0.482,
       "signal_strength": "MODERATE",
       "trigger_news_ids": [],
       "reason_zh": "",
@@ -2337,7 +2407,7 @@
         "ma5_cross_ma20": false,
         "macd_just_positive": false
       },
-      "rank": 35
+      "rank": 36
     },
     {
       "ticker": "2605",
@@ -2345,8 +2415,8 @@
       "price": 32.3,
       "industry_code": "GENERAL",
       "industry_name_zh": "綜合",
-      "news_score": 0.537,
-      "bullish_score": 0.523,
+      "news_score": 0.382,
+      "bullish_score": 0.477,
       "signal_strength": "MODERATE",
       "trigger_news_ids": [],
       "reason_zh": "",
@@ -2387,7 +2457,7 @@
         "ma5_cross_ma20": false,
         "macd_just_positive": false
       },
-      "rank": 36
+      "rank": 37
     },
     {
       "ticker": "2542",
@@ -2395,8 +2465,8 @@
       "price": 44.2,
       "industry_code": "GENERAL",
       "industry_name_zh": "綜合",
-      "news_score": 0.537,
-      "bullish_score": 0.521,
+      "news_score": 0.382,
+      "bullish_score": 0.475,
       "signal_strength": "MODERATE",
       "trigger_news_ids": [],
       "reason_zh": "",
@@ -2437,7 +2507,7 @@
         "ma5_cross_ma20": false,
         "macd_just_positive": false
       },
-      "rank": 37
+      "rank": 38
     },
     {
       "ticker": "2385",
@@ -2445,8 +2515,8 @@
       "price": 106.5,
       "industry_code": "GENERAL",
       "industry_name_zh": "綜合",
-      "news_score": 0.537,
-      "bullish_score": 0.508,
+      "news_score": 0.382,
+      "bullish_score": 0.462,
       "signal_strength": "MODERATE",
       "trigger_news_ids": [],
       "reason_zh": "",
@@ -2485,7 +2555,7 @@
         "ma5_cross_ma20": false,
         "macd_just_positive": false
       },
-      "rank": 38
+      "rank": 39
     },
     {
       "ticker": "2206",
@@ -2493,8 +2563,8 @@
       "price": 61.4,
       "industry_code": "GENERAL",
       "industry_name_zh": "綜合",
-      "news_score": 0.537,
-      "bullish_score": 0.508,
+      "news_score": 0.382,
+      "bullish_score": 0.462,
       "signal_strength": "MODERATE",
       "trigger_news_ids": [],
       "reason_zh": "",
@@ -2535,7 +2605,7 @@
         "ma5_cross_ma20": false,
         "macd_just_positive": false
       },
-      "rank": 39
+      "rank": 40
     },
     {
       "ticker": "2881",
@@ -2543,8 +2613,8 @@
       "price": 127.5,
       "industry_code": "FINANCE",
       "industry_name_zh": "金融",
-      "news_score": 0.537,
-      "bullish_score": 0.508,
+      "news_score": 0.382,
+      "bullish_score": 0.462,
       "signal_strength": "MODERATE",
       "trigger_news_ids": [],
       "reason_zh": "",
@@ -2585,7 +2655,7 @@
         "ma5_cross_ma20": false,
         "macd_just_positive": false
       },
-      "rank": 40
+      "rank": 41
     },
     {
       "ticker": "2379",
@@ -2593,8 +2663,8 @@
       "price": 744.0,
       "industry_code": "GENERAL",
       "industry_name_zh": "綜合",
-      "news_score": 0.537,
-      "bullish_score": 0.507,
+      "news_score": 0.382,
+      "bullish_score": 0.461,
       "signal_strength": "MODERATE",
       "trigger_news_ids": [],
       "reason_zh": "",
@@ -2632,7 +2702,7 @@
         "ma5_cross_ma20": false,
         "macd_just_positive": false
       },
-      "rank": 41
+      "rank": 42
     },
     {
       "ticker": "2466",
@@ -2640,8 +2710,8 @@
       "price": 95.0,
       "industry_code": "GENERAL",
       "industry_name_zh": "綜合",
-      "news_score": 0.537,
-      "bullish_score": 0.496,
+      "news_score": 0.382,
+      "bullish_score": 0.45,
       "signal_strength": "MODERATE",
       "trigger_news_ids": [],
       "reason_zh": "",
@@ -2681,35 +2751,6 @@
         "ma5_cross_ma20": false,
         "macd_just_positive": false
       },
-      "rank": 42
-    },
-    {
-      "ticker": "3706",
-      "name_zh": "神達",
-      "price": 91.3,
-      "industry_code": "GENERAL",
-      "industry_name_zh": "綜合",
-      "news_score": 0.537,
-      "bullish_score": 0.493,
-      "signal_strength": "MODERATE",
-      "trigger_news_ids": [],
-      "reason_zh": "",
-      "related_industries": [
-        "GENERAL"
-      ],
-      "chips": {
-        "trust_consec_buy": 6,
-        "foreign_consec_buy": 5,
-        "trust_buy_3d": 2813,
-        "foreign_buy_3d": 3023,
-        "chips_score": 0.83,
-        "signals": [
-          "投信連買6日",
-          "外資連買5日",
-          "外資投信共振",
-          "投信3日+2,813張"
-        ]
-      },
       "rank": 43
     },
     {
@@ -2718,8 +2759,8 @@
       "price": 64.5,
       "industry_code": "GENERAL",
       "industry_name_zh": "綜合",
-      "news_score": 0.537,
-      "bullish_score": 0.493,
+      "news_score": 0.382,
+      "bullish_score": 0.447,
       "signal_strength": "MODERATE",
       "trigger_news_ids": [],
       "reason_zh": "",
@@ -2766,8 +2807,8 @@
       "price": 507.0,
       "industry_code": "GENERAL",
       "industry_name_zh": "綜合",
-      "news_score": 0.537,
-      "bullish_score": 0.493,
+      "news_score": 0.382,
+      "bullish_score": 0.447,
       "signal_strength": "MODERATE",
       "trigger_news_ids": [],
       "reason_zh": "",
@@ -2814,8 +2855,8 @@
       "price": 71.9,
       "industry_code": "GENERAL",
       "industry_name_zh": "綜合",
-      "news_score": 0.537,
-      "bullish_score": 0.487,
+      "news_score": 0.382,
+      "bullish_score": 0.441,
       "signal_strength": "MODERATE",
       "trigger_news_ids": [],
       "reason_zh": "",
@@ -2862,8 +2903,8 @@
       "price": 146.5,
       "industry_code": "GENERAL",
       "industry_name_zh": "綜合",
-      "news_score": 0.537,
-      "bullish_score": 0.486,
+      "news_score": 0.382,
+      "bullish_score": 0.44,
       "signal_strength": "MODERATE",
       "trigger_news_ids": [],
       "reason_zh": "",
@@ -2911,9 +2952,9 @@
       "price": 40.7,
       "industry_code": "GENERAL",
       "industry_name_zh": "綜合",
-      "news_score": 0.537,
-      "bullish_score": 0.478,
-      "signal_strength": "MODERATE",
+      "news_score": 0.382,
+      "bullish_score": 0.432,
+      "signal_strength": "WEAK",
       "trigger_news_ids": [],
       "reason_zh": "",
       "related_industries": [
@@ -2959,9 +3000,9 @@
       "price": 2080.0,
       "industry_code": "GENERAL",
       "industry_name_zh": "綜合",
-      "news_score": 0.537,
-      "bullish_score": 0.471,
-      "signal_strength": "MODERATE",
+      "news_score": 0.382,
+      "bullish_score": 0.425,
+      "signal_strength": "WEAK",
       "trigger_news_ids": [],
       "reason_zh": "",
       "related_industries": [
@@ -3006,9 +3047,9 @@
       "price": 20.5,
       "industry_code": "GENERAL",
       "industry_name_zh": "綜合",
-      "news_score": 0.537,
-      "bullish_score": 0.467,
-      "signal_strength": "MODERATE",
+      "news_score": 0.382,
+      "bullish_score": 0.421,
+      "signal_strength": "WEAK",
       "trigger_news_ids": [],
       "reason_zh": "",
       "related_industries": [
@@ -3054,9 +3095,9 @@
       "price": 552.0,
       "industry_code": "GENERAL",
       "industry_name_zh": "綜合",
-      "news_score": 0.537,
-      "bullish_score": 0.466,
-      "signal_strength": "MODERATE",
+      "news_score": 0.382,
+      "bullish_score": 0.42,
+      "signal_strength": "WEAK",
       "trigger_news_ids": [],
       "reason_zh": "",
       "related_industries": [
@@ -3103,9 +3144,9 @@
       "price": 184.0,
       "industry_code": "GENERAL",
       "industry_name_zh": "綜合",
-      "news_score": 0.537,
-      "bullish_score": 0.457,
-      "signal_strength": "MODERATE",
+      "news_score": 0.382,
+      "bullish_score": 0.411,
+      "signal_strength": "WEAK",
       "trigger_news_ids": [],
       "reason_zh": "",
       "related_industries": [
@@ -3150,9 +3191,9 @@
       "price": 1015.0,
       "industry_code": "GENERAL",
       "industry_name_zh": "綜合",
-      "news_score": 0.537,
-      "bullish_score": 0.457,
-      "signal_strength": "MODERATE",
+      "news_score": 0.382,
+      "bullish_score": 0.411,
+      "signal_strength": "WEAK",
       "trigger_news_ids": [],
       "reason_zh": "",
       "related_industries": [
@@ -3197,9 +3238,9 @@
       "price": 1110.0,
       "industry_code": "PCB",
       "industry_name_zh": "PCB / 載板",
-      "news_score": 0.537,
-      "bullish_score": 0.456,
-      "signal_strength": "MODERATE",
+      "news_score": 0.382,
+      "bullish_score": 0.41,
+      "signal_strength": "WEAK",
       "trigger_news_ids": [],
       "reason_zh": "",
       "related_industries": [
@@ -3245,9 +3286,9 @@
       "price": 57.8,
       "industry_code": "GENERAL",
       "industry_name_zh": "綜合",
-      "news_score": 0.537,
-      "bullish_score": 0.454,
-      "signal_strength": "MODERATE",
+      "news_score": 0.382,
+      "bullish_score": 0.408,
+      "signal_strength": "WEAK",
       "trigger_news_ids": [],
       "reason_zh": "",
       "related_industries": [
@@ -3293,9 +3334,9 @@
       "price": 3430.0,
       "industry_code": "GENERAL",
       "industry_name_zh": "綜合",
-      "news_score": 0.537,
-      "bullish_score": 0.451,
-      "signal_strength": "MODERATE",
+      "news_score": 0.382,
+      "bullish_score": 0.405,
+      "signal_strength": "WEAK",
       "trigger_news_ids": [],
       "reason_zh": "",
       "related_industries": [
@@ -3336,14 +3377,62 @@
       "rank": 56
     },
     {
+      "ticker": "2382",
+      "name_zh": "廣達",
+      "price": 328.0,
+      "industry_code": "AI_SERVER",
+      "industry_name_zh": "AI 伺服器",
+      "news_score": 0.69,
+      "bullish_score": 0.397,
+      "signal_strength": "WEAK",
+      "trigger_news_ids": [
+        "5768cdaec04e7414",
+        "2c30c5aa26f3fb87",
+        "414b8e4b663b1497"
+      ],
+      "reason_zh": "AMD掌握近半伺服器CPU市場並瞄準2兆美元商機，對半導體及AI伺服器產業具結構性利多。",
+      "related_industries": [
+        "AI_SERVER"
+      ],
+      "chips": {
+        "trust_consec_buy": 5,
+        "foreign_consec_buy": 0,
+        "trust_buy_3d": 1009,
+        "foreign_buy_3d": -4975,
+        "chips_score": 0.4,
+        "signals": [
+          "投信連買5日"
+        ]
+      },
+      "technical": {
+        "price": 328.0,
+        "ma5": 326.6,
+        "ma10": 340.29,
+        "ma20": 348.91,
+        "ma60": 339.08,
+        "rsi": 32.1,
+        "macd_hist": -3.9383,
+        "vol_ratio": 0.39,
+        "tech_score": 0.1,
+        "signals": [],
+        "bias_pct": -5.99,
+        "gain_10d": -8.43,
+        "price_position_120d": 47.9,
+        "ma_convergence_pct": 6.83,
+        "ma5_cross_ma20": false,
+        "macd_just_positive": false
+      },
+      "rank": 57
+    },
+    {
       "ticker": "6139",
       "name_zh": "亞翔",
       "price": 840.0,
       "industry_code": "GENERAL",
       "industry_name_zh": "綜合",
-      "news_score": 0.537,
-      "bullish_score": 0.441,
-      "signal_strength": "MODERATE",
+      "news_score": 0.382,
+      "bullish_score": 0.395,
+      "signal_strength": "WEAK",
       "trigger_news_ids": [],
       "reason_zh": "",
       "related_industries": [
@@ -3380,7 +3469,7 @@
         "ma5_cross_ma20": false,
         "macd_just_positive": false
       },
-      "rank": 57
+      "rank": 58
     },
     {
       "ticker": "2474",
@@ -3388,8 +3477,8 @@
       "price": 189.5,
       "industry_code": "GENERAL",
       "industry_name_zh": "綜合",
-      "news_score": 0.537,
-      "bullish_score": 0.437,
+      "news_score": 0.382,
+      "bullish_score": 0.391,
       "signal_strength": "WEAK",
       "trigger_news_ids": [],
       "reason_zh": "",
@@ -3426,7 +3515,7 @@
         "ma5_cross_ma20": false,
         "macd_just_positive": false
       },
-      "rank": 58
+      "rank": 59
     },
     {
       "ticker": "8476",
@@ -3434,8 +3523,8 @@
       "price": 23.25,
       "industry_code": "GENERAL",
       "industry_name_zh": "綜合",
-      "news_score": 0.537,
-      "bullish_score": 0.436,
+      "news_score": 0.382,
+      "bullish_score": 0.39,
       "signal_strength": "WEAK",
       "trigger_news_ids": [],
       "reason_zh": "",
@@ -3474,7 +3563,7 @@
         "ma5_cross_ma20": false,
         "macd_just_positive": false
       },
-      "rank": 59
+      "rank": 60
     },
     {
       "ticker": "6525",
@@ -3482,8 +3571,8 @@
       "price": 141.5,
       "industry_code": "GENERAL",
       "industry_name_zh": "綜合",
-      "news_score": 0.537,
-      "bullish_score": 0.427,
+      "news_score": 0.382,
+      "bullish_score": 0.381,
       "signal_strength": "WEAK",
       "trigger_news_ids": [],
       "reason_zh": "",
@@ -3521,7 +3610,7 @@
         "ma5_cross_ma20": false,
         "macd_just_positive": false
       },
-      "rank": 60
+      "rank": 61
     },
     {
       "ticker": "6834",
@@ -3529,8 +3618,8 @@
       "price": 90.1,
       "industry_code": "GENERAL",
       "industry_name_zh": "綜合",
-      "news_score": 0.537,
-      "bullish_score": 0.427,
+      "news_score": 0.382,
+      "bullish_score": 0.381,
       "signal_strength": "WEAK",
       "trigger_news_ids": [],
       "reason_zh": "",
@@ -3568,7 +3657,7 @@
         "ma5_cross_ma20": false,
         "macd_just_positive": false
       },
-      "rank": 61
+      "rank": 62
     },
     {
       "ticker": "8261",
@@ -3576,8 +3665,8 @@
       "price": 217.0,
       "industry_code": "GENERAL",
       "industry_name_zh": "綜合",
-      "news_score": 0.537,
-      "bullish_score": 0.427,
+      "news_score": 0.382,
+      "bullish_score": 0.381,
       "signal_strength": "WEAK",
       "trigger_news_ids": [],
       "reason_zh": "",
@@ -3615,7 +3704,7 @@
         "ma5_cross_ma20": false,
         "macd_just_positive": false
       },
-      "rank": 62
+      "rank": 63
     },
     {
       "ticker": "3017",
@@ -3623,8 +3712,8 @@
       "price": 2380.0,
       "industry_code": "GENERAL",
       "industry_name_zh": "綜合",
-      "news_score": 0.537,
-      "bullish_score": 0.426,
+      "news_score": 0.382,
+      "bullish_score": 0.38,
       "signal_strength": "WEAK",
       "trigger_news_ids": [],
       "reason_zh": "",
@@ -3662,7 +3751,7 @@
         "ma5_cross_ma20": false,
         "macd_just_positive": false
       },
-      "rank": 63
+      "rank": 64
     },
     {
       "ticker": "2302",
@@ -3670,8 +3759,8 @@
       "price": 43.0,
       "industry_code": "GENERAL",
       "industry_name_zh": "綜合",
-      "news_score": 0.537,
-      "bullish_score": 0.421,
+      "news_score": 0.382,
+      "bullish_score": 0.375,
       "signal_strength": "WEAK",
       "trigger_news_ids": [],
       "reason_zh": "",
@@ -3709,57 +3798,55 @@
         "ma5_cross_ma20": false,
         "macd_just_positive": false
       },
-      "rank": 64
+      "rank": 65
     },
     {
-      "ticker": "2382",
-      "name_zh": "廣達",
-      "price": 328.0,
-      "industry_code": "AI_SERVER",
-      "industry_name_zh": "AI 伺服器",
-      "news_score": 0.743,
-      "bullish_score": 0.413,
+      "ticker": "2308",
+      "name_zh": "台達電",
+      "price": 1785.0,
+      "industry_code": "EV",
+      "industry_name_zh": "電動車 / 車用",
+      "news_score": 0.525,
+      "bullish_score": 0.363,
       "signal_strength": "WEAK",
       "trigger_news_ids": [
-        "ade5b535151027f1",
-        "414b8e4b663b1497",
-        "b298dd8995dc856e",
-        "7733802a08acbfa6",
-        "a3c55aed30515523"
+        "2c30c5aa26f3fb87"
       ],
-      "reason_zh": "報導指出若AI支出達兆美元，Nvidia、Broadcom及台積電將受益最多，對半導體與AI伺服器產業為極大利多。",
+      "reason_zh": "電源雙雄聚焦800VDC導入時程，顯示高功率電源需求成長，利於EV及AI伺服器產業發展。",
       "related_industries": [
-        "AI_SERVER"
+        "EV"
       ],
       "chips": {
-        "trust_consec_buy": 5,
+        "trust_consec_buy": 10,
         "foreign_consec_buy": 0,
-        "trust_buy_3d": 1009,
-        "foreign_buy_3d": -4975,
+        "trust_buy_3d": 1152,
+        "foreign_buy_3d": -1807,
         "chips_score": 0.4,
         "signals": [
-          "投信連買5日"
+          "投信連買10日"
         ]
       },
       "technical": {
-        "price": 328.0,
-        "ma5": 326.6,
-        "ma10": 340.29,
-        "ma20": 348.91,
-        "ma60": 339.08,
-        "rsi": 32.1,
-        "macd_hist": -3.9383,
-        "vol_ratio": 0.39,
-        "tech_score": 0.1,
-        "signals": [],
-        "bias_pct": -5.99,
-        "gain_10d": -8.43,
-        "price_position_120d": 47.9,
-        "ma_convergence_pct": 6.83,
+        "price": 1785.0,
+        "ma5": 1817.0,
+        "ma10": 1836.5,
+        "ma20": 1889.25,
+        "ma60": 2090.28,
+        "rsi": 34.6,
+        "macd_hist": 2.8426,
+        "vol_ratio": 0.63,
+        "tech_score": 0.15,
+        "signals": [
+          "MACD ↑"
+        ],
+        "bias_pct": -5.52,
+        "gain_10d": -5.05,
+        "price_position_120d": 47.0,
+        "ma_convergence_pct": 15.04,
         "ma5_cross_ma20": false,
         "macd_just_positive": false
       },
-      "rank": 65
+      "rank": 66
     },
     {
       "ticker": "9933",
@@ -3767,8 +3854,8 @@
       "price": 40.05,
       "industry_code": "GENERAL",
       "industry_name_zh": "綜合",
-      "news_score": 0.537,
-      "bullish_score": 0.403,
+      "news_score": 0.382,
+      "bullish_score": 0.357,
       "signal_strength": "WEAK",
       "trigger_news_ids": [],
       "reason_zh": "",
@@ -3804,7 +3891,7 @@
         "ma5_cross_ma20": false,
         "macd_just_positive": false
       },
-      "rank": 66
+      "rank": 67
     },
     {
       "ticker": "2375",
@@ -3812,8 +3899,8 @@
       "price": 131.0,
       "industry_code": "GENERAL",
       "industry_name_zh": "綜合",
-      "news_score": 0.537,
-      "bullish_score": 0.397,
+      "news_score": 0.382,
+      "bullish_score": 0.351,
       "signal_strength": "WEAK",
       "trigger_news_ids": [],
       "reason_zh": "",
@@ -3849,7 +3936,7 @@
         "ma5_cross_ma20": false,
         "macd_just_positive": false
       },
-      "rank": 67
+      "rank": 68
     },
     {
       "ticker": "6155",
@@ -3857,8 +3944,8 @@
       "price": 55.7,
       "industry_code": "GENERAL",
       "industry_name_zh": "綜合",
-      "news_score": 0.537,
-      "bullish_score": 0.397,
+      "news_score": 0.382,
+      "bullish_score": 0.351,
       "signal_strength": "WEAK",
       "trigger_news_ids": [],
       "reason_zh": "",
@@ -3894,7 +3981,7 @@
         "ma5_cross_ma20": false,
         "macd_just_positive": false
       },
-      "rank": 68
+      "rank": 69
     },
     {
       "ticker": "2458",
@@ -3902,8 +3989,8 @@
       "price": 168.0,
       "industry_code": "GENERAL",
       "industry_name_zh": "綜合",
-      "news_score": 0.537,
-      "bullish_score": 0.395,
+      "news_score": 0.382,
+      "bullish_score": 0.349,
       "signal_strength": "WEAK",
       "trigger_news_ids": [],
       "reason_zh": "",
@@ -3941,7 +4028,7 @@
         "ma5_cross_ma20": false,
         "macd_just_positive": false
       },
-      "rank": 69
+      "rank": 70
     },
     {
       "ticker": "6226",
@@ -3949,8 +4036,8 @@
       "price": 18.8,
       "industry_code": "GENERAL",
       "industry_name_zh": "綜合",
-      "news_score": 0.537,
-      "bullish_score": 0.391,
+      "news_score": 0.382,
+      "bullish_score": 0.345,
       "signal_strength": "WEAK",
       "trigger_news_ids": [],
       "reason_zh": "",
@@ -3988,7 +4075,7 @@
         "ma5_cross_ma20": false,
         "macd_just_positive": false
       },
-      "rank": 70
+      "rank": 71
     },
     {
       "ticker": "6005",
@@ -3996,8 +4083,8 @@
       "price": 34.8,
       "industry_code": "GENERAL",
       "industry_name_zh": "綜合",
-      "news_score": 0.537,
-      "bullish_score": 0.375,
+      "news_score": 0.382,
+      "bullish_score": 0.329,
       "signal_strength": "WEAK",
       "trigger_news_ids": [],
       "reason_zh": "",
@@ -4033,7 +4120,7 @@
         "ma5_cross_ma20": false,
         "macd_just_positive": false
       },
-      "rank": 71
+      "rank": 72
     },
     {
       "ticker": "2885",
@@ -4041,8 +4128,8 @@
       "price": 63.1,
       "industry_code": "GENERAL",
       "industry_name_zh": "綜合",
-      "news_score": 0.537,
-      "bullish_score": 0.373,
+      "news_score": 0.382,
+      "bullish_score": 0.327,
       "signal_strength": "WEAK",
       "trigger_news_ids": [],
       "reason_zh": "",
@@ -4080,7 +4167,7 @@
         "ma5_cross_ma20": false,
         "macd_just_positive": false
       },
-      "rank": 72
+      "rank": 73
     },
     {
       "ticker": "3037",
@@ -4088,8 +4175,8 @@
       "price": 839.0,
       "industry_code": "PCB",
       "industry_name_zh": "PCB / 載板",
-      "news_score": 0.537,
-      "bullish_score": 0.371,
+      "news_score": 0.382,
+      "bullish_score": 0.325,
       "signal_strength": "WEAK",
       "trigger_news_ids": [],
       "reason_zh": "",
@@ -4125,7 +4212,7 @@
         "ma5_cross_ma20": false,
         "macd_just_positive": false
       },
-      "rank": 73
+      "rank": 74
     },
     {
       "ticker": "2891",
@@ -4133,8 +4220,8 @@
       "price": 63.6,
       "industry_code": "GENERAL",
       "industry_name_zh": "綜合",
-      "news_score": 0.537,
-      "bullish_score": 0.369,
+      "news_score": 0.382,
+      "bullish_score": 0.323,
       "signal_strength": "WEAK",
       "trigger_news_ids": [],
       "reason_zh": "",
@@ -4171,7 +4258,7 @@
         "ma5_cross_ma20": false,
         "macd_just_positive": false
       },
-      "rank": 74
+      "rank": 75
     },
     {
       "ticker": "8028",
@@ -4179,8 +4266,8 @@
       "price": 300.5,
       "industry_code": "GENERAL",
       "industry_name_zh": "綜合",
-      "news_score": 0.537,
-      "bullish_score": 0.369,
+      "news_score": 0.382,
+      "bullish_score": 0.323,
       "signal_strength": "WEAK",
       "trigger_news_ids": [],
       "reason_zh": "",
@@ -4217,54 +4304,6 @@
         "ma5_cross_ma20": false,
         "macd_just_positive": false
       },
-      "rank": 75
-    },
-    {
-      "ticker": "2308",
-      "name_zh": "台達電",
-      "price": 1785.0,
-      "industry_code": "EV",
-      "industry_name_zh": "電動車 / 車用",
-      "news_score": 0.525,
-      "bullish_score": 0.363,
-      "signal_strength": "WEAK",
-      "trigger_news_ids": [
-        "2c30c5aa26f3fb87"
-      ],
-      "reason_zh": "電源雙雄法說會聚焦800VDC導入時程，顯示電動車產業技術升級趨勢，對EV產業為利多。",
-      "related_industries": [
-        "EV"
-      ],
-      "chips": {
-        "trust_consec_buy": 10,
-        "foreign_consec_buy": 0,
-        "trust_buy_3d": 1152,
-        "foreign_buy_3d": -1807,
-        "chips_score": 0.4,
-        "signals": [
-          "投信連買10日"
-        ]
-      },
-      "technical": {
-        "price": 1785.0,
-        "ma5": 1817.0,
-        "ma10": 1836.5,
-        "ma20": 1889.25,
-        "ma60": 2090.28,
-        "rsi": 34.6,
-        "macd_hist": 2.8426,
-        "vol_ratio": 0.63,
-        "tech_score": 0.15,
-        "signals": [
-          "MACD ↑"
-        ],
-        "bias_pct": -5.52,
-        "gain_10d": -5.05,
-        "price_position_120d": 47.0,
-        "ma_convergence_pct": 15.04,
-        "ma5_cross_ma20": false,
-        "macd_just_positive": false
-      },
       "rank": 76
     },
     {
@@ -4273,8 +4312,8 @@
       "price": 32.3,
       "industry_code": "GENERAL",
       "industry_name_zh": "綜合",
-      "news_score": 0.537,
-      "bullish_score": 0.361,
+      "news_score": 0.382,
+      "bullish_score": 0.315,
       "signal_strength": "WEAK",
       "trigger_news_ids": [],
       "reason_zh": "",
@@ -4320,8 +4359,8 @@
       "price": 3920.0,
       "industry_code": "GENERAL",
       "industry_name_zh": "綜合",
-      "news_score": 0.537,
-      "bullish_score": 0.361,
+      "news_score": 0.382,
+      "bullish_score": 0.315,
       "signal_strength": "WEAK",
       "trigger_news_ids": [],
       "reason_zh": "",
@@ -4366,8 +4405,8 @@
       "price": 713.0,
       "industry_code": "GENERAL",
       "industry_name_zh": "綜合",
-      "news_score": 0.537,
-      "bullish_score": 0.361,
+      "news_score": 0.382,
+      "bullish_score": 0.315,
       "signal_strength": "WEAK",
       "trigger_news_ids": [],
       "reason_zh": "",
@@ -4412,8 +4451,8 @@
       "price": 187.0,
       "industry_code": "GENERAL",
       "industry_name_zh": "綜合",
-      "news_score": 0.537,
-      "bullish_score": 0.361,
+      "news_score": 0.382,
+      "bullish_score": 0.315,
       "signal_strength": "WEAK",
       "trigger_news_ids": [],
       "reason_zh": "",
@@ -4458,8 +4497,8 @@
       "price": 14.9,
       "industry_code": "GENERAL",
       "industry_name_zh": "綜合",
-      "news_score": 0.537,
-      "bullish_score": 0.351,
+      "news_score": 0.382,
+      "bullish_score": 0.305,
       "signal_strength": "WEAK",
       "trigger_news_ids": [],
       "reason_zh": "",
@@ -4504,8 +4543,8 @@
       "price": 11.0,
       "industry_code": "GENERAL",
       "industry_name_zh": "綜合",
-      "news_score": 0.537,
-      "bullish_score": 0.351,
+      "news_score": 0.382,
+      "bullish_score": 0.305,
       "signal_strength": "WEAK",
       "trigger_news_ids": [],
       "reason_zh": "",
@@ -4550,8 +4589,8 @@
       "price": 30.1,
       "industry_code": "GENERAL",
       "industry_name_zh": "綜合",
-      "news_score": 0.537,
-      "bullish_score": 0.345,
+      "news_score": 0.382,
+      "bullish_score": 0.299,
       "signal_strength": "WEAK",
       "trigger_news_ids": [],
       "reason_zh": "",
@@ -4595,8 +4634,8 @@
       "price": 32.75,
       "industry_code": "GENERAL",
       "industry_name_zh": "綜合",
-      "news_score": 0.537,
-      "bullish_score": 0.343,
+      "news_score": 0.382,
+      "bullish_score": 0.297,
       "signal_strength": "WEAK",
       "trigger_news_ids": [],
       "reason_zh": "",
@@ -4642,8 +4681,8 @@
       "price": 279.5,
       "industry_code": "GENERAL",
       "industry_name_zh": "綜合",
-      "news_score": 0.537,
-      "bullish_score": 0.341,
+      "news_score": 0.382,
+      "bullish_score": 0.295,
       "signal_strength": "WEAK",
       "trigger_news_ids": [],
       "reason_zh": "",
@@ -4687,8 +4726,8 @@
       "price": 109.5,
       "industry_code": "GENERAL",
       "industry_name_zh": "綜合",
-      "news_score": 0.537,
-      "bullish_score": 0.334,
+      "news_score": 0.382,
+      "bullish_score": 0.288,
       "signal_strength": "WEAK",
       "trigger_news_ids": [],
       "reason_zh": "",
@@ -4733,8 +4772,8 @@
       "price": 204.5,
       "industry_code": "GENERAL",
       "industry_name_zh": "綜合",
-      "news_score": 0.537,
-      "bullish_score": 0.331,
+      "news_score": 0.382,
+      "bullish_score": 0.285,
       "signal_strength": "WEAK",
       "trigger_news_ids": [],
       "reason_zh": "",
@@ -4777,8 +4816,8 @@
       "price": 33.95,
       "industry_code": "GENERAL",
       "industry_name_zh": "綜合",
-      "news_score": 0.537,
-      "bullish_score": 0.331,
+      "news_score": 0.382,
+      "bullish_score": 0.285,
       "signal_strength": "WEAK",
       "trigger_news_ids": [],
       "reason_zh": "",
@@ -4823,8 +4862,8 @@
       "price": 52.7,
       "industry_code": "GENERAL",
       "industry_name_zh": "綜合",
-      "news_score": 0.537,
-      "bullish_score": 0.331,
+      "news_score": 0.382,
+      "bullish_score": 0.285,
       "signal_strength": "WEAK",
       "trigger_news_ids": [],
       "reason_zh": "",
@@ -4869,8 +4908,8 @@
       "price": 50.4,
       "industry_code": "GENERAL",
       "industry_name_zh": "綜合",
-      "news_score": 0.537,
-      "bullish_score": 0.331,
+      "news_score": 0.382,
+      "bullish_score": 0.285,
       "signal_strength": "WEAK",
       "trigger_news_ids": [],
       "reason_zh": "",
@@ -4915,8 +4954,8 @@
       "price": 526.0,
       "industry_code": "GENERAL",
       "industry_name_zh": "綜合",
-      "news_score": 0.537,
-      "bullish_score": 0.331,
+      "news_score": 0.382,
+      "bullish_score": 0.285,
       "signal_strength": "WEAK",
       "trigger_news_ids": [],
       "reason_zh": "",
@@ -4961,8 +5000,8 @@
       "price": 238.5,
       "industry_code": "GENERAL",
       "industry_name_zh": "綜合",
-      "news_score": 0.537,
-      "bullish_score": 0.313,
+      "news_score": 0.382,
+      "bullish_score": 0.267,
       "signal_strength": "WEAK",
       "trigger_news_ids": [],
       "reason_zh": "",
@@ -5006,8 +5045,8 @@
       "price": 156.0,
       "industry_code": "GENERAL",
       "industry_name_zh": "綜合",
-      "news_score": 0.537,
-      "bullish_score": 0.301,
+      "news_score": 0.382,
+      "bullish_score": 0.255,
       "signal_strength": "WEAK",
       "trigger_news_ids": [],
       "reason_zh": "",
@@ -5050,8 +5089,8 @@
       "price": 2220.0,
       "industry_code": "GENERAL",
       "industry_name_zh": "綜合",
-      "news_score": 0.537,
-      "bullish_score": 0.301,
+      "news_score": 0.382,
+      "bullish_score": 0.255,
       "signal_strength": "WEAK",
       "trigger_news_ids": [],
       "reason_zh": "",
@@ -5094,8 +5133,8 @@
       "price": 54.5,
       "industry_code": "GENERAL",
       "industry_name_zh": "綜合",
-      "news_score": 0.537,
-      "bullish_score": 0.301,
+      "news_score": 0.382,
+      "bullish_score": 0.255,
       "signal_strength": "WEAK",
       "trigger_news_ids": [],
       "reason_zh": "",
@@ -5138,8 +5177,8 @@
       "price": 28.9,
       "industry_code": "GENERAL",
       "industry_name_zh": "綜合",
-      "news_score": 0.537,
-      "bullish_score": 0.301,
+      "news_score": 0.382,
+      "bullish_score": 0.255,
       "signal_strength": "WEAK",
       "trigger_news_ids": [],
       "reason_zh": "",
@@ -5182,8 +5221,8 @@
       "price": 4070.0,
       "industry_code": "GENERAL",
       "industry_name_zh": "綜合",
-      "news_score": 0.537,
-      "bullish_score": 0.301,
+      "news_score": 0.382,
+      "bullish_score": 0.255,
       "signal_strength": "WEAK",
       "trigger_news_ids": [],
       "reason_zh": "",
@@ -5226,8 +5265,8 @@
       "price": 21.95,
       "industry_code": "GENERAL",
       "industry_name_zh": "綜合",
-      "news_score": 0.537,
-      "bullish_score": 0.301,
+      "news_score": 0.382,
+      "bullish_score": 0.255,
       "signal_strength": "WEAK",
       "trigger_news_ids": [],
       "reason_zh": "",
@@ -5270,8 +5309,8 @@
       "price": 224.5,
       "industry_code": "GENERAL",
       "industry_name_zh": "綜合",
-      "news_score": 0.537,
-      "bullish_score": 0.301,
+      "news_score": 0.382,
+      "bullish_score": 0.255,
       "signal_strength": "WEAK",
       "trigger_news_ids": [],
       "reason_zh": "",
@@ -5314,8 +5353,8 @@
       "price": 16.9,
       "industry_code": "GENERAL",
       "industry_name_zh": "綜合",
-      "news_score": 0.537,
-      "bullish_score": 0.301,
+      "news_score": 0.382,
+      "bullish_score": 0.255,
       "signal_strength": "WEAK",
       "trigger_news_ids": [],
       "reason_zh": "",
@@ -5360,8 +5399,8 @@
       "price": 64.0,
       "industry_code": "GENERAL",
       "industry_name_zh": "綜合",
-      "news_score": 0.537,
-      "bullish_score": 0.476,
+      "news_score": 0.382,
+      "bullish_score": 0.43,
       "signal_strength": "MODERATE",
       "trigger_news_ids": [],
       "reason_zh": "",
@@ -5406,8 +5445,8 @@
       "price": 32.75,
       "industry_code": "GENERAL",
       "industry_name_zh": "綜合",
-      "news_score": 0.537,
-      "bullish_score": 0.455,
+      "news_score": 0.382,
+      "bullish_score": 0.409,
       "signal_strength": "MODERATE",
       "trigger_news_ids": [],
       "reason_zh": "",
@@ -5452,8 +5491,8 @@
       "price": 109.5,
       "industry_code": "GENERAL",
       "industry_name_zh": "綜合",
-      "news_score": 0.537,
-      "bullish_score": 0.42,
+      "news_score": 0.382,
+      "bullish_score": 0.374,
       "signal_strength": "MODERATE",
       "trigger_news_ids": [],
       "reason_zh": "",
@@ -5497,9 +5536,9 @@
       "price": 334.5,
       "industry_code": "GENERAL",
       "industry_name_zh": "綜合",
-      "news_score": 0.537,
-      "bullish_score": 0.336,
-      "signal_strength": "MODERATE",
+      "news_score": 0.382,
+      "bullish_score": 0.29,
+      "signal_strength": "WEAK",
       "trigger_news_ids": [],
       "reason_zh": "",
       "related_industries": [
@@ -5541,9 +5580,9 @@
       "price": 64.5,
       "industry_code": "GENERAL",
       "industry_name_zh": "綜合",
-      "news_score": 0.537,
-      "bullish_score": 0.336,
-      "signal_strength": "MODERATE",
+      "news_score": 0.382,
+      "bullish_score": 0.29,
+      "signal_strength": "WEAK",
       "trigger_news_ids": [],
       "reason_zh": "",
       "related_industries": [
@@ -5585,9 +5624,9 @@
       "price": 106.5,
       "industry_code": "GENERAL",
       "industry_name_zh": "綜合",
-      "news_score": 0.537,
-      "bullish_score": 0.336,
-      "signal_strength": "MODERATE",
+      "news_score": 0.382,
+      "bullish_score": 0.29,
+      "signal_strength": "WEAK",
       "trigger_news_ids": [],
       "reason_zh": "",
       "related_industries": [
@@ -5629,9 +5668,9 @@
       "price": 26.1,
       "industry_code": "GENERAL",
       "industry_name_zh": "綜合",
-      "news_score": 0.537,
-      "bullish_score": 0.336,
-      "signal_strength": "MODERATE",
+      "news_score": 0.382,
+      "bullish_score": 0.29,
+      "signal_strength": "WEAK",
       "trigger_news_ids": [],
       "reason_zh": "",
       "related_industries": [
@@ -5673,9 +5712,9 @@
       "price": 34.8,
       "industry_code": "GENERAL",
       "industry_name_zh": "綜合",
-      "news_score": 0.537,
-      "bullish_score": 0.315,
-      "signal_strength": "MODERATE",
+      "news_score": 0.382,
+      "bullish_score": 0.269,
+      "signal_strength": "WEAK",
       "trigger_news_ids": [],
       "reason_zh": "",
       "related_industries": [
@@ -5717,9 +5756,9 @@
       "price": 71.8,
       "industry_code": "GENERAL",
       "industry_name_zh": "綜合",
-      "news_score": 0.537,
-      "bullish_score": 0.301,
-      "signal_strength": "MODERATE",
+      "news_score": 0.382,
+      "bullish_score": 0.255,
+      "signal_strength": "WEAK",
       "trigger_news_ids": [],
       "reason_zh": "",
       "related_industries": [
@@ -5761,8 +5800,8 @@
       "price": 189.5,
       "industry_code": "GENERAL",
       "industry_name_zh": "綜合",
-      "news_score": 0.537,
-      "bullish_score": 0.28,
+      "news_score": 0.382,
+      "bullish_score": 0.234,
       "signal_strength": "WEAK",
       "trigger_news_ids": [],
       "reason_zh": "",
@@ -5805,8 +5844,8 @@
       "price": 20.5,
       "industry_code": "GENERAL",
       "industry_name_zh": "綜合",
-      "news_score": 0.537,
-      "bullish_score": 0.28,
+      "news_score": 0.382,
+      "bullish_score": 0.234,
       "signal_strength": "WEAK",
       "trigger_news_ids": [],
       "reason_zh": "",
@@ -5849,8 +5888,8 @@
       "price": 1015.0,
       "industry_code": "GENERAL",
       "industry_name_zh": "綜合",
-      "news_score": 0.537,
-      "bullish_score": 0.28,
+      "news_score": 0.382,
+      "bullish_score": 0.234,
       "signal_strength": "WEAK",
       "trigger_news_ids": [],
       "reason_zh": "",
@@ -5893,8 +5932,8 @@
       "price": 32.3,
       "industry_code": "GENERAL",
       "industry_name_zh": "綜合",
-      "news_score": 0.537,
-      "bullish_score": 0.28,
+      "news_score": 0.382,
+      "bullish_score": 0.234,
       "signal_strength": "WEAK",
       "trigger_news_ids": [],
       "reason_zh": "",
@@ -5937,17 +5976,15 @@
       "price": 328.0,
       "industry_code": "AI_SERVER",
       "industry_name_zh": "AI 伺服器",
-      "news_score": 0.743,
-      "bullish_score": 0.237,
+      "news_score": 0.69,
+      "bullish_score": 0.221,
       "signal_strength": "WEAK",
       "trigger_news_ids": [
-        "ade5b535151027f1",
-        "414b8e4b663b1497",
-        "b298dd8995dc856e",
-        "7733802a08acbfa6",
-        "a3c55aed30515523"
+        "5768cdaec04e7414",
+        "2c30c5aa26f3fb87",
+        "414b8e4b663b1497"
       ],
-      "reason_zh": "報導指出若AI支出達兆美元，Nvidia、Broadcom及台積電將受益最多，對半導體與AI伺服器產業為極大利多。",
+      "reason_zh": "AMD掌握近半伺服器CPU市場並瞄準2兆美元商機，對半導體及AI伺服器產業具結構性利多。",
       "related_industries": [
         "AI_SERVER"
       ],
@@ -5980,13 +6017,57 @@
       "rank": 14
     },
     {
+      "ticker": "2308",
+      "name_zh": "台達電",
+      "price": 1785.0,
+      "industry_code": "EV",
+      "industry_name_zh": "電動車 / 車用",
+      "news_score": 0.525,
+      "bullish_score": 0.171,
+      "signal_strength": "WEAK",
+      "trigger_news_ids": [
+        "2c30c5aa26f3fb87"
+      ],
+      "reason_zh": "電源雙雄聚焦800VDC導入時程，顯示高功率電源需求成長，利於EV及AI伺服器產業發展。",
+      "related_industries": [
+        "EV"
+      ],
+      "chips": {
+        "trust_consec_buy": 10,
+        "foreign_consec_buy": 0,
+        "trust_buy_3d": 1152,
+        "foreign_buy_3d": -1807,
+        "chips_score": 0.4,
+        "signals": []
+      },
+      "technical": {
+        "price": 1785.0,
+        "ma5": 1817.0,
+        "ma10": 1836.5,
+        "ma20": 1889.25,
+        "ma60": 2090.28,
+        "rsi": 34.6,
+        "macd_hist": 2.8426,
+        "vol_ratio": 0.63,
+        "tech_score": 0.15,
+        "signals": [],
+        "bias_pct": -5.52,
+        "gain_10d": -5.05,
+        "price_position_120d": 47.0,
+        "ma_convergence_pct": 15.04,
+        "ma5_cross_ma20": false,
+        "macd_just_positive": false
+      },
+      "rank": 15
+    },
+    {
       "ticker": "2324",
       "name_zh": "仁寶",
       "price": 37.2,
       "industry_code": "GENERAL",
       "industry_name_zh": "綜合",
-      "news_score": 0.537,
-      "bullish_score": 0.196,
+      "news_score": 0.382,
+      "bullish_score": 0.15,
       "signal_strength": "WEAK",
       "trigger_news_ids": [],
       "reason_zh": "",
@@ -6019,7 +6100,7 @@
         "ma5_cross_ma20": false,
         "macd_just_positive": false
       },
-      "rank": 15
+      "rank": 16
     },
     {
       "ticker": "3008",
@@ -6027,8 +6108,8 @@
       "price": 3920.0,
       "industry_code": "GENERAL",
       "industry_name_zh": "綜合",
-      "news_score": 0.537,
-      "bullish_score": 0.196,
+      "news_score": 0.382,
+      "bullish_score": 0.15,
       "signal_strength": "WEAK",
       "trigger_news_ids": [],
       "reason_zh": "",
@@ -6061,7 +6142,7 @@
         "ma5_cross_ma20": false,
         "macd_just_positive": false
       },
-      "rank": 16
+      "rank": 17
     },
     {
       "ticker": "3653",
@@ -6069,8 +6150,8 @@
       "price": 3430.0,
       "industry_code": "GENERAL",
       "industry_name_zh": "綜合",
-      "news_score": 0.537,
-      "bullish_score": 0.196,
+      "news_score": 0.382,
+      "bullish_score": 0.15,
       "signal_strength": "WEAK",
       "trigger_news_ids": [],
       "reason_zh": "",
@@ -6103,7 +6184,7 @@
         "ma5_cross_ma20": false,
         "macd_just_positive": false
       },
-      "rank": 17
+      "rank": 18
     },
     {
       "ticker": "3017",
@@ -6111,8 +6192,8 @@
       "price": 2380.0,
       "industry_code": "GENERAL",
       "industry_name_zh": "綜合",
-      "news_score": 0.537,
-      "bullish_score": 0.175,
+      "news_score": 0.382,
+      "bullish_score": 0.129,
       "signal_strength": "WEAK",
       "trigger_news_ids": [],
       "reason_zh": "",
@@ -6145,7 +6226,7 @@
         "ma5_cross_ma20": false,
         "macd_just_positive": false
       },
-      "rank": 18
+      "rank": 19
     },
     {
       "ticker": "1503",
@@ -6153,8 +6234,8 @@
       "price": 204.5,
       "industry_code": "GENERAL",
       "industry_name_zh": "綜合",
-      "news_score": 0.537,
-      "bullish_score": 0.175,
+      "news_score": 0.382,
+      "bullish_score": 0.129,
       "signal_strength": "WEAK",
       "trigger_news_ids": [],
       "reason_zh": "",
@@ -6187,7 +6268,7 @@
         "ma5_cross_ma20": false,
         "macd_just_positive": false
       },
-      "rank": 19
+      "rank": 20
     },
     {
       "ticker": "3443",
@@ -6195,8 +6276,8 @@
       "price": 4070.0,
       "industry_code": "GENERAL",
       "industry_name_zh": "綜合",
-      "news_score": 0.537,
-      "bullish_score": 0.175,
+      "news_score": 0.382,
+      "bullish_score": 0.129,
       "signal_strength": "WEAK",
       "trigger_news_ids": [],
       "reason_zh": "",
@@ -6229,61 +6310,17 @@
         "ma5_cross_ma20": false,
         "macd_just_positive": false
       },
-      "rank": 20
-    },
-    {
-      "ticker": "2308",
-      "name_zh": "台達電",
-      "price": 1785.0,
-      "industry_code": "EV",
-      "industry_name_zh": "電動車 / 車用",
-      "news_score": 0.525,
-      "bullish_score": 0.171,
-      "signal_strength": "WEAK",
-      "trigger_news_ids": [
-        "2c30c5aa26f3fb87"
-      ],
-      "reason_zh": "電源雙雄法說會聚焦800VDC導入時程，顯示電動車產業技術升級趨勢，對EV產業為利多。",
-      "related_industries": [
-        "EV"
-      ],
-      "chips": {
-        "trust_consec_buy": 10,
-        "foreign_consec_buy": 0,
-        "trust_buy_3d": 1152,
-        "foreign_buy_3d": -1807,
-        "chips_score": 0.4,
-        "signals": []
-      },
-      "technical": {
-        "price": 1785.0,
-        "ma5": 1817.0,
-        "ma10": 1836.5,
-        "ma20": 1889.25,
-        "ma60": 2090.28,
-        "rsi": 34.6,
-        "macd_hist": 2.8426,
-        "vol_ratio": 0.63,
-        "tech_score": 0.15,
-        "signals": [],
-        "bias_pct": -5.52,
-        "gain_10d": -5.05,
-        "price_position_120d": 47.0,
-        "ma_convergence_pct": 15.04,
-        "ma5_cross_ma20": false,
-        "macd_just_positive": false
-      },
       "rank": 21
     }
   ],
   "meta": {
     "pipeline_version": "1.0.0",
     "ai_engine": "gemini-2.5-flash",
-    "total_news_fetched": 43,
-    "total_news_analyzed": 43,
+    "total_news_fetched": 45,
+    "total_news_analyzed": 45,
     "rss_sources_count": 15,
-    "tickers_with_technicals": 99,
-    "elapsed_seconds": 93.1,
+    "tickers_with_technicals": 100,
+    "elapsed_seconds": 106.5,
     "total_stocks_scanned": 1245,
     "chips_candidates": 100
   },
