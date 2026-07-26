@@ -1,36 +1,45 @@
 {
   "schema_version": "2.0",
-  "generated_at": "2026-07-26T22:26:24.861537+08:00",
-  "next_update_at": "2026-07-27T04:26:24.861537+08:00",
+  "generated_at": "2026-07-27T04:05:44.107738+08:00",
+  "next_update_at": "2026-07-27T10:05:44.107738+08:00",
   "window": {
-    "from": "2026-07-25T22:26:24.861537+08:00",
-    "to": "2026-07-26T22:26:24.861537+08:00",
+    "from": "2026-07-26T04:05:44.107738+08:00",
+    "to": "2026-07-27T04:05:44.107738+08:00",
     "hours": 24
   },
   "market_sentiment": {
-    "overall_score": -0.013,
+    "overall_score": -0.15,
     "label": "中性",
     "bullish_industries": 0,
-    "bearish_industries": 0,
+    "bearish_industries": 1,
     "neutral_industries": 2
   },
   "industries": [
     {
       "industry_code": "SEMI",
       "industry_name_zh": "半導體",
-      "sentiment_score": -0.34,
+      "sentiment_score": -0.3,
       "signal": "NEUTRAL",
-      "news_count": 10,
-      "summary_zh": "野村證券看好AI半導體產業受惠於零組件短缺、漲價潮及獲利上修，具結構性利多。",
+      "news_count": 5,
+      "summary_zh": "半導體ETF扮演多頭主角，顯示市場對半導體產業的樂觀情緒。",
+      "key_drivers": []
+    },
+    {
+      "industry_code": "FINANCE",
+      "industry_name_zh": "金融",
+      "sentiment_score": -0.5,
+      "signal": "BEARISH",
+      "news_count": 2,
+      "summary_zh": "外資今年來大幅賣超台股，顯示資金流出壓力，對金融市場情緒構成利空。",
       "key_drivers": []
     },
     {
       "industry_code": "AI_SERVER",
       "industry_name_zh": "AI 伺服器",
-      "sentiment_score": 0.314,
+      "sentiment_score": 0.35,
       "signal": "NEUTRAL",
-      "news_count": 7,
-      "summary_zh": "野村證券看好AI半導體產業受惠於零組件短缺、漲價潮及獲利上修，具結構性利多。",
+      "news_count": 4,
+      "summary_zh": "輝達GB出貨大增，顯示AI伺服器需求強勁，對AI伺服器產業為利多。",
       "key_drivers": []
     }
   ],
@@ -45,97 +54,45 @@
       "sentiment_score": 0,
       "sentiment_label": "NEUTRAL",
       "affected_industries": [],
-      "impact_reason_zh": "新聞內容為整體台股走勢預測，未涉及特定產業結構性利多或利空。"
+      "impact_reason_zh": "純屬大盤走勢預測，未涉及特定產業結構性變化。"
     },
     {
-      "id": "8c9402d051defd3c",
-      "title": "台股多頭終結？專家：「慢牛」行情來了！3策略看何時買| 台股雜談| 股市 - UDN",
-      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5sd1o3RmNNc2FNb0pPZ1E3eF9IbjBDdWh2R0J3dEhsNVlmYUZQbUYzVFhKVW5BMk9tVHJlZVItU2tOTk8zZ19lTFpXbnhSQTBtT0E?oc=5",
+      "id": "d7bd8dcfdd46bc3d",
+      "title": "台股高檔震盪加劇 本周多空行情決戰三關鍵聚焦 - UDN",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBBbVRBNlNURGpicmFyZW1mZU1KZUMycm9EQTBLcHJ3WlJSbmJqcE9jS0lWX0JmOFBCM0M5QWhzYWxlR21zRlUzbktJTWlvWldC0gFWQVVfeXFMT1FRbmg4bmhUR1dXRE4tZ2w5Q043REJTdEtfazFGZXpnWUtDbU1aSnBnUVRCZnhhWGh3Q3QxZmdxVUU3bEtVQ0tSSkcyZkJyVGxIeklTZXc?oc=5",
       "source": "Google News - 台股",
-      "published_at": "2026-07-26T18:00:00+08:00",
-      "snippet": "台股多頭終結？專家：「慢牛」行情來了！3策略看何時買| 台股雜談| 股市 UDN",
+      "published_at": "2026-07-27T03:28:53+08:00",
+      "snippet": "台股高檔震盪加劇 本周多空行情決戰三關鍵聚焦 UDN",
       "sentiment_score": 0,
       "sentiment_label": "NEUTRAL",
       "affected_industries": [],
-      "impact_reason_zh": "新聞內容為整體台股行情分析與投資策略，未涉及特定產業結構性變化。"
+      "impact_reason_zh": "純屬大盤走勢預測，未涉及特定產業結構性變化。"
     },
     {
-      "id": "0692dade7ec7627b",
-      "title": "台股恐怕還要繼續跌？阮慕驊預告下周6大事件：這2天是股市大考日 | 張庭維 | 新聞 - 風傳媒",
-      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5BS0V4N1pnZEJVMjlVbW9zcEJnak5LXzd3MkRJSktyUmhwaXhDaEY1UmpYU3pvQ0lxY2tTN3QxQ09ySFdtUlBGd3B6eGY5UQ?oc=5",
+      "id": "e81630373e273cce",
+      "title": "台股半導體ETF 扮多頭主角- 日報 - 工商時報",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1YMGJVeU0zOG9ITDQxTDIzdnBxWWpDWnNFbVVnRFZpWjdZTVNkN0RvSXJHa2hLRmJIc2tLbHd5eWJQckZYakpnaU1RYjBIWjhvRDJfbEVsYkNzZVEwUGM0?oc=5",
       "source": "Google News - 台股",
-      "published_at": "2026-07-26T09:44:39+08:00",
-      "snippet": "台股恐怕還要繼續跌？阮慕驊預告下周6大事件：這2天是股市大考日 | 張庭維 | 新聞 風傳媒",
-      "sentiment_score": 0,
-      "sentiment_label": "NEUTRAL",
-      "affected_industries": [],
-      "impact_reason_zh": "新聞內容為整體台股走勢預測與市場事件提醒，未涉及特定產業結構性影響。"
-    },
-    {
-      "id": "c047a10a13e4c78c",
-      "title": "費半重挫逾4% 法人：台股短線仍處修正整理| 證券 - 中央社 CNA",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5XX3ZBRUc1eDczYmVTbnNySUM3ckV0ZGxPS2FYbVVvSjlhQVQ2Z0gzU1VIU3lPMUFmWnYwSlVZSHJ5YkIxNUROTXY4LWJXdjB2SVMyYmZFMHZtV1BGT2c?oc=5",
-      "source": "Google News - 台股",
-      "published_at": "2026-07-26T10:56:00+08:00",
-      "snippet": "費半重挫逾4% 法人：台股短線仍處修正整理| 證券 中央社 CNA",
-      "sentiment_score": -0.6,
-      "sentiment_label": "BEARISH",
+      "published_at": "2026-07-27T03:00:00+08:00",
+      "snippet": "台股半導體ETF 扮多頭主角- 日報 工商時報",
+      "sentiment_score": 0.5,
+      "sentiment_label": "BULLISH",
       "affected_industries": [
         "SEMI"
       ],
-      "impact_reason_zh": "費城半導體指數重挫，直接對台灣半導體產業造成負面情緒影響。"
+      "impact_reason_zh": "半導體ETF扮演多頭主角，顯示市場對半導體產業的樂觀情緒。"
     },
     {
-      "id": "e284600462fa2b88",
-      "title": "費半大跌4.3%台股週一恐不妙？專家提16檔「外資逢低撿」個股 - Yahoo新聞",
-      "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxPWHVtcjg0dkpCUlQwU1RabFZHWTZPSFpLUHRrajNlUUlsSTVVR25BeG1Qdl9RYU5xYTFxUW5fSFpGWUFILVJFT0p5eE1lMnh0THVjeHl2OER5eV9HenRSbjAwb3pzaDEzX0lfX3lBZnlZazN0NzNfVUN3VlE5c0JmbURQTjhuT2pXWWFTZkwzTG1yU2plSHJEdVlfTm5TUmMweThDQUxGcDJmODUxUHZCdlJrbnBjRlFGem9LQ21yRV9YcjBGUFJnXzVZeHVpeEZpdkJxSm0ycERiWU1TUzJVck4wOEI3MXRTdHBlcE1mQTlHODBDMUo5ai11Z0xzN29PeHlqdGFn?oc=5",
+      "id": "e39fa0cbd717e8a2",
+      "title": "台股週報》反覆震盪打底 外資提款縮小 - PChome Online 股市",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPcThUTGs4NVNiWm1TQm9YTWU5dW5Wa2NtNEpOWjhiNzlVaUg3TC1kVFhXODJhM1hobndseG9qdUVheUJWdGJlenZCSWtjUHJYZ200Z2s1T0RVS25iaGZMOENkUkp6UlRyYnZEaWlpb0ZfSFowNnZaMXMwZ29NOHpBeg?oc=5",
       "source": "Google News - 台股",
-      "published_at": "2026-07-26T19:11:00+08:00",
-      "snippet": "費半大跌4.3%台股週一恐不妙？專家提16檔「外資逢低撿」個股 Yahoo新聞",
-      "sentiment_score": -0.6,
-      "sentiment_label": "BEARISH",
-      "affected_industries": [
-        "SEMI"
-      ],
-      "impact_reason_zh": "費城半導體指數大跌，對台灣半導體產業帶來短期負面壓力。"
-    },
-    {
-      "id": "0d436089c0799d02",
-      "title": "費半重挫，台股明天剉咧等？專家點名「16檔避風港」：外資趁亂偷卡位 | 張庭維 | 新聞 - 風傳媒",
-      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9Tb1d2eVY1ZUhIWE5KajdPQ25hNi1WUkZEalZjRExTcE9qUkU5RktIMkgwSHZMRkNQSWRjbmpzRzF3ejM5MXZyRV9rbDZrZw?oc=5",
-      "source": "Google News - 台股",
-      "published_at": "2026-07-26T12:33:11+08:00",
-      "snippet": "費半重挫，台股明天剉咧等？專家點名「16檔避風港」：外資趁亂偷卡位 | 張庭維 | 新聞 風傳媒",
-      "sentiment_score": -0.6,
-      "sentiment_label": "BEARISH",
-      "affected_industries": [
-        "SEMI"
-      ],
-      "impact_reason_zh": "費城半導體指數重挫，對台灣半導體產業造成短期負面情緒。"
-    },
-    {
-      "id": "2e0317922c3f69a3",
-      "title": "房市瞭望》台股衝高帶動北市豪宅Q2交易量 陶朱隱園單價創新高 - Yahoo新聞",
-      "url": "https://news.google.com/rss/articles/CBMikANBVV95cUxNemVLMktUVVFFenhvWkxtTFMwZWdmcTFyX1BVNlcyTkNKaFgzQm5yNkRtWUswOHhfMTNYZmxsaGJUdHhfdVQycV9iNktMWmFpbDhLZ1dlMW5tNDJDZVRMdm92MHhCQnBmMC1OVktDSlM1SFRHVDNKczhIQzZwamVWbDhrcEQzclFaMnI2MUROdEpSa25ka2dxUlJydHNjcHBfclhucUZwVk1fUW1pOFdUYUNXek1DOHUwOFdHTTlYSlNaUUNXVDdvb2VETG9GYVI3c2JibjhXaG5BblR3UG1JMXJUaWxfbUk3N1NLUDBhS1Bvc2g5bXVQS3RLaVRsYXhwWGRFMi01SGxwSmFCMVhDTXREMW5ITkVKbzE5NG56VnMxV0wyTEZxdy1PczNocldJT0VIbHB5TXF3SUpKcmNNSlp4YzFkV1ZQUE5McHFyelBIWlc2M3NxMnFHeDNVRldqTDNXcThHelQxN1hkaXQ5YXJBbkxEcU5nQmM3eFItcjJKN21xT05yV1d3dlRtSTBm?oc=5",
-      "source": "Google News - 台股",
-      "published_at": "2026-07-26T15:00:00+08:00",
-      "snippet": "房市瞭望》台股衝高帶動北市豪宅Q2交易量 陶朱隱園單價創新高 Yahoo新聞",
+      "published_at": "2026-07-27T02:06:48+08:00",
+      "snippet": "台股週報》反覆震盪打底 外資提款縮小 PChome Online 股市",
       "sentiment_score": 0,
       "sentiment_label": "NEUTRAL",
       "affected_industries": [],
-      "impact_reason_zh": "新聞內容主要關於房市與整體台股表現，未對指定產業產生直接或結構性影響。"
-    },
-    {
-      "id": "1e8a3b274d59e51f",
-      "title": "台股恐怕還要繼續跌？阮慕驊預告下周6大事件：這2天是股市大考日 - Yahoo新聞",
-      "url": "https://news.google.com/rss/articles/CBMisgNBVV95cUxObFQwMWFjdVdJUV9LOU1iSWpNTGdHQnpxRnBuQ0VBc2J4M3h2YmRWY0N5LTk4bVh6dEJNLU9GVEhtVzZYQk9CM2lmUUEtSTdjQVN0cEdoTF9JNnI2YmNZWjV1dEIyTXV4VldQQW5hTTlyeC1aX2lpX1pYRzhGb2Z0VGpaX0RDdDhvalVFZEstcWEyXzFiRWtVVVFWSGhKalNramhoVzRfM3JwRnlON21QWlBsOHE2TzNnYVFwOXdoUlVhQlZBVmh3UjYxNU55R1JRRVFSQlZrRU90RnhLNVJKNFlxWnFXaDB1aW01My1kWlFUOFp6Um9oSFNmYXJuNkJFbVZHZXJFazZ5eFZ3bEhDNTJRUkxYUm01STB2Rk1fdU5peUVZOFpRZ21paWxEUDBVbkdoZUJLQWdrYVc4bUt0ZW9NUVF3cFl1OG5SRjZncVdMeEpaTUItd2VzdDJLSy1leXMzS1ctcU1ZSlQzeEdMMXJ6T3RtSlE4X25kZDNXckxqc21nTkdfRFRkMWx4X0trbVMzUEsyZU51WS1VUF81c2thMjhqaHE0TTExYUJDU1JEUQ?oc=5",
-      "source": "Google News - 台股",
-      "published_at": "2026-07-26T13:22:24+08:00",
-      "snippet": "台股恐怕還要繼續跌？阮慕驊預告下周6大事件：這2天是股市大考日 Yahoo新聞",
-      "sentiment_score": 0,
-      "sentiment_label": "NEUTRAL",
-      "affected_industries": [],
-      "impact_reason_zh": "新聞內容為整體台股走勢預測與市場事件提醒，未涉及特定產業結構性影響。"
+      "impact_reason_zh": "純屬大盤走勢分析，未涉及特定產業結構性變化。"
     },
     {
       "id": "7db4406e618a7308",
@@ -147,57 +104,107 @@
       "sentiment_score": 0,
       "sentiment_label": "NEUTRAL",
       "affected_industries": [],
-      "impact_reason_zh": "新聞內容為整體台股市場分析與投資建議，未涉及特定產業結構性變化。"
+      "impact_reason_zh": "純屬大盤走勢分析與投資建議，未涉及特定產業結構性變化。"
     },
     {
-      "id": "7f17a66ffd315ffb",
-      "title": "費半重挫，台股明天剉咧等？專家點名「16檔避風港」：外資趁亂偷卡位 - Yahoo新聞",
-      "url": "https://news.google.com/rss/articles/CBMikwNBVV95cUxPSkd0ZGdSSFRfR00yWkJ0Vlh0YzJDTnlPS2JxT0JHMzg1c0llMUFEdVRsdnE3cVJlUU5EWXk1N3NDSUVKU1puLTBCeEFQa2hBMkZSOWktbUxRdTFuUkYzV1NuWTB1ZmQzRUNFdkgta0FWOFVTYk5XbmthQi0xbndDS0M2RjRaQkZINm1ZcG5HWXk5aTdXaU5LdzkwUnRqVEE5blFzUDR2eVB6ODNsVmh3RkpvQ2NuX3N2SURGMmRhbmRUaWlBZ0IyNEZqQ25kUEN6OXRPZEppV0ZQVDVDemd3NUc0d19ia1VKS21JbF90dGMzTG5DSXM2bTRiMXp3dWdyQnNBN3h5Z240WFNXYjg5VEsyQXdEbmtVU2JaVktTMldOa1gwQlhuLVdCQTBGWVN5UWd6c3JVaGJkVnpkQjcxWVZOVFV6TGV1SjdaTjVoNHVzX2NUQkR4dEpIQXpSQ3ZRX184NmVfd2E1MjVHM18xTHlDUjVpWGF4UTQ2SXZiVG5SQ3F0V09IVkFSNHh0NDJwTGRJ?oc=5",
+      "id": "53a99d097443af50",
+      "title": "台股重挫近1200點 投顧估本週落在42500至45000點 - 自由財經",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFAtd2E0bndJNVZaU3prTzJFeG9EZjNVU1FlWHRKNE12QnJ6ZmpfODlKRVBTYkhVODdRbGoxUmRfbWcteVNpbWRkamkxUDZ3Ui1HUVVMbl9maVltYVBNU2Nr0gFkQVVfeXFMTnI3S1pENUxGZFpFWkhwSjZ3SW5tbkszaTFla0V6dm9xcVhJUXgzdWR5SHZXTlBzT3pzeExKSlM4S0p1UGZHY2F0djY0M2ExYjN2RXp2dnZQOE44SGxDa2EtbTgzOA?oc=5",
       "source": "Google News - 台股",
-      "published_at": "2026-07-26T14:33:11+08:00",
-      "snippet": "費半重挫，台股明天剉咧等？專家點名「16檔避風港」：外資趁亂偷卡位 Yahoo新聞",
-      "sentiment_score": -0.6,
+      "published_at": "2026-07-26T06:39:45+08:00",
+      "snippet": "台股重挫近1200點 投顧估本週落在42500至45000點 自由財經",
+      "sentiment_score": 0,
+      "sentiment_label": "NEUTRAL",
+      "affected_industries": [],
+      "impact_reason_zh": "純屬大盤走勢預測，未涉及特定產業結構性變化。"
+    },
+    {
+      "id": "abc3aeed32d58bba",
+      "title": "台股剉咧等？專家揭本週最危險2天科技巨頭若亮這訊號恐不妙- 財經 - 中時新聞網",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5XdDRHSGFhY0VIMG9LRlN0d2pkQ1ZOM0RMMW8xdXJfVlBubzZoeUw3YW1oQk5NM1lHc3hCckNmcy0xQ2NaWnk2N2dPbVJSdUwtZUFNNWE3SHJDVzg2N2Y5TGNJcFV2bFU1YnhhWVR3?oc=5",
+      "source": "Google News - 台股",
+      "published_at": "2026-07-26T17:39:53+08:00",
+      "snippet": "台股剉咧等？專家揭本週最危險2天科技巨頭若亮這訊號恐不妙- 財經 中時新聞網",
+      "sentiment_score": 0,
+      "sentiment_label": "NEUTRAL",
+      "affected_industries": [],
+      "impact_reason_zh": "純屬大盤走勢預測，且對科技巨頭的影響為假設性，未構成明確產業結構性利空。"
+    },
+    {
+      "id": "0692dade7ec7627b",
+      "title": "台股恐怕還要繼續跌？阮慕驊預告下周6大事件：這2天是股市大考日 | 張庭維 | 新聞 - 風傳媒",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5BS0V4N1pnZEJVMjlVbW9zcEJnak5LXzd3MkRJSktyUmhwaXhDaEY1UmpYU3pvQ0lxY2tTN3QxQ09ySFdtUlBGd3B6eGY5UQ?oc=5",
+      "source": "Google News - 台股",
+      "published_at": "2026-07-26T09:44:39+08:00",
+      "snippet": "台股恐怕還要繼續跌？阮慕驊預告下周6大事件：這2天是股市大考日 | 張庭維 | 新聞 風傳媒",
+      "sentiment_score": 0,
+      "sentiment_label": "NEUTRAL",
+      "affected_industries": [],
+      "impact_reason_zh": "純屬大盤走勢預測，未涉及特定產業結構性變化。"
+    },
+    {
+      "id": "2a2357236722cc32",
+      "title": "明台股開盤挫咧等？專家點名16檔逆勢受外資青睞 - 東森電視",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBvOGw5cTZER0UtWHR6elh0WWRzT2UzTzZhMGcyeThjTlZoYjMyWFgwMnhMUXcwTXJwWFlSMVA1c3A4Y19zOU5nUDB3VFdrWU5TTVBFVWJ5TldSUQ?oc=5",
+      "source": "Google News - 台股",
+      "published_at": "2026-07-26T18:43:00+08:00",
+      "snippet": "明台股開盤挫咧等？專家點名16檔逆勢受外資青睞 東森電視",
+      "sentiment_score": 0,
+      "sentiment_label": "NEUTRAL",
+      "affected_industries": [],
+      "impact_reason_zh": "內容為個股推薦，非產業結構性利多或利空。"
+    },
+    {
+      "id": "64e9a11080e5a8cb",
+      "title": "費半大跌4.3%台股週一恐不妙？專家提16檔「外資逢低撿」個股 - 三立新聞",
+      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1FVnhIVGF0blhPbnlCUmFwNTVvalpKdWc1b04wcEx0RkdKS2h3dmxtU1RHWDZBWktoQ05EdWdwNmVMQXlqd1VlTEtpSQ?oc=5",
+      "source": "Google News - 台股",
+      "published_at": "2026-07-26T19:11:58+08:00",
+      "snippet": "費半大跌4.3%台股週一恐不妙？專家提16檔「外資逢低撿」個股 三立新聞",
+      "sentiment_score": -0.5,
       "sentiment_label": "BEARISH",
       "affected_industries": [
         "SEMI"
       ],
-      "impact_reason_zh": "費城半導體指數重挫，對台灣半導體產業造成短期負面情緒。"
+      "impact_reason_zh": "費城半導體指數大跌4.3%，對台灣半導體產業情緒構成利空。"
     },
     {
-      "id": "9a42e5ebf24fe7d8",
-      "title": "台股反彈1,783點 最後掙扎？ - 經濟日報",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9ZVW1lTGFSZ0JoU0hfUkJCTG5QTWZ0dWtxZXU0WHppRWhuMFo5NG5JZDd2ZldRQVlKQUdwZGJQYmtaanlVamF6d3VSTjNSQUlYVW94ZkVPZHBGd9IBX0FVX3lxTE5ZUVBVMHZXTkxCdFYyR0R1eS05YnRkRVJ2b3RtSW0tdC1vWVhJa0xGNHFDZy1pWXU4S0poZVJJRzlROXlGZXhUal9ndXBhZ3BFMWRzY2hDMmIwRHNNbUVZ?oc=5",
+      "id": "42e8e47fed5545ad",
+      "title": "台股開盤挫勒等？16檔抗震股「外資逆勢撿」名單曝 - Yahoo股市",
+      "url": "https://news.google.com/rss/articles/CBMixgJBVV95cUxQZnMwQTJCajJ2N0ttX09hMlZQdnpnY05ScFRpallJcGxoNTk0WGNndUM3X3MwbVZqU3R0RjE0RmdYbTdvRm9yZTNGVnBQVEJaRUNCMkhobXRrU3FQSzNKX0UzNk5RSC12T0pmNG5DU1B0N3o0RDA1dWVvX1ByLWFnbVBmeEFvMzV4bjdJU09ybWJnT09uNmhlVUpXeC1KSXpVWlN0Q3QwQ096Vllham5KMjdrOGhNM2RwTnFxdWhIVUFROWROU3hZSEY5dWlvOGdYUTdGU2FxbUZuSVQ5TmVuZlM3UnhvRC1UYnJMWHQyb2JJN3l3UUxpLWFqTTZrSmpCSzl3RnhpVGc0OWR4TTgwdHJMbHNudDlhbE44eXlyVFoyNk9RT0xSSHV1UUc0VVBWUFBscVZHUkJGUEw3Nlo1XzNuTHhyUQ?oc=5",
       "source": "Google News - 台股",
-      "published_at": "2026-07-26T12:51:40+08:00",
-      "snippet": "台股反彈1,783點 最後掙扎？ 經濟日報",
+      "published_at": "2026-07-26T18:04:17+08:00",
+      "snippet": "台股開盤挫勒等？16檔抗震股「外資逆勢撿」名單曝 Yahoo股市",
       "sentiment_score": 0,
       "sentiment_label": "NEUTRAL",
       "affected_industries": [],
-      "impact_reason_zh": "新聞內容為整體台股走勢分析，未涉及特定產業結構性利多或利空。"
+      "impact_reason_zh": "內容為個股推薦，非產業結構性利多或利空。"
     },
     {
-      "id": "48feebda2750f419",
-      "title": "台股多頭終結？專家：「慢牛」行情來了！3策略看何時買| 台股雜談| 股市 - UDN",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5zUjNIbDhxZURScFF4TEEwekRuOU5KVWF5ZEFDRFpHX3RDcmlNTUVtZ1RhWXM3UjB1ZEdyU1E5UzVuRnVNVng4WlFMd0g5cmMxSHJmMTc2S3ZnandkYm9HSFNmS0VnOExjUlhKQVpoQmh1RHF5bXRxWjJhWQ?oc=5",
+      "id": "99edc177fc8f10d9",
+      "title": "外資今年來賣超台股1.6兆元 - UDN",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1RNGlsNFNlUzhjbkEzdUR1T3dWeERvTFFsOW56T2V2aUxYLVpDLWE5Vzh3VEdoUk8xdDJOZFNSNkw4RHdKZVdJRzRQQjVwcEtY0gFWQVVfeXFMTmFvblg3Wlp0Z2dvMjNGVXVPVlJ6Z0R0Y1pEdmkzakR6RGZTS3lFVnA2R011NEJTbUtuUTdleGthRmVKeVl3dTAyOWM1ZlBuOUs3OFNHUkE?oc=5",
       "source": "Google News - 台股",
-      "published_at": "2026-07-26T18:00:00+08:00",
-      "snippet": "台股多頭終結？專家：「慢牛」行情來了！3策略看何時買| 台股雜談| 股市 UDN",
+      "published_at": "2026-07-27T03:29:28+08:00",
+      "snippet": "外資今年來賣超台股1.6兆元 UDN",
+      "sentiment_score": -0.6,
+      "sentiment_label": "BEARISH",
+      "affected_industries": [
+        "FINANCE"
+      ],
+      "impact_reason_zh": "外資今年來大幅賣超台股，顯示資金流出壓力，對金融市場情緒構成利空。"
+    },
+    {
+      "id": "7d1a4af7e042e372",
+      "title": "台股打底42K成關鍵支撐- 日報 - 工商時報",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1IWWsyVXhuUEFoQmxOWXZSUVBaOEwyaTI4VXB1aXFwVXJwN0k2eXJzSnpBQTR2aVJUX254V3psd1N2ZnZxR1VhNi1yNEgtaENYdWFRb2gwNXZrbF81bVY0?oc=5",
+      "source": "Google News - 台股",
+      "published_at": "2026-07-27T03:00:00+08:00",
+      "snippet": "台股打底42K成關鍵支撐- 日報 工商時報",
       "sentiment_score": 0,
       "sentiment_label": "NEUTRAL",
       "affected_industries": [],
-      "impact_reason_zh": "新聞內容為整體台股行情分析與投資策略，未涉及特定產業結構性變化。"
-    },
-    {
-      "id": "1b130f8a2dcac122",
-      "title": "台股反彈動能不足 法人：耐心等待籌碼沉澱 - UDN",
-      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9PbndGUXdydUZZVTN4dEZ4WnlXdkVmOURQME5kSVlTNFFiNzhhUnRTMjNnLVZpUkdaTDZtWXJSYk9LOERlQ3RkTDF2VFhaRzdk0gFWQVVfeXFMT1hhTmJ5M3RFbUgtb1c0VEpLYnhIcTBVdWRtZ3J6cEp4ZC1PZ2F0V1RETkxpdXZIcE9renRoMVpNdFJYVVRXMTVOZjR6OHIzY3V4bkRBcWc?oc=5",
-      "source": "Google News - 台股",
-      "published_at": "2026-07-26T14:18:23+08:00",
-      "snippet": "台股反彈動能不足 法人：耐心等待籌碼沉澱 UDN",
-      "sentiment_score": 0,
-      "sentiment_label": "NEUTRAL",
-      "affected_industries": [],
-      "impact_reason_zh": "新聞內容為整體台股走勢分析，未涉及特定產業結構性利多或利空。"
+      "impact_reason_zh": "純屬大盤走勢分析，未涉及特定產業結構性變化。"
     },
     {
       "id": "d546aeef5589f224",
@@ -209,57 +216,155 @@
       "sentiment_score": 0,
       "sentiment_label": "NEUTRAL",
       "affected_industries": [],
-      "impact_reason_zh": "新聞內容為整體台股市場分析與投資建議，未涉及特定產業結構性變化。"
+      "impact_reason_zh": "純屬大盤走勢分析與投資建議，未涉及特定產業結構性變化。"
     },
     {
-      "id": "82e81635815424bf",
-      "title": "台股槓桿大退潮？游庭皓揭3類股逆勢吸金：這族群正快速撤出 - Yahoo新聞",
-      "url": "https://news.google.com/rss/articles/CBMigwNBVV95cUxQTmo1a1RNQkxSSG1JM0oyMmhUdHpwQWtvc0ZTRGh6UmI5dnNuNHFrNnljWGJvQUs1RUJGNmhwdlZiZ2d5M0NpMjE3bnVvSzZiYS1yQmpiWmRMT3pRV2xteHdodTlLOU9SLWV0QkQ4Zi1CcjVfdmpKMEk4V3ZpaDBZRGtRSDgySlBXYWhkeTVFdGpZU2pNWEhNcXcxaUFUYS1xQ0ZDcEIzQXBqLXZNYTBKd2dCZlBjcVJ1Q1djMXdoLXZvYWppdXl0dmdJUXVIWDJ5LS1oLUZ0bkpyTWlTaklESUgxdXBxRnU2Vy0tN20yNFBmTm8yTEdMeEJZU2R0aVg5cE1BMUpJcFhIdmhSUndMX0VIU2E2N2M3dWVPZllxQkRacG1DVGN3akZyMFc5Sk4xVF9DUnRVUjRiOUxEOHdfNzBsY2Q5eGZXSThVZGhudFMxdjlVd0EzV1RtdlJFU2Y3dlREOElWNUx6X0pELWNCYlFQVEFWYjdXRG5uTXczSmtVUTQ?oc=5",
+      "id": "10a4f8afcaa624ef",
+      "title": "台股反彈力道不足法人：籌碼沉澱後仍有機會 - Yahoo股市",
+      "url": "https://news.google.com/rss/articles/CBMiwgJBVV95cUxPYUVfUXBma2ZNaklsSEp1SzczMV9wVU9KaDJwVXlQNFdrbmhwWExwaFRvMXUzLTZpU1ZPYmRaaGw0R3VDUko5TnJrNUhfdS1yTFlPV0hLbFYxYnlOSEJxdm9IQS14dUl6bEJ4V2Y2S0trazk5UTkzeHFHWmNxRnVQM04zbGtBOUZIX1l0VWtTaEJtRkFfeGs0bkQwak5YeXo0bFotcERveXowTmdMdU42b3FUNkk5MncybnpFR1cyOXg4bkxQUVpJWVhOT2lXZk1KYTdDUnNpSnFKbTF5aVVZZ2hVSWRDMjUwendEMVo2X3k4STM5TUZSenpsY0pmbFdzVDRZcGQ4OGFQRm1peWE5RzhEMU5ubVBVX2hlN3F5M3oxTk5Gd1lRVWlLQXF0WjJ5TG9OZmNuSksyTGhiZlpTUDNn?oc=5",
       "source": "Google News - 台股",
-      "published_at": "2026-07-26T18:54:21+08:00",
-      "snippet": "台股槓桿大退潮？游庭皓揭3類股逆勢吸金：這族群正快速撤出 Yahoo新聞",
+      "published_at": "2026-07-26T23:55:00+08:00",
+      "snippet": "台股反彈力道不足法人：籌碼沉澱後仍有機會 Yahoo股市",
       "sentiment_score": 0,
       "sentiment_label": "NEUTRAL",
       "affected_industries": [],
-      "impact_reason_zh": "新聞內容提及特定類股資金流向，但未明確指出與指定產業相關的結構性影響。"
+      "impact_reason_zh": "純屬大盤走勢分析，未涉及特定產業結構性變化。"
     },
     {
-      "id": "00b4d1b4936dcf24",
-      "title": "台股連2周「黑色星期五」 阮慕驊預告下周有6大事：這2天是大考日 - Yahoo新聞",
-      "url": "https://news.google.com/rss/articles/CBMihwNBVV95cUxOa2RBSUpjVTlhd09DU0pqTHM1ZDVKZW9JMmtIbTNtNFRWSWxub25ZOF84UTJfR2ZjbGNDUGZCSC12WklHWmVCV2RjYzJSZ0QtNHNkanpKY05Bc3Z6QmEyYVBIVS1fczBwOUZ5a2lQTWY1LVJNOXFWc25aVlNwUXEyZXc2NFN6T0tZd2N2SUp4THJYdkwzRnNVcG5UeFlSLTQwQ3kyd1Z0ZVVBenZNc2RoVnhUWXlCczN1bi1EX0RkUzQ5WjJxcERZTXl0TlFRcjFoNmpLbW1tX0MyUUtGdTFrelRoV0k3UEFyc3RFdjVyZms0Wkw5ZW5DQXlFWEkxVE9DT1hTbDJrOF84MXJxTFpLWlN3RENXN0hZS2RuXzh2N09nRy04VWNOWlhlaUw3dWJ0ZTloLThlQzJvLXFmZUpodUttcjFac19xTDQzV25oaVZRUkc1UklqR0xUby0xNTEyMlBHOFBESjRYVUp5eEhpbFFOcmpjOWg0aHVia1BuSUsxWk1Dd3RJ?oc=5",
+      "id": "7f17a66ffd315ffb",
+      "title": "費半重挫，台股明天剉咧等？專家點名「16檔避風港」：外資趁亂偷卡位 - Yahoo新聞",
+      "url": "https://news.google.com/rss/articles/CBMikwNBVV95cUxPSkd0ZGdSSFRfR00yWkJ0Vlh0YzJDTnlPS2JxT0JHMzg1c0llMUFEdVRsdnE3cVJlUU5EWXk1N3NDSUVKU1puLTBCeEFQa2hBMkZSOWktbUxRdTFuUkYzV1NuWTB1ZmQzRUNFdkgta0FWOFVTYk5XbmthQi0xbndDS0M2RjRaQkZINm1ZcG5HWXk5aTdXaU5LdzkwUnRqVEE5blFzUDR2eVB6ODNsVmh3RkpvQ2NuX3N2SURGMmRhbmRUaWlBZ0IyNEZqQ25kUEN6OXRPZEppV0ZQVDVDemd3NUc0d19ia1VKS21JbF90dGMzTG5DSXM2bTRiMXp3dWdyQnNBN3h5Z240WFNXYjg5VEsyQXdEbmtVU2JaVktTMldOa1gwQlhuLVdCQTBGWVN5UWd6c3JVaGJkVnpkQjcxWVZOVFV6TGV1SjdaTjVoNHVzX2NUQkR4dEpIQXpSQ3ZRX184NmVfd2E1MjVHM18xTHlDUjVpWGF4UTQ2SXZiVG5SQ3F0V09IVkFSNHh0NDJwTGRJ?oc=5",
       "source": "Google News - 台股",
-      "published_at": "2026-07-26T18:42:00+08:00",
-      "snippet": "台股連2周「黑色星期五」 阮慕驊預告下周有6大事：這2天是大考日 Yahoo新聞",
-      "sentiment_score": 0,
-      "sentiment_label": "NEUTRAL",
-      "affected_industries": [],
-      "impact_reason_zh": "新聞內容為整體台股走勢預測與市場事件提醒，未涉及特定產業結構性影響。"
-    },
-    {
-      "id": "27f97990fd650a16",
-      "title": "台股拉回緯創獨扛 6檔含緯ETF近一周含息報酬衝破4% - news.cnyes.com",
-      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5xOFB4Q2Z0RjRGc2IyNkxZaXhIQ2kwTkNKdlJVVDNpckNKOEdYaWlpeU9NN3hGeXFieDRPaDNwMXcwV0dOd1IzZWlwWXcwTVE?oc=5",
-      "source": "Google News - 台股",
-      "published_at": "2026-07-26T09:13:55+08:00",
-      "snippet": "台股拉回緯創獨扛 6檔含緯ETF近一周含息報酬衝破4% news.cnyes.com",
-      "sentiment_score": 0.5,
-      "sentiment_label": "BULLISH",
+      "published_at": "2026-07-26T14:45:05+08:00",
+      "snippet": "費半重挫，台股明天剉咧等？專家點名「16檔避風港」：外資趁亂偷卡位 Yahoo新聞",
+      "sentiment_score": -0.5,
+      "sentiment_label": "BEARISH",
       "affected_industries": [
-        "AI_SERVER"
+        "SEMI"
       ],
-      "impact_reason_zh": "緯創作為AI伺服器大廠在台股拉回時表現強勁，顯示AI伺服器產業具韌性。"
+      "impact_reason_zh": "費城半導體指數重挫，對台灣半導體產業情緒構成利空。"
     },
     {
-      "id": "8c8affb395b2b7ba",
-      "title": "周末精選／台股再跌千點後會怎麼走？專家看一指標：仍有底氣挑戰45,171點 - 經濟日報",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9paDB4eEliMGpjb2tPMl95aUZTMHNsUHg4dGNqUnd2Wnp1Z005Vmkxa1RMT043X1l2aWd4aVVhT0FDdlZ1NEw2RUdadkVQOWJiVlNCMld5SFpoUdIBX0FVX3lxTE1TeG5KUDhVb3FrTUt1ZGtaTGY1ekE3MmRsQVNBLV9SWEpnbUFDVHA3azlCemNSNTBibjFWbS1ZNlhTNUJEYTlQUGJpNEpTaHhfZnFER2tpVDVCMWloOXRV?oc=5",
+      "id": "30f5eb0aa369b665",
+      "title": "美股風暴周、台指期先挫! 台股季線難收復、將成大型箱型整理格局 - Yahoo新聞",
+      "url": "https://news.google.com/rss/articles/CBMimwNBVV95cUxPM2RRai1YN0g4dnlzdG5Ra25ibEpBNzE0SWl4SlUydENVdl9falQ4RW51TFFZYkZ3ZUJhNEdWVkpDLVlPbEJxUVZja20tdThidkRsYWNvSy1ZdnFZRXVITHVOR29KdmlyVnh3QUYyYkYwTE9LUXYwcjIwOW5wY3Y3RHdvaENRdmtZQlVkdVVTTkZ1aWYxVTBLMm1nWDc4V0tWclFURUswMDNNR0xfeVo1WGpObC14VGxPeFJKZl9TTzliWkkzenV5SVBqbTZ4akM5c3NVcEhZSF9HRlZtLWpVSkN0SldkNDRDbFI3MTVZazNObW84cFBtR192U3VHaFdkYkZPWG9GdjMtak9RSnVRTDRwaEZsbERvNmIwNW14RjBSZk9GWW1xNlFZSGZfWjRqN0xIMDNkTXhodXJ0Mm9lOGtSS25OV3lIYWVPMlo5S2JjZUkwLXN2RzNCR1hkX0FMcDhDLVVtM0pxZDJZS2dxQWtMWm5CelI0RVc3bUhEVWdfckc3bkUxMURoZFlNZV8yTWdYUm0wcmxaOG8?oc=5",
       "source": "Google News - 台股",
-      "published_at": "2026-07-26T16:45:56+08:00",
-      "snippet": "周末精選／台股再跌千點後會怎麼走？專家看一指標：仍有底氣挑戰45,171點 經濟日報",
+      "published_at": "2026-07-27T00:30:35+08:00",
+      "snippet": "美股風暴周、台指期先挫! 台股季線難收復、將成大型箱型整理格局 Yahoo新聞",
       "sentiment_score": 0,
       "sentiment_label": "NEUTRAL",
       "affected_industries": [],
-      "impact_reason_zh": "新聞內容為整體台股走勢分析，未涉及特定產業結構性利多或利空。"
+      "impact_reason_zh": "純屬大盤走勢分析，未涉及特定產業結構性變化。"
+    },
+    {
+      "id": "1e8a3b274d59e51f",
+      "title": "台股恐怕還要繼續跌？阮慕驊預告下周6大事件：這2天是股市大考日 - Yahoo新聞",
+      "url": "https://news.google.com/rss/articles/CBMisgNBVV95cUxObFQwMWFjdVdJUV9LOU1iSWpNTGdHQnpxRnBuQ0VBc2J4M3h2YmRWY0N5LTk4bVh6dEJNLU9GVEhtVzZYQk9CM2lmUUEtSTdjQVN0cEdoTF9JNnI2YmNZWjV1dEIyTXV4VldQQW5hTTlyeC1aX2lpX1pYRzhGb2Z0VGpaX0RDdDhvalVFZEstcWEyXzFiRWtVVVFWSGhKalNramhoVzRfM3JwRnlON21QWlBsOHE2TzNnYVFwOXdoUlVhQlZBVmh3UjYxNU55R1JRRVFSQlZrRU90RnhLNVJKNFlxWnFXaDB1aW01My1kWlFUOFp6Um9oSFNmYXJuNkJFbVZHZXJFazZ5eFZ3bEhDNTJRUkxYUm01STB2Rk1fdU5peUVZOFpRZ21paWxEUDBVbkdoZUJLQWdrYVc4bUt0ZW9NUVF3cFl1OG5SRjZncVdMeEpaTUItd2VzdDJLSy1leXMzS1ctcU1ZSlQzeEdMMXJ6T3RtSlE4X25kZDNXckxqc21nTkdfRFRkMWx4X0trbVMzUEsyZU51WS1VUF81c2thMjhqaHE0TTExYUJDU1JEUQ?oc=5",
+      "source": "Google News - 台股",
+      "published_at": "2026-07-26T13:22:24+08:00",
+      "snippet": "台股恐怕還要繼續跌？阮慕驊預告下周6大事件：這2天是股市大考日 Yahoo新聞",
+      "sentiment_score": 0,
+      "sentiment_label": "NEUTRAL",
+      "affected_industries": [],
+      "impact_reason_zh": "純屬大盤走勢預測，未涉及特定產業結構性變化。"
+    },
+    {
+      "id": "9a42e5ebf24fe7d8",
+      "title": "台股反彈1,783點 最後掙扎？ - 經濟日報",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9ZVW1lTGFSZ0JoU0hfUkJCTG5QTWZ0dWtxZXU0WHppRWhuMFo5NG5JZDd2ZldRQVlKQUdwZGJQYmtaanlVamF6d3VSTjNSQUlYVW94ZkVPZHBGd9IBX0FVX3lxTE5ZUVBVMHZXTkxCdFYyR0R1eS05YnRkRVJ2b3RtSW0tdC1vWVhJa0xGNHFDZy1pWXU4S0poZVJJRzlROXlGZXhUal9ndXBhZ3BFMWRzY2hDMmIwRHNNbUVZ?oc=5",
+      "source": "Google News - 台股",
+      "published_at": "2026-07-26T12:51:40+08:00",
+      "snippet": "台股反彈1,783點 最後掙扎？ 經濟日報",
+      "sentiment_score": 0,
+      "sentiment_label": "NEUTRAL",
+      "affected_industries": [],
+      "impact_reason_zh": "純屬大盤走勢分析，未涉及特定產業結構性變化。"
+    },
+    {
+      "id": "8eacf239ba20b684",
+      "title": "台股ETF 散戶搶低接 - UDN",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE10WWlNNVJBdVEzdDEwVWg5dlFLbms5TXBQTUhkRjE1c0lSd19reHN5Y3VwUnp5akYzcThNcXM0TTIzSzJNNmx2bXhMOHhVdm01Wk1B0gFYQVVfeXFMTXhIaFE1Q3FLLWJiTXppTDhXeEIwbFROSmdYNm5LdklkazA3eHZOWTdGQWtTQVpHZThzNTBBZFEyOVpyaVExYk44cklyTm91aGhreHhQT0l5dA?oc=5",
+      "source": "Google News - 台股",
+      "published_at": "2026-07-27T03:58:07+08:00",
+      "snippet": "台股ETF 散戶搶低接 UDN",
+      "sentiment_score": 0,
+      "sentiment_label": "NEUTRAL",
+      "affected_industries": [],
+      "impact_reason_zh": "純屬大盤投資行為分析，未涉及特定產業結構性變化。"
+    },
+    {
+      "id": "5f12de6e11685a92",
+      "title": "六檔台股平衡基金績效贏大盤- 日報 - 工商時報",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1vZnYyWE5Qb0kyUjNRZHV3d0p2N3ltY1pQOExOU0FLcmI4c3FVMjJnY0RQMWtGY3pVTV9vamduczJOTHNrZTRqOGVqbjUwNkt0NVBUYXdUT0hUaFZJUWpz?oc=5",
+      "source": "Google News - 台股",
+      "published_at": "2026-07-27T03:00:00+08:00",
+      "snippet": "六檔台股平衡基金績效贏大盤- 日報 工商時報",
+      "sentiment_score": 0,
+      "sentiment_label": "NEUTRAL",
+      "affected_industries": [],
+      "impact_reason_zh": "純屬基金績效報導，未涉及特定產業結構性變化。"
+    },
+    {
+      "id": "fcedfa888514f835",
+      "title": "台股週四多空關鍵 法人點名聯電、群創、台積買進策略一次看 - Yahoo新聞",
+      "url": "https://news.google.com/rss/articles/CBMi-AJBVV95cUxQaEJpSHFBY0VNT1Q4bVJyOXVKMmpkRUdocjBPQVNRa2RKUXZDVGF6Y2luQ2FqUjRSbVROWGJpVmJ0Uml6ZERQREpRU2ZicUp5THh6MDU3M1BrN3Z1emR4MXhoUXU4OGhQZ2ctaEFBYTJvVUJkbmVEMDdNMnUweXJmUC03WXJfa3dJZ01MQVZDWWRiVHZUa1NnWHpTNGtXcmdqLUdjc2pxamk3SFI0UzlqMXd6RWRmU203bjVlamo4VmxIMkdYWFlJTFlVMFczNGQ4b1hCNzdLRzJQeWE4Q19Qci1ZdXJYaG9xb1VybHZ0YVYtS0p2aUZrd09TMmhCU0NWSmFUZUFyZzZfM1VhQ2RBUnd2b2x4azlhbE5oZWNaUWtMYlB0cDlkU29tZ2ZFb1dJbkc2eTdnNDh1bnR3QS1sUk1teFdDMGhGTXdSRlZDVm5FdGZlLTNOQmV5b3RFZVdTZTlGcXd5UGhqRUg3Mko5ODR2cHhRUTly?oc=5",
+      "source": "Google News - 台股",
+      "published_at": "2026-07-26T13:39:01+08:00",
+      "snippet": "台股週四多空關鍵 法人點名聯電、群創、台積買進策略一次看 Yahoo新聞",
+      "sentiment_score": 0,
+      "sentiment_label": "NEUTRAL",
+      "affected_industries": [],
+      "impact_reason_zh": "內容為個股買進策略，非產業結構性利多或利空。"
+    },
+    {
+      "id": "af3d6d13e7495de7",
+      "title": "聚焦美股財報.Fed利率決議台股觀望氛圍濃| 金融 - 非凡新聞台",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9ndGRFd1JsYS03U2lvNEVqcGp1dHUyaXZQTUVEN1k1VGVhdkMzWHlQYlRpM2RqVXFGRlpiZjRLZjhvQ3daN3JRNG1oZmN5ZkZwM2pleDJzWWZXQ0c2a0QwakE3blhNRUR3b3EteQ?oc=5",
+      "source": "Google News - 台股",
+      "published_at": "2026-07-27T01:48:35+08:00",
+      "snippet": "聚焦美股財報.Fed利率決議台股觀望氛圍濃| 金融 非凡新聞台",
+      "sentiment_score": 0,
+      "sentiment_label": "NEUTRAL",
+      "affected_industries": [],
+      "impact_reason_zh": "聚焦美股財報與Fed利率決議，導致台股觀望氛圍，未構成明確產業結構性利多或利空。"
+    },
+    {
+      "id": "48feebda2750f419",
+      "title": "台股多頭終結？專家：「慢牛」行情來了！3策略看何時買| 台股雜談| 股市 - UDN",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5zUjNIbDhxZURScFF4TEEwekRuOU5KVWF5ZEFDRFpHX3RDcmlNTUVtZ1RhWXM3UjB1ZEdyU1E5UzVuRnVNVng4WlFMd0g5cmMxSHJmMTc2S3ZnandkYm9HSFNmS0VnOExjUlhKQVpoQmh1RHF5bXRxWjJhWQ?oc=5",
+      "source": "Google News - 台股",
+      "published_at": "2026-07-26T18:00:00+08:00",
+      "snippet": "台股多頭終結？專家：「慢牛」行情來了！3策略看何時買| 台股雜談| 股市 UDN",
+      "sentiment_score": 0,
+      "sentiment_label": "NEUTRAL",
+      "affected_industries": [],
+      "impact_reason_zh": "純屬大盤走勢分析與投資策略，未涉及特定產業結構性變化。"
+    },
+    {
+      "id": "1b130f8a2dcac122",
+      "title": "台股反彈動能不足 法人：耐心等待籌碼沉澱 - UDN",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9PbndGUXdydUZZVTN4dEZ4WnlXdkVmOURQME5kSVlTNFFiNzhhUnRTMjNnLVZpUkdaTDZtWXJSYk9LOERlQ3RkTDF2VFhaRzdk0gFWQVVfeXFMT1hhTmJ5M3RFbUgtb1c0VEpLYnhIcTBVdWRtZ3J6cEp4ZC1PZ2F0V1RETkxpdXZIcE9renRoMVpNdFJYVVRXMTVOZjR6OHIzY3V4bkRBcWc?oc=5",
+      "source": "Google News - 台股",
+      "published_at": "2026-07-26T14:18:23+08:00",
+      "snippet": "台股反彈動能不足 法人：耐心等待籌碼沉澱 UDN",
+      "sentiment_score": 0,
+      "sentiment_label": "NEUTRAL",
+      "affected_industries": [],
+      "impact_reason_zh": "純屬大盤走勢分析，未涉及特定產業結構性變化。"
+    },
+    {
+      "id": "c047a10a13e4c78c",
+      "title": "費半重挫逾4% 法人：台股短線仍處修正整理| 證券 - 中央社 CNA",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5XX3ZBRUc1eDczYmVTbnNySUM3ckV0ZGxPS2FYbVVvSjlhQVQ2Z0gzU1VIU3lPMUFmWnYwSlVZSHJ5YkIxNUROTXY4LWJXdjB2SVMyYmZFMHZtV1BGT2c?oc=5",
+      "source": "Google News - 台股",
+      "published_at": "2026-07-26T10:56:00+08:00",
+      "snippet": "費半重挫逾4% 法人：台股短線仍處修正整理| 證券 中央社 CNA",
+      "sentiment_score": -0.5,
+      "sentiment_label": "BEARISH",
+      "affected_industries": [
+        "SEMI"
+      ],
+      "impact_reason_zh": "費城半導體指數重挫逾4%，對台灣半導體產業情緒構成利空。"
     },
     {
       "id": "51e1ed0a26192b18",
@@ -273,321 +378,71 @@
       "affected_industries": [
         "AI_SERVER"
       ],
-      "impact_reason_zh": "報導提及AI估值疑慮，對AI伺服器產業的未來展望產生負面影響。"
+      "impact_reason_zh": "法人提及AI估值疑慮，對AI伺服器產業情緒構成利空。"
     },
     {
-      "id": "64e9a11080e5a8cb",
-      "title": "費半大跌4.3%台股週一恐不妙？專家提16檔「外資逢低撿」個股 - 三立新聞",
-      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1FVnhIVGF0blhPbnlCUmFwNTVvalpKdWc1b04wcEx0RkdKS2h3dmxtU1RHWDZBWktoQ05EdWdwNmVMQXlqd1VlTEtpSQ?oc=5",
+      "id": "fb643e14fde72c4a",
+      "title": "金管會加強監理 緊盯台股「四貸同堂」 - UDN",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1XSHYyeEMzTVliS25mQldlbDh6dzAxUEVYYW42anVIM3JXLWRBcHdObW5pdXRtSTBRWnR6T1ZYQzVsWXFEbjRCcjhRQ0gtWW940gFWQVVfeXFMTW5XT0ZkLWN0VG5kUUJJb3lmWmJSVWJ0SG5oOElnZFhlMVludUtvazAxdTFjd21tRndRQ0MzZFVyVFFqTWVSY3RrQ3IwV0tBcFhpLWwyR0E?oc=5",
       "source": "Google News - 台股",
-      "published_at": "2026-07-26T19:11:58+08:00",
-      "snippet": "費半大跌4.3%台股週一恐不妙？專家提16檔「外資逢低撿」個股 三立新聞",
-      "sentiment_score": -0.6,
+      "published_at": "2026-07-27T00:00:00+08:00",
+      "snippet": "金管會加強監理 緊盯台股「四貸同堂」 UDN",
+      "sentiment_score": -0.4,
       "sentiment_label": "BEARISH",
       "affected_industries": [
-        "SEMI"
+        "FINANCE"
       ],
-      "impact_reason_zh": "費城半導體指數大跌，對台灣半導體產業帶來短期負面壓力。"
+      "impact_reason_zh": "金管會加強監理「四貸同堂」，可能導致金融業營運受限或風險增加，對金融業構成利空。"
     },
     {
-      "id": "998a1223d7dd4f07",
-      "title": "費半重挫拖累台股！本周「大考」挫咧蛋 專家：股市現裂痕恐再起波瀾 - Yahoo新聞",
-      "url": "https://news.google.com/rss/articles/CBMipAJBVV95cUxPQ2NEaDQ2cERub285X1NtNHl2WmhJUDlNTkY0UlY5Z1AxTENxb091dE44M2lINUpWX0M3N1d0bTFjOWdxVmk5NDQ2TnI0Z0FMdWZYM2JKenpZcHJyaHFyZHprZnVSNEx6ajBMUmJuMWRoUVpPbTFnTW5UNXJKbnJDd05HNHJZM2Z2MTAyaVpFZE9xQjN6Z3ctT2hPdDhzMGZOYlo1RkI4QWhxZU1hTHg2YlRTWjRuVTA5NVZtTkp4YlZ5c1NObEUxYVFzdDIya3NGTlJmZzJBUGFtQmVrMGNyNllQSVpCam9rZG9WdkI3X0VRb0ttUWk3dlNIMGFnX0RscGoxUUJqOUU0N3QwU0daUWNjMjAwS0REWEZpYW1EdnRsSUNN?oc=5",
+      "id": "38e71d5124cdaee9",
+      "title": "台股再次跌破季線 整理期將拉長 法人點名三題材可逢低切入 | 市場焦點 | 證券 - 經濟日報",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE8yT0M2d3VLWnRSRU80Wi1NVlFJMTFLbGdHS2g3VXRTSDdvaW9LQll4OXM3bDBBaHJpZjIxX2xOenhoVGE3eTVWN1g3aF9WVDJJUnFuLThDYnJfUQ?oc=5",
       "source": "Google News - 台股",
-      "published_at": "2026-07-26T12:05:00+08:00",
-      "snippet": "費半重挫拖累台股！本周「大考」挫咧蛋 專家：股市現裂痕恐再起波瀾 Yahoo新聞",
-      "sentiment_score": -0.6,
-      "sentiment_label": "BEARISH",
-      "affected_industries": [
-        "SEMI"
-      ],
-      "impact_reason_zh": "費城半導體指數重挫，對台灣半導體產業造成負面情緒影響。"
-    },
-    {
-      "id": "e07da7c9ba6c20df",
-      "title": "美科技股週五慘跌…台股週一挫著等？ 專家揭16檔抗震個股| 財經焦點 - 太報 TaiSounds",
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBpVnpKS18tbXFvYXEtREZiTVhVQ1hWeGNPQnNoc2dPcHppM0FkSHg0SWhKRENEYThuUDJrQjZUQWJBVUFrU2ExZldjblhERldvQzhTdVFONERJYW45?oc=5",
-      "source": "Google News - 台股",
-      "published_at": "2026-07-26T15:59:10+08:00",
-      "snippet": "美科技股週五慘跌…台股週一挫著等？ 專家揭16檔抗震個股| 財經焦點 太報 TaiSounds",
-      "sentiment_score": -0.5,
-      "sentiment_label": "BEARISH",
-      "affected_industries": [
-        "SEMI",
-        "AI_SERVER"
-      ],
-      "impact_reason_zh": "美國科技股慘跌，對台灣半導體及AI伺服器產業造成負面情緒。"
-    },
-    {
-      "id": "53a99d097443af50",
-      "title": "台股重挫近1200點 投顧估本週落在42500至45000點 - 自由財經",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFAtd2E0bndJNVZaU3prTzJFeG9EZjNVU1FlWHRKNE12QnJ6ZmpfODlKRVBTYkhVODdRbGoxUmRfbWcteVNpbWRkamkxUDZ3Ui1HUVVMbl9maVltYVBNU2Nr0gFkQVVfeXFMTnI3S1pENUxGZFpFWkhwSjZ3SW5tbkszaTFla0V6dm9xcVhJUXgzdWR5SHZXTlBzT3pzeExKSlM4S0p1UGZHY2F0djY0M2ExYjN2RXp2dnZQOE44SGxDa2EtbTgzOA?oc=5",
-      "source": "Google News - 台股",
-      "published_at": "2026-07-26T06:39:45+08:00",
-      "snippet": "台股重挫近1200點 投顧估本週落在42500至45000點 自由財經",
+      "published_at": "2026-07-26T22:36:18+08:00",
+      "snippet": "台股再次跌破季線 整理期將拉長 法人點名三題材可逢低切入 | 市場焦點 | 證券 經濟日報",
       "sentiment_score": 0,
       "sentiment_label": "NEUTRAL",
       "affected_industries": [],
-      "impact_reason_zh": "新聞內容為整體台股走勢預測，未涉及特定產業結構性利多或利空。"
+      "impact_reason_zh": "純屬大盤走勢分析與投資建議，未涉及特定產業結構性變化。"
     },
     {
-      "id": "abc3aeed32d58bba",
-      "title": "台股剉咧等？專家揭本週最危險2天科技巨頭若亮這訊號恐不妙- 財經 - 中時新聞網",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5XdDRHSGFhY0VIMG9LRlN0d2pkQ1ZOM0RMMW8xdXJfVlBubzZoeUw3YW1oQk5NM1lHc3hCckNmcy0xQ2NaWnk2N2dPbVJSdUwtZUFNNWE3SHJDVzg2N2Y5TGNJcFV2bFU1YnhhWVR3?oc=5",
+      "id": "00b4d1b4936dcf24",
+      "title": "台股連2周「黑色星期五」 阮慕驊預告下周有6大事：這2天是大考日 - Yahoo新聞",
+      "url": "https://news.google.com/rss/articles/CBMihwNBVV95cUxOa2RBSUpjVTlhd09DU0pqTHM1ZDVKZW9JMmtIbTNtNFRWSWxub25ZOF84UTJfR2ZjbGNDUGZCSC12WklHWmVCV2RjYzJSZ0QtNHNkanpKY05Bc3Z6QmEyYVBIVS1fczBwOUZ5a2lQTWY1LVJNOXFWc25aVlNwUXEyZXc2NFN6T0tZd2N2SUp4THJYdkwzRnNVcG5UeFlSLTQwQ3kyd1Z0ZVVBenZNc2RoVnhUWXlCczN1bi1EX0RkUzQ5WjJxcERZTXl0TlFRcjFoNmpLbW1tX0MyUUtGdTFrelRoV0k3UEFyc3RFdjVyZms0Wkw5ZW5DQXlFWEkxVE9DT1hTbDJrOF84MXJxTFpLWlN3RENXN0hZS2RuXzh2N09nRy04VWNOWlhlaUw3dWJ0ZTloLThlQzJvLXFmZUpodUttcjFac19xTDQzV25oaVZRUkc1UklqR0xUby0xNTEyMlBHOFBESjRYVUp5eEhpbFFOcmpjOWg0aHVia1BuSUsxWk1Dd3RJ?oc=5",
       "source": "Google News - 台股",
-      "published_at": "2026-07-26T17:39:53+08:00",
-      "snippet": "台股剉咧等？專家揭本週最危險2天科技巨頭若亮這訊號恐不妙- 財經 中時新聞網",
+      "published_at": "2026-07-26T18:42:00+08:00",
+      "snippet": "台股連2周「黑色星期五」 阮慕驊預告下周有6大事：這2天是大考日 Yahoo新聞",
       "sentiment_score": 0,
       "sentiment_label": "NEUTRAL",
       "affected_industries": [],
-      "impact_reason_zh": "新聞內容為整體台股走勢預測，對科技巨頭的影響為假設性，未構成明確產業結構性利空。"
+      "impact_reason_zh": "純屬大盤走勢預測，未涉及特定產業結構性變化。"
     },
     {
-      "id": "8547cc86061d6366",
-      "title": "韓股崩盤引爆去槓桿骨牌！台股慘崩千點竟奇蹟翻紅「恐怖星期一斷頭潮來襲？」專家：搶反彈就看這一天- 上市櫃 - 旺得富理財網",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE02VFd1X1VKUy15MWZMRnZZZnI2RG1TVDdTT3NYMnB2QktLYkRzOFBNMEZuNnBaWjRtRlBoejM0ZXZ4dUlqT29ZSzVJLWhHUWVJUGUtaEdHZlA0b19XWldZRkFaRkNsbnc1Vmc?oc=5",
+      "id": "8c8affb395b2b7ba",
+      "title": "周末精選／台股再跌千點後會怎麼走？專家看一指標：仍有底氣挑戰45,171點 - 經濟日報",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9paDB4eEliMGpjb2tPMl95aUZTMHNsUHg4dGNqUnd2Wnp1Z005Vmkxa1RMT043X1l2aWd4aVVhT0FDdlZ1NEw2RUdadkVQOWJiVlNCMld5SFpoUdIBX0FVX3lxTE1TeG5KUDhVb3FrTUt1ZGtaTGY1ekE3MmRsQVNBLV9SWEpnbUFDVHA3azlCemNSNTBibjFWbS1ZNlhTNUJEYTlQUGJpNEpTaHhfZnFER2tpVDVCMWloOXRV?oc=5",
       "source": "Google News - 台股",
-      "published_at": "2026-07-26T09:47:41+08:00",
-      "snippet": "韓股崩盤引爆去槓桿骨牌！台股慘崩千點竟奇蹟翻紅「恐怖星期一斷頭潮來襲？」專家：搶反彈就看這一天- 上市櫃 旺得富理財網",
+      "published_at": "2026-07-26T16:45:56+08:00",
+      "snippet": "周末精選／台股再跌千點後會怎麼走？專家看一指標：仍有底氣挑戰45,171點 經濟日報",
       "sentiment_score": 0,
       "sentiment_label": "NEUTRAL",
       "affected_industries": [],
-      "impact_reason_zh": "新聞內容為整體台股市場分析與走勢預測，未涉及特定產業結構性變化。"
+      "impact_reason_zh": "純屬大盤走勢分析，未涉及特定產業結構性變化。"
     },
     {
-      "id": "dfc5bf0729d2b785",
-      "title": "野村：AI 半導體仍受惠零組件短缺、漲價潮與獲利上修 看好七檔台股 - UDN",
-      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE0wQkY1TXhmaDY2QUV4U3JjcnV4UU84aEpkX01kckNXOVZqVVVPU21qaTN3ZWFwTTFFRlU4LW5qNzJKblp0ZEE2WC1IbGx5YzJ50gFWQVVfeXFMTWxLajl4Y0xuRzhHcHBmczlXaVU4dnpTaGVGbGVfMHY5MFBpcVJ5MXJnQmcwcUZ5X2tSOS1JVDBTX3BEcVNic3dUTTYyNk5mUDdNdTNvX0E?oc=5",
+      "id": "27f97990fd650a16",
+      "title": "台股拉回緯創獨扛 6檔含緯ETF近一周含息報酬衝破4% - news.cnyes.com",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5xOFB4Q2Z0RjRGc2IyNkxZaXhIQ2kwTkNKdlJVVDNpckNKOEdYaWlpeU9NN3hGeXFieDRPaDNwMXcwV0dOd1IzZWlwWXcwTVE?oc=5",
       "source": "Google News - 台股",
-      "published_at": "2026-07-26T19:18:12+08:00",
-      "snippet": "野村：AI 半導體仍受惠零組件短缺、漲價潮與獲利上修 看好七檔台股 UDN",
-      "sentiment_score": 0.8,
-      "sentiment_label": "BULLISH",
-      "affected_industries": [
-        "AI_SERVER",
-        "SEMI"
-      ],
-      "impact_reason_zh": "野村證券看好AI半導體產業受惠於零組件短缺、漲價潮及獲利上修，具結構性利多。"
-    },
-    {
-      "id": "328bbec143704814",
-      "title": "單季EPS直接賺贏1年！「記憶體模組大廠」觸漲停奪量價雙增王 挺住台股摜破44K - Yahoo股市",
-      "url": "https://news.google.com/rss/articles/CBMixANBVV95cUxOejNHR0wxRHRoQ05oOEx3Y0F1LWQ1UHhTSW9GWUYtanRrTFNKaDdNbjhqdy0tYnZENmFKY3h1M1lrZy0xRGJINkxNQVVYTVVEakFOQW96TWlseVQxcjVad1ZjWm9GQkJGaFc5M3NWdVd1TmxyemRyQk5ULXZVRm0zaGpoS2ZvODFab1dScmhNdW41bnFHVF94MVpRMXFaYjdHV3I2aV9KT0tuZUV2bi02bGRBVXNZeTRsV1dUaTJWejBEcnphV052Q2dmVFVOazBvQzJPZHlVRmFtYmpsM0Q3SWFQYnVoMEdxakowZjNtWHh5a3ZWaUlydWljelFVdUFGaHZrTlNHUHA5VDVTWVhScjBqU0xYaTJ4N3M1UDZBTU1NVFVXYWs3OHhvS3VuNWtqRVh4cGJRbzNhVG1RcEc1dV8yQVNqS3RtLUxLTUJYQ1NlNDlpZzJEYkFnQUw4Q09TXzZ2djJCSEViN000UzB2RVN3UV9GM0pDZ3E1dlItOGs4TXRMc0w2aUEzd05Va3dMLUdIVmc1OGJseEFxTi1kRmM1VnpXOGhfT3E2OG5iOFVXRFZYMkpBUFlBOEY3RUZJR1ludA?oc=5",
-      "source": "Google News - 台股",
-      "published_at": "2026-07-26T09:08:22+08:00",
-      "snippet": "單季EPS直接賺贏1年！「記憶體模組大廠」觸漲停奪量價雙增王 挺住台股摜破44K Yahoo股市",
-      "sentiment_score": 0,
-      "sentiment_label": "NEUTRAL",
-      "affected_industries": [],
-      "impact_reason_zh": "新聞內容為單一記憶體模組大廠的個別財報利多，非半導體產業的結構性變化。"
-    },
-    {
-      "id": "7a1ea4c600b53b1d",
-      "title": "台股再崩？這2天「股市迎大考」 專家點名6事件：裂痕已出現 | TVBS - LINE TODAY",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5HVkhHc09wUFkzS2pnYV9oM3R1V2N4clVPbzdTMGxxZG9RU3pMdHZuLUNBREJ4aUVhTEc3MDRZOTU5alN0aGZkYUFZSTNMQ20zWkZidkRn?oc=5",
-      "source": "Google News - 台股",
-      "published_at": "2026-07-26T19:43:16+08:00",
-      "snippet": "台股再崩？這2天「股市迎大考」 專家點名6事件：裂痕已出現 | TVBS LINE TODAY",
-      "sentiment_score": 0,
-      "sentiment_label": "NEUTRAL",
-      "affected_industries": [],
-      "impact_reason_zh": "新聞內容為整體台股走勢預測與市場事件提醒，未涉及特定產業結構性影響。"
-    },
-    {
-      "id": "b5a2eb6582490688",
-      "title": "台股量縮跌破季線！法人點名高本益比漲多股承壓 下半年高檔輪動 - Yahoo新聞",
-      "url": "https://news.google.com/rss/articles/CBMipgNBVV95cUxQb1JlU19WbS1rTHg1MmpHNHpQUENRczlPbkNKRHRtQ2VVREdfbUZMR3JYUlpvSVFEZVVSbHNsMkVvWWJKUi02Tmd5dWtEOHBrdnpzTW5KTXRLQjJPMjVjeFlqblJHSlhZVHpBVTAyN3pXS1FpNXpSTUZFRXZPU1hHeVpTcUFldXJKZGRIWVRsZU1wR2FlcHhTbWhlUXAtanBCNzBTSXNDV1lhc0lQaTJOSG9SX1dxX0FzbDJ3SnMtaGRXcTVDdkw1N1ZBeTRXMDBxYTNmNkRmTDhjblE2bnFEN2FpdHZPTDVDWXIzUEt5MDNKZVd4ZkE2R1JJNUpHQ2tXWS1jaG5JNkhIU1lud1BhcWQyREpKdWRNTmtMcXdyd3F3R1JxaWc3aTFQNjJ0dFR6NkhvekdQc1BCbG5XbHpxTW5FVDNpbjZZb2hlXzNJRVF1Q3ktRlhsWWhVYUFIUTNPWDdMYmd0S1g2VDJna2FrMjA4UzVWTmt1Rmx1ZWFJN2lCandzaTVFdm1JZHc0RFhTaXE1SG1Gd3lyYWM3WWh3U3FsaXhNdw?oc=5",
-      "source": "Google News - 台股",
-      "published_at": "2026-07-26T15:23:00+08:00",
-      "snippet": "台股量縮跌破季線！法人點名高本益比漲多股承壓 下半年高檔輪動 Yahoo新聞",
-      "sentiment_score": 0,
-      "sentiment_label": "NEUTRAL",
-      "affected_industries": [],
-      "impact_reason_zh": "新聞內容為整體台股市場分析，提及高本益比股票壓力，但未明確指向特定產業的結構性利空。"
-    },
-    {
-      "id": "a0bbdb68d56520be",
-      "title": "聚焦美股財報.Fed利率決議台股觀望氛圍濃| 金融 - 非凡新聞台",
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9SaFFaY21jQ1ZldF9YNUVudnNhd09mUlkzb0hIel9xalhtU29hQnRfYW5SZkxGQWZSUko0R0o5c3c5QTFmbmZETW00dE1ZN3RmSXh0X0pYX3RpREQw?oc=5",
-      "source": "Google News - 台股",
-      "published_at": "2026-07-26T10:40:06+08:00",
-      "snippet": "聚焦美股財報.Fed利率決議台股觀望氛圍濃| 金融 非凡新聞台",
-      "sentiment_score": 0,
-      "sentiment_label": "NEUTRAL",
-      "affected_industries": [],
-      "impact_reason_zh": "新聞內容為市場觀望美股財報與聯準會利率決議，未明確指出對金融產業的結構性影響。"
-    },
-    {
-      "id": "045fd6923f2fd2ee",
-      "title": "明台股開盤挫咧等？專家點名16檔逆勢受外資青睞 - 東森新聞",
-      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE54UjdrcFZzOEZ4RmN3bHRhd0hMVE1ZX3lqQVdhUXgwcXZQVmFkUzNHQVpvVVBnWGFGcW9zNl9YYUM3OHF4cWNBTXYwbnlIZ1NicTB1Qmo5SQ?oc=5",
-      "source": "Google News - 台股",
-      "published_at": "2026-07-26T18:43:00+08:00",
-      "snippet": "明台股開盤挫咧等？專家點名16檔逆勢受外資青睞 東森新聞",
-      "sentiment_score": 0,
-      "sentiment_label": "NEUTRAL",
-      "affected_industries": [],
-      "impact_reason_zh": "新聞內容為整體台股走勢預測與個股推薦，未涉及特定產業結構性利多或利空。"
-    },
-    {
-      "id": "cb9507b88270a3c1",
-      "title": "費半重挫千點「台股開盤」挫勒等？外資逆勢「撿16檔抗震股」專家亮牌了 - 民視財經網",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBLbjB4OFlsaXpUcUM4LUZFWXBScnVpWjJQTThiTGdKUHlYUGFBUUtFYTZxWUUtUVRXNUdvQVJVaDFlTGFTb2dHQVF3T0daVjhZQm5UZi1NZDlJRFM3eGh5dk5MSzZrUQ?oc=5",
-      "source": "Google News - 台股",
-      "published_at": "2026-07-26T18:03:13+08:00",
-      "snippet": "費半重挫千點「台股開盤」挫勒等？外資逆勢「撿16檔抗震股」專家亮牌了 民視財經網",
-      "sentiment_score": -0.7,
-      "sentiment_label": "BEARISH",
-      "affected_industries": [
-        "SEMI"
-      ],
-      "impact_reason_zh": "費城半導體指數重挫千點，對台灣半導體產業造成顯著負面衝擊。"
-    },
-    {
-      "id": "7b9da8b5c07f5b1e",
-      "title": "台股周報》台股震盪洗盤破季線專家：「這兩天」絕佳買點| 財經 - Newtalk新聞",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1JWFFuYUR6ZDhEQlhjX3JMVUdXdGl3a0N3LUtzQmlBN1UxaDRxT0h1Q3pDNWxXbkpTa09oZndIMkwyQlg4TG5SMmp2eVZwTU5qWVNzaW5JZ0pBMFU?oc=5",
-      "source": "Google News - 台股",
-      "published_at": "2026-07-26T12:45:57+08:00",
-      "snippet": "台股周報》台股震盪洗盤破季線專家：「這兩天」絕佳買點| 財經 Newtalk新聞",
-      "sentiment_score": 0,
-      "sentiment_label": "NEUTRAL",
-      "affected_industries": [],
-      "impact_reason_zh": "新聞內容為整體台股市場分析與投資建議，未涉及特定產業結構性變化。"
-    },
-    {
-      "id": "89f8afdadc171d38",
-      "title": "塑膠、油電股重跌 台股大跌1195點 跌破四萬四 惟周線仍翻紅 - 經濟日報",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1HRXhEaEwySlZ5TjJBT25wUzJVWkoyLXlBSlg5SHU4WUtTYnh2LXNtSTRnc0xzNlhONEpKZ1pWSmppdkR5aUVfMWlrLUN2ZjZoN1VPdHAzWVRuQdIBX0FVX3lxTE1TRG9xdWVobzBVWWpTV2x2bmRMOG5DeGE3OUdwVXpnaTFNcmN3b1d2akdxOXdTRUFVVGJaQ2JoUVFVczJtRTg0dUVrNmpsUllfM0VYNDlFYzE0clNIRkd3?oc=5",
-      "source": "Google News - 台股",
-      "published_at": "2026-07-26T00:18:05+08:00",
-      "snippet": "塑膠、油電股重跌 台股大跌1195點 跌破四萬四 惟周線仍翻紅 經濟日報",
-      "sentiment_score": 0,
-      "sentiment_label": "NEUTRAL",
-      "affected_industries": [],
-      "impact_reason_zh": "新聞內容提及非指定產業類股下跌及整體台股走勢，未涉及指定產業的結構性影響。"
-    },
-    {
-      "id": "e39832aa5272a3dd",
-      "title": "台股遭大提款！欣興、旺宏等16檔「跌出身價」外資逆勢進場撿便宜- 日報 - 工商時報",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5GbHMxUkl0QWlOSmhmVlRMSnMyMzJMclVpQW5xWXJ0SVJEcWh2cnBEUVNvXzlqSG5mY0pMSVRWRWxDZmxsamhtY2c5NEhWemhJZ1VFU0JjdEV5ODRMZWNr?oc=5",
-      "source": "Google News - 台股",
-      "published_at": "2026-07-26T03:00:00+08:00",
-      "snippet": "台股遭大提款！欣興、旺宏等16檔「跌出身價」外資逆勢進場撿便宜- 日報 工商時報",
-      "sentiment_score": 0,
-      "sentiment_label": "NEUTRAL",
-      "affected_industries": [],
-      "impact_reason_zh": "新聞內容為特定公司股價下跌後外資逢低買進，非產業結構性利多或利空。"
-    },
-    {
-      "id": "67caffea7143d0a5",
-      "title": "TWA00 加權指數- 泰國廠有技術斷層？揭密定穎台灣廠「台籍精銳大空降」的終極底牌- 股市爆料同學會 - CMoney",
-      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE0ybjRxdU1zeUZJYng2RnFLQ3ZpV01aVlFGSUFtLWY5WmRkdm05SFVQNWp0WS1jRWVyQUZMQkk4Z0xjamY5dHQ4cWQ3RjhlNVA5X1FlN2NRNnY?oc=5",
-      "source": "Google News - 台股",
-      "published_at": "2026-07-26T18:16:19+08:00",
-      "snippet": "TWA00 加權指數- 泰國廠有技術斷層？揭密定穎台灣廠「台籍精銳大空降」的終極底牌- 股市爆料同學會 CMoney",
-      "sentiment_score": 0,
-      "sentiment_label": "NEUTRAL",
-      "affected_industries": [],
-      "impact_reason_zh": "新聞內容為單一公司定穎的營運策略與人事調動，非PCB產業的結構性變化。"
-    },
-    {
-      "id": "75cf76cb502b4d98",
-      "title": "台股走到哪了？ 可以接了嗎？ - 股市BruceLee | 投資網誌 - 玩股網",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5UV3pNQWFyaGQwMktlWklHRzYyZHFQSnBaRzhoLUMyWmdxbmhJSllkdVFXT1hUQ2VhS0xLZ0RsYUhjZm1UZjNFSElfeUMxdURPOThIRHdn?oc=5",
-      "source": "Google News - 台股",
-      "published_at": "2026-07-26T16:09:54+08:00",
-      "snippet": "台股走到哪了？ 可以接了嗎？ - 股市BruceLee | 投資網誌 玩股網",
-      "sentiment_score": 0,
-      "sentiment_label": "NEUTRAL",
-      "affected_industries": [],
-      "impact_reason_zh": "新聞內容為整體台股市場分析與投資建議，未涉及特定產業結構性變化。"
-    },
-    {
-      "id": "8ab3dff45083fe75",
-      "title": "台股大跌千點別怯場！專家親授「這招有望資產翻倍」 加碼策略大公開 - FTNN 新聞網",
-      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1BU1ItRHhSaEVMYTNSZ0VlTjJiNjU2S2ZHTmllQVhfeDBmelhEeHBBM1BQeUJJZWlBMXdBTzloUFdTUnN5WUd3UC1qYw?oc=5",
-      "source": "Google News - 台股",
-      "published_at": "2026-07-26T16:15:00+08:00",
-      "snippet": "台股大跌千點別怯場！專家親授「這招有望資產翻倍」 加碼策略大公開 FTNN 新聞網",
-      "sentiment_score": 0,
-      "sentiment_label": "NEUTRAL",
-      "affected_industries": [],
-      "impact_reason_zh": "新聞內容為整體台股市場分析與投資策略，未涉及特定產業結構性變化。"
-    },
-    {
-      "id": "27ec3ed97009a7e6",
-      "title": "3大利空襲擊　台股本周恐震盪5000點 | 財經 | CTWANT - CTWANT",
-      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE02M0JpdWREUE9JT2hTVUNhN1NJYUdLdUJZdHVnbWM4YzNrTWQ1VGpRYWFmamFQMGtsWXdweXhoWWcxRmZWUk1zeWVNTWpESlHSAVRBVV95cUxPcThycjhpWHJndVFsSG9ubkVHdEhhdHJDSWhTeGREcm9kRnZKODZHQ1BCc1dydXFXanNZSFV1YkFNNFY4ME9rc3BDejNqeDBpTW9NbS0?oc=5",
-      "source": "Google News - 台股",
-      "published_at": "2026-07-26T15:41:28+08:00",
-      "snippet": "3大利空襲擊　台股本周恐震盪5000點 | 財經 | CTWANT CTWANT",
-      "sentiment_score": 0,
-      "sentiment_label": "NEUTRAL",
-      "affected_industries": [],
-      "impact_reason_zh": "新聞內容為整體台股走勢預測，未明確指出對特定產業的結構性利空。"
-    },
-    {
-      "id": "f78341294f8a03f7",
-      "title": "台股跌千點你恐慌 股海老牛曝加碼訊號 - facebook.com",
-      "url": "https://news.google.com/rss/articles/CBMitwJBVV95cUxNVndCSmxWa1BZejA3R3U3LU80dHVWOWtlMFJxbUJjSHVoeVlCS0JITUxnbXJlOHlDT0c0OEpOSndOM3JnMVBOcTE1ZlA2b011VU9MbVpCbmJuNTFsZW51RUkyM2ZYZGJkR2tzSXJpdUZoNTVPbnlpV0pMV1l4bHlZQXVadHNaQS1Eb0loazV0UVlFcjN3QURhSkpjUGJQejNDdXlHNlFoWUZldXBzeXpCWlhJQW81LVhsZzc0dGZFNlc1Wlp4SFkwYUctNzk1emo0b2x3NlpSWTlHQzVneDBRT0xiZ0NqSkxZRWx6SS1yYS04X0RobjlVdC1INi1OdGtpVFdTSDhocWZ5alpPT3FpUnFtS1JLcmZWaVozZU5OZ2JydFMtOFlsR3FHWi12Tmx2d3YtY1huWQ?oc=5",
-      "source": "Google News - 台股",
-      "published_at": "2026-07-26T10:00:08+08:00",
-      "snippet": "台股跌千點你恐慌 股海老牛曝加碼訊號 facebook.com",
-      "sentiment_score": 0,
-      "sentiment_label": "NEUTRAL",
-      "affected_industries": [],
-      "impact_reason_zh": "新聞內容為整體台股市場分析與投資建議，未涉及特定產業結構性變化。"
-    },
-    {
-      "id": "9fe526d566f84529",
-      "title": "徐新洋台股慘賠「曬照深夜睡公園」！老爸乃哥開嗆：真不了解他在幹嘛 - Yahoo新聞",
-      "url": "https://news.google.com/rss/articles/CBMipwNBVV95cUxNRU5QaXNoTkJtZGp1am5RQ3N0YV9VYjA3ckV1STlpZnI4WWhJNHRLQ0FZY1I4X1NqckhIdVlsa1RPS2t3c0RKcTEwdGNBSFBnZUxmb1VmLUI3VUlQcV9qZ1hGeG5LOHBoOFFtVlhMampkdXQ4aHRwY0VOYWJFNUR1OHl6OXB2alFybzNPekFrVVVrZzNNTTA2UmM3OS11TTRod21ibnZxWkhYLXNTRE53UUdZcXc2M3BYanFrRTN5Ymx4TGRLYVEwRUkycHA2cXZDYk9mb3dHODVMRzRLSlNiTG8tMWhEZWhZd043RlN6M3FPbmJRSFRWX1pNSlpaMG83LU5leEZpTWNJcnl0c1BvUnFGeTB4UDRONHlDeE9oR2oxaW9YNXRvYzVxbkVLaGdmWUUyVHRNU1pXTy1iUTloTjFCbzZKXzdCS29vVHVfMTZNbVlUTzN3Y1VGWW5hZXMtRlE4RzJLclZkRi1WMC1ZV1NJQjdQWXcyZGNObnFNT2xhcUw5QUlpUjFNU1Z5YkZjcEh0SDMzTlM0UnE5MG15SENVdGoxcFE?oc=5",
-      "source": "Google News - 台股",
-      "published_at": "2026-07-26T12:38:34+08:00",
-      "snippet": "徐新洋台股慘賠「曬照深夜睡公園」！老爸乃哥開嗆：真不了解他在幹嘛 Yahoo新聞",
-      "sentiment_score": 0,
-      "sentiment_label": "NEUTRAL",
-      "affected_industries": [],
-      "impact_reason_zh": "新聞內容為個人投資經驗分享，與台股產業結構性分析無關。"
-    },
-    {
-      "id": "a3a3ba1843bd0f6b",
-      "title": "監視器全故障！貴金屬董座「遭捆綁」慘死 軍工核心命脈「恐被掐斷」 - Yahoo股市",
-      "url": "https://news.google.com/rss/articles/CBMi4gJBVV95cUxOTkxpNG4wUWs0NWtrR2llS0pTRHNfdnJZY1BGN1FaOWVucGdQRHBid1RRRWtYWmk5aXZ0ejAtT1d0S2tWOTM5eGRlNWRJMUpVVUc1d0tGMGowUWVPS2VKRVBDVGRRY0gxYm52NGFiRS1qWEEtUWVoeWJnek03M0Itd1NUeE9zZVU4dnZjTXNJVDQ4WnhkSXdiZ3ZvenRSQkotRTRUN0p1N1dvVlZMUEtKWEpXRGEwMlNYSThkX2JJeFpyUzB6RHlRcThicGtOQWdHMV91bEt2R2dneEYxTkFHaFhzMUtFR2ozVGsyVHAwdUs0SE1qeFBaQms4M3RYRWpXYmp1V3RnV2hyRlh1dXZDNm5KYkdydnAzb2pySEE5MlI4Ml91M2ZlUEpTR2NUQ2NuOXZjTXlDWFBfam1GekpITEhlSFd2MWl5QVJZa08wZlpMbXVsWG5QaFd4RHlZdUoxbnc?oc=5",
-      "source": "Google News - 台股",
-      "published_at": "2026-07-26T21:00:06+08:00",
-      "snippet": "監視器全故障！貴金屬董座「遭捆綁」慘死 軍工核心命脈「恐被掐斷」 Yahoo股市",
-      "sentiment_score": 0,
-      "sentiment_label": "NEUTRAL",
-      "affected_industries": [],
-      "impact_reason_zh": "新聞內容為社會事件，與台股指定產業的結構性影響無關。"
-    },
-    {
-      "id": "7b70d667f91cbff1",
-      "title": "科技巨頭「亮1訊號」又要𠄘壓了？台股恐續跌「下週2天迎大考」專家示警了 - 民視財經網",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBONFlQV1U1WVI2ZE0tTmx3WDFXTnBCOE1Ha3h5ckxGSnFfenhxbkRwWU82QWxOaENfSWx4bF9xYlcyQTdNcm9sTTU1VGE4eVQ5ZV9acDQyWWdzMEZOUmxEQnJxd3JaQQ?oc=5",
-      "source": "Google News - 台股",
-      "published_at": "2026-07-26T11:55:59+08:00",
-      "snippet": "科技巨頭「亮1訊號」又要𠄘壓了？台股恐續跌「下週2天迎大考」專家示警了 民視財經網",
-      "sentiment_score": 0,
-      "sentiment_label": "NEUTRAL",
-      "affected_industries": [],
-      "impact_reason_zh": "新聞內容為整體台股走勢預測，對科技巨頭的影響為假設性，未構成明確產業結構性利空。"
-    },
-    {
-      "id": "52848bcd3e4a8889",
-      "title": "緯創德州AI工廠啟用激勵股價飆近3成 這6檔台股ETF跟著受惠 - Yahoo新聞",
-      "url": "https://news.google.com/rss/articles/CBMi8gJBVV95cUxQQ1dmUUd5a2tGWlpLM19JdC1wSjc2NmFrOTNRaDVfZUNNMjA2WkI0VUhqbGR5MEk1Nmk2MlQxajlpdFhPZkVnWk0wSC1hckhrN2tDVUlIekh2a1h3VnFENmlBcHhaYUQtVmIyaWdNUm5LVWIyVW5FeW05REhCVk4tLUE1NFhhUVhkQUxKemFXdnlHcTNRV2RDdlpYQWhtWVFjV19ETjF6MjEzN2hIV2ZfVVdTSzhxckZ3aDBkN3BjNnNSZGt6UVBTZEZZYjBJSGtySHpxMjF0WE1VTWhQeWlvYllYZVMwdUhBM25MSmZhckdYQjl3UkF2YWlCTEh3VmtvOWpHMWFsWS1zMGg4T0dHeVBRT2t1WWxnb3RiampmZlBfTnp0QXhRUVFURW84V0wwOVVGU1k4WTBMT3daQlFYMlVpWmtXZ1RQalNYMXZnOFJkZkNxUTRUUTFER0kySTBGTzFteHZQQWlLb0RBc251U1dn?oc=5",
-      "source": "Google News - 台股",
-      "published_at": "2026-07-26T15:02:00+08:00",
-      "snippet": "緯創德州AI工廠啟用激勵股價飆近3成 這6檔台股ETF跟著受惠 Yahoo新聞",
-      "sentiment_score": 0.6,
+      "published_at": "2026-07-26T09:13:55+08:00",
+      "snippet": "台股拉回緯創獨扛 6檔含緯ETF近一周含息報酬衝破4% news.cnyes.com",
+      "sentiment_score": 0.5,
       "sentiment_label": "BULLISH",
       "affected_industries": [
         "AI_SERVER"
       ],
-      "impact_reason_zh": "緯創AI工廠啟用顯示AI伺服器產業持續擴張與投資，對產業為利多。"
+      "impact_reason_zh": "緯創在台股拉回時表現強勁，顯示AI伺服器產業龍頭股的韌性，對產業情緒構成利多。"
     },
     {
       "id": "6356a1c68d3cad34",
@@ -599,67 +454,253 @@
       "sentiment_score": 0,
       "sentiment_label": "NEUTRAL",
       "affected_industries": [],
-      "impact_reason_zh": "新聞內容為單一工業電腦大廠的股價表現，非指定產業的結構性利多。"
+      "impact_reason_zh": "內容為個股飆漲報導，非產業結構性利多或利空。"
     },
     {
-      "id": "43f8f14b4297700a",
-      "title": "【大罷免失敗1周年！百萬網紅喊「台股狂漲2萬點」 網笑：還要鞭屍】 （#大表哥） - facebook.com",
-      "url": "https://news.google.com/rss/articles/CBMisgNBVV95cUxOOVA0ck0xY1JFNW4wbm1Pa0R1OGY0ZjNIbmxlN2lNMGNDbWZ2REJOOFpVSkhYeWJyUXozbjdhd2JEc3FlSFlkZ0Q1U3k1Rk0yVktHS2VhV29SLUxwdmVqMjVNZ0RSaWk5NkJoUDFNY0RQczlhZ2NBb1N1aHMwbHM2ODUyaXNmZjV5Sy1vNlhWRDUtUHY4bi00ckEyWTBvOGhRN25nSllOSjIzcWQ2bjRDV01WYnlPN1dUTE16bWlvU2I5bDc0RVFhS2xfN2Z5MnlJRzZpRm5Uc0pDa1RPcVg1TE1qWU80c0tQWjR4bFNzMXNoZ0pHSUY5azJoYXV4VmgyU0VZUjNZSkV1SHpnOHU1Wm5FYUYyT1JyeUo0OHUwRTRhMlVvVWZuWlpRdlVnM2kzd212djJhQzByQXpXNjFzSFdjaDJhdndueWpwZ2FnSmxCSjd4bzgtT0lqNHp5emszOENxNUxYYmdXT3RjbHY1UmtxUWtGMVBCOXZwOXY1ajU4X3RkU0FtRUV5cXVOa1dBOEFyZEZZX1dhVkEwWkNNNzA1VjVYajl1X3BkRjBkMUx1UQ?oc=5",
+      "id": "185184d2f35d1810",
+      "title": "估值超便宜！外媒急喊買進「3潛力股」 這檔台股也上榜 - Yahoo新聞",
+      "url": "https://news.google.com/rss/articles/CBMi1AJBVV95cUxQWThNVmV0dGFSeVlXTTQwZWhrckNrdGRWN1VvWnk5cS1jazNNTGJwMjZLLUFjaVVHQzFyZDU0bHEtXzNrOHlOYWd3SC1xUUY3cDBYczhjcU5jNlBKM1p6WXhhcVVkcERCSG5PandJSVhCNzNIRzJHX2JWQWFNR3pNUXJWdG9ZbjBEbU5fRUxhSk01VUM5YmhzaFhISWh3OWFBVFFXSXAxTkE0UnZNRmNDV0pCSnFHdEl0WS1aRUtVLW5VckxGUkFfZ05aVy00YnF3UjF5Z29ZUVBxUEJyS2FwUzhsWUtpdEZqc3hWTGNlTVZHeWcyTWJNM2dPVkNwNXNXcVJ2NjNQMTk1NmtCY05JTXVUTGNldXNRakNVNzZlSFFITGU5b2M5S2VtM1Q4R2hrRk02aWlSWlFMVFdzcWFtUjZWeWc1emhiUi1Xajd5T1ZKMHRq?oc=5",
       "source": "Google News - 台股",
-      "published_at": "2026-07-26T20:24:16+08:00",
-      "snippet": "【大罷免失敗1周年！百萬網紅喊「台股狂漲2萬點」 網笑：還要鞭屍】 （#大表哥） facebook.com",
+      "published_at": "2026-07-26T23:32:00+08:00",
+      "snippet": "估值超便宜！外媒急喊買進「3潛力股」 這檔台股也上榜 Yahoo新聞",
       "sentiment_score": 0,
       "sentiment_label": "NEUTRAL",
       "affected_industries": [],
-      "impact_reason_zh": "新聞內容為社群媒體評論，與台股產業結構性分析無關。"
+      "impact_reason_zh": "內容為個股推薦，非產業結構性利多或利空。"
     },
     {
-      "id": "617f6757018cc80c",
-      "title": "趙彭博︱台股多頭訊號須達三條件- 日報 - 工商時報",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFAwei1xMjFFSUhYc0JBNFNkakV3UFk2TnRpYUllN2lka0JvN3BpVEtvY01IcElWUmlCcGkwa2ZWTGRSZ2JsODh4eTAzcHhteXh3RVdpNXBLUkRqQ2J4cURZ?oc=5",
+      "id": "c73f8f8e91ec891e",
+      "title": "台股槓桿大退潮？游庭皓揭3類股逆勢吸金：這族群正快速撤出 | 林子靖 | 新聞 - 風傳媒",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBEVk9yTTZiaDdsTFZLZ3hYMjF5RHBQWVU2X3FxTVJiTk9lNmpVT3NLWUE0YXpMOUFTajhDRkw4Z1Y1Z1FoSXVQRGg0MllDUQ?oc=5",
       "source": "Google News - 台股",
-      "published_at": "2026-07-26T03:00:00+08:00",
-      "snippet": "趙彭博︱台股多頭訊號須達三條件- 日報 工商時報",
+      "published_at": "2026-07-26T16:54:21+08:00",
+      "snippet": "台股槓桿大退潮？游庭皓揭3類股逆勢吸金：這族群正快速撤出 | 林子靖 | 新聞 風傳媒",
       "sentiment_score": 0,
       "sentiment_label": "NEUTRAL",
       "affected_industries": [],
-      "impact_reason_zh": "新聞內容為整體台股市場分析，未涉及特定產業結構性利多或利空。"
+      "impact_reason_zh": "內容為大盤槓桿變化與資金流向分析，未明確指出對特定產業的結構性影響。"
     },
     {
-      "id": "828b2f59cb8e86fb",
-      "title": "台股再崩？這2天「股市迎大考」 專家點名6事件：裂痕已出現 - TVBS新聞網",
-      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5xbW8xN1ZseS1GbnBLZ3ZBY0xsTXFzY2JjMFVDaVZJb1EzVFZtVGNDUXdlZFdnYnFYRkh0cDR2N2Vyb1d5VTRKZEhpVEFyZw?oc=5",
+      "id": "1b7370cefe41ddbb",
+      "title": "台股剉咧等？本週迎「超級考驗」5大重磅事件來襲 專家曝行情看3關鍵 - Yahoo新聞",
+      "url": "https://news.google.com/rss/articles/CBMinwNBVV95cUxNMTQ1Z2EtcGRLTzc2dVRnd3AwMUVRdXRiUzJhbFBKRzYyazNBM01iSGszOU5tQkpJWkFUcE5JVGFnaTZkMjNnR19QaTdWQ2lTZExuTGk0Zk1kdUJUYXlzRnU3eHhvSmc3MWxwbXJQTS1IbTBaLXBaUTJmLU1LVGFWTE4xTjVEUGg4eURYSWV5dWE1bG9iT3hCLTdSUGN5U0FUNUh2UDhqY19XdF9GVExGUUg2T2lnd3VkQ0dpZy1aWl9waTZLQnJuRGxfOHlkN1p2M2ZFRnpjUlFtSVRhTVdSZEhlMUJTQTRXS1NLOFRkZkNhdkMyaWlHNTAzWG1EcEE5clMzN0NsbVRINTlURXBsblZMdnBkYU9ZVHJZb2dRaEQ4Nm9jWW1NOTdNdXBtdEotOThQbFRjN2JEWk1kb3NhYWN4NFhnalZkRTFfX0hiNXYxUzM0Sjk0QU1kelREYmswdVFjZGxpMzd4S3ljaGRYYmlkZ2ZYRHZVS3VXMzc1UVdmTU8xdUk4YWZ5bzZkdGZZendYaFpqMG1KRG4xdW5N?oc=5",
       "source": "Google News - 台股",
-      "published_at": "2026-07-26T18:10:00+08:00",
-      "snippet": "台股再崩？這2天「股市迎大考」 專家點名6事件：裂痕已出現 TVBS新聞網",
+      "published_at": "2026-07-26T11:51:32+08:00",
+      "snippet": "台股剉咧等？本週迎「超級考驗」5大重磅事件來襲 專家曝行情看3關鍵 Yahoo新聞",
       "sentiment_score": 0,
       "sentiment_label": "NEUTRAL",
       "affected_industries": [],
-      "impact_reason_zh": "新聞內容為整體台股走勢預測與市場事件提醒，未涉及特定產業結構性影響。"
+      "impact_reason_zh": "純屬大盤走勢預測，未涉及特定產業結構性變化。"
     },
     {
-      "id": "1cf8aa69a2b42604",
-      "title": "50歲開始學台股，真的來得及？「老白」投資人最常踩的５個地雷，以及今周學堂建議的入門路徑 - 今周刊",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9HZFJ3Y2tva091QnNPUUlRQzlPQW43dTc3NUI1eVcwLW5DUFZtc3F5ZlhHaF9LYmliLVJOZV9VM0EwRi1uRHpkUEF1aDFVQ2lzQktpWEt3Y21ROWNfSndpV21Xbng5Z0ZMdU1vbndxQW9MMC0zNEZLU19CSC1QR1k?oc=5",
+      "id": "b5a2eb6582490688",
+      "title": "台股量縮跌破季線！法人點名高本益比漲多股承壓 下半年高檔輪動 - Yahoo新聞",
+      "url": "https://news.google.com/rss/articles/CBMipgNBVV95cUxQb1JlU19WbS1rTHg1MmpHNHpQUENRczlPbkNKRHRtQ2VVREdfbUZMR3JYUlpvSVFEZVVSbHNsMkVvWWJKUi02Tmd5dWtEOHBrdnpzTW5KTXRLQjJPMjVjeFlqblJHSlhZVHpBVTAyN3pXS1FpNXpSTUZFRXZPU1hHeVpTcUFldXJKZGRIWVRsZU1wR2FlcHhTbWhlUXAtanBCNzBTSXNDV1lhc0lQaTJOSG9SX1dxX0FzbDJ3SnMtaGRXcTVDdkw1N1ZBeTRXMDBxYTNmNkRmTDhjblE2bnFEN2FpdHZPTDVDWXIzUEt5MDNKZVd4ZkE2R1JJNUpHQ2tXWS1jaG5JNkhIU1lud1BhcWQyREpKdWRNTmtMcXdyd3F3R1JxaWc3aTFQNjJ0dFR6NkhvekdQc1BCbG5XbHpxTW5FVDNpbjZZb2hlXzNJRVF1Q3ktRlhsWWhVYUFIUTNPWDdMYmd0S1g2VDJna2FrMjA4UzVWTmt1Rmx1ZWFJN2lCandzaTVFdm1JZHc0RFhTaXE1SG1Gd3lyYWM3WWh3U3FsaXhNdw?oc=5",
       "source": "Google News - 台股",
-      "published_at": "2026-07-26T10:30:00+08:00",
-      "snippet": "50歲開始學台股，真的來得及？「老白」投資人最常踩的５個地雷，以及今周學堂建議的入門路徑 今周刊",
+      "published_at": "2026-07-26T15:23:00+08:00",
+      "snippet": "台股量縮跌破季線！法人點名高本益比漲多股承壓 下半年高檔輪動 Yahoo新聞",
       "sentiment_score": 0,
       "sentiment_label": "NEUTRAL",
       "affected_industries": [],
-      "impact_reason_zh": "新聞內容為投資教學與建議，與台股產業結構性分析無關。"
+      "impact_reason_zh": "純屬大盤走勢分析，未涉及特定產業結構性變化。"
     },
     {
-      "id": "f898f299950b5ec1",
-      "title": "科技股輪動 法人：打造更均衡的核心資產配置 - UDN",
-      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE83dUxzQk1tU0RsSEs1VVJYX3ZreXRUOHEtVl92TElNX3lrV2dTRkNsRnJtVnR3MzFUbGViSFpSU3FCRDNuSGxWU09RRU95eXZf0gFWQVVfeXFMUGVXRDk4dnp6OU5TNWkwUjZkeE5ZQTlObUN4Nk9EajR0ZFpCdU1ydlJudGE3Z1RKd2NCWkZYN1R6Y0xzaDB4SDNMN3VoYUZrb1RYNTNlanc?oc=5",
+      "id": "197d87f1fda1371d",
+      "title": "15檔外資青睞股盤面焦點 緯創、鴻海等營運展望佳 股價表現亮眼 | 市場焦點 | 證券 - 經濟日報",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE11a2Ixa1ZpMWJYV3M2UGFlR2dqMGs3OG1OZll3MkptdkxjQ0cyTjQxbUhIZC1HWHdqNWNuWFVHbWdoUUJGWXJQS1VCUG1QV3NKZ0hqNGNPSTFVUQ?oc=5",
       "source": "Google News - 台股",
-      "published_at": "2026-07-26T13:23:52+08:00",
-      "snippet": "科技股輪動 法人：打造更均衡的核心資產配置 UDN",
+      "published_at": "2026-07-26T23:57:20+08:00",
+      "snippet": "15檔外資青睞股盤面焦點 緯創、鴻海等營運展望佳 股價表現亮眼 | 市場焦點 | 證券 經濟日報",
       "sentiment_score": 0,
       "sentiment_label": "NEUTRAL",
       "affected_industries": [],
-      "impact_reason_zh": "新聞內容為法人對科技股輪動的投資策略建議，未涉及特定產業的結構性利多或利空。"
+      "impact_reason_zh": "內容為個股推薦，非產業結構性利多或利空。"
+    },
+    {
+      "id": "8547cc86061d6366",
+      "title": "韓股崩盤引爆去槓桿骨牌！台股慘崩千點竟奇蹟翻紅「恐怖星期一斷頭潮來襲？」專家：搶反彈就看這一天- 上市櫃 - 旺得富理財網",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE02VFd1X1VKUy15MWZMRnZZZnI2RG1TVDdTT3NYMnB2QktLYkRzOFBNMEZuNnBaWjRtRlBoejM0ZXZ4dUlqT29ZSzVJLWhHUWVJUGUtaEdHZlA0b19XWldZRkFaRkNsbnc1Vmc?oc=5",
+      "source": "Google News - 台股",
+      "published_at": "2026-07-26T09:47:41+08:00",
+      "snippet": "韓股崩盤引爆去槓桿骨牌！台股慘崩千點竟奇蹟翻紅「恐怖星期一斷頭潮來襲？」專家：搶反彈就看這一天- 上市櫃 旺得富理財網",
+      "sentiment_score": 0,
+      "sentiment_label": "NEUTRAL",
+      "affected_industries": [],
+      "impact_reason_zh": "純屬大盤走勢分析，未涉及特定產業結構性變化。"
+    },
+    {
+      "id": "2e0317922c3f69a3",
+      "title": "房市瞭望》台股衝高帶動北市豪宅Q2交易量 陶朱隱園單價創新高 - Yahoo新聞",
+      "url": "https://news.google.com/rss/articles/CBMikANBVV95cUxNemVLMktUVVFFenhvWkxtTFMwZWdmcTFyX1BVNlcyTkNKaFgzQm5yNkRtWUswOHhfMTNYZmxsaGJUdHhfdVQycV9iNktMWmFpbDhLZ1dlMW5tNDJDZVRMdm92MHhCQnBmMC1OVktDSlM1SFRHVDNKczhIQzZwamVWbDhrcEQzclFaMnI2MUROdEpSa25ka2dxUlJydHNjcHBfclhucUZwVk1fUW1pOFdUYUNXek1DOHUwOFdHTTlYSlNaUUNXVDdvb2VETG9GYVI3c2JibjhXaG5BblR3UG1JMXJUaWxfbUk3N1NLUDBhS1Bvc2g5bXVQS3RLaVRsYXhwWGRFMi01SGxwSmFCMVhDTXREMW5ITkVKbzE5NG56VnMxV0wyTEZxdy1PczNocldJT0VIbHB5TXF3SUpKcmNNSlp4YzFkV1ZQUE5McHFyelBIWlc2M3NxMnFHeDNVRldqTDNXcThHelQxN1hkaXQ5YXJBbkxEcU5nQmM3eFItcjJKN21xT05yV1d3dlRtSTBm?oc=5",
+      "source": "Google News - 台股",
+      "published_at": "2026-07-26T15:00:00+08:00",
+      "snippet": "房市瞭望》台股衝高帶動北市豪宅Q2交易量 陶朱隱園單價創新高 Yahoo新聞",
+      "sentiment_score": 0,
+      "sentiment_label": "NEUTRAL",
+      "affected_industries": [],
+      "impact_reason_zh": "內容為房市分析，與指定台股產業無直接關聯。"
+    },
+    {
+      "id": "328bbec143704814",
+      "title": "單季EPS直接賺贏1年！「記憶體模組大廠」觸漲停奪量價雙增王 挺住台股摜破44K - Yahoo股市",
+      "url": "https://news.google.com/rss/articles/CBMixANBVV95cUxOejNHR0wxRHRoQ05oOEx3Y0F1LWQ1UHhTSW9GWUYtanRrTFNKaDdNbjhqdy0tYnZENmFKY3h1M1lrZy0xRGJINkxNQVVYTVVEakFOQW96TWlseVQxcjVad1ZjWm9GQkJGaFc5M3NWdVd1TmxyemRyQk5ULXZVRm0zaGpoS2ZvODFab1dScmhNdW41bnFHVF94MVpRMXFaYjdHV3I2aV9KT0tuZUV2bi02bGRBVXNZeTRsV1dUaTJWejBEcnphV052Q2dmVFVOazBvQzJPZHlVRmFtYmpsM0Q3SWFQYnVoMEdxakowZjNtWHh5a3ZWaUlydWljelFVdUFGaHZrTlNHUHA5VDVTWVhScjBqU0xYaTJ4N3M1UDZBTU1NVFVXYWs3OHhvS3VuNWtqRVh4cGJRbzNhVG1RcEc1dV8yQVNqS3RtLUxLTUJYQ1NlNDlpZzJEYkFnQUw4Q09TXzZ2djJCSEViN000UzB2RVN3UV9GM0pDZ3E1dlItOGs4TXRMc0w2aUEzd05Va3dMLUdIVmc1OGJseEFxTi1kRmM1VnpXOGhfT3E2OG5iOFVXRFZYMkpBUFlBOEY3RUZJR1ludA?oc=5",
+      "source": "Google News - 台股",
+      "published_at": "2026-07-26T09:08:22+08:00",
+      "snippet": "單季EPS直接賺贏1年！「記憶體模組大廠」觸漲停奪量價雙增王 挺住台股摜破44K Yahoo股市",
+      "sentiment_score": 0,
+      "sentiment_label": "NEUTRAL",
+      "affected_industries": [],
+      "impact_reason_zh": "內容為個股表現，非產業結構性利多或利空。"
+    },
+    {
+      "id": "84452607ea37e6fe",
+      "title": "台指期 上檔壓力加重 - 經濟日報",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9GakZ3aE5Yc0RBaXNqUW52ZVdXWVVUVXNJTDFGWWRFMlMzYWsxUTJDTDBJbTI3blhJMktudzdKaVEyOUxaWEVOUDgxTmYwZ1h4am5yMVdQR3RNTDjSAWBBVV95cUxQSmNIdXF3NG9kYl9CVFNPMjFfMmU5NzBLelExWWpxRHdqUHRWRml2b3NXVktuQkctdHBGZkV1dVNwbjU5QmQ4aWhFU0pRRnVEYTJHVGdORmVWbklPaFd0WUw?oc=5",
+      "source": "Google News - 台股",
+      "published_at": "2026-07-26T23:29:50+08:00",
+      "snippet": "台指期 上檔壓力加重 經濟日報",
+      "sentiment_score": 0,
+      "sentiment_label": "NEUTRAL",
+      "affected_industries": [],
+      "impact_reason_zh": "純屬期貨市場分析，未涉及特定產業結構性變化。"
+    },
+    {
+      "id": "7a1ea4c600b53b1d",
+      "title": "台股再崩？這2天「股市迎大考」 專家點名6事件：裂痕已出現 | TVBS - LINE TODAY",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5HVkhHc09wUFkzS2pnYV9oM3R1V2N4clVPbzdTMGxxZG9RU3pMdHZuLUNBREJ4aUVhTEc3MDRZOTU5alN0aGZkYUFZSTNMQ20zWkZidkRn?oc=5",
+      "source": "Google News - 台股",
+      "published_at": "2026-07-26T19:57:57+08:00",
+      "snippet": "台股再崩？這2天「股市迎大考」 專家點名6事件：裂痕已出現 | TVBS LINE TODAY",
+      "sentiment_score": 0,
+      "sentiment_label": "NEUTRAL",
+      "affected_industries": [],
+      "impact_reason_zh": "純屬大盤走勢預測，未涉及特定產業結構性變化。"
+    },
+    {
+      "id": "7b9da8b5c07f5b1e",
+      "title": "台股周報》台股震盪洗盤破季線專家：「這兩天」絕佳買點| 財經 - Newtalk新聞",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1JWFFuYUR6ZDhEQlhjX3JMVUdXdGl3a0N3LUtzQmlBN1UxaDRxT0h1Q3pDNWxXbkpTa09oZndIMkwyQlg4TG5SMmp2eVZwTU5qWVNzaW5JZ0pBMFU?oc=5",
+      "source": "Google News - 台股",
+      "published_at": "2026-07-26T12:45:57+08:00",
+      "snippet": "台股周報》台股震盪洗盤破季線專家：「這兩天」絕佳買點| 財經 Newtalk新聞",
+      "sentiment_score": 0,
+      "sentiment_label": "NEUTRAL",
+      "affected_industries": [],
+      "impact_reason_zh": "純屬大盤走勢分析與投資建議，未涉及特定產業結構性變化。"
+    },
+    {
+      "id": "5504d88ffb24de6b",
+      "title": "本周台股／站不上季線麻煩了？2均線收斂後上檔壓力大| 財經掃描 - 聯合報數位版",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE8zUWRHTk5yaVlETktEV1o0ZnlZNlhYaTN4Z21SR3c1ZnF5Uk5uMGdTd255S20zVHRwTDFMcHo3QXBlWldqQUNxNFlkajQwVU1jR0psdE04Zw?oc=5",
+      "source": "Google News - 台股",
+      "published_at": "2026-07-26T10:00:00+08:00",
+      "snippet": "本周台股／站不上季線麻煩了？2均線收斂後上檔壓力大| 財經掃描 聯合報數位版",
+      "sentiment_score": 0,
+      "sentiment_label": "NEUTRAL",
+      "affected_industries": [],
+      "impact_reason_zh": "純屬大盤走勢分析，未涉及特定產業結構性變化。"
+    },
+    {
+      "id": "c83e38108e288150",
+      "title": "【台塑四寶換車潮？2】南亞率先修正一成後…1.8萬股東上周進場了 - Yahoo股市",
+      "url": "https://news.google.com/rss/articles/CBMiowNBVV95cUxNNTNpRmVvS1A5d1pHNi1lWWY5bzUxU1lYcmNyVndQTnhUZU1HT1EtRi1OemtDYVRVUFBBNmlqY2U5dC1aXzJDbF9ZaHFHZFpWTEdNWWtxaEJEMk1HcDJuVERMRzZwOE9XNFFNbWstMDBSb25LbmFSbHR2eVJGeEVLcDZYUEZGX25qY2FhM3lGLVRwcVZsWnFVTTNNV2g4VmRMX19mUDhuY2JWeVZmTjdzQzVpSjJpLXJVNG8tNEtzM1VYaUlhbzBfV05oenRCOHE3TTU1dzg2VGkzR1NmQW1KakUtOGJicmctVXRzbkxGSldGTW5lUEg3M1FvLUNESWNmZHF3WXVsMUlQSU9aTm5WMkoySTRVUGc5aTFuem1Nc3dZZ1NoUWZmSV9zQTJjREZQaHRjRG9tZ2FXUWIwSm41UWFzcWlJZ3VWV2lrSjd3SWdjc3hJS19DcGx4NnhBblJLNURJWGVQUm5tV0ZFSy1QckpSUjAtcW1kNXVvaXRSV2ZfeG5EbW15QWtaMGE5UzhWTnFid1lraVRReUxnZ19McV9mYw?oc=5",
+      "source": "Google News - 台股",
+      "published_at": "2026-07-26T07:40:09+08:00",
+      "snippet": "【台塑四寶換車潮？2】南亞率先修正一成後…1.8萬股東上周進場了 Yahoo股市",
+      "sentiment_score": 0,
+      "sentiment_label": "NEUTRAL",
+      "affected_industries": [],
+      "impact_reason_zh": "內容為個股表現與投資行為分析，非產業結構性利多或利空。"
+    },
+    {
+      "id": "11c1b12594d3f6d0",
+      "title": "就市論勢／PC代工、航運 可短打 - UDN",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1OWEp3bUxiSjZobWJwR2laTjdhWk5LeFlGQVlZVWYzV0diT0U3UmdtU3V6ZEcwMmtEMXJSbmpjeWUwZ01STTVUNTJwa0ZKOTcy0gFWQVVfeXFMTW8zdnZPUzZsZVBHQVc5enJJb3FxTElnNzlYTXEzRlg4WEpwOW9hWm1qRFkta0ZaNDZhM2kzaWo3a25oTlZtYlh2Y2tLWW1kd3dwTUJBZlE?oc=5",
+      "source": "Google News - 台股",
+      "published_at": "2026-07-27T03:51:55+08:00",
+      "snippet": "就市論勢／PC代工、航運 可短打 UDN",
+      "sentiment_score": 0,
+      "sentiment_label": "NEUTRAL",
+      "affected_industries": [],
+      "impact_reason_zh": "內容為短線投資建議，未涉及特定產業結構性變化。"
+    },
+    {
+      "id": "045fd6923f2fd2ee",
+      "title": "明台股開盤挫咧等？專家點名16檔逆勢受外資青睞 - 東森新聞",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE54UjdrcFZzOEZ4RmN3bHRhd0hMVE1ZX3lqQVdhUXgwcXZQVmFkUzNHQVpvVVBnWGFGcW9zNl9YYUM3OHF4cWNBTXYwbnlIZ1NicTB1Qmo5SQ?oc=5",
+      "source": "Google News - 台股",
+      "published_at": "2026-07-26T18:43:00+08:00",
+      "snippet": "明台股開盤挫咧等？專家點名16檔逆勢受外資青睞 東森新聞",
+      "sentiment_score": 0,
+      "sentiment_label": "NEUTRAL",
+      "affected_industries": [],
+      "impact_reason_zh": "內容為個股推薦，非產業結構性利多或利空。"
+    },
+    {
+      "id": "c81ed97408b3b0ff",
+      "title": "AI鏈持股族群電力滿格| 個股情報| 股市 - UDN",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9GenNyT0V4VWdDX0lzSU1DeFJCeEZvbDF3WXdKRzBZM3FPQjFicktyeG5lcjNHR21vZEZlVHloQ2hjazAyR21UT25Obk5DQjhHQVFlTWNQMUpGdmY5MldmdU00b0dIVjNhaHNtSWtLb1h1Zw?oc=5",
+      "source": "Google News - 台股",
+      "published_at": "2026-07-27T04:01:16+08:00",
+      "snippet": "AI鏈持股族群電力滿格| 個股情報| 股市 UDN",
+      "sentiment_score": 0.6,
+      "sentiment_label": "BULLISH",
+      "affected_industries": [
+        "AI_SERVER"
+      ],
+      "impact_reason_zh": "AI鏈持股族群表現強勁，顯示市場對AI伺服器產業的樂觀情緒。"
+    },
+    {
+      "id": "998a1223d7dd4f07",
+      "title": "費半重挫拖累台股！本周「大考」挫咧蛋 專家：股市現裂痕恐再起波瀾 - Yahoo新聞",
+      "url": "https://news.google.com/rss/articles/CBMipAJBVV95cUxPQ2NEaDQ2cERub285X1NtNHl2WmhJUDlNTkY0UlY5Z1AxTENxb091dE44M2lINUpWX0M3N1d0bTFjOWdxVmk5NDQ2TnI0Z0FMdWZYM2JKenpZcHJyaHFyZHprZnVSNEx6ajBMUmJuMWRoUVpPbTFnTW5UNXJKbnJDd05HNHJZM2Z2MTAyaVpFZE9xQjN6Z3ctT2hPdDhzMGZOYlo1RkI4QWhxZU1hTHg2YlRTWjRuVTA5NVZtTkp4YlZ5c1NObEUxYVFzdDIya3NGTlJmZzJBUGFtQmVrMGNyNllQSVpCam9rZG9WdkI3X0VRb0ttUWk3dlNIMGFnX0RscGoxUUJqOUU0N3QwU0daUWNjMjAwS0REWEZpYW1EdnRsSUNN?oc=5",
+      "source": "Google News - 台股",
+      "published_at": "2026-07-26T12:05:00+08:00",
+      "snippet": "費半重挫拖累台股！本周「大考」挫咧蛋 專家：股市現裂痕恐再起波瀾 Yahoo新聞",
+      "sentiment_score": -0.5,
+      "sentiment_label": "BEARISH",
+      "affected_industries": [
+        "SEMI"
+      ],
+      "impact_reason_zh": "費城半導體指數重挫，對台灣半導體產業情緒構成利空。"
+    },
+    {
+      "id": "c5d16207ed12c599",
+      "title": "台化、大成鋼認購燒 | 權證特區 | 證券 - 經濟日報",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5lX2ljcHNybmhKUGhtbjd2VFNLOF9uVXd2VUZVRVdaWElmR3Y0MXBLQ1NtZ1I4M0gzakJsOXpxanRaMTdlLXpsTjVZMVJwLWhnRGR2QjZGTGxkQQ?oc=5",
+      "source": "Google News - 台股",
+      "published_at": "2026-07-26T23:37:04+08:00",
+      "snippet": "台化、大成鋼認購燒 | 權證特區 | 證券 經濟日報",
+      "sentiment_score": 0.0,
+      "sentiment_label": "NEUTRAL",
+      "affected_industries": [],
+      "impact_reason_zh": "報導個別公司權證交易，非產業結構性利多或利空。"
+    },
+    {
+      "id": "8a133d13c25b9a5a",
+      "title": "台股跌千點你恐慌 股海老牛曝加碼訊號 - facebook.com",
+      "url": "https://news.google.com/rss/articles/CBMitgJBVV95cUxPMzl1LVNQem5JMUlCSTdFbXpPZFl1S1VRMzFUcGstMThpVnhfTVJzODdUUHBOUWJkdFplc01rdDRUU1l3UmpVVm9NNTkwZTBtNzNCRFpMdGQyU2ZnVjhGWllXd1NqTklJWTVvb3lodF84UXBFS19pcXFoVW5QclQyY3Nsb0dnX3pkNHFhQUlHTHlHVVI5bk9EMk9ZSzV1SERVRldlSm1pUHQtYVplTXJCUnN0T205X1liQzNZcHpKUlE2VHB3ajBUNnlSN0pWY09iRUhxSXNkYV9WYjBmbG1WVS1iOTlIMVo4REFQNU9FTklLNlhsTXR1elBqNDliaVFuWjg0XzFZZFgzNDdlT01GMGVLcnlkNjE0VVFDUGY1MjkyOVJMczExQXVFZjlvNnBaSGlwdmZn?oc=5",
+      "source": "Google News - 台股",
+      "published_at": "2026-07-26T10:00:07+08:00",
+      "snippet": "台股跌千點你恐慌 股海老牛曝加碼訊號 facebook.com",
+      "sentiment_score": 0.0,
+      "sentiment_label": "NEUTRAL",
+      "affected_industries": [],
+      "impact_reason_zh": "內容為大盤走勢與個人投資建議，不影響特定產業結構。"
+    },
+    {
+      "id": "9a51f5a4881cbad9",
+      "title": "EPS衝19.67元！「AI伺服器大廠」連5漲28.8%炸17.7萬張 輝達GB出貨大增目標價飆240元 - FTNN 新聞網",
+      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5sRHR6M2JhdHhCVWdRV0pKaWZQMlNXdkh0OGh6a1NaZVYzZmFhdnZJLURoRFBpeDAtRXNrRWxZeTBkYXIzZG5SZUhvYw?oc=5",
+      "source": "Google News - AI 伺服器",
+      "published_at": "2026-07-26T22:45:00+08:00",
+      "snippet": "EPS衝19.67元！「AI伺服器大廠」連5漲28.8%炸17.7萬張 輝達GB出貨大增目標價飆240元 FTNN 新聞網",
+      "sentiment_score": 0.8,
+      "sentiment_label": "BULLISH",
+      "affected_industries": [
+        "AI_SERVER"
+      ],
+      "impact_reason_zh": "輝達GB出貨大增，顯示AI伺服器需求強勁，對AI伺服器產業為利多。"
     },
     {
       "id": "5768cdaec04e7414",
@@ -668,12 +709,10 @@
       "source": "Google News - AI 伺服器",
       "published_at": "2026-07-26T10:00:00+08:00",
       "snippet": "緯創昔分家最不被看好！今獲黃仁勳親飛德州站台 林憲銘25年AI逆襲路 民報",
-      "sentiment_score": 0.7,
-      "sentiment_label": "BULLISH",
-      "affected_industries": [
-        "AI_SERVER"
-      ],
-      "impact_reason_zh": "黃仁勳親自站台緯創，凸顯台灣AI伺服器供應鏈在全球AI產業中的關鍵地位與強勁需求。"
+      "sentiment_score": 0.0,
+      "sentiment_label": "NEUTRAL",
+      "affected_industries": [],
+      "impact_reason_zh": "報導緯創個別公司在AI領域的發展歷程，非產業結構性利多。"
     },
     {
       "id": "351ce6d9ebbb9135",
@@ -685,34 +724,19 @@
       "sentiment_score": 0.0,
       "sentiment_label": "NEUTRAL",
       "affected_industries": [],
-      "impact_reason_zh": "新聞內容主要為個股目標價與法人買賣超資訊，對特定產業無結構性影響。"
+      "impact_reason_zh": "內容關於特定公司擴廠與股價表現，非產業結構性利多或利空。"
     },
     {
-      "id": "414b8e4b663b1497",
-      "title": "AMD 宣稱掌握近半伺服器 CPU 市場，瞄準 2 兆美元商機 - 蕃新聞",
-      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1UZ3N6el9ISEVPZkt1X1FiZzdISURKWHhsR2xNaE95Wk13QUg4OGVpODdyV3dobVA0OTJKVDFLUG9td3lDTldJZENBWmdhV3ZFQmc?oc=5",
-      "source": "Google News - AI 伺服器",
-      "published_at": "2026-07-26T00:00:00+08:00",
-      "snippet": "AMD 宣稱掌握近半伺服器 CPU 市場，瞄準 2 兆美元商機 蕃新聞",
-      "sentiment_score": 0.6,
-      "sentiment_label": "BULLISH",
-      "affected_industries": [
-        "AI_SERVER",
-        "SEMI"
-      ],
-      "impact_reason_zh": "AMD宣稱掌握近半伺服器CPU市場，顯示伺服器需求強勁，利好AI伺服器及半導體產業。"
-    },
-    {
-      "id": "99de4af547ce1a5a",
-      "title": "三大法人賣超台股663.94億元 - 經濟日報",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBHaFR3ek96YVhvcUZidnlkeFRYb3JNQXBqV29aZkRDZW5jYXVkdU5wWmZKLVJadDF1bjAwalMzSkpJbVl2WWlSQVpqNGsxYjZWYkNpR2FoaGN1UdIBX0FVX3lxTE9HS0phSGktZUlZdVVzdlMza05iSXNqTldBbjdWckEtRFFrWWdYQ1loRHJzeWFkY1F5VHlBa0tHY0FpZUhKcVI2eDFYOXRFRElrZjJwTjkxREVjSUJQZlZr?oc=5",
+      "id": "890fba19b5951e44",
+      "title": "台股週報》反覆震盪打底 外資提款縮小 - 蕃新聞",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE55MEZBM0sxRFpNaWFINk5GSmVIbjVISzV6RXpGQmlNbzYtRXlWUlZPRVZGLXpDVHZLZTVsRmpJNllNU3NHcjlhYTg0NnREbWpRRGc?oc=5",
       "source": "Google News - 台股法人",
-      "published_at": "2026-07-26T00:13:49+08:00",
-      "snippet": "三大法人賣超台股663.94億元 經濟日報",
+      "published_at": "2026-07-27T02:06:00+08:00",
+      "snippet": "台股週報》反覆震盪打底 外資提款縮小 蕃新聞",
       "sentiment_score": 0.0,
       "sentiment_label": "NEUTRAL",
       "affected_industries": [],
-      "impact_reason_zh": "新聞內容為三大法人整體台股買賣超資訊，不涉及特定產業的結構性變化。"
+      "impact_reason_zh": "內容為大盤走勢分析，非特定產業結構性利多或利空。"
     },
     {
       "id": "6001d3e94fb1a2db",
@@ -724,7 +748,7 @@
       "sentiment_score": 0.0,
       "sentiment_label": "NEUTRAL",
       "affected_industries": [],
-      "impact_reason_zh": "新聞內容為單一公司申請股票上市，不構成對特定產業的結構性影響。"
+      "impact_reason_zh": "報導個別公司申請上市，非產業結構性利多或利空。"
     }
   ],
   "recommendations": [
@@ -734,17 +758,16 @@
       "price": 179.0,
       "industry_code": "AI_SERVER",
       "industry_name_zh": "AI 伺服器",
-      "news_score": 0.353,
-      "bullish_score": 0.585,
+      "news_score": 0.378,
+      "bullish_score": 0.592,
       "signal_strength": "MODERATE",
       "trigger_news_ids": [
-        "27f97990fd650a16",
         "51e1ed0a26192b18",
-        "e07da7c9ba6c20df",
-        "dfc5bf0729d2b785",
-        "52848bcd3e4a8889"
+        "27f97990fd650a16",
+        "c81ed97408b3b0ff",
+        "9a51f5a4881cbad9"
       ],
-      "reason_zh": "野村證券看好AI半導體產業受惠於零組件短缺、漲價潮及獲利上修，具結構性利多。",
+      "reason_zh": "輝達GB出貨大增，顯示AI伺服器需求強勁，對AI伺服器產業為利多。",
       "related_industries": [
         "AI_SERVER"
       ],
@@ -944,17 +967,16 @@
       "price": 252.5,
       "industry_code": "AI_SERVER",
       "industry_name_zh": "AI 伺服器",
-      "news_score": 0.393,
-      "bullish_score": 0.488,
+      "news_score": 0.42,
+      "bullish_score": 0.496,
       "signal_strength": "MODERATE",
       "trigger_news_ids": [
-        "27f97990fd650a16",
         "51e1ed0a26192b18",
-        "e07da7c9ba6c20df",
-        "dfc5bf0729d2b785",
-        "52848bcd3e4a8889"
+        "27f97990fd650a16",
+        "c81ed97408b3b0ff",
+        "9a51f5a4881cbad9"
       ],
-      "reason_zh": "野村證券看好AI半導體產業受惠於零組件短缺、漲價潮及獲利上修，具結構性利多。",
+      "reason_zh": "輝達GB出貨大增，顯示AI伺服器需求強勁，對AI伺服器產業為利多。",
       "related_industries": [
         "AI_SERVER"
       ],
@@ -1704,8 +1726,11 @@
       "news_score": 0.0,
       "bullish_score": 0.407,
       "signal_strength": "WEAK",
-      "trigger_news_ids": [],
-      "reason_zh": "",
+      "trigger_news_ids": [
+        "99edc177fc8f10d9",
+        "fb643e14fde72c4a"
+      ],
+      "reason_zh": "外資今年來大幅賣超台股，顯示資金流出壓力，對金融市場情緒構成利空。",
       "related_industries": [
         "FINANCE"
       ],
@@ -2746,8 +2771,11 @@
       "news_score": 0.0,
       "bullish_score": 0.347,
       "signal_strength": "WEAK",
-      "trigger_news_ids": [],
-      "reason_zh": "",
+      "trigger_news_ids": [
+        "99edc177fc8f10d9",
+        "fb643e14fde72c4a"
+      ],
+      "reason_zh": "外資今年來大幅賣超台股，顯示資金流出壓力，對金融市場情緒構成利空。",
       "related_industries": [
         "FINANCE"
       ],
@@ -3269,6 +3297,55 @@
       "rank": 51
     },
     {
+      "ticker": "2382",
+      "name_zh": "廣達",
+      "price": 328.0,
+      "industry_code": "AI_SERVER",
+      "industry_name_zh": "AI 伺服器",
+      "news_score": 0.378,
+      "bullish_score": 0.303,
+      "signal_strength": "WEAK",
+      "trigger_news_ids": [
+        "51e1ed0a26192b18",
+        "27f97990fd650a16",
+        "c81ed97408b3b0ff",
+        "9a51f5a4881cbad9"
+      ],
+      "reason_zh": "輝達GB出貨大增，顯示AI伺服器需求強勁，對AI伺服器產業為利多。",
+      "related_industries": [
+        "AI_SERVER"
+      ],
+      "chips": {
+        "trust_consec_buy": 5,
+        "foreign_consec_buy": 0,
+        "trust_buy_3d": 1009,
+        "foreign_buy_3d": -4975,
+        "chips_score": 0.4,
+        "signals": [
+          "投信連買5日"
+        ]
+      },
+      "technical": {
+        "price": 328.0,
+        "ma5": 326.6,
+        "ma10": 340.29,
+        "ma20": 348.91,
+        "ma60": 339.08,
+        "rsi": 32.1,
+        "macd_hist": -3.9383,
+        "vol_ratio": 0.39,
+        "tech_score": 0.1,
+        "signals": [],
+        "bias_pct": -5.99,
+        "gain_10d": -8.43,
+        "price_position_120d": 47.9,
+        "ma_convergence_pct": 6.83,
+        "ma5_cross_ma20": false,
+        "macd_just_positive": false
+      },
+      "rank": 52
+    },
+    {
       "ticker": "4551",
       "name_zh": "智伸科",
       "price": 184.0,
@@ -3313,7 +3390,7 @@
         "ma5_cross_ma20": false,
         "macd_just_positive": false
       },
-      "rank": 52
+      "rank": 53
     },
     {
       "ticker": "6409",
@@ -3357,56 +3434,6 @@
         "gain_10d": -4.63,
         "price_position_120d": 62.3,
         "ma_convergence_pct": 20.84,
-        "ma5_cross_ma20": false,
-        "macd_just_positive": false
-      },
-      "rank": 53
-    },
-    {
-      "ticker": "2382",
-      "name_zh": "廣達",
-      "price": 328.0,
-      "industry_code": "AI_SERVER",
-      "industry_name_zh": "AI 伺服器",
-      "news_score": 0.353,
-      "bullish_score": 0.296,
-      "signal_strength": "WEAK",
-      "trigger_news_ids": [
-        "27f97990fd650a16",
-        "51e1ed0a26192b18",
-        "e07da7c9ba6c20df",
-        "dfc5bf0729d2b785",
-        "52848bcd3e4a8889"
-      ],
-      "reason_zh": "野村證券看好AI半導體產業受惠於零組件短缺、漲價潮及獲利上修，具結構性利多。",
-      "related_industries": [
-        "AI_SERVER"
-      ],
-      "chips": {
-        "trust_consec_buy": 5,
-        "foreign_consec_buy": 0,
-        "trust_buy_3d": 1009,
-        "foreign_buy_3d": -4975,
-        "chips_score": 0.4,
-        "signals": [
-          "投信連買5日"
-        ]
-      },
-      "technical": {
-        "price": 328.0,
-        "ma5": 326.6,
-        "ma10": 340.29,
-        "ma20": 348.91,
-        "ma60": 339.08,
-        "rsi": 32.1,
-        "macd_hist": -3.9383,
-        "vol_ratio": 0.39,
-        "tech_score": 0.1,
-        "signals": [],
-        "bias_pct": -5.99,
-        "gain_10d": -8.43,
-        "price_position_120d": 47.9,
-        "ma_convergence_pct": 6.83,
         "ma5_cross_ma20": false,
         "macd_just_positive": false
       },
@@ -5930,17 +5957,16 @@
       "price": 328.0,
       "industry_code": "AI_SERVER",
       "industry_name_zh": "AI 伺服器",
-      "news_score": 0.353,
-      "bullish_score": 0.12,
+      "news_score": 0.378,
+      "bullish_score": 0.127,
       "signal_strength": "WEAK",
       "trigger_news_ids": [
-        "27f97990fd650a16",
         "51e1ed0a26192b18",
-        "e07da7c9ba6c20df",
-        "dfc5bf0729d2b785",
-        "52848bcd3e4a8889"
+        "27f97990fd650a16",
+        "c81ed97408b3b0ff",
+        "9a51f5a4881cbad9"
       ],
-      "reason_zh": "野村證券看好AI半導體產業受惠於零組件短缺、漲價潮及獲利上修，具結構性利多。",
+      "reason_zh": "輝達GB出貨大增，顯示AI伺服器需求強勁，對AI伺服器產業為利多。",
       "related_industries": [
         "AI_SERVER"
       ],
@@ -6446,11 +6472,11 @@
   "meta": {
     "pipeline_version": "1.0.0",
     "ai_engine": "gemini-2.5-flash",
-    "total_news_fetched": 55,
-    "total_news_analyzed": 55,
+    "total_news_fetched": 57,
+    "total_news_analyzed": 57,
     "rss_sources_count": 15,
     "tickers_with_technicals": 100,
-    "elapsed_seconds": 120.5,
+    "elapsed_seconds": 124.6,
     "total_stocks_scanned": 1245,
     "chips_candidates": 100
   },
